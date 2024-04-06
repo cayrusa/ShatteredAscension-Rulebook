@@ -1,4 +1,4 @@
-/* Solarized (Dark) */
+ Solarized (Dark) */
 /* Authors: Ethan Schoonover: http://ethanschoonover.com/solarized, CodeCatalyst: http://codecatalyst.com/ */
 /* Version: d9a83f4e7a47432baff86e1e7946d9e066cf3d1b (modified) */
 /* https://github.com/CodeCatalyst/mou-theme-solarized */
@@ -36,7 +36,7 @@ body {
   margin-left: auto;
 }
 p {
-  font-weight: lighter;
+  /*font-weight: lighter;*/
   margin-bottom: 20px;
 }
 strong {
@@ -226,6 +226,8 @@ div {
     margin-left: 25px;
 } 
 
+/*Table background and borders (Start)*/
+
 table,
 thead,
 tbody,
@@ -234,27 +236,76 @@ td,
 th {
   /*background-color:rgba(0, 0, 0, 0);*/
   /*background: none;*/
-  background-color: #002b36;
+  /*background-color: #002b36;*/
+  /*background-color:rgba(0, 0, 0, 0);*/
+/*  background-color: #11ffee00;*/
+  /*background-color: inherit;*/
+/*  border: 0px;
+*/}
+
+.markdown-body table tr {
+  /*background-color: #fff;*/
+  /*border-top: 1px solid #ccc;*/
+  /* #11ffee00 is a fully transparent colour*/
+  background-color: #11ffee00;
   border: 0px;
 }
 
-.markdown-body table tr {
-  /*background-color: #fff;
-  border-top: 1px solid #ccc;*/
-  border: 0px;
+.markdown-body table tr:nth-child(2n) {
+  background-color: #11ffee00;
 }
 
 .markdown-body table th {
   /*background-color: #fff;
   border-top: 1px solid #ccc;*/
+  background-color: #11ffee00;
   border: 0px;
 }
 
 .markdown-body table td {
   /*background-color: #fff;
   border-top: 1px solid #ccc;*/
+  background-color: #11ffee00;
   border: 0px;
 }
+
+/*Table background and borders (End)*/
+
+/*Background image*/
+
+body {
+/*color:black;
+background-color:white;*/
+background-image: url(http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/BackgroundDarkVersion3.jpg);
+background-position:center top;
+/*background-repeat:repeat-y;*/
+/*background-attachment:fixed;*/
+}
+
+/*Link font colour (start)*/
+
+/*yellow*/
+/*.markdown-body a {
+  color: #b58900;
+}*/
+
+/*Colour of the links, .markdown... is for not visited links, and the rest is for those that alreadyhave been clicked*/
+/*orange*/
+html a, html a:active, html a:visited, html code.ur, .markdown-body a {
+  color: #bf6100;
+}
+
+/*dark green*/
+/*html a, html a:active, html a:visited, html code.ur, .markdown-body a {
+  color: #18950a;
+}*/
+
+/*lavender*/
+/*html a, html a:active, html a:visited, html code.ur, .markdown-body a {
+  color: #ba8fea;
+}*/
+
+/*Link font colour (end)*/
 
 /* My Changes (End)*/
 
@@ -280,4 +331,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/

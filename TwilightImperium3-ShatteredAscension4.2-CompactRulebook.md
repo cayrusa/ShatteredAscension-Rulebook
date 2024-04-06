@@ -1,14 +1,17 @@
-# Shattered Ascension Rewritten Rulebook  - v18_2017-08-05
-***By Cyrusa***
+# Shattered Ascension Rewritten Rulebook  - v20_2017-??-??
+***By Cyrusa***  
+***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
 
-> This rulebook is an attempt at rewriting the full Twilight Imperium 3 rules integrating the Shattered Ascension mod. The main goals were to be more concise and more precise (meaning less ambiguities in games).
-> To do this, I had to make some minor changes to the SA ruleset here and there. I have indicated the changes I made in comments such as this one so they stand out.
+> This rulebook is an attempt at rewriting the full Twilight Imperium 3 rulebook integrating the Shattered Ascension mod. The main goals were to be as concise as possible, and more precise, so as to clear out as many ambiguities as possible.
+> During this process, I made minor changes with regards to the official SA ruleset to fulfill these goals. These differences are indicated in comments such as this one throughout this rulebook.
+
+> To get an url pointing to a specific part of this rulebook (to give to a friend for example), hover over a title and click on the link icon that will pop up on its left, then copy the new url of the webpage. This also works for internal links, simply click on them and copy the new url of the webpage.
 
 ### Notes
 ***Contradictions***  
 If a wording would contradict with another (for example saying you can do something that another wording prevents), then either it explicitly refers to the other wording it is contradicting with, in which case it takes precedence, or it does not, in which case the default precedence order is:  
-Action Cards > Political Cards > Racial Advancements > Racial Abilities > Technologies > Rules from this rulebook
+Action Cards > Political Cards > Racial Upgrade > Racial Abilities > Technologies > Rules from this rulebook
 
 ***Compliance***  
 A player subject to negative effects (for example discard *3* Trade Goods) must fulfil them as far as able (if she only has *2* Trade Goods, she must discard them).
@@ -17,8 +20,8 @@ A player subject to negative effects (for example discard *3* Trade Goods) must 
 In a game of Twilight Imperium, 2 to 8 players take the role of varied great races fighting for supremacy in the galaxy after the ruling Lazax Empire has fallen. The game is played over several Rounds, during which players strive to [claim Objectives](#user-content-ClaimObjectives_StatusPhaseStep) in order to score Victory Points. The first player to reach a predetermined number of Victory Points is declared the winner and the new Empress of the Galaxy.
 
 ## Content
-<!-- * [Components](#user-content-Components) -->
 
+* [Components](#user-content-Components)
 * [Setup](#user-content-Setup)
 * [Round](#user-content-Round)
 	* [Strategy Phase](#user-content-StrategyPhase)
@@ -56,7 +59,7 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 * [Action Cards](#user-content-ActionCards)
 * [Twilight Council and Political Cards](#user-content-TwilightCouncilAndPoliticalCards)
 * [Technologies](#user-content-Technologies)
-* [Racial Advancements](#user-content-RacialAdvancements)
+* [Racial Upgrades](#user-content-RacialUpgrades)
 * [Trade Goods](#user-content-TradeGoods)
 * [Trade Contracts and Trade Agreements](#user-content-TradeContractsAndTradeAgreements)
 * [Components Limitations](#user-content-ComponentsLimitations)
@@ -68,122 +71,20 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 * [Leaders](#user-content-Leaders)
 	* [General Leader Rules](#user-content-GeneralLeaderRules)
 	* [Leader Abilities](#user-content-LeaderAbilities)
-* [Elimination And Surrender](#user-content-EliminationAndSurrender)
+* [Surrender And Elimination](#user-content-EliminationAndSurrender)
 * [Miscellaneous Rules](#user-content-MiscellaneousRules)
-* [Definitions](#user-content-Definitions)
+* [General Definitions](#user-content-GeneralDefinitions)
 * [Rule Adjustments Based On The Number Of Players](#user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers)
 * [Annex 1: Domain Counters Effects](#user-content-DomainCountersEffects)
 * [Annex 2: Variants and Optional Rules](#user-content-VariantsAndOptionalRules)
 
-<!-- TODO: FINISH THIS SECTION AND PUT IMAGES
-## Components <a name="Components"></a>
-### Galaxy
-##### Artifacts
-[image]
+## Components <a name="Components"></a>  
 
-[Artifacts](#user-content-Artifact) are littered throughout the galaxy and offer rewards to those who control them.
+![ComponentsPicture](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ComponentsPicture/ComponentsPicture.jpg) 
 
-![BlueArtifact](C:\MesDossiers\Supplément\TI3\Shattered Ascension\Processed\Rule rewrite\TwilightImperium3-ShatteredAscension4.2-CompactRulebook\Images\Artifact_Blue.jpg)
-
-![BlueArtifact](\Images\Artifact_Blue.jpg)
-
-![BlueArtifact](/Images/Artifact_Blue.jpg)
-##### Asteroid Belts
-[image]
-
-[Asteroid Belts](#user-content-AsteroidBelts) are placed between Systems and restrict movement between them.
-
-##### Domain Counters
-[image]
-
-[Domain Counters](#user-content-DomainCounters) are placed on planets or in space and offer rewards or punishment.
-
-##### Mecatol Rex Custodians
-[image]
-
-[Custodians](#user-content-Custodians) guard the major planet of Mecatol Rex.
-
-##### Planet Cards
-[image]
-
-[Planet Cards](#user-content-PlanetCards) are owned by the controller of the corresponding planets, and mark in which state they are: exhausted or refreshed.
-
-##### Space Mines
-[image]
-
-[Space Mines](#user-content-SpaceMines) can be placed between Systems to deal damage to Ships passing through them.
-
-##### Systems 
-[image]
-
-The [Systems](#user-content-Systems) are the hexagonal tiles the galaxy is made of.
-
-##### Wormhole Tokens
-[image]
-
-[Wormhole Tokens](#user-content-Wormholes) are sometimes used to add additional Wormholes on galaxies.
-
-### Units
-##### Units
-[image]
-
-[Units](#user-content-Units) represents the military personel, shipyards, defence systems and spaceships that players will command. Units that are not on the galaxy are kept in the player's **Reinforcement Areas**.
-
-##### Shock Troops Tokens
-[image]
-
-These tokens represent [Shock Troops](#user-content-ShockTroop), a specific type of units.
-
-##### Supplement Ground Force and Fighter Tokens
-[image]
-
-These tokens can be substituted for [Ground Forces](#user-content-GroundForce) and [Fighter](#user-content-Fighter) if there are not enough miniatures.
-
-### General
-
-##### Action Cards
-[image]
-
-[Action Card](#user-content-ActionCards) 
-
-##### Bonus Counters
-[image]
-##### Facilities
-[image]
-##### Hit Counters <a name="HitCounters"></a>
-[image]
-##### Objective Cards
-[image]
-##### Political Cards
-[image]
-##### Speaker Token And Rotation Cycler
-[image]
-##### Strategy Cards
-[image]
-##### Technology Tree
-[image]
-##### Trade Goods
-[image]
-##### Victory Point Track
-[image]
-
-### Race-Specific
-##### Command Counters
-[image]
-##### Flags
-[image]
-##### Flagship Cards
-[image]
-##### Race Sheets
-[image]
-##### Racial Advancements
-[image]
-##### Trade Contracts
-[image]
- -->
 
 ## Setup <a name="Setup"></a>
-*Note: players may sit now, but will likely have to change seat at some point.*
+*Note: players may sit now, but will likely have to change seat later during the setup.*
 
 **Setup Sequence**
 
@@ -201,7 +102,7 @@ These tokens can be substituted for [Ground Forces](#user-content-GroundForce) a
 12. [Finalising Setup](#user-content-Setup_FinalisingSetup)  
 
 ### 1) Building the Galaxy <a name="Setup_BuildingTheGalaxy"></a>
-> I put this step at the beginning of the setup so it can be done in advance by the host.
+> Change from base SA: This step is now at the beginning of the setup so it can be done in advance by the host.
 
 Choose either:
  
@@ -209,8 +110,7 @@ Choose either:
 * Decide to have the player build the map following the [Star by Star procedure](#user-content-StarByStar). In this case, the map will be built at step 6.
 
 ### 2) Table Setup <a name="Setup_TableSetup"></a>
-
-> Again, this step is at the top, because it does not require any choice and can be done in advance.
+> Change from base SA: Again, this step is at the top, because it does not require any choice and can be done in advance.
 
 Find an area of the table that is convenient for all players to reach. Designate this 
 space the *common play area*, and populate it with the following:
@@ -296,6 +196,7 @@ All players then receive as many Trade Goods as the difference between the highe
 
 #### Star by Star Map
 <div>
+
 If you chose to build the map using the [Star by Star procedure](#user-content-StarByStar), now is the time to do it.
 
 ***Players may now change seat in order to be aligned with their Home System location.***
@@ -318,7 +219,7 @@ The player on the right of the **first player** places a bid of Trade Goods (0 i
 All players now gain or lose the same number of Trade Goods such that the player with the lowest amount has exactly 1 Trade Good.
 
 ### 10) Orienting the Rotation Cycler <a name="Setup_OrientingTheRotationCycler"></a>
-> I created a dedicated step for this, placed after the Trade Good Normalization step, so transactions between players do not affect the normalization
+> Change from base SA: Created a dedicated step for this, placed after the Trade Good Normalization step, so that potential Trade Goods transactions between players for the orientation of Rotation Cycler do not affect the Trade Goods normalization
 
 The player holding the Speaker Token may now set the orientation of the Rotation Cycler as she wishes.
 
@@ -340,12 +241,12 @@ Reveal:
 	* Flags
 	* Flagship card
 	* Trade Contracts
-	* Racial Advancements
+	* Racial Upgrades
 	* Leaders
 	* Planet Cards of her race's Home System planets
 * Each player places a Flag on the zero of the Victory Point Track.
 * Each player places Flags on the technology tree besides her starting technologies (indicated on her race sheet).
-* Each player places her starting units and Leaders (indicated on her race sheet) in her Home System. [Troops](#user-content-Troop) and [Installations](#user-content-Installation) may be placed on any planet in it. Leaders may be placed on any ship or planet in it.
+* Each player places her starting units and Leaders (indicated on her race sheet) in her Home System. [Troops](#user-content-Troop) and [installations](#user-content-Installation) may be placed on any planet in it. Leaders may be placed on any ship or planet in it.
 * Each player places Command Counters from her reinforcements onto her race sheet as follows:
 	* 2 in Strategy Allocation (with the race's symbol side up)
 	* 3 in Command Pool (with the race's symbol side up)
@@ -380,7 +281,8 @@ After all players have placed their Agenda, they are revealed and the game goes 
 #### 2) Strategy Card Picking <a name="StrategyCardPicking"></a>
 <div>
 
-Starting with the Speaker and proceeding in the order defined by the Rotation Cycler, each player must pick one of the available Strategy Cards (that was not already picked by another player). they will be able to use them during the upcoming Action Phase.
+<!-- Starting with the Speaker and proceeding in the order defined by the Rotation Cycler -->
+In [rotation order](#user-content-RotationOrder), each player must pick one of the available Strategy Cards (that was not already picked by another player). they will be able to use them during the upcoming Action Phase.
 
 After that, place a Bonus Counter on each of the unpicked Strategy Cards. These Bonus Counters stack from one Round to the next, and increase the value of the Strategy Cards they are on: when a player picks a Strategy Card, she converts each Bonus Counter on it into either a Command Counter or a Trade Goods that she adds to her race sheet.
 </div>
@@ -391,8 +293,8 @@ After that, place a Bonus Counter on each of the unpicked Strategy Cards. These 
 * [Passing](#user-content-Passing)
 * [Tactical Action](#user-content-TacticalAction)  
 	1. [System Activation](#user-content-SystemActivation_TacticalActionStep)
-	2. [Ships Movement](#user-content-ShipsMovement_TacticalActionStep)
-	3. [Space Cannon Fire](#user-content-SpaceCannonFire_TacticalActionStep)
+	2. [Movement](#user-content-Movement_TacticalActionStep)
+	3. [Space Cannon Abilities](#user-content-SpaceCannonAbilities_TacticalActionStep)
 	4. [Space Battle](#user-content-SpaceBattle_TacticalActionStep)
 	5. [Planetary Landings](#user-content-PlanetaryLandings_TacticalActionStep)
 	6. [Planetary Landings Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep)
@@ -414,7 +316,7 @@ Some effects in the game are used "as an action". This means that using such eff
 #### Strategic Action <a name="StrategicAction"></a>
 <div>
 
-A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she uses the **Primary Ability** of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to use the **Secondary Ability** of the card.  
+A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she uses the **Primary Ability** of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to execute the **Secondary Ability** of the card.  
 After that the used Strategy Card is flipped on its *inactive* side, and may not be used again this Round. 
 
 **Important: When performing a Strategic Action, the active player ***may not*** execute the Secondary Ability of the Strategy Card she is playing.**
@@ -426,7 +328,7 @@ After that the used Strategy Card is flipped on its *inactive* side, and may not
 A player performs this action when she does not want to perform any other action for the rest of this Action Phase. When it would be the turn of a player that passed, simply skip her. If all players have passed, the Action Phase ends and the [Status Phase](#user-content-StatusPhase) starts.  
 
 **Important: A player may not pass before having used her Strategy Card through a Strategic Action.**  
-*Note: A player that passed may still use the Secondary Abilities of Strategy Cards played after she passed.*
+*Note: A player that passed may still execute the Secondary Abilities of Strategy Cards played after she passed.*
 </div>
 
 #### Tactical Action <a name="TacticalAction"></a>
@@ -438,8 +340,8 @@ In this section "you" refers to the active player.
 
 **The Activation Sequence:** <a name="ActivationSequence"></a>  
 1. [System Activation](#user-content-SystemActivation_TacticalActionStep)
-2. [Ships movement](#user-content-ShipsMovement_TacticalActionStep)
-3. [Space Cannons Fire](#user-content-SpaceCannonFire_TacticalActionStep)
+2. [Movement](#user-content-Movement_TacticalActionStep)
+3. [Space Cannons Abilities](#user-content-SpaceCannonAbilities_TacticalActionStep)
 4. [Space Battle](#user-content-SpaceBattle_TacticalActionStep)
 5. [Planetary Landings](#user-content-PlanetaryLandings_TacticalActionStep)
 6. [Planetary Landings Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep)
@@ -461,16 +363,17 @@ Most effects using these terms do not specify which player they use the perspect
 ##### 1) System Activation <a name="SystemActivation_TacticalActionStep"></a>
 <div>
 
-**Activate** a system by placing a [Command Counter](#user-content-CommandCounters) from the [Command Pool](#user-content-CommandPool) area of your Race Sheet in it.  
-You may not activate a system that already contains one of your Command Counters, but you can activate a system that contains Command Counters of *other players*.  
+**Activate** a System by placing a [Command Counter](#user-content-CommandCounters) from the [Command Pool](#user-content-CommandPool) area of your Race Sheet in it. This system is now the **active System** for the rest of this Tactical Action.  
+
+You may not activate a System that already contains one of your Command Counters, but you can activate a System that contains Command Counters of *other players*.  
 In fact, as a general rule, you can ignore Command Counters belonging to other players on the galaxy.
 </div>
 
-##### 2) Ships movement <a name="ShipsMovement_TacticalActionStep"></a>
+##### 2) Movement <a name="Movement_TacticalActionStep"></a>
 <div>
 <!-- In this step, you may move friendly ships **into**, and this is important, only **into the System just activated**. This means that all the ships you are moving must **end their movement in the System just activated** (except if something happens to them on their way, that would stop their movement, like a failed Gravity Rift roll).
  -->
-During this step, you may move some of your ships from unactivated Systems to the System that was just activated.
+During this step, you may move some of your ships from unactivated Systems to the active system.
 
 The ships movement step consists in two parts:
 
@@ -482,16 +385,16 @@ The ships movement step consists in two parts:
 <div>
 <div>
 
-You may not move ships present in activated Systems, unless they are in the System just activated.
-For each ship you want to move, you have to plot a legal trajectory for it. A legal trajectory is a chain of [adjacent](#user-content-AdjoiningAdjacent) Systems starting with the System containing the ship and ending with the System just activated. It must also satisfy the following conditions:
+You may not move ships present in activated Systems, unless they are in the active System.
+For each ship you want to move, you have to plot a legal trajectory for it. A legal trajectory is a chain of [adjacent](#user-content-AdjoiningAdjacent) Systems starting with the System containing the ship and ending with the active System. It must also satisfy the following conditions:
 
-* No System of the trajectory (except the System just activated) may contain [enemy](#user-content-Allegiances) ships. (e.g. ships may not move through Systems containing enemy ships)
+* No System of the trajectory (except the active System) may contain [enemy](#user-content-Allegiances) ships. (e.g. ships may not move through Systems containing enemy ships)
 * The ship must have a sufficient [movement value](#user-content-MovementValue) to follow the trajectory. By default, moving from a System to an adjacent System costs 1 movement. For example, a ship with a *movement value* of 1 can only move in adjacent Systems.
 
 ***Notes:***
 
 * *A ship does not need to take the shortest trajectory towards its final destination.*
-* *Trajectories that start and end in the just activated System without leaving it are allowed, and constitute a movement.*
+* *Trajectories that start and end in the active System without leaving it are allowed, and constitute a movement.*
 
 <!-- For each friendly ship she wants to move, the active player has to plot a legal trajectory for it. A legal trajectory for a ship is a chain of [adjacent](#user-content-AdjoiningAdjacent) systems starting from the System containing the ship and ending in the System just activated, that satisfies the following conditions:
 
@@ -516,18 +419,18 @@ One by one and in the order of your choice, move each ship according to their tr
 </div>
 </div>
 
-##### 3) Space Cannons Fire <a name="SpaceCannonFire_TacticalActionStep"></a>
+##### 3) Space Cannons Abilities <a name="SpaceCannonAbilities_TacticalActionStep"></a>
 <div>
 
-> Change from base SA: This step is now called "Space Cannons Fire" instead of "PDS Fire", because any unit with the Space Cannon ability can shoot during this step, not only PDSs (some Flagships for example).
-> Change from base SA: Precise order in which players decide whether to shoot: Non-active players with the Speaker being first, then following the Rotation Cycler, and finally the active player
+<!-- > Change from base SA: This step is now called "Space Cannons Fire" instead of "PDS Fire", because any unit with the Space Cannon ability can shoot during this step, not only PDSs (some Flagships for example). -->
+> Change from base SA: Precise order in which players decide whether to shoot their Space Cannons: Non-active players with the Speaker being first, then following the Rotation Cycler, and finally the active player
 
-During this step, units with the [Space Cannon (*n*)](#user-content-SpaceCannon_unitAbility) ability that are in the System just activated may fire at a fleet in the System just activated. There are two possibilities:
+During this step, units with the [Space Cannon (*n*)](#user-content-SpaceCannon_unitAbility) ability that are in the active System may fire at a fleet in the active System. There are two possibilities:
 
-* If the unit **does not belong to the active player**, it can only fire at a fleet **belonging to the active player** in the just activated System.
-* If the unit **belongs to the active player**, it can fire at **any** fleet in the just activated System (except the active player's own fleet).
+* If the unit **does not belong to the active player**, it can only fire at a fleet **belonging to the active player** in the active System.
+* If the unit **belongs to the active player**, it can fire at **any** fleet in the active System (except the active player's own fleet).
 
-Starting with the Speaker and following the Rotation Cycler, the non-active players may in turn shoot with some or all of their units with Space Cannon. Then it is the turn of the active player.
+In [rotation order](#user-content-RotationOrder), the non-active players may in turn shoot with some or all of their units with Space Cannon. Then it is the turn of the active player.
 
 When a unit with Space Cannon (*n*) fires, it performs *n* [combat rolls](#user-content-CombatRoll). Hits must be assigned to ships of the targeted fleet by the fleet's owner. 
 </div>
@@ -535,14 +438,14 @@ When a unit with Space Cannon (*n*) fires, it performs *n* [combat rolls](#user-
 ##### 4) Space Battle <a name="SpaceBattle_TacticalActionStep"></a>
 <div>
 
-At this step, if there are ships controlled by two different players in the System just activated, a Space Battle must be resolved.  
+At this step, if there are ships controlled by two different players in the active System, a Space Battle must be resolved.  
 In this Space Battle, the active player is the *attacker*, while the other player is the *defender*. For complete rules about how to resolve a Space Battle, see the [Space Battle section](#user-content-SpaceBattle).
 </div>
 
 ##### 5) Planetary Landings <a name="PlanetaryLandings_TacticalActionStep"></a>
 <div>
 
-> Change from base SA: Clarification that each ship bombarding must be assigned to a single planet and may not split its bombardment between multiple planets. Clarification that the ships bombarding must be assigned during this step of the activation sequence.
+> Change from base SA: Clarification that each ship bombarding must be assigned to a single planet and may not split its bombardment between multiple planets. Clarification that the ships bombarding must be assigned during this step of the activation sequence (instead of being vague).
 
 The Planetary Landings step consists in two parts: 
 </div>
@@ -551,7 +454,7 @@ The Planetary Landings step consists in two parts:
 <div>
 <div>
 
-The active player may land [Troops](#user-content-Troop), [PDSs](#user-content-PDS) and [Leaders](#user-content-Leaders) currently carried by her ships in the System just activated on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one Troop.
+The active player may land [troops](#user-content-Troop), [PDSs](#user-content-PDS) and [Leaders](#user-content-Leaders) currently carried by her ships in the active System on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one troop.
 </div>
 </div>
 
@@ -559,23 +462,27 @@ The active player may land [Troops](#user-content-Troop), [PDSs](#user-content-P
 <div>
 <div>
 
-The active player may assign some of her ships in the System just activated with the [Bombardment](#user-content-Bombardment_unitAbility) ability to the [non-friendly](#user-content-Allegiances) planets of this System, in order to be able to bombard them during the [6) Planetary Landing Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep) step of this Tactical Action. 
+The active player may assign some of her ships in the active System with the [Bombardment](#user-content-Bombardment_unitAbility) ability to the [non-friendly](#user-content-Allegiances) planets of this System, in order to be able to bombard them during the [6) Planetary Landing Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep) step of this Tactical Action. 
 
 <!-- The Planetary Landings step consists in two parts: 
 
 * **Planetary landings**: The active player may land Troops, PDSs and Leaders currently carried by his ships in the just activated System on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one troop.
 * **Bombardment assignment**: The active player may assign some of his ships in the just activated System with the *Bombardment* ability to the non-friendly planets of this System, in order to be able to bombard them during the 6) Planetary Landing resolution step.  -->
 </div>
+
+***Definition:*** <a name="Invasion"></a>
+An **Invasion** is a planetary landing on either a [neutral](#user-content-Allegiances) or [enemy](#user-content-Allegiances) planet.
+
 </div>
 
 ##### 6) Planetary Landings Resolution <a name="PlanetaryLandingsResolution_TacticalActionStep"></a>
 <div>
 
-> Change from base SA: This step is now called "Planetary Landings Resolution" instead of "Invasion Combat", since not all planetary landings trigger an Invasion Combat.
+> Change from base SA: Changed the name of this step to "Planetary Landings Resolution", instead of "Invasion Combat", since it is really what it is. Not all planetary landings trigger an Invasion Combat, so why calling this step "Invasion Combat"?
 
-Until all planets that had units or Leaders landed on them or ships assigned to bombard them in the System just activated have been *resolved*, the active player chooses an unresolved planet and resolves it according to the following:  
+Until all planets that had units or Leaders landed on them or ships assigned to bombard them in the active System have been *resolved*, the active player chooses an unresolved planet and resolves it according to the following:  
 
-***Note:*** *In what follows, "landed" Troops, PDSs and Leaders refer to the Troops, PDSs and Leaders that were landed on the planet being resolved.*
+***Note:*** *In what follows, "landed" troops, PDSs and Leaders refer to the troops, PDSs and Leaders that were landed on the planet being resolved.*
 
 <!-- ###### If the planet is *friendly*
 
@@ -599,17 +506,17 @@ The ships assigned to this planet [bombard](#user-content-Bombardment_unitAbilit
 * *If the planet is **friendly**:*    
 No bombardment occur.
 * *If the planet is **neutral**:*  
-The active player must resolve the [Domain Counters](#user-content-DomainCounters) present on the planet (if there is any). No bombardment occur (unless a Domain Counter triggers an Invasion Combat). If there are still landed Troops after resolving the Domain Counters, the active player takes control of the planet, [exhausted](#user-content-RefreshedAndExhaustedStates), else, the defender destroys all landed PDSs and makes a [Fate Roll](#user-content-FateRoll) for each landed Leader.
+The active player must resolve the [Domain Counters](#user-content-DomainCounters) present on the planet (if there are any). No bombardment occur (unless a Domain Counter triggers an Invasion Combat). If there are still landed troops after resolving the Domain Counters, the active player takes control of the planet, [exhausted](#user-content-RefreshedAndExhaustedStates), else, the defender destroys all landed PDSs and makes a [Fate Roll](#user-content-FateRoll) for each landed Leader.
 * *If the planet is **enemy** and **contains** at least one enemy troop or PDS:*  
 If you landed at least one troop, resolve an [Invasion Combat](#user-content-InvasionCombats) on this planet, else the ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it without an Invasion Combat taking place.
 * *If the planet is **enemy** and **does not contain** any enemy troop or PDS:*  
-The ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it. Then the active player takes control of it, exhausted.  
+The ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it. The [installations](#user-content-Installation) on it are destroyed. Then the active player takes control of it, exhausted.  
 </div>
 
 ##### 7) Production <a name="Production_TacticalActionStep"></a>
 <div>
 
-***Note:*** *All the resources that the active player decides to spend during this step are added up and spent at once at the end of the step. The total amount of resources that must be spent is rounded up.* 
+***Note:*** *All the resources that the active player decides to spend during this step are added up and spent at the same time at the end of the step. The total amount of resources that must be spent is rounded up.* 
 
 The Production step consists in three parts, that must be resolved in the following order: 
 </div>
@@ -626,13 +533,13 @@ See the [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) ability
 <div>
 <div>
 
-The active player may produce units at each of her units with the [Produce Units (*n*)](#user-content-ProduceUnits_unitAbility) ability in the Systems just activated, with a **production capacity** of *n*. In most cases, units will be produced by [Space Docks](#user-content-SpaceDock).  
+The active player may produce units at each of her units with the [Produce Units (*n*)](#user-content-ProduceUnits_unitAbility) ability in the active System, with a **production capacity** of *n*. In most cases, units will be produced by [Space Docks](#user-content-SpaceDock).  
 
 **Producing units**  
 When producing units, any combination of units may be produced provided the following three limitations are respected and they can be placed in the System (see [placing produced units](#user-content-PlacingProducedUnits)):
   
 * **Production Capacity:** Each unit has a production capacity cost, the total production capacity cost of the produced units may not exceed the production capacity of the unit producing them.
-* **Resource Cost:** Each unit has a resource cost. The player producing units must spend the required amount of resources.  
+* **Resource Cost:** Each unit has a resource cost. The player producing units must spend the required amount of resources. If multiple units produce units at the same time, the resource costs can be summed up and paid at the same time. 
 * **Blockade:**   
 No ships may be produced in a System already containing enemy ships.
 
@@ -645,7 +552,7 @@ No ships may be produced in a System already containing enemy ships.
 After units have been produced, they must be placed according to the following rules. The *producer* refers to the unit that produced them:  
 
 * Ships are placed in the space of the System containing the *producer*
-* If the *producer* is on a planet, then all produced units with the *Planet-based* trait (Troops and PDSs) must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#user-content-Capacity_unitAbility) to carry them.
+* If the *producer* is on a planet, then all produced units with the *Planet-based* trait (troops and PDSs) must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#user-content-Capacity_unitAbility) to carry them.
 </div>
 </div>
 
@@ -653,7 +560,7 @@ After units have been produced, they must be placed according to the following r
 <div>
 <div>
 
-The active player may build Space Docks on some of the planets in the System just activated. A Space Dock may only be built on a planet that she has controlled since the beginning of the Round, and that does not already contain a Space Dock. Newly built Space Docks are placed **exhausted** (flipped) and may thus not produce units until they are refreshed (usually during the Status Phase). 
+The active player may build Space Docks on some of the planets in the active System. A Space Dock may only be built on a planet that she has controlled since the beginning of the Round, and that does not already contain a Space Dock. Newly built Space Docks are placed **exhausted** (flipped) and may thus not produce units until they are refreshed (usually during the Status Phase). 
 
 <!-- * **Deploy Space Mines**:  
 See the [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) ability.
@@ -670,16 +577,16 @@ The active player may build Space Docks on some of the planets in the System jus
 > Change from base SA: Added a "Take back Agendas" step, where players have to take back their Agendas (the Political Cards they put in the Twilight Council zone during the Strategy Phase), if these agendas have not been voted on or discarded. Else, people would frequently just leave their Agenda in place face-up because they do not care, giving away precious informations to the opponents.   
 
 > Change from base SA: Added a dedicated "Scuttle units and break Trade Agreements" step near the end of the sequence. The scuttle unit part is there so that this option visually appear in the Status Phase sequence.
-As for the Trade Agreement part, the reasoning is as follows: Trade Agreements could be broken at any time during the Status Phase. But it was annoying and a bit immersion breaking to see people breaking low value Trade Agreements to get 1 Trade Good and buy a racial advancement. That's why it had its dedicated Status Phase step, located after the Racial Advancements unlocks.
+As for the Trade Agreement part, the reasoning is as follows: In the base SA, Trade Agreements could be broken at any time during the Status Phase. But it was annoying and a bit immersion breaking to see people breaking low value Trade Agreements to get 1 Trade Good and buy a racial upgrades. That is why I created this dedicated Status Phase step, located after the Racial Upgrades unlocks.
 
-After the Strategy Phase and the Action Phase comes the Status Phase. During this phase, players claim objectives granting them Victory Points, unlock Racial Advancements, and more generally "clean up the table" and prepare the game for the next Round.
+After the Strategy Phase and the Action Phase comes the Status Phase. During this phase, players claim objectives granting them Victory Points, unlock Racial Upgrades, and more generally "clean up the table" and prepare the game for the next Round.
 
 **Status Phase sequence:**
 
 1. [Claim Objectives](#user-content-ClaimObjectives_StatusPhaseStep)
 2. [Progression Feedback](#user-content-ProgressionFeedback_StatusPhaseStep)
 3. [Produce Trade Goods (2:1)](#user-content-ProduceTradeGoods_StatusPhaseStep)
-4. [Unlock Racial Advancements](#user-content-UnlockRacialAdvancements_StatusPhaseStep)
+4. [Unlock Racial Upgrades](#user-content-UnlockRacialUpgrades_StatusPhaseStep)
 5. [Refresh Planets](#user-content-RefreshPlanets_StatusPhaseStep)
 6. [Receive 1 Action Card, 1 Political Card and 2 Command Counters](#user-content-ReceiveCardsAndCCs_StatusPhaseStep)
 7. [Take back Agendas](#user-content-TakeBackAgendas)
@@ -689,6 +596,8 @@ After the Strategy Phase and the Action Phase comes the Status Phase. During thi
 
 #### 1) Claim Objectives <a name="ClaimObjectives_StatusPhaseStep"></a>
 <div>
+
+> Change from base SA: Removed the bit saying objectives are claimed simultaneously: just claim your objectives in the calm, and then check victory for who won.
 
 Starting with the Speaker and following the Rotation Cycler, players may claim objectives to gain Victory Points. After this is done, the game ends if one or more players possess enough Victory Points.
 
@@ -711,7 +620,7 @@ During a Claim Objectives step, a player:
 ##### Types of objectives <a name="ObjectiveCards"></a>
 <div>
 
-![ObjectivesBack](./Images/ObjectivesBacks.jpg)
+![ObjectivesBack](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ObjectivesBacks.jpg)
 
 **Stage I Public Objectives (Yellow)**  
 The standard type of objective.
@@ -759,19 +668,19 @@ The player with the most Victory Points gains as many [Trade Goods](#user-conten
 Starting with the Speaker and following the Rotation Cycler, each player may spend resources to receive one Trade Good for each two resources spent.
 </div>
 
-#### 4) Unlock Racial Advancements <a name="UnlockRacialAdvancements_StatusPhaseStep"></a>
+#### 4) Unlock Racial Upgrades <a name="UnlockRacialUpgrades_StatusPhaseStep"></a>
 <div>
 
-Starting with the Speaker and following the Rotation Cycler, each player may now unlock some of her [Racial Advancements](#user-content-RacialAdvancements) by spending resources.
+Starting with the Speaker and following the Rotation Cycler, each player may now unlock some of her [Racial Upgrades](#user-content-RacialUpgrades) by spending resources.
 
-The cost of unlocking a Racial Advancements is computed as follows:  
+The cost of unlocking a Racial Upgrades is computed as follows:  
 
 * Base cost (printed on the card)
 * **\-** Victory Points (owned by the player)
 * **\+**
- Base costs of the other Racial Advancements the player has already unlocked
+ Base costs of the other Racial Upgrades the player has already unlocked
 
-Multiple Racial Advancements can be unlocked at the same time, but they must be unlocked one after the other.
+Multiple Racial Upgrades can be unlocked at the same time, but they must be unlocked one after the other.
 </div>
 
 #### 5) Refresh Planets <a name="RefreshPlanets_StatusPhaseStep"></a>  
@@ -791,7 +700,7 @@ At this step, players may choose *not* to refresh some of their planets to inste
 Starting with the Speaker and following the Rotation Cycler, each player draws one [Action Card](#user-content-ActionCards), one [Political Card](#user-content-TwilightCouncilAndPoliticalCards), and receives two [Command Counters](#user-content-CommandCounters).
 </div>
 
-#### 7) Take back Agendas <a name="#user-content-TakeBackAgendas"></a>  
+#### 7) Take back Agendas <a name="TakeBackAgendas"></a>  
 <div>
 
 Players take back into their hand the Political Cards they placed as agendas in the Twilight Council during the previous Strategy Phase that were not included for voting or discarded during the Round.  
@@ -843,10 +752,11 @@ A Space Battle consists of a *Pre-Combat* phase, followed by a succession of *Co
 Here are a few definitions that will be used in the following:  
 
 **Combat Roll** <a name="CombatRoll"></a>:  
-The act of rolling a die and checking if its result is greater or equal to a unit's [combat value](#user-content-CombatValue). If it is, a *hit* is scored by the owner of the unit.
+The act of rolling a die and checking if its result is greater or equal to a unit's [combat value](#user-content-CombatValue). If it is, a *hit* is *scored* by the owner of the unit.
 
 **Assigning a hit** <a name="AssigningAHit"></a>:  
-When her opponent scores a *hit* during a Space Battle or Invasion Combat, a player must assign it to one of her units involved in the SpaceBattle/InvasionCombat (she chooses which unit). Each unit may only be assigned at most one *hit*, and doing so destroys the unit. 
+When her opponent *scores* a *hit* during a Space Battle or Invasion Combat, a player must assign it to one of her units involved in the Space Battle or Invasion Combat (she chooses which unit), if able. Each unit may only be assigned at most one *hit*, and doing so destroys the unit.  
+*Hits* *scored* by the opponent that were not ignored or cancelled are said to be *inflicted* by the opponent, even if they cannot be assigned (for example if more *hits* than the number of units present were *scored*).
 
 **End of a Space Battle**:  
 If before a Combat Round would begin, either the attacker or the defender does not have ships in the System of the Space Battle, the Space Battle ends. If one player still has ships in the System at this point, she is declared the **winner** of the Space Battle.
@@ -874,6 +784,7 @@ Each ship in the System of the Space Battle performs as many [combat rolls](#use
 
 #### 2.b) Assign Hits <a name="AssignHits_SpaceBattleStep"></a>
 <div>
+
 First, the **attacker** must assign to her ships the hits scored by the **defender**. Then the defender does the same with the hits scored by the attacker.
 </div>
 
@@ -884,15 +795,15 @@ Skip this step if either side has no remaining ships in the System.
 Else, the attacker may announce a retreat (see below). Then the defender may choose to immediately conduct a retreat. If the defender does not retreat, the attacker may conduct the announced retreat.  
 
 In order to conduct (or announce) a retreat, a player must choose a destination system adjacent to the system of the Space Battle that does not contain enemy ships. When conducting the retreat, the player must move her fleet to the chosen system and place a Command Counter from her reinforcements in it. 
-During this movement, ships with the [Capacity](#user-content-Capacity_unitAbility) may pick up units with the **Space Cargo** trait (like Fighters) but not other units.
+During this movement, ships with the [Capacity](#user-content-Capacity_unitAbility) may pick up units with the **Space Cargo** trait (like Fighters) but not other units. Ships that may not perform this movement are considered destroyed by the other player.
 
-***Exception:*** *If the **system of the Space Battle is activated** by the player, and the **destination system is not**, the activation must instead be paid from Strategy Allocation.*
+***Exception:*** *If the **system of the Space Battle is activated** by the player, and the **destination system is not**, the player must spend a Command Counter from Strategy Allocation to retreat.*
 </div>
 
 ## Invasion Combats <a name="InvasionCombats"></a>  
-This section details how to resolve Invasion Combats. Invasion Combats are battles on planets, that occur when a player lands [Troops](#user-content-Troop) on an enemy planet that contains Troops and/or [PDSs](#user-content-PDS). The player that landed Troops is the **attacker**, the other player is the **defender**.
+This section details how to resolve Invasion Combats. Invasion Combats are battles on planets, that occur when a player lands [troops](#user-content-Troop) on an enemy planet that contains troops and/or [PDSs](#user-content-PDS). The player that landed troops is the **attacker**, the other player is the **defender**.
 
-Like Space Battles, Invasion Combats consist of a *Pre-Combat* phase, followed by a succession of *Combat Rounds* that continues as long as both players have Troops on the planet the Invasion Combat is taking place.
+Like Space Battles, Invasion Combats consist of a *Pre-Combat* phase, followed by a succession of *Combat Rounds* that continues as long as both players have troops on the planet the Invasion Combat is taking place.
 
 **Invasion Combat sequence:**
 
@@ -904,35 +815,38 @@ Like Space Battles, Invasion Combats consist of a *Pre-Combat* phase, followed b
 	2. [Assign Hits](#user-content-AssignHits_InvasionCombatStep)
 
 **End of an Invasion Combat**:  
-If before a Combat Round would begin, either the attacker or the defender does not have Troops on the planet the Invasion Combat is taking place, the Invasion Combat ends:  
+If before a Combat Round would begin, either the attacker or the defender does not have troops on the planet the Invasion Combat is taking place, the Invasion Combat ends:  
 
-* If the attacker still has Troops on the planet at this point, she wins the Invasion Combat. The defender's [Installations](#user-content-Installation) on the planet are destroyed and the attacker takes control of the planet, exhausted. <!-- Finally, the attacker may replace one of her [Ground Forces](#user-content-GroundForce) on the planet with a [Shock Troop](#user-content-ShockTroop). -->
-* Else (if the attacker no longer has Troops on the planet, regardless of whether the defender has any), the defender wins the Invasion Combat. The attacker's [PDSs](#user-content-PDS) on the planet are destroyed.
+* If the attacker still has troops on the planet at this point, she wins the Invasion Combat. The defender's [installations](#user-content-Installation) on the planet are destroyed and the attacker takes control of the planet, exhausted. <!-- Finally, the attacker may replace one of her [Ground Forces](#user-content-GroundForce) on the planet with a [Shock Troop](#user-content-ShockTroop). -->
+* Else (if the attacker no longer has troops on the planet, regardless of whether the defender has any), the defender wins the Invasion Combat. The attacker's [PDSs](#user-content-PDS) on the planet are destroyed.
 
 ### 1) Pre-Combat <a name="PreCombat_InvasionCombatStep"></a>
 #### 1.a) Bombardment <a name="Bombardment_InvasionCombatStep"></a>  
 <div>
 
 Ships with the [bombardment (*n*)](#user-content-Bombardment_unitAbility) ability that have been assigned to bombard this planet in the previous [Planetary Landing](#user-content-PlanetaryLandings_TacticalActionStep) step bombard it.  
-Each bombarding ship performs *n* combat rolls. Sum up the total number of hits scored across all ships. <!-- Deduce from this total the number of [planetary shields](#user-content-PlanetaryShield_unitAbility) the units on the planet have. --> The result is the number of hits the defender must assign to her Troops on the planet.  
+Each bombarding ship performs *n* combat rolls. Sum up the total number of hits scored across all ships. <!-- Deduce from this total the number of [planetary shields](#user-content-PlanetaryShield_unitAbility) the units on the planet have. --> The result is the number of hits the defender must assign to her troops on the planet.  
 
 **Bombarding to neutrality**:  
-If the defender is unable to assign all the bombardment hits the planet received (because she did not have enough Troops), then the bombarding player may choose to [turn the planet neutral](#user-content-PlanetTurnsNeutral).
+If the defender is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to [turn the planet neutral](#user-content-PlanetTurnsNeutral).
 </div>
 
 #### 1.b) Invasion Defence <a name="InvasionDefence_InvasionCombatStep"></a>
 <div>
-The units with the [Invasion Defence (*n*)](#user-content-InvasionDefence_unitAbility) ability defending the planet may perform *n* combat rolls. The attacker then assigns these hits to the attacking Troops.
+
+The units with the [Invasion Defence (*n*)](#user-content-InvasionDefence_unitAbility) ability defending the planet may perform *n* combat rolls. The attacker then assigns these hits to the attacking troops.
 </div>
 
 ### 2) Invasion Combat Combat Round <a name="InvasionCombatCombatRound_InvasionCombatStep"></a>
 #### 2.a) Perform Combat Rolls <a name="PerformCombatRolls_InvasionCombatStep"></a>
 <div>
-Each Troop on the planet performs as many [Combat Rolls](#user-content-CombatRoll) as its [Combat Dice](#user-content-CombatDice) characteristic. All dice are rolled simultaneously.
+
+Each troop on the planet performs as many [Combat Rolls](#user-content-CombatRoll) as its [Combat Dice](#user-content-CombatDice) characteristic. All dice are rolled simultaneously.
 </div>
 
 #### 2.b) Assign Hits <a name="AssignHits_InvasionCombatStep"></a>
 <div>
+
 First, the **attacker** must assign to her troops the hits scored by the defender. Then the **defender** does the same with the hits scored by the attacker.
 </div>
 
@@ -973,9 +887,8 @@ A player **controls** a System if she has at least one [ship](#user-content-Ship
 </div>
 
 ### Home Systems (Yellow Borders) <a name="HomeSystems"></a>
-> TI3->SA: Some special rules have been added to Home Systems.
 
-![HomeSystem](./Images/HS.jpg)
+![HomeSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/HS.jpg)
 
 Each player will start the game in the Home System of her race, containing her starting units and planets. By extension, the "Home System of a player" is the Home System of her race.
 
@@ -983,7 +896,7 @@ Each player will start the game in the Home System of her race, containing her s
 
 * During the first Round of a game, players may not activate the Home Systems of other players.
 * A player that does not control all the planets of her Home System suffers a -2 Victory Points penalty. This penalty disappears as soon as she takes these planets back.
-* At the beginning of the [Strategy Phase](#user-content-StrategyPhase), players regain control of the planets in their Home System that do not contain any enemy Troop. These planets are acquired exhausted and installations present on them are captured.
+* At the beginning of the [Strategy Phase](#user-content-StrategyPhase), players regain control of the planets in their Home System that do not contain any enemy troop. These planets are acquired exhausted and installations present on them are captured.
 * Unlike other planets, a player does not need to have been in control of the planets of her Home System since the beginning of the Round in order to build Space Docks on them.
 
 ### Special Systems (Red Borders) <a name="SpecialSystems"></a>
@@ -999,7 +912,7 @@ Each player will start the game in the Home System of her race, containing her s
 #### Asteroid Field <a name="AsteroidField"></a>
 <div>
 
-![AsteroidField](./Images/AsteroidField.jpg)
+![AsteroidField](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/AsteroidField.jpg)
 </div>
 
 * Ships may not end their movement in an Asteroid Field.
@@ -1010,7 +923,7 @@ Each player will start the game in the Home System of her race, containing her s
 #### Ion Storm <a name="IonStorm"></a>
 <div>
 
-![IonStorm](./Images/IonStorm.jpg)
+![IonStorm](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/IonStorm.jpg)
 </div>
 
 * Ships may not enter and leave an Ion Storm in the same move.
@@ -1020,7 +933,7 @@ Each player will start the game in the Home System of her race, containing her s
 #### Nebula <a name="Nebula"></a>
 <div>
 
-![Nebula](./Images/Nebula.jpg)
+![Nebula](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Nebula.jpg)
 </div>
 
 * Ships may not enter and leave a Nebula in the same move.
@@ -1030,7 +943,7 @@ Each player will start the game in the Home System of her race, containing her s
 #### Supernova <a name="Supernova"></a>
 <div>
 
-![Supernova](./Images/Supernova.jpg)
+![Supernova](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Supernova.jpg)
 </div>
 
 * Ships may not end their movement in a Supernova.
@@ -1041,7 +954,7 @@ Each player will start the game in the Home System of her race, containing her s
 
 <div>
 
-![GravityRift](./Images/GravityRift.jpg)
+![GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GravityRift.jpg)
 </div>
 
 * Moving through a Gravity Rift costs 1 movement instead of 2, unless leaving through the border at the opposite side of the one entered.
@@ -1055,19 +968,19 @@ Usually, the majority of the Systems of a galaxy are Regular Systems.
 
 ### Planetary Systems <a name="PlanetarySystems"></a>
 
-![RegularSystem](./Images/RegularSystem.jpg)
+![RegularSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RegularSystem.jpg)
 
 A **Planetary System** is any System that contains at least one planet.
 
 ### Void Systems <a name="VoidSystems"></a>
 
-![VoidSystem](./Images/VoidSystem.jpg)
+![VoidSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoidSystem.jpg)
 
 A **Void System** is any [Regular Systems](#user-content-RegularSystems) that does not contain any planet or [Wormhole](#user-content-Wormholes).
 
 ## Planets <a name="Planet"></a>
 
-![Planets](./Images/Planets.jpg)
+![Planets](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Planets.jpg)
 
 Each planet has a resource value (the number on a green background) and an influence value (the number on a red background). Planets may also feature a number of [Technology Specialties](#user-content-TechnologySpecialty) (red/green/blue/yellow technology symbols), and a [Refresh Ability](#user-content-RefreshAbility) (symbol depending on the actual refresh ability). 
 
@@ -1076,7 +989,7 @@ Each planet has a resource value (the number on a green background) and an influ
 #### Planet Card <a name="PlanetCards"></a>
 <div>
 
-![PlanetCard](./Images/PlanetCard.jpg)
+![PlanetCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/PlanetCard.jpg)
 
 Each planet has an associated planet card. When a player takes control of a planet, she takes the corresponding planet card. She release the card when losing control of the planet.
 </div>
@@ -1084,7 +997,7 @@ Each planet has an associated planet card. When a player takes control of a plan
 #### Planet Control
 <div>
 
-Planets are usually acquired by landing [Troops](#user-content-Troop) on them during the [Planetary Landing](#user-content-PlanetaryLandings_TacticalActionStep) step of a Tactical Action, although there are other ways. When a player acquires a planet, the planet is received [exhausted](#user-content-RefreshedAndExhaustedStates) (and the planet card is rotated to indicate this fact).  
+Planets are usually acquired by landing [troops](#user-content-Troop) on them during the [Planetary Landing](#user-content-PlanetaryLandings_TacticalActionStep) step of a Tactical Action, although there are other ways. When a player acquires a planet, the planet is received [exhausted](#user-content-RefreshedAndExhaustedStates) (and the planet card is rotated to indicate this fact).  
 
 A player does not need to keep troops on a planet to retain control of it. If no units remain on a controlled planet, its controller must place a flag to indicate she still controls the planet.
 </div>
@@ -1095,23 +1008,29 @@ A player does not need to keep troops on a planet to retain control of it. If no
 Planets can exist in two states: **refreshed** and **exhausted**. When a planet is refreshed, its planet card is upright, and its controller may use it to for example pay the production cost of some units. When a planet is exhausted, its planet card is rotated, and its controller does not get any benefit from it until it is refreshed (which usually happens during the Status Phase).
 </div>
 
+#### "Empty Planet" <a name="emptyPlanet">
+<div>
+
+A planet is "empty" if it contains no [units](#user-content-Units) or [Leaders](#user-content-Leaders).
+</div>
+
 ### Technology Specialties <a name="TechnologySpecialty"></a>
 
-![TechnologySpecialties](./Images/TechnologySpecialties.jpg)
+![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TechnologySpecialties.jpg)
 
 Technology Specialties represent a certain local knowledge or a natural resource important to a specific research field.  
-Each Technology Specialty on a **refreshed** planet reduces by 1 (down to a minimum of 0) the cost of purchasing a Technology of the same colour via the Secondary Ability of the Technology Strategy Card, for the controller of the planet.
+Each Technology Specialty on a **refreshed** planet reduces by 1 (down to a minimum of 0) the cost of purchasing a [Technology](#user-content-Technologies) of the same colour (usually via the Secondary Ability of the Technology Strategy Card), for the controller of the planet.
 
 ### Refresh Abilities <a name="RefreshAbility"></a>
 
-![RefreshAbilities](./Images/RefreshAbilities.jpg)
+![RefreshAbilities](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RefreshAbilities.jpg)
 
 A Refresh Ability is indicated by a symbol on the right of a planet's influence value, and is detailed on the associated planet card.  
 Refresh Abilities can be used during the [Refresh Planets step of the Status Phase](#user-content-RefreshPlanets_StatusPhaseStep), by *not* refreshing the planet.
 
 ### Facilities <a name="Facility"></a>
 
-![Facilities](./Images/Facilities.jpg)
+![Facilities](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Facilities.jpg)
 
 Facilities can be built on planets to increase their resource or influence value.  
 There are two types of Facilities: Refineries and Colonies. A Refinery increases the resource value of the planet it is on by 1, while a Colony does the same for the influence value.  
@@ -1120,6 +1039,8 @@ Facilities are not built for resources. Instead, a Facility may be placed on pla
 
 Once built, place the Facility card under the planet card, with the bottom edge sticking out to display the +1 in either resource or influence.  
 
+When a player takes or lose control of a planet containing Facilities, they are destroyed.
+
 ***Note:*** *Facilities are ***NOT*** [units](#user-content-Units).*
 
 ### "Turning Neutral" <a name="PlanetTurnsNeutral"></a>
@@ -1127,12 +1048,12 @@ When a planet **"turns neutral"** (because of a game effect), all units and Faci
 
 ### Trade Stations <a name="TradeStations"></a>  
 
-![TradeStation](./Images/TradeStation.jpg)
+![TradeStation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeStation.jpg)
 
 Trade Stations are a specific type of planets, with the following special rules:
 
 * No [Domain Counter](#user-content-DomainCounters) may exist on a Trade Station.
-* Troops, Installations and Leaders may not exist on Trade Stations, and no landing or bombardment may be conducted against them.
+* Troops, installations and Leaders may not exist on Trade Stations, and no landing or bombardment may be conducted against them.
 * A player takes control of a Trade Station  if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it.  
 * A player cannot lose control of a Trade Station for any reason if she has ships in its system.
 
@@ -1142,7 +1063,7 @@ Trade Stations are a specific type of planets, with the following special rules:
 > TI3->SA: Wormholes make systems adjacent **for all purposes**.  
 > TI3->SA: Wormhole Tokens flip when used to leave a System.
 
-![Wormhole](./Images/Wormhole.jpg)
+![Wormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Wormhole.jpg)
 
 Wormholes are spatial anomalies that connect distant areas of space.
 
@@ -1151,7 +1072,7 @@ Two Systems containing Wormholes of the same type are considered [adjacent](#use
 #### Flippable Wormhole tokens
 <div>
 
-![FlippableWormhole](./Images/FlippableWormhole.jpg)
+![FlippableWormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FlippableWormhole_redux.jpg)
 
 Flippable Wormhole Tokens have a different Wormhole type printed on each side.
 At the end of an action in which at least one ship moved through such Wormhole from the System containing the Wormhole to another System (and only in this direction), the token is flipped, changing the type of the Wormhole.
@@ -1164,10 +1085,10 @@ Stable Wormhole Tokens have a single type of Wormhole printed on each side.
 As opposed to their flippable cousins, they do not flip.
 </div>
 
-#### Stable Wormholes
+#### Stable Wormholes <a name="StableWormholes"></a>  
 <div>
 
-A Wormhole is said to be a **Stable Wormhole** <a name="StableWormholes"></a> if it was present in the galaxy at the start of the game and is not a Flippable Wormhole. (i.e. Stable Wormholes are Wormholes printed on tiles and Stable Wormhole Tokens)
+A Wormhole is said to be a **Stable Wormhole** if it was present in the galaxy at the start of the game and is not a Flippable Wormhole. (i.e. Stable Wormholes are Wormholes printed on tiles and Stable Wormhole Tokens)
 
 <!-- ***Unstable Wormholes*** <a name="UnstableWormholes"></a> are all the Wormholes that are *not* printed on a tile. (Wormhole Tokens, Wormholes from [Domain Counters](#user-content-DomainCounters)...) -->
 </div>
@@ -1182,7 +1103,7 @@ Border Tokens are placed on the border between two Systems:
 #### Asteroid Belts <a name="AsteroidBelts"></a>
 <div>
 
-![AsteroidBelt](./Images/AsteroidBelt.jpg)
+![AsteroidBelt](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/AsteroidBelt.jpg)
 </div>
 
 * Ships may not move through Asteroid Belts
@@ -1191,7 +1112,7 @@ Border Tokens are placed on the border between two Systems:
 #### Space Mines <a name="SpaceMines"></a>
 <div>
 
-![SpaceMine](./Images/SpaceMine.jpg)
+![SpaceMine](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/SpaceMine.jpg)
 
 Space Mines are a type of border tokens. They are built by ships with the [Deploy Space Mines ability](#user-content-DeploySpaceMines_unitAbility) and belong to the player that built them.
 
@@ -1205,7 +1126,7 @@ Then remove **all** (not just the one resolved) non-friendly Space Mines at the 
 
 ### Artifacts <a name="Artifact"></a>
 
-![Artefacts](./Images/Artefacts.jpg)
+![Artefacts](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Artefacts.jpg)
 
 There are eight Artifact tokens. Four of them harbor technology colors and are actual Artifacts, while the other four have [Trade Goods](#user-content-TradeGoods) symbols and are called **Dummy Artifacts**. 
 
@@ -1234,25 +1155,29 @@ When a Dummy Artifacts is revealed, it is removed from the game and its controll
 There are four [Special Objective](#user-content-SpecialObjectives) awarding Victory Points for the control of the four non-Dummy Artifacts.
 </div>
 
-#### Artifact Technology Discounts <a name="ArtifactTechnologyDiscounts"></a>  
+#### Artifact Technology Specialty <a name="ArtifactTechnologyDiscounts"></a>  
 <div>
 
-The controller of an Artifact reduces her cost to purchase Technologies of the same color by 1.
+Artifacts each have a [Technology Specialty](#user-content-TechnologySpecialty) of their color.
+
+***Note:*** *Even if a planet contains an Artifact, the planet is not considered as having the Artifact's Technology Specialty. As a result, the Artifact's Technology Specialty always reduce technology costs, regardless of whether the planet is exhausted.*
+
+<!-- The controller of an Artifact reduces her cost to purchase Technologies of the same color by 1. -->
 </div>
 
 ### Worldgates <a name="Worldgate"></a>
 
-![WorldGate](./Images/WorldGate.jpg)
+![WorldGate](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/WorldGate.jpg)
 
 Worldgates are placed on some planets of the galaxy when it is created and may not be moved or destroyed by players.
 
-When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#user-content-PlanetaryLandings_TacticalActionStep), move any number of her Troops, PDSs and Leaders from other planets that also contain Worldgates, in *unactivated Systems*, to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
+When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#user-content-PlanetaryLandings_TacticalActionStep), move any number of her troops, PDSs and Leaders from other planets that also contain Worldgates, in *unactivated Systems*, to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
 
 ### Domain Counters <a name="DomainCounters"></a>
 
 Domain Counters are counters placed on planets or in space to represent the dangers and rewards of space exploration and colonization.
 
-![DomainCounters](./Images/DomainCounters.jpg)
+![DomainCounters](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DomainCounters.jpg)
 
 There are two types of Domain Counters, the *Distant Suns* ones have the image of a planet on their back, while the *Final Frontier* ones have an image of empty space on their back.
 
@@ -1260,7 +1185,7 @@ Even though the *Distant Suns* Domain Counters are mostly intended to be placed 
 
 Refer to the [Effects of Domain Counters](#user-content-DomainCountersEffects) annex to find the effects of all the Domain Counters.
 
-#### Domain Counters on planets
+#### Resolving Domain Counters on planets
 <div>
 
 Domain Counters on planets are revealed and resolved immediately after a player lands units on the planet (after all units have been landed). Resolved Domain Counters are then removed from the board. 
@@ -1268,13 +1193,13 @@ Domain Counters on planets are revealed and resolved immediately after a player 
 If a player takes control of a planet without landing units on it, then all Domain Counters on it are removed from the board *without being resolved*.
 </div>
 
-#### Domain Counters in space
+#### Resolving Domain Counters in space
 <div>
 
 Domain Counters in space are revealed and resolved after units have ended their movement in the system (and after all units currently moving have ended their movement).
 </div>
 
-#### Multiple Domain Counters at the same location
+#### Resolving Multiple Domain Counters at the same location
 <div>
 
 If multiple Domain Counters are at the same location (planet or space), follow these rules to determine the order in which they are resolved:  
@@ -1284,12 +1209,12 @@ If multiple Domain Counters are at the same location (planet or space), follow t
 * If after resolving a Domain Counter at a given location, the units that triggered the Domain Counter resolution are no longer present (because they were destroyed during the resolution, for example), then the other Domain Counters at the same location are not resolved and stay where they were.
 </div>
 
-#### Custodian of Mecatol Rex <a name="Custodians"></a>
+#### Custodians of Mecatol Rex <a name="Custodians"></a>
 <div>
 
-![Custodians](./Images/Custodians.jpg)
+![Custodians](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Custodians.jpg)
 
-These two Domain Counters have a different appearance and are sometimes used to protect the Mecatol Rex planet from early attacks. They behave exactly like their normal counterparts.
+These two Domain Counters have a different appearance and are sometimes used on some galaxies to protect the Mecatol Rex planet from early attacks. They behave exactly like their normal counterparts.
 </div>
 
 ## Spending Resources and Influence <a name="SpendingResourcesAndInfluence"></a>
@@ -1304,7 +1229,7 @@ Throughout a game, players will need to spend *resources* and *influence* for ma
 
 ## Command Counters <a name="CommandCounters"></a>
 
-![CommandCounter](./Images/CommandCounter.jpg)
+![CommandCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounter.jpg)
 
 Each player has a number of Command Counters. They are used for various purposes, which this section will explain. During the game, Command Counters can exist either in a player's reinforcements, on one of the three dedicated zones of her race sheet, or in systems of the galaxy.
 
@@ -1317,29 +1242,29 @@ Whenever a player receives or gain a Command Counter, she must place it on her r
 
 Command Counters may not be moved from one area to another, except during the  [Reallocate Command Counters step](#user-content-ReallocateCommandCounters_StatusPhaseStep)  of the Status Phase.
 
-![CommandCounterZones](./Images/CommandCounterZones.jpg)
+![CommandCounterZones](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounterZones.jpg)
 
 ### Command Pool <a name="CommandPool"></a>
 The Command Counters in the Command Pool are used to perform [Tactical Actions](#user-content-TacticalAction). If a player does not have any Command Counter in her Command Pool, she may not perform Tactical Actions.
 
 ### Fleet Supply <a name="FleetSupply"></a> 
-> Change from base SA: I changed the part about how to handle Fleet Supply excess. Instead of having both:  
-> * "A player may never move units, build units, or otherwise acquire units in any system so that the number of ships herein (again, excluding Fighters) exceed the number of Command Counters in her Fleet Supply area. "  
-> * AND  
-> * "If, for any reason, the number of ships in a system should exceed the number of Command Counters in a player's Fleet Supply, the owner of those ships must immediately remove enough ships from the system (by placing them back with her reinforcements) until the number of ships is again in compliance with the number of Command Counters in her Fleet Supply area. "  
->  I went with only keeping the second.
+> Change from base SA: I changed the part about how to handle Fleet Supply excess. Instead of having both 1> and 2>, I went with only keeping 2>, that is enough to solve everything:  
+> 1> "A player may never move units, build units, or otherwise acquire units in any system so that the number of ships herein (again, excluding Fighters) exceed the number of Command Counters in her Fleet Supply area."   
+> 2> "If, for any reason, the number of ships in a system should exceed the number of Command Counters in a player's Fleet Supply, the owner of those ships must immediately remove enough ships from the system (by placing them back with her reinforcements) until the number of ships is again in compliance with the number of Command Counters in her Fleet Supply area. "  
+
+> Change from base SA: The only reasons I see against the change above is that it make the Warship Commission Political Cards (the *for* outcome gives a free Dreadnought to everyone, to be placed at a Space Dock) way less interesting, as players out of Fleet Supply would now get a Dreadnought regardless. This is easily fixable by adding that players may not receive the free Dreadnought in a system where they are already maxing out their Fleet Supply.
 
 Command Counters placed in Fleet Supply must be placed with the "fleet" side up.  
 The number of Command Counters in a player's Fleet Supply is her **Fleet Supply**: the maximum number of non-Fighter ships she may have in any System at any time.  
 
-If a player has more non-Fighter Ships in a System than her Fleet Supply, she must destroy enough of her non-Fighter Ships in the System to comply with her Fleet Supply again.
+If a player has more non-Fighter ships in a System than her Fleet Supply, she must destroy enough of her non-Fighter ships in the System to comply with her Fleet Supply again.
 
 The Fleet Supply constraint is *not* checked while ships are moving, but is checked right after all ships have finished their movement.
 
 It is important to note that the **Fleet Supply** is a constraint on the number of non-Fighter ship of fleets, not on the number of fleets. For example, a player with 3 Fleet Supply may have as many fleets as she wants (up to one per System!), but none of these fleets may have more than 3 non-Fighter ships.
 
 ### Strategy Allocation <a name="StrategyAllocation"></a>  
-Command Counters in the Strategy Allocation are spent to use various effects. Most notably, the Secondary Abilities of Strategy Cards often require the spending of a Command Counter from Strategy Allocation in order to be used.
+Command Counters in the Strategy Allocation are spent to use various effects. Most notably, the Secondary Abilities of Strategy Cards often require the spending of a Command Counter from Strategy Allocation in order to be executed.
 
 ## Action Cards <a name="ActionCards"></a>
 > Change from base SA: Removed the unnecessary "You can't play two Action Cards of the same name at the same situation/unit".    
@@ -1352,7 +1277,7 @@ Command Counters in the Strategy Allocation are spent to use various effects. Mo
 > Removed the "If a player at 7 cards is about to draw additional cards, he should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied.  
 > Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." because the same effect can be achieved by tweaking a few ACs wordings instead of adding an additional general rule. -->
 
-![ActionCard](./Images/ActionCard.jpg)
+![ActionCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ActionCard.jpg)
 
 Throughout the game, players will come into possessions of Action Cards that they will add to their hand.  
 
@@ -1388,7 +1313,7 @@ If multiple outcomes of the same agenda receive the same number of votes, the ti
 
 ### Political Cards keywords <a name="PoliticalCards"></a>
 
-![PoliticalCard](./Images/PoliticalCard.jpg)
+![PoliticalCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/PoliticalCard.jpg)
 
 Political Cards feature some keywords to indicate how players can vote on them and how they are resolved:
 
@@ -1404,10 +1329,13 @@ Political Cards with the "Law" keyword represent permanent changes and will stay
 
 ### Voice of the Council <a name="VoiceOfTheCouncil"></a>
 
-![VoiceOfTheCouncil](./Images/VoiceOfTheCouncil.jpg)
+![VoiceOfTheCouncil](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoiceOfTheCouncil.jpg)
 
-After the agendas being voted on have been designated and their resolution order has been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council [Special Objective](#user-content-SpecialObjectives) to the agendas being voted on.  
-Voice of the Council is treated as a "Law" with the "elect player" keyword *for the duration of the vote* (it stops being considered as a Political Card after being resolved). The player including it chooses where it is placed in the resolution order.
+After the agendas being voted on and their resolution order have been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council [Special Objective](#user-content-SpecialObjectives) to the agendas being voted on.  
+Voice of the Council is treated as a "Law" with the "elect player" keyword *for the duration of the vote* (it stops being considered as a Political Card after being resolved). The player including it chooses where it is placed in the resolution order.  
+The player elected as voice of the council now qualifies for the corresponding objective, until another voice of the council election is called.
+
+***Note:*** *As for all the Special Objectives (green), Voice of the Council is not claimed instantly after a player qualifies for it.*
 
 ### Hand Limit of Political Cards
 
@@ -1416,7 +1344,7 @@ A player may not have more than 7 Political Cards in hand. If she would exceed t
 ## Technologies <a name="Technologies"></a>  
 > Change from base SA: Changed the name of the yellow technology domain from "General" to "Economic". This is just cosmetic.
 
-![TechnologySpecialties](./Images/TechnologySpecialties.jpg)
+![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TechnologySpecialties.jpg)
 
 Technologies represent scientific advances the players can acquire (research) throughout the game to strengthen the potential of their race. Technologies are presented in a [Technology Tree](http://www.astralvault.net/games/SA/TTS/Misc/CascadingTechTreeDark_SA.jpg) and can be of one of these four colors, corresponding to four technological domains:
 * Blue: Propulsion technologies
@@ -1426,7 +1354,7 @@ Technologies represent scientific advances the players can acquire (research) th
 
 ### Acquisition of Technologies
 **Acquisition**  
-Technologies are mostly acquired through the use of the Technology Strategy Card (7). When a player acquires a Technology, she places one of her flags on the corresponding Technology on the Technology Tree and benefit from its effects.
+Technologies are mostly acquired through the Technology Strategy Card (7). When a player acquires a Technology, she places one of her flags on the corresponding Technology on the Technology Tree and benefit from its effects.
 
 **Prerequisites**  
 Some Technologies have other Technologies as prerequisites. This is indicated on the Technology Tree by lines: when two Technologies are connected by a line, the topmost Technology is a prerequisite of the other one. A player cannot acquire a Technology that has prerequisites without having acquired at least one of its prerequisites.  
@@ -1436,19 +1364,19 @@ Some Technologies have other Technologies as prerequisites. This is indicated on
 Some effects allow players to "purchase" Technology for a given resource price. This simply means the player may pay the required amount of resources to acquire a Technology.  
 This cost is reduced by 1 if the player controls the [Artefact](#user-content-ArtifactTechnologyDiscounts) of the same color than the purchased Technology, and by 1 for each [Technology Specialy](#user-content-TechnologySpecialty) of the same color than the purchased Technology present on *refreshed* planets the player controls.
 
-### "You may use the effects of ..."
+### "You may use the effects of ..." <a name="UseTheEffectsOfTechnology"></a>
 Some effects allow players to "use the effects of" some Technologies. This means that even though they may not have a particular Technology, they are allowed to benefit from its effects. However, they are not considered as having this Technology (for example for the purpose of Objectives, or prerequisites), and even if they do have this Technology, they cannot benefit from its effects twice.
 
-## Racial Advancements <a name="RacialAdvancements"></a>
-> Change from base SA: Renamed "Racial Technologies" into "Racial Advancements". The term "Racial Technology" was a bit confusing since "Racial Technologies" actually do not behave like "Technologies" at all, and do not count as such for any effect.
+## Racial Upgrades <a name="RacialUpgrades"></a>
+<!-- > Change from base SA: Renamed "Racial Technologies" into "Racial Upgrades". The term "Racial Technology" was a bit confusing since "Racial Technologies" actually do not behave like "Technologies" at all, and do not count as such for any effect. -->
 
-![RacialAdvancement](./Images/RacialAdvancement.jpg)
+![RacialUpgrade](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RacialUpgrade.jpg)
 
-Racial Advancements are race-specific bonuses and abilities that can be unlocked during the game at the [Unlock Racial Advancements](#user-content-UnlockRacialAdvancements_StatusPhaseStep) step of the Status Phase.  
+Racial Upgrades are race-specific bonuses and abilities that can be unlocked during the game at the [Unlock Racial Upgrades](#user-content-UnlockRacialUpgrades_StatusPhaseStep) step of the Status Phase.  
 
 ## Trade Goods <a name="TradeGoods"></a>
 
-![TradeGood](./Images/TradeGood.jpg)
+![TradeGood](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeGood.jpg)
 
 When a player receives Trade Goods, she places them into the Trade Good Area of her race sheet. Whenever she spends resources or influence, she can decide to spend some of her Trade Goods as substitutes for one resource or influence each. For example if she wants to spend five resources, she can exhaust Planets for three resources and spend two Trade Goods.  
 Spent Trade Goods are returned to the common play area.  
@@ -1456,6 +1384,8 @@ Spent Trade Goods are returned to the common play area.
 Players are allowed to give other players Trade Goods from their Trade Good Area at any time. This makes Trade Goods a flexible currency with which to bribe, pay, or assist other players economically.
 
 ## Trade Contracts and Trade Agreements <a name="TradeContractsAndTradeAgreements"></a>
+> Change from base SA: Made the distinction between your "Trade Contracts": the trade cards of your race, and your "Trade Agreements": the Trade Contracts of other races you got in exchange of your Trade Contracts. Without this distinction, you never know when an effect refers to "your Trade Agreements" if it refers to what I called "your Trade Contracts" or what I called "your Trade Agreements". Even saying "your active Trade Agreements" is not actually clear; are these the Trade Contracts you gave to other people, or the Trade Contracts of other people you got in exchange?  
+In addition, this terminology felt more natural to me as the cards themselves have a "Trade Contract" side and a "Trade Agreement" one.
 
 **Content:**
 
@@ -1468,13 +1398,13 @@ Players are allowed to give other players Trade Goods from their Trade Good Area
 
 ### Trade Contracts <a name="TradeContracts"></a>
 
-![TradeContract](./Images/TradeContract.jpg)
+![TradeContract](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeContract.jpg)
 
 Each race has two Trade Contracts, with numerical values printed on one of the sides (the Trade Agreement side). At the beginning of the game, players place these cards face down in their playing area (with the Trade Agreement side facing the table). 
 
 ### Opening Trade Agreements <a name="OpeningTradeAgreements"></a>
 Some effects (most notably the Primary Ability of the Trade Strategy Card (5)) allow players to open Trade Agreements. When two players want to open a Trade Agreement with each other, they exchange one of their Trade Contracts and flip them (so the Trade Agreement sides are up).  
-**Restriction**: two players may not have more than one Trade Agreements with each other.
+**Restriction**: two players may not have more than one Trade Agreements with each other at the same time.
 
 ### Difference between "Trade Contract" and "Trade Agreement" <a name="DifferenceBetweenTradeContractAndTradeAgreement"></a>
 
@@ -1510,10 +1440,38 @@ How many Trade Goods get collected depends on how the Trade Agreement was broken
 * If this Trade Agreement would get broken for another reason, Letnev would gain half round down of the Trade Goods on her Trade Agreement (1), while Sol would also gain half round down of the Trade Goods on her Trade Agreement (0).
 
 ## Components Limitations <a name="ComponentsLimitations"></a>
-There is no limit to the number of Command Counters, flags, Trade Goods and units players can have. You can use any reasonable object to replace them if you would run out.  
+
+> Change from base SA: Removed all Command Counters and unit limits (except War Suns and Space Docks) because this should not matter. What is the best unit to build at the time should be the concern, not whether you comply with the arbitrary limit put on it. I can only advise you to free your mind from these limitations, and use plastic units from unused colours when you need more. The base SA limits can be found below in another comment.
+
+All components, except those listed below, are unlimited. Players can use any reasonable objects to replace them if they would run out.  
 Supplement cardboard tokens exist for Fighters and Ground Forces.
 
-***Exception:*** *Players cannot have more than 3 [War Suns](#user-content-WarSun) on the board at any time. War Suns in excess must be [scuttled](#user-content-Scuttle)*
+**Limited components:**
+
+* [War Suns](#user-content-WarSun): 3
+* [Space Docks](#user-content-SpaceDock): 5
+
+If a player goes over one of these limits, she must immediately scuttle the units in excess. 
+
+<!-- There is no limit to the number of Command Counters, flags, Trade Goods and units players can have. You can use any reasonable object to replace them if you would run out.  
+Supplement cardboard tokens exist for Fighters and Ground Forces.
+
+***Exception:*** *Players cannot have more than 3 [War Suns](#user-content-WarSun) on the board at any time. War Suns in excess must be [scuttled](#user-content-Scuttle)* -->
+
+> Base SA components limits:
+> * 24 Command Counters
+> * 1 Flagship
+> * 3 War Suns
+> * 7 Dreadnoughts
+> * 8 Carriers
+> * 12 Cruisers
+> * 16 Destroyers
+> * No limit on Fighters
+> * 8 Armors (a.k.a. Mechanised Units)
+> * No limit on Shock Troops
+> * No limit on Ground Forces
+> * 10 PDSs
+> * 5 Space Docks
 
 ## Units <a name="Units"></a>  
 
@@ -1538,7 +1496,7 @@ Some effects will refer to categories of units instead of specific unit types. A
 <div>
 
 This characteristic determines the maximum number of systems the unit can move in a single movement.  
-More details on units movement can be found in the [Ships Movement](#user-content-ShipsMovement_TacticalActionStep) step of the Tactical Action.
+More details on units movement can be found in the [Ships Movement](#user-content-Movement_TacticalActionStep) step of the Tactical Action.
 </div>
 
 #### Resource Cost and Production Capacity Cost  
@@ -1551,7 +1509,7 @@ More details on how units are produced can be found in the [Production](#user-co
 #### Combat Dice <a name="CombatDice"></a>  
 <div>
 
-This characteristic determines the number of [Combat Rolls](#user-content-CombatRoll) the unit performs during the combat rounds of Space Battles (if the unit is a [Ship](#user-content-Ship)) or Invasion Combats (if it is a [Troop](#user-content-Troop)).  
+This characteristic determines the number of [Combat Rolls](#user-content-CombatRoll) the unit performs during the combat rounds of Space Battles (if the unit is a [ship](#user-content-Ship)) or Invasion Combats (if it is a [troop](#user-content-Troop)).  
 
 ***Important:*** *If, after all modifiers have been taken into account, a unit would have zero or less Combat Dice, it is considered as having one Combat Dice instead.  
 More details on [Space Battles](#user-content-SpaceBattle) and [Invasion Combats](#user-content-InvasionCombats) can be found in the relevant sections.*
@@ -1578,6 +1536,11 @@ Traits define how units operate and the specific constraints that apply to them.
 
 ### Unit Categories <a name="UnitCategories"></a>  
 
+> Change from base SA: Changed the name of the "Ground unit" category into "Troop". The reason is that "Ground unit" does not actually designates all the "units" that are on the "ground" as one would reasonably imagine. Space Docks and PDSs are not "Ground units" despite being "units" on the "ground".
+
+> Change from base SA: Introduced a new unit category: "Infantry" encompassing Ground Forces and Shock Troops. The reason for this is that the way Shock Troops are explained in the vanilla TI3 rules is that they "are treated as Ground Forces for all cards and abilities" with a few exceptions. This means that whenever a wordings says "Ground Force", it actually means "Ground Force and Shock Troops". This also implies there is no real way to mean "Ground Force but not Shock Troops" except writing it out. The goal of the "Infantry" unit category is to allow us to write "Ground Force" when we mean "Ground Force", "Shock Troops" when we mean "Shock Troops", and "Infantry" when we mean "Ground Force or Shock Troops". This should make the wordings cleaner and clearer.
+
+
 #### Ship <a name="Ship"></a>
 <div>
 
@@ -1597,10 +1560,10 @@ Ships can move by themselves in the galaxy and engage in [Space Battles](#user-c
 #### Non-Fighter Ship
 <div>
 
-A specific subset of Ships.  
+A specific subset of ships.  
 
 **Units in this category:**
-* All Ships but [Fighters](#user-content-Fighter)
+* All ships but [Fighters](#user-content-Fighter)
 </div>
 
 #### Troop <a name="Troop"></a> (a.k.a. Ground Units)
@@ -1618,7 +1581,7 @@ The role of these units is to take control of and defend planets, by engaging in
 #### Infantry <a name="Infantry"></a>
 <div>
 
-A specific subset of Troops.  
+A specific subset of troops.  
 
 **Units in this category:**
 
@@ -1650,14 +1613,28 @@ A specific subset of Installations.
 
 ### Units List <a name="UnitList"></a>  
 
+* [Flagship](#user-content-Flagship)
+* [War Sun](#user-content-WarSun)
+* [Dreadnought](#user-content-Dreadnought)
+* [Carrier](#user-content-Carrier)
+* [Cruiser](#user-content-Cruiser)
+* [Destroyer](#user-content-Destroyer)
+* [Fighter](#user-content-Fighter)
+* [Armor](#user-content-Armor)
+* [Shock Troop](#user-content-ShockTroop)
+* [Ground Force](#user-content-GroundForce)
+* [PDS](#user-content-PDS)
+* [Space Dock](#user-content-SpaceDock)
+
+
 #### Flagship <a name="Flagship"></a>  
 <div>
 
-![Flagship](./Images/units/Flagship.jpg)  
+![Flagship](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Flagship.jpg)  
 ***Note:*** *Each race has a Flagship card specifying the particularities of its Flagship.*
 </div>
 
-* categories: **Ship, Non-Fighter Ship**
+* categories: **ship, Non-Fighter ship**
 * movement value: ***Race-dependant***  
 * resource cost: ***10***  
 * production capacity cost: ***3***
@@ -1673,10 +1650,10 @@ A specific subset of Installations.
 #### War Sun <a name="WarSun"></a>  
 <div>
 
-![Warsun](./Images/units/Warsun.jpg)
+![Warsun](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Warsun.jpg)
 </div>
 
-* categories: **Ship, Non-Fighter Ship**
+* categories: **ship, Non-Fighter ship**
 * movement value: ***1***
 * resource cost: ***12***
 * production capacity cost: ***3***
@@ -1692,10 +1669,10 @@ A specific subset of Installations.
 #### Dreadnought <a name="Dreadnought"></a>  
 <div>
 
-![Dreadnought](./Images/units/Dreadnought.jpg)
+![Dreadnought](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Dreadnought.jpg)
 </div>
 
-* categories: **Ship, Non-Fighter Ship**
+* categories: **ship, Non-Fighter ship**
 * movement value: ***1***  
 * resource cost: ***5***  
 * production capacity cost: ***2***
@@ -1709,10 +1686,10 @@ A specific subset of Installations.
 #### Carrier <a name="Carrier"></a>  
 <div>
 
-![Carrier](./Images/units/Carrier.jpg)
+![Carrier](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Carrier.jpg)
 </div>
 
-* categories: **Ship, Non-Fighter Ship**
+* categories: **ship, Non-Fighter ship**
 * movement value: ***1***  
 * resource cost: ***3***  
 * production capacity cost: ***1***
@@ -1725,10 +1702,10 @@ A specific subset of Installations.
 #### Cruiser <a name="Cruiser"></a>  
 <div>
 
-![Cruiser](./Images/units/Cruiser.jpg)
+![Cruiser](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Cruiser.jpg)
 </div>
 
-* categories: **Ship, Non-Fighter Ship**
+* categories: **ship, Non-Fighter ship**
 * movement value: ***2***  
 * resource cost: ***2***  
 * production capacity cost: ***1***
@@ -1741,10 +1718,10 @@ A specific subset of Installations.
 #### Destroyer <a name="Destroyer"></a>  
 <div>
 
-![Destroyer](./Images/units/Destroyer.jpg)
+![Destroyer](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Destroyer.jpg)
 </div>
 
-* categories: **Ship, Non-Fighter Ship**
+* categories: **ship, Non-Fighter ship**
 * movement value: ***2***  
 * resource cost: ***1***  
 * production capacity cost: ***1***
@@ -1757,10 +1734,19 @@ A specific subset of Installations.
 #### Fighter <a name="Fighter"></a>
 <div>
 
-![Fighter](./Images/units/Fighter.jpg)
+| | |
+|-|-|
+|![Fighter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Fighter.jpg)  | ![FighterToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FighterToken_withMargin.jpg)|
+
 </div>
 
-* categories: **Ship**
+
+<!-- <div>
+
+![Fighter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Fighter.jpg)
+</div> -->
+
+* categories: **ship**
 * movement value: ***NA***  
 * resource cost: ***0.5***  
 * production capacity cost: ***1***
@@ -1779,10 +1765,10 @@ A specific subset of Installations.
 
 <div>
 
-![Armor](./Images/units/Armor.jpg)
+![Armor](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Armor.jpg)
 </div>
 
-* categories: **Troop**
+* categories: **troop**
 * movement value: ***NA***  
 * resource cost: ***2***  
 * production capacity cost: ***2***
@@ -1798,10 +1784,22 @@ A specific subset of Installations.
 #### Shock Troop <a name="ShockTroop"></a>
 <div>
 
-![ShockTroop](./Images/ShockTroops.jpg)
+| | |
+|-|-|
+|![ShockTroop](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/ShockTroop_FjuriModel.jpg)  | ![ShockTroopToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ShockTroopToken_withMargin.jpg)|
+
 </div>
 
-* categories: **Troop, Infantry**
+
+<!-- <div>
+
+| | |
+|-|-|
+|![ShockTroop](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/ShockTroop_FjuriModel.jpg)  | ![ShockTroopToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ShockTroops.jpg)|
+
+</div> -->
+
+* categories: **troop, infantry**
 * movement value: ***NA***  
 * resource cost: ***2***  
 * production capacity cost: ***1***
@@ -1818,10 +1816,29 @@ A specific subset of Installations.
 #### Ground Force <a name="GroundForce"></a>
 <div>
 
-![GroundForce](./Images/units/GroundForce.jpg)
+| | |
+|-|-|
+|![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/GroundForce.jpg)  | ![GroundForceToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GroundForceToken_withMargin.jpg)|
+
 </div>
 
-* categories: **Troop, Infantry**
+
+
+<!-- <div>
+
+|<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> | |
+|-|-|
+|![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/GroundForce.jpg)  | ![GroundForceToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GroundForceToken.jpg)|
+
+</div> -->
+
+
+<!-- <div>
+
+![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/GroundForce.jpg)
+</div> -->
+
+* categories: **troop, infantry**
 * movement value: ***NA***  
 * resource cost: ***0.5***  
 * production capacity cost: ***1***
@@ -1836,10 +1853,10 @@ A specific subset of Installations.
 #### PDS (Planetary Defence System) <a name="PDS"></a>
 <div>
 
-![PDS](./Images/units/PDS.jpg)
+![PDS](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/PDS.jpg)
 </div>
 
-* categories: **Installation**
+* categories: **installation**
 * movement value: ***NA***  
 * resource cost: ***2***  
 * production capacity cost: ***1***
@@ -1857,10 +1874,10 @@ A specific subset of Installations.
 #### Space Dock <a name="SpaceDock"></a>
 <div>
 
-![SpaceDock](./Images/units/SpaceDock.jpg)
+![SpaceDock](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/SpaceDock.jpg)
 </div>
 
-* categories: **Installation**
+* categories: **installation**
 * movement value: ***NA***  
 * resource cost: ***4***  
 * production capacity cost: ***NA***
@@ -1937,14 +1954,16 @@ When a planet is bombarded, the defender must assign the bombardment hits to uni
 #### Capacity (*n*) <a name="Capacity_unitAbility"></a>  
 <div>
 
-Units with this ability can carry up to *n* units with the *cargo* or *space cargo* trait (see below for the list). Carried units are referred to as the **cargo** of the unit carrying them.  
-When a unit with this ability is destroyed, the unit it carries are destroyed too.  
+Units with this ability can carry up to *n* units with the *cargo* or *space cargo* trait (see below for the list of these units). Carried units are referred to as the **cargo** of the unit carrying them.  
+When a unit with this ability is destroyed, the units it carries are destroyed too.  
 There are variants of this ability, that limit the types of units that can be carried. For example, a unit with "Capacity (3 Fighters)" can only carry up to 3 Fighters.
 
 When a ship with this ability starts its movement, or enters a System, it may, if the System is **unactivated** or is the **destination System** of the movement, pick up carry-able units from:
 
 * Friendly planets in the System
-* The **cargo** of other friendly units in the System **that are not also moving**
+* The **cargo** of other friendly units in the System
+
+In addition, ships with these ability in the destination system may freely transfer carried units between them.
 
 **Carry-able units:**  
 
@@ -1958,7 +1977,7 @@ When a ship with this ability starts its movement, or enters a System, it may, i
 #### Capture Installations <a name="CaptureInstallations_unitAbility"></a>  
 <div>
 
-When a player takes control of a planet while having a unit with this ability on it, she may capture all [installations](#user-content-Installation) on it.
+When a player takes control of a planet while having a unit with this ability on it, she may capture all [installations](#user-content-Installation) and [Facilities](#user-content-Facility) on it.
 </div>
 
 #### Commando <a name="Commando_unitAbility"></a>  
@@ -2018,7 +2037,7 @@ After a player wins an Invasion Combat [Invasion Combat](#user-content-InvasionC
 #### Space Cannon (*n*) <a name="SpaceCannon_unitAbility"></a>  
 <div>
 
-Units with this ability can shoot at ships in their system during the [Space Cannon Fire](#user-content-SpaceCannonFire_TacticalActionStep) step of Tactical Actions. Look at the description of this step for more details.
+Units with this ability can shoot at ships in their system during the [Space Cannon Abilities](#user-content-SpaceCannonAbilities_TacticalActionStep) step of Tactical Actions. Look at the description of this step for more details.
 
 <!-- #### Deep Space Cannon <a name="DeepSpaceCannon_unitAbility"></a>  
 This ability is an upgraded version of the [Space Cannon](#user-content-SpaceCannon_unitAbility) and is used in the same way. Whenever any wording refers to the Space Cannon ability, it also applies to the "Deep Space Cannon" ability.  
@@ -2029,7 +2048,10 @@ The only difference between the two abilities is that Deep Space Cannon may also
 <div>
 
 A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* sustained this way, a unit loses a [combat dice](#user-content-CombatDice) and rolls one less die when bombarding (up to a minimum of one die) until it is repaired, which usually happens during the [Status Phase](#user-content-StatusPhase).
-[Hit Counters](#user-content-HitCounters) can be used to represent the damages sustained.
+**Hit Counters** (see next picture) can be used to represent the damages sustained.
+
+![HitCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/HitCounter.jpg)
+
 </div>
 
 ## Leaders <a name="Leaders"></a>  
@@ -2040,17 +2062,17 @@ This section explains the general rules that apply to all Leaders.
 
 #### Movement
 
-* Similarly to a [Troop](#user-content-Troop), a Leader is always on a planet or being carried by a ship. Any ship may carry one or more Leaders, using 0 capacity.
-* The owner of a Leader may freely move it within its System during her actions, unless the System contains enemy Ships, or she is currently resolving a Tactical Action step. This means that a Leader can be moved between the resolution of two consecutive Tactical Action steps, but not while a step is resolved.
-* Leaders may use any effect allowing the movement of friendly Troops, without counting towards the number of Troops moved.
-* A Leader may not land on a non-friendly planet without being accompanied by Troops.
+* Similarly to a [troop](#user-content-Troop), a Leader is always on a planet or being carried by a ship. Any ship may carry one or more Leaders, using 0 capacity.
+* The owner of a Leader may freely move it within its System during her actions, unless the System contains enemy ships, or she is currently resolving a Tactical Action step. This means that a Leader can be moved between the resolution of two consecutive Tactical Action steps, but not while a step is resolved.
+* Leaders may use any effect allowing the movement of friendly troops, without counting towards the number of troops moved.
+* A Leader may not land on a non-friendly planet without being accompanied by troops.
 
 #### Fate Roll <a name="FateRoll"></a>
 <div>
 
-> Change from base SA: Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" fate roll trigger with the simpler: "When a Leader is present on a non-friendly planet without friendly Troops also being present"
+> Change from base SA: Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" fate roll triggers with the simpler: "When a Leader is present on a non-friendly planet without friendly troops also being present"
 
-When a Ship carrying a Leader is destroyed, or when a Leader is present on a non-friendly planet without friendly Troops also being present, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.
+When a ship carrying a Leader is destroyed, or when a Leader is present on a non-friendly planet without friendly troops also being present, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.
 <!-- 
 When a Ship / planet containing a Leader is destroyed / lost (or changes owner), or when a Leader is part of the attacking forces in an Invasion Combat lost by the attacker, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.
  -->
@@ -2090,17 +2112,17 @@ During the Status Phase, captives may be released or executed by their captor. T
 
 > Change from base SA:  Wording uniformity change to the first two abilities  
 
-> Change from base SA: Reversion to a (tweaked for concision) previous version of the retreat ability, to be clearer regarding the interaction with Naalu's racial ability, and make the wording more consistent style-wise with the other two abilities.
+<!-- > Change from base SA: Reversion to a (tweaked for concision) previous version of the retreat ability, to be clearer regarding the interaction with Naalu's racial ability, and make the wording more consistent style-wise with the other two abilities. -->
 </div>
 
 <div>
 
-![Admiral](./Images/Admiral.jpg)
+![Admiral](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Admiral.jpg)
 </div>
 
-* A Ship carrying (an) Admiral(s) receives +1 combat die.
+* A ship carrying (an) Admiral(s) receives +1 combat die.
 * A Dreadnought carrying (an) Admiral(s) receives +1 movement.
-* If participating in a Space Battle, an Admiral may prevent the opposing fleet from retreating, unless it also contains an Admiral.
+<!-- * If participating in a Space Battle, an Admiral may prevent the opposing fleet from retreating, unless it also contains an Admiral. -->
 
 #### Diplomat <a name="Diplomat"></a>
 <div>
@@ -2109,124 +2131,156 @@ During the Status Phase, captives may be released or executed by their captor. T
 
 > Change from base SA: I had to modify the wording of the second ability (the special retreat) to make it work cleanly. Unfortunately it made it longer, but I'm of the opinion that a wording that works is better than a wording that is short.  
 
-> Change from base SA: Aaaaand I also had to reword the third ability (the "please don't attack me" one) to make it work (and shorter), because it was using undefined terms like "invasion".
+> Change from base SA: I also tweaked the wording of the third ability (the planet-protection one):  
+> < "subject to invasion (or bombardment)" -> "subject to invasion and/or bombardment"  
+> < "cancel the Invasion Combat step and force the attacker to return ground units to whence they came" -> "cancel both (they still count as Hostile Acts)". If you "cancel the Invasion Combat step", nothing can happen on the other planets in the same system, which is not intended. Also, the Invasion Combat step is renamed "[Planetary Landing Resolution step](#user-content-PlanetaryLandingsResolution_TacticalActionStep)" in this rulebook.  
+> < "the defender may not use this ability again" -> "the defender may not use it again". For concision.
 </div>
 
 <div>
 
-![Diplomat](./Images/Diplomat.jpg)
+![Diplomat](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Diplomat.jpg)
 </div>
 
 <!-- > I don't see how to write properly the ability to move (and let other ships move) through enemy fleets of the Diplomat. I'm considering giving this ability to all fleets regardless of Diplomat presence to compensate.   -->
 
 <!-- * If the owner of the Diplomat and of both involved fleets comply, a fleet may move through an enemy fleet in the Diplomat's System (even if the Diplomat is currently moving through). -->
-<!-- * If the owners of the Diplomat and of both involved fleets comply, a defending fleet may reteat after enemy ships have moved into the System, and before the Space Battle step.  
+<!-- * If the owners of the Diplomat and of both involved fleets comply, a defending fleet may retreat after enemy ships have moved into the System, and before the Space Battle step.  
 This does not break Trade Agreements. -->
 * When plotting it, the trajectory of a ship carrying a Diplomat may go through Systems containing enemy ships, provided the owners of these ships agree. Other ships may then also go through these Systems during the current action.
 * Ship trajectories may be plotted through a System containing a Diplomat and enemy ships if the owners of both agree.
-* After the Ships Movement step of a Tactical Action where Ships were moved into a system containing a Diplomat and an enemy fleet, the enemy fleet may, if the owners of both fleets and of the Diplomat comply, immediately retreat. If it does, the initial movement is not considered as a Hostile Action. 
-* After the Planetary Landings step of a Tactical Action, a Diplomat may cancel landings and bombardments against the planet it is on. The attacker may overturn this ability by spending 6 influence, in which case the Diplomat Escapes.  
-If this ability was used without being overturned, it may not be used to protect the planet again during this round or the next (even by another Diplomat).
+* After the ships Movement step of a Tactical Action where ships were moved into a system containing a Diplomat and an enemy fleet, the enemy fleet may, if the owners of both fleets and of the Diplomat agree, immediately retreat. If it does, the initial movement is not considered as a [Hostile Act](#user-content-HostileAct). 
+* A Diplomat present on a planet subject to [invasion](#user-content-Invasion) and/or bombardment may cancel both (they still count as [Hostile Acts](#user-content-HostileAct)). The attacker may overturn this ability by spending 6 influence, in which case the Diplomat [escapes](#user-content-FateRollEscape).  
+If this ability was used without being overturned, the defender may not use it again on this planet during this round or the next (even by another Diplomat).
+
 
 #### General <a name="General"></a>
 <div>
 
-> Change from base SA: Changed the wording to make them work with this rulebook. Clarified that the effects of multiple Generals in the same Invasion Combat do not stack.
+> Change from base SA:  
+> < Clarified that the effects of multiple Generals on the same planet do not stack.  
+> < Clarified that you can only reroll your Combat Rolls, not the opponent's ones.  
 </div>
 
 <div>
 
-![General](./Images/General.jpg)
+![General](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/General.jpg)
 </div>
 
-* Troops participating in an Invasion Combat alongside (a) friendly General(s) receive +1 to their Combat Rolls, and 2 missed Combat Rolls can be re-rolled each Combat Round (the same Combat Roll can be re-rolled twice).
+* Troops participating in an Invasion Combat alongside (a) friendly General(s) receive +1 to their Combat Rolls, and 2 of their Combat Rolls can be re-rolled each Combat Round (the same Combat Roll can be re-rolled twice).
 * Bombardment Combat Rolls against planets containing General(s) receive -4.
 
 #### Agent <a name="Agent"></a>
 <div>
 
-> Change from base SA: Reworded these abilities
+> Change from base SA: Reworded the first ability to integrate better with the ability-based design and be more concise as a result.  Also removed the "they still count as 'destroyed' for objectives", since this is taken care of by Objectives saying "destroyed or captured" instead of just "destroyed".
+
+> Change from base SA: Reworded the second ability:  
+> < "may cancel its effect" -> "may [sabotage](#user-content-Sabotage) it". I defined the "sabotage" procedure in this rulebook so that it can be used concisely in all places where it's needed, instead of each place having to describe again what it means. As a result of not doing that, the base SA wording was missing the "the AC is considered as if it had not been played" part.  
+> < "Doing so, an Agent may not use this ability again this round or the next" -> "An Agent may not use this ability again this round or the next". Concision.
+
+> Change from base SA: Reworded the third ability
+:  
+> < So as to have it worded in the third person (like the other Leader abilities).  
+> < "fate roll as a result of Space Battle or Invasion Combat" -> "fate roll as a result of Space Battle, invasion or Invasion Combat". Some [invasions](#user-content-Invasion) do not trigger Invasion Combats, but Leaders on the invaded planets should still be captured if there's an Agent landing.  
+
 </div>
 
 <div>
 
-![Agent](./Images/Agent.jpg)
+![Agent](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Agent.jpg)
 </div>
 
-* An Agent on a planet prevents enemy units from using the [Invasion Defence ability](#user-content-InvasionDefence_unitAbility), and grants the [Capture Installations ability](#user-content-CaptureInstallations_unitAbility) to friendly Troops.
-* An Agent present in the Effect Location of an Action Card just played may [sabotage](#user-content-Sabotage) it. If the Action Card has a "Scattered Effect", the card is not *sabotaged* but its effects in the System are cancelled. An Agent may not use this ability a second time this round or the next.
-* When a Leader must make a fate roll as a result of a Space Battle or Invasion Combat involving an enemy Agent, these Leaders may be automatically [Captured](#user-content-FateRollCaptured) by the Agent's owner instead.
+* An Agent on a planet prevents enemy units from using the [Invasion Defence ability](#user-content-InvasionDefence_unitAbility), and grants the [Capture Installations ability](#user-content-CaptureInstallations_unitAbility) to friendly troops.
+* An Agent present in the Effect Location of an Action Card just played may [sabotage](#user-content-Sabotage) it. If the Action Card has a "Scattered Effect", the card is not *sabotaged* but its effects in the System are cancelled. An Agent may not use this ability again this round or the next.
+* When a Leader must make a fate roll as a result of a Space Battle, [invasion](#user-content-Invasion) or Invasion Combat involving an enemy Agent, these Leaders may be automatically [Captured](#user-content-FateRollCaptured) by the Agent's owner instead.
 
 #### Scientist <a name="Scientist"></a>
 <div>
 
-> Change from base SA: Artifacts have no technology specialty.
+<!-- > Change from base SA: Artifacts have no technology specialty.
 
-> Change from base SA: I had no idea why the Planetary Shield obtained from Scientist were to "never be ignored by other abilities", so I removed that part.
+> Change from base SA: I had no idea why the Planetary Shield obtained from Scientist were to "never be ignored by other abilities", so I removed that part. -->
+
+> Change from base SA: Reworded the first ability:  
+> < " double the effect of a single Technology Specialty" -> "double the effect of a Technology Specialty". unnecessary "single".
+
+> Change from base SA: Reworded the third ability:  
+> < "PDS units on a planet with at least one Scientist" -> "PDSs on planets with friendly Scientists". Concision, and the "friendly" ensures an attacker landing a Scientist does not boost enemy PDSs on the planet.  
+> < "receive +1 on all rolls" -> "receive +1 to their Combat Rolls". Let's use the the right terms.  
+> < "They also receive +1 planetary shield" -> "and the [Planetary Shield (1) ability](#user-content-PlanetaryShield_unitAbility)". Concision, and compliance with the ability-based design.  
+> < I had no idea why the Planetary Shield obtained from Scientist were to "never be ignored by other abilities", so I removed that part.  
+
 </div>
 
 <div>
 
-![Scientist](./Images/Scientist.jpg)
+![Scientist](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Scientist.jpg)
 </div>
 
-* A Scientist may double the Technology cost discount granted by a single Artifact or technology specialty it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Artifact or technology specialty for the same Technology purchase.
-* The resource cost of building a Space Dock on a planet with (a) Scientist(s) is 2 resources (instead of 4).
+<!-- * A Scientist may double the Technology cost discount granted by a single Artifact or technology specialty it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Artifact or technology specialty for the same Technology purchase. -->
+* A Scientist may double the effect of a Technology Specialty from a planet or Artifact it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Technology Specialty.
+* The cost of building Space Docks on a planet with Scientist(s) is 2 resources (instead of 4).
 * PDSs on planets with friendly Scientists receive +1 to their Combat Rolls and the [Planetary Shield (1) ability](#user-content-PlanetaryShield_unitAbility).
 
-## Elimination and Surrender <a name="EliminationAndSurrender"></a>
+## Surrender and Elimination <a name="EliminationAndSurrender"></a>
 
-Sometimes a player cannot (elimination) or does not want to (surrender) continue playing. This section explains how to deal with these situations.
-
-### Elimination <a name="Elimination"></a>
-
-> Change from base SA: Players only officially get eliminated at the end of rounds, not in the middle of them. This is to keep the impact on the game minimal, rather than "his Strategy cards are immediately returned (even if still active)" (from the SA living rulebook).
-
-> Change from base SA: Eliminated players also have to discard Secret Objectives from their hand. Because why shouldn't they?
-
-If at the end of an action, a player does not control any planet or unit, she is *eliminated*:
-
-* All her Action Cards, Political Cards, Trade Goods and her Secret Objectives in hand are discarded.
-* Trade Agreements opened with her are broken and may never be re-opened.
-* If she was the Speaker, the next player in the Rotation Cycler order becomes the Speaker.
-* If she had a Strategy Card, she immediately returns it, even if it was not played yet.
-* She is ignored by all effects
-* The game now has one less players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers).
-
-***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.*
+Sometimes a player does not want to ([surrender](#user-content-Surrender)) or cannot ([elimination](#user-content-Elimination)) continue playing. This section explains how to deal with these situations.
 
 ### Surrender <a name="Surrender"></a>
 
-> Change from base SA: Surrendering happens at the end of rounds, instead of in the middle of the Status Phase.  
+> Change from base SA: Surrendering happens at the end of the round, instead of in the middle of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
 
 > Change from base SA: Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)
 
 > Change from base SA: When adding to the garrison of the capital planet, instead of "Add up to three, but not beyond five total Ground Forces", just add Ground Forces until there are at least 5. I did not see the point in the complication.   
 
-> Change from base SA: Clarified the orders in which the fleet/planet to bid upon were chosen, as well as the order in which the bid were placed. Also precised the actual mechanic of the bidding.  
+> Change from base SA: Clarified the orders in which the fleets/planets to be bid upon were chosen, as well as the order in which the bids were placed. Also precised the actual mechanic of the bidding.  
 
-> Change from base SA: At the end of the Surrender procedure, the surrendering player follows the elimination procedure.  
+> Change from base SA: At the end of the Surrender procedure, the surrendering player follows the elimination procedure. Simple, and make it clear what happens to all her remaining stuff.  
 
-If at the end of a round, a player wishes to stop playing for some reason, she can *surrender*. She loses 2 Victory Points, but only if she controls all the planets in her Home System (i.e. this penalty does not stack with the one from the non-control of all the planets in the Home System).  
+If at the *end of a round*, a player wishes to stop playing for some reason, she can *surrender*.<!--  She loses 2 Victory Points, but only if she controls all the planets in her Home System (i.e. this penalty does not stack with the one from the non-control of all the planets in the Home System).   -->
 Then follow this procedure:
 
 1. **Victory Point penalty:**
 	The surrendering player loses 2 Victory Points. This penalty does *not* stack with the one from the non-control of all the planets in the Home System.
-2. **Identifying the Capital Planet:** (if it exists)  
+2. **Identify the Capital Planet:**   
 	1. If she controls at least one planet with a Space Dock in her Home System, the one with the highest combined resource and influence is the capital planet.
-	2. Else, the capital planet is simply the planet with a Space Dock and highest combined resource and influence.
-3. **Garrisoning the Capital Planet:**  
+	2. Else, if she controls at least one planet with a Space Dock, the one with the highest combined resource and influence is the capital planet.
+	3. Else, the planet with the highest combined resource and influence is the capital planet.
+3. **Garrison the Capital Planet:**  
 	Add Ground Forces on the capital planet until there are at least 5.
-4. **Removing Leaders and Space Docks from all planets except the capital planet**
-5. **Bidding on the fleets and planets of the surrendering player:**   
-	Starting with the Speaker and following the Rotation Cycler (ignoring the surrendering player), each player will choose a fleet or planet (except the capital planet) of the surrendering player that will be bid upon.
+4. **Remove all Space Docks, except those in the system of the capital planet**
+5. **Remove all Leaders, except the captives**  
+	In the rest of the game, if one of these captives would escape, it is removed from the game instead.
+6. **Bidding on the fleets and planets of the surrendering player:**   
+	Starting with the Speaker and following the Rotation Cycler (ignoring the surrendering player), each player will choose a fleet or planet *(except the capital planet)* of the surrendering player that will be bid upon.
 
 	After a fleet or planet has been chosen, starting with the player that chose and following the Rotation Cycler (again, ignoring the surrendering player), each player may either place a bid of influence or withdraw from this bidding. Repeat this until only one player has not withdrawn: this player wins this bidding. The winner of a bidding must spend as many influence as her bid, and takes control of the fleet or planet (including the units on it, but exhausted) that was bid upon.  
-	Note that the player that chose *must* place a bid on her first turn, and that no player may place a bid she could not afford to pay later.
+	Note that the player that chose *must* place a bid on her first turn (but she can bid 0), and that no player may place a bid she could not afford to pay later.
 
 	Repeat this process until all the fleets and planets (except the capital planet) of the surrendering player have been attributed to other players.
-6. **Elimination:**  
+7. **Elimination:**  
 	Finally, the surrendering player is *eliminated* (follow the [elimination procedure](#user-content-Elimination)), with the exception that her Trade Agreements stay open as long as she controls at least one planet.
+
+### Elimination <a name="Elimination"></a>
+
+<!-- > Change from base SA: Players only officially get eliminated at the end of rounds, not in the middle of them. This is to keep the impact on the game minimal, rather than "his Strategy cards are immediately returned (even if still active)" (from the SA living rulebook). -->
+
+> Change from base SA: Precised the timing at which elimination happens: at the end of actions or during the Status Phase (if the player has no planets and scuttles all her units for some reason...). Else elimination would happen in the middle of actions, potentially messing things.
+
+> Change from base SA: Eliminated players also have to discard Secret Objectives from their hand. Because why shouldn't they when they already discard all their other cards?
+
+If at the *end of an action* or *during the Status Phase*, a player does not control any planet or unit, she is *eliminated*:
+
+1. All her Action Cards, Political Cards, Trade Goods, Command Counters and her Secret Objectives in hand are discarded.
+2. Trade Agreements opened with her are broken and may never be re-opened.
+3. If she was the Speaker, the next player in the Rotation Cycler order becomes the Speaker.
+4. If she had a Strategy Card, she immediately returns it, even if it was not played yet.
+5. She is ignored by all effects
+6. The game now has one less players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers).
+
+***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.*
 
 ## Miscellaneous Rules <a name="MiscellaneousRules"></a>
 
@@ -2234,36 +2288,90 @@ Then follow this procedure:
 
 * When a player controls a planet without having any units on it, she should place a flag on it so that other players do not mistake the planet as being neutral.
 
-## Definitions <a name="Definitions"></a> 
+## General Definitions <a name="GeneralDefinitions"></a> 
 
-### Activated
-**Activated System**  
-A System is considered **activated by a player** when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to **activated** and **unactivated** Systems without specifying any player, in which case the player is the one using the effect.<!-- 
-Technically, "an activated System" is an incomplete statement and should rather be "a System activated by [a player]", but since this would make wordings too long, they simply use "activated System" when the player they refer to can be inferred from the context (it is usually the active player).  
-A System is said to be **activated** by a specific player if it contains a Command Counter of that player.   -->
-**Activated Planet**  
-By extension, a planet is "activated by [a player]" when it is in a System containing a Command Counter of that player.  
-**Activated Unit**  
-Also by extension, a unit is "activated" when it is in a System containing a Command Counter of its owner.
+> Change from base SA: Added the definition of *hostile action* for compatibility with base SA, but *hostile act* is a simpler definition because there is actually no need to tie the concept of actions in it.
 
-### Agenda
+* [Activated](#user-content-Activated) <a name="Activated_def"></a>  
+	* [Activated System](#user-content-Activated_def)  
+	A System is considered **activated by a player** when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to **activated** and **unactivated** Systems without specifying any player, in which case the player is the one using the effect.   
+	* [Activated Planet](#user-content-Activated_def)  
+	A planet is **activated by a player** when it is in a System activated by that player.  
+	* [Activated Unit](#user-content-Activated_def)  
+	A unit is **activated** when it is in a System activated by its owner.
+* [Agenda](#user-content-Agenda_def) <a name="Agenda_def"></a>  
+	See [here](#user-content-Agenda).
+* [Allegiances](#user-content-Allegiances_def) <a name="Allegiances_def"></a>  
+	See [here](#user-content-Allegiances).
+* [Army](#user-content-Army) <a name="Army"></a>  
+	All the troops a given player has on the same planet form an **army**.
+* [Blockade](#user-content-Blockade_def) <a name="Blockade_def"></a>  
+	A player **blockades** enemy planets when she is the only player having ships in the System of the planets. By extension, she also blockades all units present on these planets.
+* [Border](#user-content-Border_def) <a name="Border_def"></a>  
+	Systems are hexagonal tiles, whenever two Systems share an edge, this edge is a *border*.
+	***Note:***  
+	*This implies that wormholes are* **not** *borders.*
+* [Combat Roll](#user-content-CombatRoll_def) <a name="CombatRoll_def"></a>  
+	See [here](#user-content-CombatRoll).
+* [Capture](#user-content-Capture_def) <a name="Capture_def"></a>  
+	Some effects allow a player to **capture** enemy units or Facilities. When this happens, replace them with your own. Captured Space Dock are immediately exhausted.
+* [Empty Planet](#user-content-EmptyPlanet_def) <a name="EmptyPlanet_def"></a>  
+	See [here](#user-content-emptyPlanet).
+* [Fleet](#user-content-Fleet_def) <a name="Fleet_def"></a>  
+	All the ships a given player has in the same System form a **fleet**.
+* [Hostile Act](#user-content-HostileAct_def) <a name="HostileAct_def"></a>  
+	When a player:
+
+	* Moves ships into a System containing enemy ships (only the Systems in which the ships end their movement is relevant, not the Systems they moved through).  
+	Or
+	* Either lands troops on or assigns units to bombard an enemy planet.
+
+	She is said to have performed a **Hostile Act** against the player controlling the enemy ships or planet.
+* [Hostile Action](#user-content-HostileAction_def) <a name="HostileAction_def"></a>  
+	When a player performs an action in which she performs one or more [Hostile Acts](#user-content-HostileAct_def) against a player, she is said to have performed a **Hostile Action** against this player.
+* [Inflicting A Hit](#user-content-InflictingAHit_def) <a name="InflictingAHit_def"></a>  
+	See [here](#user-content-AssigningAHit).
+* [Invasion](#user-content-Invasion_def) <a name="Invasion_def"></a>  
+	See [here](#user-content-Invasion).
+* [Natural Wealth](#user-content-NaturalWealth) <a name="NaturalWealth"></a>  
+	Some effects place Trade Goods working "**as Natural Wealth**". Refer to the effect of the [Natural Wealth Domain Counter](#user-content-NaturalWealthCounter).
+* [Reinforcements](#user-content-Reinforcements_def) <a name="Reinforcements_def"></a>  
+	The **reinforcements** of a player designate the area in which she keeps all her unused / destroyed units and tokens.
+* [Recycling](#user-content-Recycle) <a name="Recycle"></a>  
+	**Recycling** a card means discarding it and drawing a new one of the same type.
+* [Rotation Order](#user-content-RotationOrder) <a name="RotationOrder"></a>  
+	A procedure occurring in **Rotation Order** will start with the [Speaker](#user-content-Speaker) and continue around the table with the other players in the orientation of the [Rotation Cycler](#user-content-Components).
+* ["Scoring A Hit"](#user-content-ScoringAHit_def) <a name="ScoringAHit_def"></a>  
+	See [here](#user-content-CombatRoll).
+* [Scuttle](#user-content-Scuttle) <a name="Scuttle"></a>  
+	**Scuttling** a unit means removing it from the board and placing it back in its owner's reinforcement.
+* [Speaker](#user-content-Speaker) <a name="Speaker"></a>  
+	The player holding the [Speaker Token](#user-content-Components) is referred to as the **Speaker**.
+* [Stable Wormhole](#user-content-StableWormhole_def) <a name="StableWormhole_def"></a>  
+	See [here](#user-content-StableWormholes).
+* ["You may use the effects of" (a Technology)](#user-content-UseTheEffectsOfTechnology_def) <a name="UseTheEffectsOfTechnology_def"></a>  
+	See [here](#user-content-UseTheEffectsOfTechnology).
+
+
+
+<!-- ### Agenda 
 [Link](#user-content-Agenda).
 
-### Allegiances
+### Allegiances: Friendly/Enemy/Neutral
 [Link](#user-content-Allegiances).
 
 ### Army <a name="Army"></a>
-All the Troops a given player has on the same planet form an **army**.
+All the troops a given player has on the same planet form an **army**.
 
 ### Blockade <a name="Blockade"></a>
 > If it really necessary to talk about blockaded units?
 
-A player **blockades** enemy planets when she is the only player having ships in the System of the planet. By extension, she also blockades all units present on blockaded planets.
+A player **blockades** enemy planets when she is the only player having ships in the System of the planet. By extension, she also blockades all units present on blockaded planets. -->
 
 <!-- A planet controlled by a player (and by extension a unit on such planet) is *blockaded* when enemy ships are present in the system (except when friendly ships are also present in the system, for example just before a Space Battle is resolved).
  -->
 
-### Border <a name="Border"></a>
+<!-- ### Border <a name="Border"></a>
 Systems are hexagonal tiles, whenever two Systems share an edge, this edge is a *border*.
 
 ***Note:***  
@@ -2275,6 +2383,9 @@ Systems are hexagonal tiles, whenever two Systems share an edge, this edge is a 
 ### Capture <a name="Capture"></a>
 Some effects allow a player to **capture** enemy units or Facilities. When this happens, replace them with your own. Captured Space Dock are immediately exhausted.
 
+### "Empty Planet"
+[Link](#user-content-emptyPlanet)
+
 ### Fleet <a name="Fleet"></a>
 All the ships a given player has in the same System form a **fleet**.
 
@@ -2283,11 +2394,17 @@ All the ships a given player has in the same System form a **fleet**.
 
 When a player:
 
-* Move Ships into a System containing enemy Ships (only the Systems in which the Ships end their movement is relevant, not the Systems they moved through).  
+* Moves ships into a System containing enemy ships (only the Systems in which the ships end their movement is relevant, not the Systems they moved through).  
 Or
-* Either land Troops on or assign Ships to bombard an enemy planet.
+* Either lands troops on or assigns units to bombard an enemy planet.
 
-She is said to have performed a **Hostile Act** against the player controlling the enemy Ships or planet.
+She is said to have performed a **Hostile Act** against the player controlling the enemy ships or planet.
+
+### "Inflicting A Hit"  
+[Link](#user-content-AssigningAHit)
+
+### Invasion
+[Link](#user-content-Invasion)
 
 ### Natural Wealth <a name="NaturalWealth"></a>
 Some effects place Trade Goods on planets working "as **Natural Wealth**". 
@@ -2298,11 +2415,17 @@ The **reinforcements** of a player designate the area in which she keeps all her
 ### Recycling <a name="Recycle"></a>
 **Recycling** an Action Card or Political Card means discarding it and drawing a new one.
 
+### Rotation Order <a name="RotationOrder"></a>
+A procedure occurring in **Rotation Order** will start with the [Speaker](#user-content-Speaker) and continue around the table with the other players in the orientation of the Rotation Cycler
+
+### "Scoring A Hit"
+[Link](#user-content-CombatRoll)
+
 ### Scuttle <a name="Scuttle"></a>
 **Scuttling** a unit means removing it from the board and placing it back in its owner's reinforcement.
 
 ### Speaker <a name="Speaker"></a>
-The player holding the **Speaker Token** is referred to as the **Speaker**.
+The player holding the **Speaker Token** is referred to as the **Speaker**. -->
 
 ## Rule Adjustments Based On The Number Of Players <a name="RuleAdjustmentsBasedOnTheNumberOfPlayers"></a>
 
@@ -2333,7 +2456,12 @@ The player holding the **Speaker Token** is referred to as the **Speaker**.
 	* 3: +2
 	* 2: +3
 	* 1: +5
+
+<div>
+<div>
 A player not having placed votes on an agenda may not receive bonus votes from the die on this agenda.
+</div>
+</div>
 
 #### Trade
 * Player may open both of their Trade Agreements with themselves.
@@ -2347,16 +2475,16 @@ A player not having placed votes on an agenda may not receive bonus votes from t
 * When drawing an Action Card with the "2pX" symbol, it must be [recycled](#user-content-Recycle) immediately.
 <div>
 
-![2PX](./Images/2PX.jpg)
+![2PX](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/2PX.jpg)
 </div>
 
 #### Race-specific changes
 * **Mentak** gains 1 Trade Good whenever using her ability to steal Trade Goods.
 * When **Xxcha** plays the Diplomacy Strategy Card, she may spend 1 Command Counter from Strategy Allocation and 2 Trade Goods to execute the Primary Ability a second time.
-* **Hacan** only needs to give 1 Trade Goods to her opponent when using its Commerce Nexus Racial Advancement.
+* **Hacan** only needs to give 1 Trade Goods to her opponent when using its Commerce Nexus Racial Upgrade.
 
 ## Annex 1: Effects of Domain Counters <a name="DomainCountersEffects"></a>
-> I improved most of these wordings from their SA version to add precision.
+> I improved most of these wordings from their base SA version to add precision and fix problems occurring in very specific situations.
 
 For the general rules regarding Domain Counters, see the [Domain Counter section](#user-content-DomainCounters).
 
@@ -2364,30 +2492,30 @@ For the general rules regarding Domain Counters, see the [Domain Counter section
 
 | <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> | |
 |-|-|
-|![DS_PeacefulAnnexation](./Images/DS_PeacefulAnnexation.jpg)  | <b> [Peaceful Annexation](#user-content-PeacefulAnnexation) <a name="PeacefulAnnexation"></a> </b> <br> *The local civilization accepts the annexation into your galactic empire.* <br> <br> Discard this counter.|
-|![FF_VoidSpace](./Images/FF_VoidSpace.jpg)  | <b> [Void Space](#user-content-VoidSpace) <a name="VoidSpace"></a> </b> <br> *Your ships travel deep into space, silently passing thousands of dead and empty planets. No unusual event occur.* <br> <br> Discard this counter.|
-|![DS_HiddenFactory](./Images/DS_HiddenFactory.jpg)  | <b> [Hidden Factory](#user-content-HiddenFactory) <a name="HiddenFactory"></a> </b> <br> *Your exploratory units have unearthed an ancient, abandoned starship factory.* <br> <br> You may produce ships for up to two production capacity in the system. One of the resources spent comes for free.|
-|![DS_NativeIntelligence](./Images/DS_NativeIntelligence.jpg)  | <b> [Native Intelligence](#user-content-NativeIntelligence) <a name="NativeIntelligence"></a> </b> <br> *The local civilizations offers their allegiance and share their research about distant starts.* <br> <br> Secretly look at any face down Domain Counter on the board.|
-|![FF_AbandonnedFreighters](./Images/FF_AbandonnedFreighters.jpg)  | <b> [Abandoned Freighters](#user-content-AbandonedFreighters) <a name="AbandonedFreighters"></a> </b> <br> *An abandoned fleet of freighters drift in dead space, with cargo intact. The whereabouts of the crew remains a mystery.* <br> <br> Immediately receive 2 Trade Goods.|
-|![FF_UnchartedHabitats](./Images/FF_UnchartedHabitats.jpg)  | <b> [Uncharted Habitats](#user-content-UnchartedHabitats) <a name="UnchartedHabitats"></a> </b> <br> *Amidst the dark between the stars you discover an advanced, self sustaining society previously not earlier registered in galactic records.*  <br> <br> Leave this counter in the system, and treat it as a Trade Station of 0 resource and 1 influence (no refresh ability). Take a Colony card to represent this habitat.|
-|![FF_ShipGraveyard](./Images/FF_ShipGraveyard.jpg)  | <b> [Ship Graveyard](#user-content-ShipGraveyard) <a name="ShipGraveyard"></a> </b> <br> *Remnants of a once great battle rests solemnly in space. Some of the ships may be repaired or looted for fuel and supplies.*  <br> <br> Either add one Command Counter to your Fleet Supply *or* produce one ship in the system costing no more than 2 production capacity, for half its resource cost (round down).|
-|![FF_Discovery](./Images/FF_Discovery.jpg)  | <b> [Discovery](#user-content-Discovery) <a name="Discovery"></a> </b> <br> *The venture through uncharted space has provided you with advantageous discoveries.*  <br> <br> Gain one Action Card or one Command Counter.|
-|![DS_NaturalWealth](./Images/DS_NaturalWealth.jpg)  | <b> [Natural Wealth](#user-content-NaturalWealthCounter) <a name="NaturalWealthCounter"></a> </b> <br> *The planet is rich on ore, gas, vegetation and other natural resources that can be extracted relatively easily.*  <br> <br> Place the indicated number of Trade Goods on the planet, that will work as Natural Wealth: players may take one of them when they gain control of the planet, when they activate the system while controlling the planet, and during the Refresh Planet step of the Status Phase if they control the planet. <br> Natural Wealth Trade Goods from multiple sources are merged.|
-|![DS_IndustrialSociety](./Images/DS_IndustrialSociety.jpg)  | <b> [Industrial Society](#user-content-IndustrialSociety) <a name="IndustrialSociety"></a> </b> <br> *An industrious and friendly populace welcomes your empire. With your help, they will soon be able to construct ships for interstellar travel.*  <br> <br> Receive a free (exhausted) Space Dock on this planet.|
-|![DS_TechnologicalLegacy](./Images/DS_TechnologicalLegacy.jpg)  | <b> [Technological Legacy](#user-content-TechnologicalLegacy) <a name="TechnologicalLegacy"></a> </b> <br> *The populace of this planet harbours relics and remnants of ancient Lazax technology.*  <br> <br> Receive one technology for which you have the needed pre-requisites, chosen by the player on your left.|
-|![FF_AlienArtifact](./Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter where it was and choose a technology. <br> For the remainder of the game, whoever controls the Alien Artifact may use the effects of the chosen technology. <br> The control of this counter follows the same rules as the control of Artifacts.|
-|![DS_NeutronRadiation](./Images/DS_NeutronRadiation.jpg)  | <b> [Neutron Radiation](#user-content-NeutronRadiation) <a name="NeutronRadiation"></a> </b> <br> *The entire landing force is exposed to an intense pulsation of ionizing radiation. No survivors are reported.*  <br> <br> Roll a die for each landing ground unit. On a result of 5+, the unit is destroyed. Place a hit counter on the planet. The next time the planet would have been refreshed, the hit counter is removed instead.|
-|![DS_LazaxSurvivors](./Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Treat this counter as a Leader. Instead of making Fate Rolls, it is captured and switches side (if the capture is impossible, remove the counter from play). The controlling player gains +3 votes. <br> Capturing the Lazax Survivors does not count towards objectives.|
-|![DS_Settlers](./Images/DS_Settlers.jpg)  | <b> [Settlers](#user-content-Settlers) <a name="Settlers"></a> </b> <br> *Pioneers from one of the Great Races have already settled on the planet.*  <br> <br> Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both her landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).|
-|![FF_GravityRift](./Images/FF_GravityRift.jpg)  | <b> [Gravity Rift](#user-content-GravityRiftCounter) <a name="GravityRiftCounter"></a> </b> <br> *Your ships head into the midst of an uncharted gravity rift!*  <br> <br> Leave this counter in the system and treat it as a Gravity Rift while the counter is present. <br> Remove the counter at the end of the first action in which a ship has been trapped by this Gravity Rift.|
-|![DS_WormholeDiscovery](./Images/DS_WormholeDiscovery.jpg)  | <b> [Wormhole Discovery](#user-content-WormholeDiscovery) <a name="WormholeDiscovery"></a> </b> <br> *investigating an anomaly in the sector reveals unexpected wormhole activity.*  <br> <br> Leave this counter in the system. Treat the system as having a wormhole of the indicated type while the counter is present. <br> Remove this counter at the end of the first action in which at least one ship moved out of this system through this wormhole.|
-|![FF_SpacePirates](./Images/FF_SpacePirates.jpg)  | <b> [Space Pirates](#user-content-SpacePirates) <a name="SpacePirates"></a> </b> <br> *Ruthless vagabond roam the galaxy to prey on the wealthy and the weak.*  <br> <br> Choose either: <br>- Pay 2 Trade Goods and remove this counter.<br>- Conduct, as the attacker, a Space Battle against a neutral Dreadnought. If you win, receive two Trade Goods, else this counter stays in place.|
-|![DS_FighterAmbush](./Images/DS_FighterAmbush.jpg)  | <b> [Fighter Ambush](#user-content-FighterAmbush) <a name="FighterAmbush"></a> </b> <br> *Sensors detect a myriad of small, unidentified ships approaching at high velocity.*  <br> <br> If you have ships in the system, conduct, as the attacker, a Space Battle against the indicated number of neutral Fighters. If you do not win, or if you do not take control of the planet this counter is on (if it is on a planet), it stays in place.|
-|![FF_SuddenCollision](./Images/FF_SuddenCollision.jpg)  | <b> [Sudden Collision](#user-content-SuddenCollision) <a name="SuddenCollision"></a> </b> <br> *In the dead of space, unidentified objects slam into the hull and cargo area of your ships.*  <br> <br> Inflict a hit on one of your ships in the system *or* lose one unit carried by one of them. If you have the Antimass Deflectors technology, ignore this effect.|
-|![DS_BioHazard](./Images/DS_BioHazard.jpg)  | <b> [Bio-Hazard](#user-content-BioHazard) <a name="BioHazard"></a> </b> <br> *While attempting to terraform the planet, millions perish due to influence highly aggravating toxins.*  <br> <br> Inflict one hit on the landing army. If no ground units remain to claim the planet, leave this counter in place.|
-|![DS_HostileLocals](./Images/DS_HostileLocals.jpg)  | <b> [Hostile Locals](#user-content-HostileLocals) <a name="HostileLocals"></a> </b> <br> *All forms of Diplomacy with the local civilization have failed.*  <br> <br> Conduct, as the attacker, an Invasion Combat against the indicated number of neutral Ground Forces. If you do not take control of the planet, this counter stays in place.|
-|![DS_AutomatedDefence](./Images/DS_AutomatedDefence.jpg)  | <b> [Automated Defence](#user-content-AutomatedDefence) <a name="AutomatedDefence"></a> </b> <br> *Powerful laser beams soar through the atmosphere of the planet and cut into the hull of your ships.*  <br> <br> Two neutral PDSs will defend the planet. They immediately fire once each at your fleet in the system (if you have one).<br>These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on the planet, else leave this counter on the planet.|
-|![DS_HostilesAndNaturalWealth](./Images/DS_HostilesAndNaturalWealth.jpg)  | <b> [Hostiles and Natural Wealth](#user-content-HostilesAndNaturalWealth) <a name="HostilesAndNaturalWealth"></a> </b> <br> *The planet is abundant with natural resources, but the local populace will defend it at all costs.*  <br> <br> Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.|
+|![DS_PeacefulAnnexation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_PeacefulAnnexation.jpg)  | <b> [Peaceful Annexation](#user-content-PeacefulAnnexation) <a name="PeacefulAnnexation"></a> </b> <br> *The local civilization accepts the annexation into your galactic empire.* <br> <br> Discard this counter.|
+|![FF_VoidSpace](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_VoidSpace.jpg)  | <b> [Void Space](#user-content-VoidSpace) <a name="VoidSpace"></a> </b> <br> *Your ships travel deep into space, silently passing thousands of dead and empty planets. No unusual event occur.* <br> <br> Discard this counter.|
+|![DS_HiddenFactory](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HiddenFactory.jpg)  | <b> [Hidden Factory](#user-content-HiddenFactory) <a name="HiddenFactory"></a> </b> <br> *Your exploratory units have unearthed an ancient, abandoned starship factory.* <br> <br> You may produce ships for up to two production capacity in the system. One of the resources spent comes for free.|
+|![DS_NativeIntelligence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NativeIntelligence.jpg)  | <b> [Native Intelligence](#user-content-NativeIntelligence) <a name="NativeIntelligence"></a> </b> <br> *The local civilizations offers their allegiance and share their research about distant starts.* <br> <br> Secretly look at any face down Domain Counter on the board.|
+|![FF_AbandonnedFreighters](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AbandonnedFreighters.jpg)  | <b> [Abandoned Freighters](#user-content-AbandonedFreighters) <a name="AbandonedFreighters"></a> </b> <br> *An abandoned fleet of freighters drift in dead space, with cargo intact. The whereabouts of the crew remains a mystery.* <br> <br> Immediately receive 2 Trade Goods.|
+|![FF_UnchartedHabitats](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_UnchartedHabitats.jpg)  | <b> [Uncharted Habitats](#user-content-UnchartedHabitats) <a name="UnchartedHabitats"></a> </b> <br> *Amidst the dark between the stars you discover an advanced, self sustaining society previously not earlier registered in galactic records.*  <br> <br> Leave this counter in the system, and treat it as a Trade Station of 0 resource and 1 influence (no refresh ability). Take a Colony card to represent this habitat.|
+|![FF_ShipGraveyard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_ShipGraveyard.jpg)  | <b> [Ship Graveyard](#user-content-ShipGraveyard) <a name="ShipGraveyard"></a> </b> <br> *Remnants of a once great battle rests solemnly in space. Some of the ships may be repaired or looted for fuel and supplies.*  <br> <br> Either add one Command Counter to your Fleet Supply *or* produce one ship in the system costing no more than 2 production capacity, for half its resource cost (round down).|
+|![FF_Discovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_Discovery.jpg)  | <b> [Discovery](#user-content-Discovery) <a name="Discovery"></a> </b> <br> *The venture through uncharted space has provided you with advantageous discoveries.*  <br> <br> Gain one Action Card or one Command Counter.|
+|![DS_NaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NaturalWealth.jpg)  | <b> [Natural Wealth](#user-content-NaturalWealthCounter) <a name="NaturalWealthCounter"></a> </b> <br> *The planet is rich on ore, gas, vegetation and other natural resources that can be extracted relatively easily.*  <br> <br> Place the indicated number of Trade Goods on the planet, that will work as Natural Wealth: players may take one of them when they gain control of the planet, when they activate the system while controlling the planet, and during the Refresh Planet step of the Status Phase if they control the planet. <br> Natural Wealth Trade Goods from multiple sources are merged into a single stack.|
+|![DS_IndustrialSociety](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_IndustrialSociety.jpg)  | <b> [Industrial Society](#user-content-IndustrialSociety) <a name="IndustrialSociety"></a> </b> <br> *An industrious and friendly populace welcomes your empire. With your help, they will soon be able to construct ships for interstellar travel.*  <br> <br> Receive a free (exhausted) Space Dock on this planet. <br> If you are the Saar, gain 2 Trade Goods instead.|
+|![DS_TechnologicalLegacy](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_TechnologicalLegacy.jpg)  | <b> [Technological Legacy](#user-content-TechnologicalLegacy) <a name="TechnologicalLegacy"></a> </b> <br> *The populace of this planet harbours relics and remnants of ancient Lazax technology.*  <br> <br> Receive one technology for which you have the needed pre-requisites, chosen by the player on your left.|
+|![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter where it was and choose a technology. <br> For the remainder of the game, whoever controls the Alien Artifact may use the effects of the chosen technology. <br> The control of this counter follows the same rules as the control of Artifacts.|
+|![DS_NeutronRadiation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NeutronRadiation.jpg)  | <b> [Neutron Radiation](#user-content-NeutronRadiation) <a name="NeutronRadiation"></a> </b> <br> *The entire landing force is exposed to an intense pulsation of ionizing radiation. No survivors are reported.*  <br> <br> Remove all but 2 of your landing ground units. In the next Status Phase, the owner of the planet must either forfeit refreshing this planet, or lose all ground units on it.|
+|![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Treat this counter as a Leader. Instead of making Fate Rolls, it is captured and switches side (if the capture is impossible, remove the counter from play). The controlling player gains +3 votes. <br> Capturing the Lazax Survivors does not count towards objectives.|
+|![DS_Settlers](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_Settlers.jpg)  | <b> [Settlers](#user-content-Settlers) <a name="Settlers"></a> </b> <br> *Pioneers from one of the Great Races have already settled on the planet.*  <br> <br> Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both her landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).|
+|![FF_GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_GravityRift.jpg)  | <b> [Gravity Rift](#user-content-GravityRiftCounter) <a name="GravityRiftCounter"></a> </b> <br> *Your ships head into the midst of an uncharted gravity rift!*  <br> <br> Leave this counter in the system and treat it as a [Gravity Rift](#user-content-GravityRift) while the counter is present. <br> Remove the counter at the end of the first action in which a ship has been trapped by this Gravity Rift.|
+|![DS_WormholeDiscovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_WormholeDiscovery.jpg)  | <b> [Wormhole Discovery](#user-content-WormholeDiscovery) <a name="WormholeDiscovery"></a> </b> <br> *investigating an anomaly in the sector reveals unexpected wormhole activity.*  <br> <br> Leave this counter in the system. Treat the system as having a wormhole of the indicated type while the counter is present. <br> Remove this counter at the end of the first action in which at least one ship moved out of this system through this wormhole.|
+|![FF_SpacePirates](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SpacePirates.jpg)  | <b> [Space Pirates](#user-content-SpacePirates) <a name="SpacePirates"></a> </b> <br> *Ruthless vagabond roam the galaxy to prey on the wealthy and the weak.*  <br> <br> Choose either: <br>- Pay 2 Trade Goods and remove this counter.<br>- Conduct, as the attacker, a Space Battle against a neutral Dreadnought. If you win, receive two Trade Goods, else this counter stays in place.|
+|![DS_FighterAmbush](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_FighterAmbush.jpg)  | <b> [Fighter Ambush](#user-content-FighterAmbush) <a name="FighterAmbush"></a> </b> <br> *Sensors detect a myriad of small, unidentified ships approaching at high velocity.*  <br> <br> If you have ships in the system, conduct, as the attacker, a Space Battle against the indicated number of neutral Fighters. If you do not win, or if you do not take control of the planet this counter is on (if it is on a planet), it stays in place.|
+|![FF_SuddenCollision](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SuddenCollision.jpg)  | <b> [Sudden Collision](#user-content-SuddenCollision) <a name="SuddenCollision"></a> </b> <br> *In the dead of space, unidentified objects slam into the hull and cargo area of your ships.*  <br> <br> Inflict a hit on one of your ships in the system *or* lose one unit carried by one of them. If you have the Antimass Deflectors technology, ignore this effect.|
+|![DS_BioHazard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_BioHazard.jpg)  | <b> [Bio-Hazard](#user-content-BioHazard) <a name="BioHazard"></a> </b> <br> *While attempting to terraform the planet, millions perish due to influence highly aggravating toxins.*  <br> <br> Inflict one hit on the landing army. If no ground units remain to claim the planet, leave this counter in place.|
+|![DS_HostileLocals](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HostileLocals.jpg)  | <b> [Hostile Locals](#user-content-HostileLocals) <a name="HostileLocals"></a> </b> <br> *All forms of Diplomacy with the local civilization have failed.*  <br> <br> Conduct, as the attacker, an Invasion Combat against the indicated number of neutral Ground Forces. If you do not take control of the planet, this counter stays in place.|
+|![DS_AutomatedDefence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_AutomatedDefence.jpg)  | <b> [Automated Defence](#user-content-AutomatedDefence) <a name="AutomatedDefence"></a> </b> <br> *Powerful laser beams soar through the atmosphere of the planet and cut into the hull of your ships.*  <br> <br> Two neutral PDSs will defend the planet. They immediately fire once each at your fleet in the system (if you have one).<br>These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on the planet, else leave this counter on the planet.|
+|![DS_HostilesAndNaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HostilesAndNaturalWealth.jpg)  | <b> [Hostiles and Natural Wealth](#user-content-HostilesAndNaturalWealth) <a name="HostilesAndNaturalWealth"></a> </b> <br> *The planet is abundant with natural resources, but the local populace will defend it at all costs.*  <br> <br> Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.|
 
 ## Annex 2: Variants and Optional Rules <a name="VariantsAndOptionalRules"></a>
 
