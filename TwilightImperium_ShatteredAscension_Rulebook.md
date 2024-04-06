@@ -386,7 +386,7 @@ Most effects using these terms do not specify which player they use the perspect
 
 **Activate** a System by placing a [Command Counter](#CommandCounters) from the [Command Pool](#CommandPool) area of your Race Sheet in it. This system is now the **active System** for the rest of this Tactical Action.  
 
-You may not activate a System that already contains one of your Command Counters, but you can activate a System that contains Command Counters of *other players*.  
+For Tactical Actions, you may not activate a System that already contains one of your Command Counters, but you may activate a System that contains Command Counters of *other players*.  
 In fact, as a general rule, you can ignore Command Counters belonging to other players on the galaxy.
 </div>
 
