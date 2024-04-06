@@ -1,4 +1,4 @@
-# Shattered Ascension Rewritten Rulebook  - v21_2018-02-12
+# Shattered Ascension Rulebook  - v22_2018-03-13
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
@@ -796,7 +796,7 @@ Skip this step if either side has no remaining ships in the System.
 Else, the attacker may announce a retreat (see below). Then the defender may choose to immediately conduct a retreat. If the defender does not retreat, the attacker may conduct the announced retreat.  
 
 In order to conduct (or announce) a retreat, a player must choose a destination system adjacent to the system of the Space Battle that does not contain enemy ships. When conducting the retreat, the player must move her fleet to the chosen system and place a Command Counter from her reinforcements in it. 
-During this movement, ships with the [Capacity](#user-content-Capacity_unitAbility) may pick up units with the **Space Cargo** trait (like Fighters) but not other units. Ships that may not perform this movement are considered destroyed by the other player.
+During this movement, ships with the [Capacity](#user-content-Capacity_unitAbility) ability may pick up units with the **Space Cargo** trait (like Fighters) but not other units. Ships that may not perform this movement are considered destroyed by the other player.
 
 ***Exception:*** *If the **system of the Space Battle is activated** by the player, and the **destination system is not**, the player must spend a Command Counter from Strategy Allocation to retreat.*
 </div>
@@ -1060,7 +1060,7 @@ When a planet **"turns neutral"** (because of a game effect), all units and Faci
 
 Trade Stations are a specific type of planets, with the following special rules:
 
-* No [Domain Counter](#user-content-DomainCounters) may exist on a Trade Station.
+* No [Domain Counter](#user-content-DomainCounters) or [Natural Wealth](#user-content-NaturalWealth) may exist on a Trade Station.
 * Troops, installations and Leaders may not exist on Trade Stations, and no landing or bombardment may be conducted against them.
 * A player takes control of a Trade Station  if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it.  
 * A player cannot lose control of a Trade Station for any reason if she has ships in its system.
@@ -1490,6 +1490,7 @@ Supplement cardboard tokens exist for Fighters and Ground Forces.
 * [Flagship](#user-content-Flagship): 1
 * [War Suns](#user-content-WarSun): 3
 * [Space Docks](#user-content-SpaceDock): 5
+* [PDSs](#user-content-PDS): 10
 
 If a player goes over one of these limits, she must immediately scuttle the units in excess. 
 
@@ -1578,7 +1579,7 @@ Traits define how units operate and the specific constraints that apply to them.
 
 > Change from base SA: Changed the name of the "Ground unit" category into "Troop". The reason is that "Ground unit" does not actually designates all the "units" that are on the "ground" as one would reasonably imagine. Space Docks and PDSs are not "Ground units" despite being "units" on the "ground".
 
-> Change from base SA: Introduced a new unit category: "Infantry" encompassing Ground Forces and Shock Troops. The reason for this is that the way Shock Troops are explained in the vanilla TI3 rules is that they "are treated as Ground Forces for all cards and abilities" with a few exceptions. This means that whenever a wordings says "Ground Force", it actually means "Ground Force and Shock Troops". This also implies there is no real way to mean "Ground Force but not Shock Troops" except writing it out. The goal of the "Infantry" unit category is to allow us to write "Ground Force" when we mean "Ground Force", "Shock Troops" when we mean "Shock Troops", and "Infantry" when we mean "Ground Force or Shock Troops". This should make the wordings cleaner and clearer.
+<!-- > Change from base SA: Introduced a new unit category: "Infantry" encompassing Ground Forces and Shock Troops. The reason for this is that the way Shock Troops are explained in the vanilla TI3 rules is that they "are treated as Ground Forces for all cards and abilities" with a few exceptions. This means that whenever a wordings says "Ground Force", it actually means "Ground Force and Shock Troops". This also implies there is no real way to mean "Ground Force but not Shock Troops" except writing it out. The goal of the "Infantry" unit category is to allow us to write "Ground Force" when we mean "Ground Force", "Shock Troops" when we mean "Shock Troops", and "Infantry" when we mean "Ground Force or Shock Troops". This should make the wordings cleaner and clearer. -->
 
 
 #### Ship <a name="Ship"></a>
@@ -1618,7 +1619,7 @@ The role of these units is to take control of and defend planets, by engaging in
 * [Ground Force](#user-content-GroundForce)
 </div>
 
-#### Infantry <a name="Infantry"></a>
+<!-- #### Infantry <a name="Infantry"></a>
 <div>
 
 A specific subset of troops.  
@@ -1627,7 +1628,7 @@ A specific subset of troops.
 
 * [Shock Troop](#user-content-ShockTroop)
 * [Ground Force](#user-content-GroundForce)
-</div>
+</div> -->
 
 #### Installation <a name="Installation"></a>
 <div>
@@ -1838,7 +1839,7 @@ A specific subset of Installations.
 
 </div> -->
 
-* categories: **troop, infantry**
+* categories: **troop**
 * movement value: ***NA***  
 * resource cost: ***2***  
 * production capacity cost: ***1***
@@ -1877,7 +1878,7 @@ A specific subset of Installations.
 ![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/GroundForce.jpg)
 </div> -->
 
-* categories: **troop, infantry**
+* categories: **troop**
 * movement value: ***NA***  
 * resource cost: ***0.5***  
 * production capacity cost: ***1***
@@ -2548,13 +2549,21 @@ A player not having placed votes on an agenda may not receive bonus votes from t
 ## Annex 1: Effects of Domain Counters <a name="DomainCountersEffects"></a>
 > I improved most of these wordings from their base SA version to add precision and fix problems occurring in very specific situations.  
 
-> Change from base SA (sanctioned by PsiComa): Updated the wording of the Alien Artifact Domain Counter to allow players taking control of it afterwards to choose the tech they want the effects of, as opposed to being forced to get what the first holder chose.
+> Change from base SA (sanctioned by PsiComa): Updated the wording of the Alien Artifact Domain Counter to allow players taking control of it afterwards to choose the tech they want the effects of, as opposed to being forced to get what the first holder chose. Also added that it is no longer considered a Domain Counter after its resolution to prevent it being removed from effects like Diplomacy Secondary.
+
+> Change from base SA (sanctioned by PsiComa): Updated the wording of the Lazax Survivors Domain Counter. Also added that it is no longer considered a Domain Counter after its resolution to prevent it being removed from effects like Diplomacy Secondary.
 
 For the general rules regarding Domain Counters, see the [Domain Counter section](#user-content-DomainCounters).
 
 ***Note:*** *All units created by Domain Counters are treated as regular units for all intents and purposes.* <!-- Such units can be bombarded, 'converted' or 'captured' just like normal plastic units. -->
 
-<!--Old Alien Artifact wording |![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter where it was and choose a technology. <br> For the remainder of the game, whoever controls the Alien Artifact may use the effects of the chosen technology. <br> The control of this counter follows the same rules as the control of Artifacts.| -->
+<!--Old Old Alien Artifact wording |![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter where it was and choose a technology. <br> For the remainder of the game, whoever controls the Alien Artifact may use the effects of the chosen technology. <br> The control of this counter follows the same rules as the control of Artifacts.| -->
+
+<!--Old Alien Artifact wording |![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> This counter stays in place, is no longer a Domain Counter, and its control follows the same rules as Artifacts. When a player takes control of it, she chooses a Technology and benefits from its effects until she loses control of this counter.| -->
+
+<!-- Old Old Lazax Survivors wording |![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Treat this counter as a Leader. Instead of making Fate Rolls, it is captured and switches side (if the capture is impossible, remove the counter from play). The controlling player gains +3 votes. <br> Capturing the Lazax Survivors does not count towards objectives.| -->
+
+<!--Old Lazax Survivors wording |![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> This counter stays in place, is no longer a Domain Counter, and its control follows the same rules as Artifacts. The controller of this counter receives +3 votes.| -->
 
 | <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> | |
 |-|-|
@@ -2569,9 +2578,9 @@ For the general rules regarding Domain Counters, see the [Domain Counter section
 |![DS_NaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NaturalWealth.jpg)  | <b> [Natural Wealth](#user-content-NaturalWealthCounter) <a name="NaturalWealthCounter"></a> </b> <br> *The planet is rich on ore, gas, vegetation and other natural resources that can be extracted relatively easily.*  <br> <br> Place the indicated number of Trade Goods on the planet, that will work as Natural Wealth: players may take one of them when they gain control of the planet, when they activate the system while controlling the planet, and during the Refresh Planet step of the Status Phase if they control the planet. <br> Natural Wealth Trade Goods from multiple sources are merged into a single stack.|
 |![DS_IndustrialSociety](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_IndustrialSociety.jpg)  | <b> [Industrial Society](#user-content-IndustrialSociety) <a name="IndustrialSociety"></a> </b> <br> *An industrious and friendly populace welcomes your empire. With your help, they will soon be able to construct ships for interstellar travel.*  <br> <br> Receive a free (exhausted) Space Dock on this planet. <br> If you are the Saar, gain 2 Trade Goods instead.|
 |![DS_TechnologicalLegacy](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_TechnologicalLegacy.jpg)  | <b> [Technological Legacy](#user-content-TechnologicalLegacy) <a name="TechnologicalLegacy"></a> </b> <br> *The populace of this planet harbours relics and remnants of ancient Lazax technology.*  <br> <br> Receive one technology for which you have the needed pre-requisites, chosen by the player on your left.|
-|![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> This counter stays in place. When a player takes control of it, she may choose a Technology. As long as she controls this counter, she may use the effects of the chosen technology.<br> The control of this counter follows the same rules as the control of Artifacts.|
+|![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter face-up in place for the remainder of the game. It is no longer treated as a Domain Counter but is controlled as it it was an Artifact. Any player taking control of this counter may choose one Technology and utilize its effect as long as they maintain control of this counter.|
+|![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Leave this counter face-up in place for the remainder of the game. It is no longer treated as a Domain Counter but is controller as if it was an Artifact. The player controlling this counter receives +3 votes.|
 |![DS_NeutronRadiation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NeutronRadiation.jpg)  | <b> [Neutron Radiation](#user-content-NeutronRadiation) <a name="NeutronRadiation"></a> </b> <br> *The entire landing force is exposed to an intense pulsation of ionizing radiation. No survivors are reported.*  <br> <br> Remove all but 2 of your landing ground units. In the next Status Phase, the owner of the planet must either forfeit refreshing this planet, or lose all ground units on it.|
-|![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Treat this counter as a Leader. Instead of making Fate Rolls, it is captured and switches side (if the capture is impossible, remove the counter from play). The controlling player gains +3 votes. <br> Capturing the Lazax Survivors does not count towards objectives.|
 |![DS_Settlers](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_Settlers.jpg)  | <b> [Settlers](#user-content-Settlers) <a name="Settlers"></a> </b> <br> *Pioneers from one of the Great Races have already settled on the planet.*  <br> <br> Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both her landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).|
 |![FF_GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_GravityRift.jpg)  | <b> [Gravity Rift](#user-content-GravityRiftCounter) <a name="GravityRiftCounter"></a> </b> <br> *Your ships head into the midst of an uncharted gravity rift!*  <br> <br> Leave this counter in the system and treat it as a [Gravity Rift](#user-content-GravityRift) while the counter is present. <br> Remove the counter at the end of the first action in which a ship has been trapped by this Gravity Rift.|
 |![DS_WormholeDiscovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_WormholeDiscovery.jpg)  | <b> [Wormhole Discovery](#user-content-WormholeDiscovery) <a name="WormholeDiscovery"></a> </b> <br> *investigating an anomaly in the sector reveals unexpected wormhole activity.*  <br> <br> Leave this counter in the system. Treat the system as having a wormhole of the indicated type while the counter is present. <br> Remove this counter at the end of the first action in which at least one ship moved out of this system through this wormhole.|
