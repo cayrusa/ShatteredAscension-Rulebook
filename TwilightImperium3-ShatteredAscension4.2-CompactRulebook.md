@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v2_19/01/2017
+# Shattered Ascension Compact Rulebook  - v3_23/01/2017
 
 #### Note on Contradictions
 If the text of a component (card, technology,...) would contradict with the rules presented in this rulebook, the component takes precedence. 
@@ -351,10 +351,10 @@ After declaring a Tactical Action, a player must follow the steps of the [Activa
 
 	1. System Activation
 	2. Ships movement
-	3. PDS fire
+	3. Space Cannons Fire (aka PDS Fire)
 	4. Space Battle
-	5. Planetary Landings and Bombardment assignments
-	6. Planetary Landings Resolution
+	5. Planetary Landings
+	6. Planetary Landings Resolution (aka Invasion Combat)
 	7. Production
 
 ***1) System Activation***  
@@ -414,14 +414,15 @@ Then remove **all** (not just the one resolved) non-friendly Space Mines at the 
 <a name="PickingUpCargo">
 ***Picking up cargo***
 </a>  
-When a ship with the [capacity ability](#CapacityAbility) starts its movement, move through a System, or simply stays in the System just activated, it may pick up units from other friendly cargo sources in the System: other friendly ships with the [capacity ability](#CapacityAbility) and friendly planets.  
+When a ship with the [capacity ability](#Capacity_unitAbility) starts its movement, move through a System, or simply stays in the System just activated, it may pick up units from other friendly cargo sources in the System: other friendly ships with the [capacity ability](#Capacity_unitAbility) and friendly planets.  
 There are two main restrictions to this:  
 
-* The ship must be able to carry the units picked up (the precise number and types of units a ship can carry is described by its [capacity ability](#CapacityAbility)  
+* The ship must be able to carry the units picked up (the precise number and types of units a ship can carry is described by its [capacity ability](#Capacity_unitAbility)  
 * No cargo may be picked up from activated Systems
 
 ***3) Space Cannons Fire***
 > New: precise timing about who must take the decision to shoot first: non-active players from Speaker following Rotation Cycler, then active player.
+> Formerly known as the "PDS Fire" step.
 
 
 During this step, units with the Space Cannon (*n*) ability that are in the just activated System may fire at a fleet in the just activated System. There are two possibilities:
@@ -440,14 +441,70 @@ When a Space Cannon (*n*) unit fires, it performs *n* combat rolls. Hits must be
 At this time, if there are ships controlled by two different players in the just activated System, a Space Battle must be resolved.  
 In this Space Battle, the active player is the *attacker*, while the other player is the defender*. For complete rules about how to resolve a Space Battle, see the [Space Battles section](#SpaceBattles).
 
-***5) Planetary Landings and Bombardment assignments***
+***5) Planetary Landings***
 
-***6) Panetary Landings resolution***
+The Planetary Landings step is divided in two parts: the proper Planetary landings, and the Bombardment assignment.
 
-***7) Production***
+* **Planetary landings**: The active player may land ground units, PDSs and Leaders currently carried by his ships in the just activated System on the planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one ground unit.
+* **Bombardment assignment**: The active player may assign some of his ships in the just activated System with the *Bombardment* ability to the non-friendly planets of this System, in order to bombard them during the 6) Planetary Landing resolution step. 
+
+***6) Planetary Landings resolution***
+> Formerly known as the "Invasion Combat" step.
+
+Until all planets in the just activated System have been resolved, the active player chooses an unresolved planet and resolve it according to the following:
+(In what follows, "landed" ground units, PDSs and Leaders refer to the ground units, PDSs and Leaders that were landed on the planet being resolved)
+
+> Could be cool to have "friendly", "neutral" and "hostile" in colour, but I did not find how to do it yet.  
+
+* a) The planet is **friendly**:    
+ Place the landed ground units, PDSs and Leaders on the planet.
+* b) The planet is **neutral**:  
+The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#GameConcepts_DomainCounters). If there are still landed ground units after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
+* c) The planet is **controlled by an opponent**:  
+	* c-1) The planet **contains at least one enemy ground unit or PDS**:  
+	Resolve an [Invasion Combat](#InvasionCombats) on this planet.
+	* c-2) The planet **does not contain any enemy ground unit and PDS**:  
+	The ships assigned to this planet may bombard it. Then place all landed ground units, PDSs and Leaders on the planet and the active player takes control of it.  
+
+
+***7) Production***  
+Note: All the resources that the active player decides to spend during this step may be added up and spent at once at the end of the step. The total amount of resources that must be spend is rounded up. 
+
+> Ditched the "at least one Cruiser -> at most 2 Space Mines". Let's be modular. Each unit with the Deploy Space Mines (*n*) ability may deploy up to *n* Space Mines.
+
+* **Deploy Space Mines**:  
+The active player may deploy a number of Space Mines in the just activated System up to the number of [Deploy Space Mines](#DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy two of them). Each Space Mine costs two resources and must be placed on one of the borders of the System (Wormholes are not borders)  
+>There is a problem with the Arborec racial that gives them production capacity for their Ground Forces. As it currently stands, their *planets* get the production capacity, which just does not work well with the Space Dock-centric production model of this rulebook. I could define planets with production capacity, but that would be a lengthy rule (to clarify what happens when there is a Space Dock on the same planet, and what happens when this Space Dock cannot produce units for some reason) for a single use-case. So I think that it would be the job of the text of the racial ability to clarify these issues itself.  
+
+* **Produce units**:  
+The active player may produce units at each of her units with the [Produce Units (*n*) ability](#ProduceUnits_unitAbility) in the just activated Systems, with a *production capacity* of *n*. In most cases, units will be produced by **unexhausted** Space Docks, that have as many *production capacity* as the resource value of the planet they are on plus two.  
+* **Build Space Docks**:  
+The active player may build Space Docks on some of the planets in the just activated System. A Space Dock may only be built on a planet that she has controlled since the beginning of the Round, and that does not already have a Space Dock. Newly built Space Docks are placed **exhausted** (flipped) and may thus not produce units until they are refreshed (usually during the Status Phase).  
+
+***Producing units***  
+When producing units, any combination of units may be produced provided the following four limitations are respected and it can be placed in the System (see [placing produced units](#PlacingProducedUnits)):
+  
+* **Production Capacity**: Each unit has a production capacity cost, the total production capacity cost of the produced units may not exceed the production capacity of the unit producing them.
+* **Fleet Supply**: No ships may be produced if they would violate the [Fleet Supply limit](#FleetSupply) of the System.  
+* **Fighter Capacity**: The System must have a sufficient [Fighter Capacity](#Capacity_unitAbility) to support the produced Fighters.
+* **Resource Cost**: Each unit has a resource cost. The player producing units must spend the required amount of resources.  
+
+<a name="PlacingProducedUnits">
+***Placing produced units***
+</a>  
+> New: placement of troops and PDSs produced by units in space  
+
+After units have been produced, they must be placed according to the following rules. The *producer* refers to the unit that produced them:  
+
+* Ships are placed in the space of the System containing the *producer*
+* If the *producer* is on a planet, then all produces troops and PDSs must be placed on the same planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#Capacity_unitAbility) to carry them.
 
 <a name="SpaceBattles">
 ### Space Battles
+</a>
+
+<a name="InvasionCombats">
+### Invasion Combats
 </a>
 
 ***  
@@ -457,10 +514,13 @@ In this Space Battle, the active player is the *attacker*, while the other playe
 ### Status Phase
 </a>
 
+Refresh Space Docks
+
 ## Game Concepts
 <a name="GameConcepts_Systems">
 ### Systems
 </a>
+Zones: Space + Planets  
 wormholes classification (wormholes on Domain Counters and Unstable wormholes...)
 Void systems  
 Gravity Rifts: moving through them in non-straight line cost 0 movement points.
@@ -494,35 +554,65 @@ EffectLocation: Scattered Effect case
 <a name="GameConcepts_TradeGoods">
 ### Trade Goods
 </a>
+Can be spent as resource or influence to complement or completely replace a resource or influence spending
 <a name="GameConcepts_Trade">
 ### Trade
 </a>
 <a name="GameConcepts_PlayerOrders">
 ### Player Orders
 </a>
-Cards, effects or other rules may refer to one of the following player orders when 
+Cards, effects or other rules may refer to one of the following player orders when (Useful?)
+
+<a name="GameConcepts_DomainCounters">
+### Domain Counters
+</a>
+
+- order of resolution (Reds before Greens, and follow priority order for each)
+
+### Command Counters
+Fleet Supply
 
 ## Specific Definitions
-Hostile Action
-Invasion  
+Hostile Action   
+Invasion (not needed if we change Dackxive Animators so that it doesn't use this term)  
 Combat Roll / Combat Die
-> ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location.
+> ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location.  
 
+Spending (resource or influence)  
 Active player  
 Friendly  
 Hostile  
 Activated System
+<a name="FleetSupply">
+Fleet Supply
+</a>
 Galaxy (the game board created from System tiles)  
-Units statistics  
--movement value  
+
 
 <a name="Adjacency">
 Adjacent Systems
 </a>  
-ship abilities  
-- <a name="CapacityAbility">capacity</a>
 
 
+
+## Unit Characteristics, Abilities And Special Rules
+Units characteristics  
+- movement value  
+- res cost  
+- prod cap cost
+
+units abilities  
+- <a name="Capacity_unitAbility">Capacity, and Fighter Capacity of a System</a>  
+- <a name="DeploySpaceMines_unitAbility">Deploy Space Mines (*n*)</a>  
+- <a name="ProduceUnits_unitAbility">Produce Units (*n*)</a>  
+
+### Space Dock
+* Exhausted/Refreshed states
+* No more than one per planet
+### PDS
+* No more than two per planet (therefore you may not build or land PDSs so that you would go over this limit)
+### Fighter  
+* Must be supported using Fighter Capacity.
 
 ## Game Options / Variants
 <a name="StarByStar">
