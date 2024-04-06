@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v7_2017-03-16
+# Shattered Ascension Compact Rulebook  - v8_2017-03-26
 
 #### Notes
 ***Contradictions***  
@@ -204,7 +204,7 @@ Shattered Ascension is played over a consecutive number of Rounds. Each Round is
 The Strategy Phase is divided into three steps:  
 
 * [Home System Planets Reclamation](#HomeSystemPlanetsReclamation)
-* [Twilight Council Propositions](#TwiligthCouncilPropositions)
+* [Twilight Council Propositions](#TwilightCouncilPropositions)
 * [Strategy Card Picking](#StrategyCardPicking)
 
 
@@ -220,13 +220,34 @@ During this step, players regain control of any planet that is in their Home Sys
 </a>
 > New in SA  
 
+Each player must place face down a Political Card from their hand in the Twilight Council, and mark it with one of their flags. If the Twilight Council concurs this round, the agendas to be voted on will be chosen among these cards.  
+After all players have placed their card, they are revealed and the game goes on.
+
+***Additional rules:***
+
+* At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do it as many times as they want.
+* Players that already have a Political Card in the Twilight Council must either keep it in place (by simply turning it face down) or retake it into their hand and replacing it with another Political Card.
+* Instead of placing a card from their hand, players may place the first card of the Political Cards deck, without looking at it.
+
+<!--- * Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
+
 During this step, players will place or update their Political Card in the Twilight Council. If the Twilight Council concur this round, the agendas to be voted on will be chosen among these cards.
+
+At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do it as many times as they want.
+
+***Sequence of this step:***
+
+* Players that already have a Political Card in the Twilight Council may choose not to change it. When doing so, they simply flip the card face down instead of placing a new Political Card.  
+Else they must retake their card into their hand 
+* Then each player must place a face down Political Card from their hand into the Twilight Council, and place one of their flag on it.  
+Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
+* Finally, when all players have done so, reveal all Political Cards in the Twilight Council.
 
 * Players that already have a Political Card in the Twilight Council must retake it into their hand.
 * Players may, as many times as they want, discard two Political Cards from their hand to draw another Political Card.
-* Then each player must place a hidden Political Card from their hand into the Twilight Council, and place one of their flag on it.  
+* Then each player must place a face down Political Card from their hand into the Twilight Council, and place one of their flag on it.  
 Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
-* Finally, when all players have done so, reveal all Political Cards in the Twilight Council.
+* Finally, when all players have done so, reveal all Political Cards in the Twilight Council. -->
 
 <a name="StrategyCardPicking">
 #### Strategy Card Picking
@@ -386,7 +407,7 @@ Until all planets that had units or Leaders landed on them or ships assigned to 
 * a) The planet is **friendly**:    
  Place the landed troops, PDSs and Leaders on the planet. No bombardment occur.
 * b) The planet is **neutral**:  
-The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#GameConcepts_DomainCounters). No bombardment occur (unless included in an Invasion Combat triggered by a Domain Counter). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
+The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#DomainCounters). No bombardment occur (unless included in an Invasion Combat triggered by a Domain Counter). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
 * c) The planet is **controlled by an opponent**:  
 	* c-1) The planet **contains at least one enemy troop or PDS**:  
 	If you landed at least one troop, resolve an [Invasion Combat](#InvasionCombats) on this planet, else the ships assigned to this planet [bombard](#Bombardment_unitAbility) it without an Invasion Combat taking place.
@@ -431,7 +452,10 @@ When producing units, any combination of units may be produced provided the foll
 After units have been produced, they must be placed according to the following rules. The *producer* refers to the unit that produced them:  
 
 * Ships are placed in the space of the System containing the *producer*
-* If the *producer* is on a planet, then all produces troops and PDSs must be placed on the same planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#Capacity_unitAbility) to carry them.
+* If the *producer* is on a planet, then all produced troops and PDSs must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#Capacity_unitAbility) to carry them.
+
+***Blockade***   
+No ships may be produce in a System already containing enemy ships.
 
 <a name="StatusPhase">
 ### Status Phase
@@ -455,10 +479,11 @@ After the Strategy Phase and the Action Phase comes the Status Phase. During thi
 	8. Scuttling
 	9. Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks
 
-  
 ***1) Claim Objectives***  
 
-In this step, players claim objectives, which gives them Victory Points, eventually allowing them to win the game.
+Starting with the Speaker and following the Rotation Cycler, players may claim objectives to gain Victory points, eventually allowing them to win the game.
+
+<!--- In this step, players claim objectives, which gives them Victory Points, eventually allowing them to win the game. -->
 
 **Claiming an Objective**  
 In order to claim an objective, a player must satisfy the requirements written on it, and not have already claimed it in the past (whether other players have already claimed it or not does not matter). The player then places a flag on the objective, and advances her flag on the Victory Point Track by the number of Victory Points granted by the objective.
@@ -755,7 +780,9 @@ Planets are usually acquired by landing troops on them during the Planetary Land
 
 A player does not need to keep troops on a planet to retain control of it. If no units remain on a controlled planet, its controller must place a flag to indicate he still controls the planet.
 
+<a name="RefreshedAndExhaustedStates">
 ### Refreshed and Exhausted states
+</a>  
 [image with a refreshed planet card and an exhausted one]  
 Planets can exist in two states: **refreshed** and **exhausted**. When a planet is refreshed, its planet card is upright, and its controller may use it to for example pay the production cost of some units. When a planet is exhausted, its planet card is rotated, and its controller does not get any benefit from it until it is refreshed (which usually happens during the Status Phase).
 
@@ -795,7 +822,7 @@ When a planet **"turns neutral"** (because of a game effect), all units and Faci
 
 Trade Stations are a specific type of planets, with the following special rules:
 
-* No [Domain Counter](#GameConcepts_DomainCounters) may exist on a Trade Station.
+* No [Domain Counter](#DomainCounters) may exist on a Trade Station.
 * Troops, Installations and Leaders may not exist on Trade Stations, and no Invasion Combat or bombardment may be conducted against them.
 * A player takes control of a Trade Station  if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it.  
 * A player cannot lose control of a Trade Station for any reason if she has ships in its system.
@@ -828,7 +855,7 @@ At the end of an action in which at least one ship moved through such Wormhole, 
 #### Definitions
 ***Stable Wormholes*** are Wormholes that are directly printed on a tile.
 
-***Unstable Wormholes*** are all the Wormholes that are *not* printed on a tile. (Wormholes from [Domain Counters](#GameConcepts_DomainCounters), Wormhole Tokens...)
+***Unstable Wormholes*** are all the Wormholes that are *not* printed on a tile. (Wormholes from [Domain Counters](#DomainCounters), Wormhole Tokens...)
 
 <a name="Artifact">
 ### Artifacts
@@ -866,9 +893,49 @@ Worldgates are placed on some planets of the galaxy when it is created and may n
 
 When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#PlanetaryLandings_TacticalActionStep), move any number of her troops, PDSs and Leaders from other planets in *unactivated Systems* that also contain Worldgates to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
 
+<a name="DomainCounters">
+### Domain Counters
+</a>
+
+Domain Counters are counters placed on planets or in space to represent the dangers and rewards of space exploration and colonization.
+
+[image of the back and front of a Distant Sun with "Distant Sun" and the back and front of a Final Frontier with "Final Frontier"]
+
+There are two types of Domain Counters, the *Distant Suns* ones have the image of a planet on their back, while the *Final Frontier* ones have an image if empty space on their back.
+
+Even though the *Distant Suns* Domain Counters are mostly intended to be placed on planets while the *Final Frontier* ones are intended to be placed in space, some counters can be placed in both places.
+
+Refer to the [Effects of Domain Counters](#DomainCountersEffects) annex to find the effects of all the Domain Counters.
+
+#### Domain Counters on planets
+Domain Counters on planets are revealed and resolved immediately after a player has landed units on the planet (and after all units were landed). Resolved Domain Counters are then removed from the board. 
+
+If a player takes control of a planet without landing units on it, then all Domain Counters on it are removed from the board *without being resolved*.
+
+#### Domain Counters in space
+Domain Counters in space are revealed and resolved after units have ended their movement in the system (and after all units currently moving have ended their movement).
+
+#### Multiple Domain Counters at the same location
+If multiple Domain Counters are at the same location (planet or space), follow these rules to determine the order in which they are resolved:  
+
+* The **red** Domain Counters must resolved before the **green** ones.
+* If multiple Domain Counters of the same colour are present, The player whose units triggered the resolution chooses in which order they are resolved.
+* If after resolving a Domain Counter at a given location, the units that triggered the Domain Counter resolution are no longer present (because they were destroyed during the resolution, for example), then the other Domain Counters at the same location are not resolved and stay where they were.
+
+
 <a name="OtherGameConceptsAndRules">
 ## Other Game Concepts and Rules
 </a>
+
+### Spending Resources and Influence
+Throughout a game, players will need to spend *resources* and *influence* for many different purposes.
+
+***Key points:***  
+
+* In order to pay a certain amount of resources or influence, players must [exhaust](#RefreshedAndExhaustedStates) some of their planets to provide at least as many resources/influence as the required amount (extra resources/influence provided are lost).
+* Exhausting a planet provides either as many resources as its resource value, or as many influence as its influence value, but not both. The player controlling the planet decides.  
+* It is not possible to use only a portion of the resources/influence of a planet when exhausting and save the rest for later. Planets always provides the full values when they are exhausted.
+* An exhausted planet may not be exhausted again until it is [refreshed](#RefreshedAndExhaustedStates) by another effect.
 
 ***  
 # Below this line are just scrap notes to write the rest of the rulebook
@@ -912,12 +979,6 @@ Can be spent as resource or influence to complement or completely replace a reso
 ### Player Orders
 </a>
 Cards, effects or other rules may refer to one of the following player orders when (Useful?)
-
-<a name="GameConcepts_DomainCounters">
-### Domain Counters
-</a>
-
-- order of resolution (Reds before Greens, and follow priority order for each)
 
 <a name="GameConcept_CommandCounter">
 ### Command Counters
@@ -1141,3 +1202,139 @@ The holder of the Speaker Token (called the Speaker) chooses first his [Strategy
 The Rotation Cycler determine the order
 
 #### The Rotation Cycler
+
+
+
+<a name="DomainCountersEffects">
+#### Effects of Domain Counters
+</a>
+***Note:*** All Domain Counter units are treated as regular units in respect to combat. Such units can be bombarded, 'converted' or 'captured' just like normal plastic units.
+
+**Peaceful Annexation**  
+[image]  
+*The local civilization accepts the annexation into your galactic empire.*  
+Discard this counter.
+
+**Void Space**  
+[image]  
+*Your ships travel deep into space, silently passing thousands of dead and empty planets. No unusual event occur.*  
+Discard this counter.
+
+**Hidden Factory**
+[image]  
+*Your exploratory units have unearthed an ancient, abandoned starship factory.*  
+You may produce ships for up to two production capacity in the system. One of the resources spent comes for free.
+
+**Native Intelligence**  
+[image]  
+*The local civilizations offers their allegiance and share their research about distant starts.*  
+Secretly look at any face down Domain Counter on the board.
+
+**Abandoned Freighters**  
+[image]  
+*An abandoned fleet of freighters drift in dead space, with cargo intact. The whereabouts of the crew remains a mystery.*  
+Immediately receive 2 Trade Goods.
+
+**Uncharted Habitats**  
+[image]  
+*Amidst the dark between the stars you discover an advanced, self sustaining society previously not earlier registered in galactic records.*  
+Leave this counter in the system, and treat it as a Trade Station of 0 resource and 1 influence (no refresh ability). Take a Colony card to represent this habitat.
+
+**Ship Graveyard**  
+[image]  
+*Remnants of a once great battle rests solemnly in space. Some of the ships may be repaired or looted for fuel and supplies.*  
+Either add one Command Counter to your Fleet Supply *or* produce one ship in the system costing no more than 2 production capacity, for half its resource cost (round down).
+
+**Discovery**  
+[image]  
+*The venture through uncharted space has provided you with advantageous discoveries.*  
+Gain one Action Card or one Command Counter.
+
+**Natural Wealth**  
+[image]  
+*The planet is rich on ore, gas, vegetation and other natural resources that can be extracted relatively easily.*  
+Place the indicated number of Trade Goods on the planet, that will work as Natural Wealth: players may take one of them when they gain control of the planet, when they activate the system while controlling the planet, and during the Refresh Planet step of the Status Phase if they control the planet.
+Natural Wealth Trade Goods from multiple sources are merged.
+
+**Industrial Society**  
+[image]  
+*An industrious and friendly populace welcomes your empire. With your help, they will soon be able to construct ships for interstellar travel.*  
+Receive a free (exhausted) Space Dock on this planet.  
+
+**Technological Legacy**  
+[image]  
+*The populace of this planet harbours relics and remnants of ancient Lazax technology.*  
+Receive one technology for which you have the needed pre-requisites, chosen by the player on your left.
+
+**Alien Artifact**  
+[image]  
+*Strange, alien technology are identified in the system. After careful research, it reveals marvelous technological secrets your scientists cannot fully reproduce.*  
+Leave this counter where it was and choose a technology.
+For the remainder of the game, whoever controls the Alien Artifact may use the effects of the chosen technology.
+The control of this counter follows the same rules as the control of Artifacts.
+
+**Neutron Radiation**  
+[image]  
+*The entire landing force is exposed to an intense pulsation of ionizing radiation. No survivors are reported.*  
+Roll a die for each landing ground unit. On a result of 5+, the unit is destroyed. Place a hit counter on the planet. The next time the planet would have been refreshed, the hit counter is removed instead.  
+
+**Lazax Survivors**  
+[image]  
+*The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  
+Treat this counter as a Leader. Instead of making Fate Rolls, it is captured and switches side (if the capture is impossible, remove the counter from play). The controlling player gains +3 votes.
+Capturing the Lazax Survivors does not count towards objectives.
+
+**Settlers**  
+[image]  
+*Pioneers from one of the Great Races have already settled on the planet.*  
+Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both his landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).
+
+**Gravity Rift**  
+[image]   
+*Your ships head into the midst of an uncharted gravity rift!*  
+Leave this counter in the system and treat it as a Gravity Rift while the counter is present.
+Remove the counter at the end of the first action in which a ship has been trapped by this Gravity Rift.
+
+**Wormhole Discovery**  
+[image]  
+*investigating an anomaly in the sector reveals unexpected wormhole activity.*  
+Leave this counter in the system. Treat the system as having a wormhole of the indicated type while the counter is present.
+Remove this counter at the end of the first action in which at least one ship moved out of this system through this wormhole.
+
+**Space Pirates**  
+[image]  
+*Ruthless vagabond roam the galaxy to prey on the wealthy and the weak.*
+Choose either:
+- Pay 2 Trade Goods and remove this counter.
+- Conduct, as the attacker, a Space Battle against a neutral Dreadnought. If you win, receive two Trade Goods, else this counter stays in place.
+
+**Fighter Ambush**  
+[image]  
+*Sensors detect a myriad of small, unidentified ships approaching at high velocity.*  
+If you have ships in the system, conduct, as the attacker, a Space Battle against the indicated number of neutral Fighters. If you do not win, or if you do not take control of the planet this counter is on (if it is on a planet), it stays in place.
+
+**Sudden Collision**  
+[image]  
+*In the dead of space, unidentified objects slam into the hull and cargo area of your ships.*  
+Inflict a hit on one of your ships in the system *or* lose one unit carried by one of them. If you have the Antimass Deflectors technology, ignore this effect.
+
+**Bio-Hazard**
+[image]    
+*While attempting to terraform the planet, millions perish due to influence highly aggravating toxins.*  
+Inflict one hit on the landing army. If no ground units remain to claim the planet, leave this counter in place.
+
+**Hostile Locals**
+[image]    
+*All forms of Diplomacy with the local civilization have failed.*  
+Conduct, as the attacker, an Invasion Combat against the indicated number of neutral Ground Forces. If you do not take control of the planet, this counter stays in place.
+
+**Automated Defence**  
+[image]  
+*Powerful laser beams soar through the atmosphere of the planet and cut into the hull of your ships.*  
+Two neutral PDSs will defend the planet. They immediately fire once each at your fleet in the system (if you have one).
+These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on the planet, else leave this counter on the planet.
+
+**Hostiles and Natural Wealth**  
+[image]  
+*The planet is abundant with natural resources, but the local populace will defend it at all costs.*  
+Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.
