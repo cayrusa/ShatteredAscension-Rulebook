@@ -1072,7 +1072,7 @@ Two Systems containing Wormholes of the same type are considered [adjacent](#use
 #### Flippable Wormhole tokens
 <div>
 
-![FlippableWormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FlippableWormhole_redux.jpg)
+![FlippableWormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FlippableWormhole_Redux_DupForServer.jpg)
 
 Flippable Wormhole Tokens have a different Wormhole type printed on each side.
 At the end of an action in which at least one ship moved through such Wormhole from the System containing the Wormhole to another System (and only in this direction), the token is flipped, changing the type of the Wormhole.
@@ -2050,7 +2050,7 @@ The only difference between the two abilities is that Deep Space Cannon may also
 A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* sustained this way, a unit loses a [combat dice](#user-content-CombatDice) and rolls one less die when bombarding (up to a minimum of one die) until it is repaired, which usually happens during the [Status Phase](#user-content-StatusPhase).
 **Hit Counters** (see next picture) can be used to represent the damages sustained.
 
-![HitCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/HitCounter.jpg)
+![HitCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/HitCounterDupForServer2.jpg)
 
 </div>
 
