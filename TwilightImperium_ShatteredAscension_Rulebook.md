@@ -1157,8 +1157,8 @@ Border Tokens are placed on the tile edges between two Systems:
 ![AsteroidBelt](./Images/AsteroidBelt.jpg)
 </div>
 
-* Ships may not move through Asteroid Belts
-* The [Space Cannon](#SpaceCannon_unitAbility) ability may not fire through Asteroid Belts.
+* Units may not move through.
+* [Space Cannon](#SpaceCannon_unitAbility) may not fire through.
 
 #### Ion Spheres<a name="IonSpheres"></a>
 <div>
@@ -1166,8 +1166,8 @@ Border Tokens are placed on the tile edges between two Systems:
 ![IonSphere](./Images/Special_IonSphere.jpg)
 </div>
 
-* Units may only move through an Ion Sphere as the last part of their movement. Players with the Maneuvering Jets technology may ignore this restriction.
-* The [Space Cannon](#SpaceCannon_unitAbility) ability may not fire through Ion Spheres.
+* Units may only move through an Ion Sphere as the last part of their movement.
+* [Space Cannon](#SpaceCannon_unitAbility) may not fire through.
 
 #### Standing Grav-Waves<a name="StandingGravWaves"></a>
 <div>
@@ -1175,7 +1175,7 @@ Border Tokens are placed on the tile edges between two Systems:
 ![StandingGravWave](./Images/Special_StandingGravWave.jpg)
 </div>
 
-* Units may only move through Standing Grav-Wave in the direction indicated by the token.
+* Units may only move through in the indicated direction.
 
 #### Collapsed Space-Times<a name="CollapsedSpaceTimes"></a>
 <div>
@@ -1183,23 +1183,20 @@ Border Tokens are placed on the tile edges between two Systems:
 ![CollapsedSpaceTime](./Images/Special_CollapsedSpaceTime.jpg)
 </div>
 
-* Units may never move through Collapsed Space-Times.
-* The [Space Cannon](#SpaceCannon_unitAbility) ability may not fire through Collapsed Space-Times.
+* The Systems it separates are not adjacent (nor adjoining).  
+*Reminder: distance is computed via adjacency*
 
 #### Space Mines<a name="SpaceMines"></a>
 <div>
 
 ![SpaceMine](./Images/SpaceMine.jpg)
-
-Space Mines are built by ships with the [Deploy Space Mines ability](#DeploySpaceMines_unitAbility) and belong to the player that built them.
-
-When a non-Fighter ship would cross at least one non-friendly Space Mine, its movement is momentarily interrupted. After all the other ships have finished their movement (or got stopped by Space Mines), the owner of the ships must resolve (see below) all the Space Mines that stopped at least one ship, in the order of her choice.  
-After this step, the movements of the ships resume.
-
-**Resolving a Space Mine**  
-When resolving a Space Mine, roll a die for each non-Fighter ship that was stopped by the Space Mine. For each results of 8+, the owner of the ships must assign a hit to one of these non-Fighter ships.  
-Then remove **all** (not just the one resolved) non-friendly Space Mines at the same position as the Space Mine just resolved, without resolving them.
 </div>
+
+* Space Mines can be deployed on borders (wormholes are not borders) with the [Deploy Space Mines ability](#DeploySpaceMines_unitAbility), at the cost of 2 resources per Space Mine.
+* When a non-Fighter ship would move through a border containing at least one non-friendly Space Mine, its movement is momentarily interrupted. After all the other ships have finished their movement (or got stopped by Space Mines), the owner of the ships must resolve (see below) all the Space Mines that stopped at least one ship, in the order of their choice. After this step, the movement of the ships resume.
+* **Resolving a Space Mine.** To resolve a Space Mine, roll a die for each non-Fighter ship that was stopped by the Space Mine. For each results of 8+, the owner of the ships must assign a hit to one of these non-Fighter ships.  
+Then remove **all** (not just the one resolved) non-friendly Space Mines at the same position as the Space Mine just resolved, without resolving them.
+
 
 ### Artifacts<a name="Artifact"></a>
 
