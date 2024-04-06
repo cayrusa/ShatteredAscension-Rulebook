@@ -1,4 +1,4 @@
-# Shattered Ascension Rulebook  - v23_2018-04-16
+# Shattered Ascension Rulebook  - v24_2018-05-01
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
@@ -18,6 +18,9 @@ Action Cards > Political Cards > Racial Upgrade > Racial Abilities > Technologie
 
 ***Compliance***  
 A player subject to negative effects (for example discard *3* Trade Goods) must fulfil them as far as able (if she only has *2* Trade Goods, she must discard them).
+
+***Dice***  
+Unless explicitly stated otherwise, all dice mentioned in this rulebook are 10-sided dice going from 1 to 10.
 
 ## Overview
 In a game of Twilight Imperium, 2 to 8 players take the role of varied great races fighting for supremacy in the galaxy after the ruling Lazax Empire has fallen. The game is played over several Rounds, during which players strive to [claim Objectives](#user-content-ClaimObjectives_StatusPhaseStep) in order to score Victory Points. The first player to reach a predetermined number of Victory Points is declared the winner and the new Empress of the Galaxy.
@@ -153,7 +156,7 @@ Decide on the game options to include:
 
 ### 5) Secret Objectives <a name="Setup_SecretObjectives"></a>
 
-If this game is not a 2-player game, deal two Secret Objective cards to each player. They will have to discard one of them later.
+Deal two Secret Objective cards to each player. They will have to discard one of them later.
 
 <!-- ### 6) Race Picking <a name="Setup_RacePicking"></a>
 > The race picking and Home System bidding now use the order given by the die roll, instead of starting with the highest roller and going clockwise.
@@ -234,9 +237,9 @@ The player holding the Speaker Token may now set the orientation of the Rotation
 ### 12) Revealing Objectives <a name="Setup_RevealingObjectives"></a>
 Reveal:
 
-* All Special Objectives (if playing a 2-player game, exclude Sovereign and Magisterial)
+* All Special Objectives
 * 3 random Stage I Public Objectives
-* 1 random Preliminary Objective (not if playing a 2-player game)
+* 1 random Preliminary Objective
 * 3 random Stage II Public Objectives
 
 ### 13) Finalising Setup <a name="Setup_FinalisingSetup"></a>
@@ -460,7 +463,7 @@ In this Space Battle, the active player is the *attacker*, while the other playe
 ##### 5) Planetary Landings <a name="PlanetaryLandings_TacticalActionStep"></a>
 <div>
 
-> Change from base SA: Clarification that each ship bombarding must be assigned to a single planet and may not split its bombardment between multiple planets. Clarification that the ships bombarding must be assigned during this step of the activation sequence (instead of being vague).
+<!-- > Change from base SA: Clarification that each ship bombarding must be assigned to a single planet and may not split its bombardment between multiple planets. Clarification that the ships bombarding must be assigned during this step of the activation sequence (instead of being vague). -->
 
 The Planetary Landings step consists in two parts: 
 </div>
@@ -523,9 +526,9 @@ No bombardment occur.
 * *If the planet is **neutral**:*  
 The active player must resolve the [Domain Counters](#user-content-DomainCounters) present on the planet (if there are any). No bombardment occur (unless a Domain Counter triggers an Invasion Combat). If there are still landed ground units after resolving the Domain Counters, the active player takes control of the planet, [exhausted](#user-content-RefreshedAndExhaustedStates), else, the defender destroys all landed PDSs and makes a [Fate Roll](#user-content-FateRoll) for each landed Leader.
 * *If the planet is **enemy** and **contains** at least one enemy ground unit or PDS:*  
-If you landed at least one ground unit, resolve an [Invasion Combat](#user-content-InvasionCombats) on this planet, else the ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it without an Invasion Combat taking place.
+If ground units were landed, resolve an [Invasion Combat](#user-content-InvasionCombats) on this planet, else the ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it without an Invasion Combat taking place.
 * *If the planet is **enemy** and **does not contain** any enemy ground unit or PDS:*  
-The ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it. The [installations](#user-content-Installation) on it are destroyed. Then the active player takes control of it, exhausted.  
+The ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it. If ground units were landed, the active player destroys the [installations](#user-content-Installation) on the planet and takes control of it, exhausted.
 </div>
 
 ##### 7) Production <a name="Production_TacticalActionStep"></a>
@@ -562,7 +565,6 @@ No ships may be produced in a System already containing enemy ships.
 * **Fighter Capacity**: The System must have a sufficient [Fighter Capacity](#user-content-Capacity_unitAbility) to support the produced Fighters. -->
 
 **Placing produced units** <a name="PlacingProducedUnits"></a>  
-> Change from base SA: Made explicit where ground units and PDSs produced by units in space may be placed.  
 
 After units have been produced, they must be placed according to the following rules. The *producer* refers to the unit that produced them:  
 
@@ -813,7 +815,12 @@ Else, the attacker may announce a retreat (see below). Then the defender may cho
 In order to conduct (or announce) a retreat, a player must choose a destination system adjacent to the system of the Space Battle that does not contain enemy ships. When conducting the retreat, the player must move her fleet to the chosen system and place a Command Counter from her reinforcements in it. 
 During this movement, ships with the [Capacity](#user-content-Capacity_unitAbility) ability may pick up units with the **Space Cargo** trait (like Fighters) but not other units. Ships that may not perform this movement are considered destroyed by the other player.
 
-***Exception:*** *If the **system of the Space Battle is activated** by the player, and the **destination system is not**, the player must spend a Command Counter from Strategy Allocation to retreat.*
+***Exception:*** *If the **system of the Space Battle is activated** by the player, and the **destination system is not** (see figure below), the player must spend a Command Counter from Strategy Allocation to retreat.*
+</div>
+
+<div>
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RetreatCost/RetreatCost_final.jpg" width="650"/>
+
 </div>
 
 ## Invasion Combats <a name="InvasionCombats"></a>  
@@ -969,7 +976,7 @@ Each player will start the game in the Home System of her race, containing her s
 #### Gravity Rift <a name="GravityRift"></a>
 <!-- > Change from base SA: Modified the wording of the first Gravity Rift effect to say it costs less movement to go through, instead of saying ships moving through it gain movement. Effects that give movement to ships while they are moving are bad because they create causality issues: the ship can move (has enough movement) only if it is already moving (to get the bonus movement), which it can only do if it has enough movement... -->
 
-> Change from base SA: Changed the wordings so they work and solve most rule questions without altering the base meaning.  
+> Change from base SA: I modified the wordings so that they work and solve common rule questions. The effects are the same however.  
 > * "gain +1 movement" -> "does not cost a movement point". Reason: Since only ships that can reach the destination system can move, having effects that give bonus movement to ships that are already moving is backward since they only work if the ship is already moving, i.e. if its movement value was high enough to reach its destination. The correct way to word it is to say that the trajectory costs less movement points to follow than it normally would.
 > * "[facilitated movement] when moving through this system in a non-straight line" -> "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation also applies when using a wormhole present inside the Gravity Rift.
 
@@ -1083,8 +1090,8 @@ Trade Stations are a specific type of planets, with the following special rules:
 ## Other Board Elements <a name="OtherBoardElements"></a>
 
 ### Wormholes <a name="Wormholes"></a>
-> TI3->SA: Wormholes make systems adjacent **for all purposes**.  
-> TI3->SA: Wormhole Tokens flip when used to leave a System.
+<!-- > TI3->SA: Wormholes make systems adjacent **for all purposes**.  
+> TI3->SA: Wormhole Tokens flip when used to leave a System. -->
 
 ![Wormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Wormhole.jpg)
 
@@ -1178,12 +1185,14 @@ When a Dummy Artifacts is revealed, it is removed from the game and its controll
 There are four [Special Objective](#user-content-SpecialObjectives) awarding Victory Points for the control of the four non-Dummy Artifacts.
 </div>
 
-#### Artifact Technology Specialty <a name="ArtifactTechnologyDiscounts"></a>  
+#### Technology Cost Reduction <a name="ArtifactTechnologyDiscounts"></a>  
 <div>
 
-Artifacts each have a [Technology Specialty](#user-content-TechnologySpecialty) of their color.
+Artifacts reduce the cost of researching [Technologies](#user-content-Technologies) of their color by 1 (for their controller).
 
-***Note:*** *Even if a planet contains an Artifact, the planet is not considered as having the Artifact's Technology Specialty. As a result, the Artifact's Technology Specialty always reduce technology costs, regardless of whether the planet is exhausted.*
+<!-- Artifacts each have a [Technology Specialty](#user-content-TechnologySpecialty) of their color.
+
+***Note:*** *Even if a planet contains an Artifact, the planet is not considered as having the Artifact's Technology Specialty. As a result, the Artifact's Technology Specialty always reduce technology costs, regardless of whether the planet is exhausted.* -->
 
 <!-- The controller of an Artifact reduces her cost to purchase Technologies of the same color by 1. -->
 </div>
@@ -1261,7 +1270,11 @@ Throughout a game, players will need to spend *resources* and *influence* for ma
 
 ## Command Counters <a name="CommandCounters"></a>
 
-![CommandCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounter.jpg)
+<!-- ![CommandCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounter.jpg) -->
+
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounter.jpg"/>
+<!-- </i> -->
 
 Each player has a number of Command Counters. They are used for various purposes, which this section will explain. During the game, Command Counters can exist either in a player's reinforcements, on one of the three dedicated zones of her race sheet, or in systems of the galaxy.
 
@@ -1274,7 +1287,11 @@ Whenever a player receives or gain a Command Counter, she must place it on her r
 
 Command Counters may not be moved from one area to another, except during the  [Reallocate Command Counters step](#user-content-ReallocateCommandCounters_StatusPhaseStep)  of the Status Phase.
 
-![CommandCounterZones](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounterZones.jpg)
+<!-- ![CommandCounterZones](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounterZones.jpg) -->
+
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounterZones.jpg"/>
+<!-- <i> -->
 
 ### Command Pool <a name="CommandPool"></a>
 The Command Counters in the Command Pool are used to perform [Tactical Actions](#user-content-TacticalAction). If a player does not have any Command Counter in her Command Pool, she may not perform Tactical Actions.
@@ -1303,13 +1320,18 @@ Command Counters in the Strategy Allocation are spent to use various effects. Mo
 
 > Change from base SA: Removed the "If a player at 7 cards is about to draw additional cards, she should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied. I think this feels better and allows you to make better choices as to what to keep.  
 
+
 > Change from base SA: Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." SA rule. It sounded like a nice idea, but is it that useful? If we really need it on some ACs, I think we should instead tweak the wordings of these ACs to allow it rather than introducing a new general rule.
 
 <!-- > Cut the unnecessary (in my opinion) "You can't play two Action Cards of the same name at the same situation/unit".  
 > Removed the "If a player at 7 cards is about to draw additional cards, he should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied.  
 > Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." because the same effect can be achieved by tweaking a few ACs wordings instead of adding an additional general rule. -->
 
-![ActionCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ActionCard.jpg)
+<!-- ![ActionCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ActionCard.jpg) -->
+
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ActionCard.jpg" height="250"/>
+<!-- </i> -->
 
 Throughout the game, players will come into possessions of Action Cards that they will add to their hand.  
 
@@ -1347,7 +1369,11 @@ If multiple outcomes of the same agenda receive the same number of votes, the ti
 
 ### Political Cards keywords <a name="PoliticalCards"></a>
 
-![PoliticalCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/PoliticalCard.jpg)
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/PoliticalCard.jpg" height="250"/>
+<!-- </i> -->
+
+<!-- ![PoliticalCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/PoliticalCard.jpg) -->
 
 Political Cards feature some keywords to indicate how players can vote on them and how they are resolved:
 
@@ -1370,7 +1396,11 @@ Political Cards with the "Law" keyword represent permanent changes and will stay
 
 ### Voice of the Council <a name="VoiceOfTheCouncil"></a>
 
-![VoiceOfTheCouncil](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoiceOfTheCouncil.jpg)
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoiceOfTheCouncil.jpg" height="250"/>
+<!-- </i> -->
+
+<!-- ![VoiceOfTheCouncil](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoiceOfTheCouncil.jpg) -->
 
 After the agendas being voted on and their resolution order have been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council [Special Objective](#user-content-SpecialObjectives) to the agendas being voted on. The decision is made starting with the active player and following the rotation cycler.  
 Voice of the Council is treated as a "Law" with the "elect player" keyword *for the duration of the vote* (it stops being considered as a Political Card after being resolved). The player including it chooses where it is placed in the resolution order.  
@@ -1381,7 +1411,11 @@ The player elected as voice of the council now qualifies for the corresponding o
 ## Technologies <a name="Technologies"></a>  
 <!-- > Change from base SA: Changed the name of the yellow technology domain from "General" to "Economic". This is just cosmetic. -->
 
-![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TechnologySpecialties.jpg)
+<!-- ![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TechnologySpecialties.jpg) -->
+
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TechnologySpecialties.jpg"/>
+<!-- </i> -->
 
 Technologies represent scientific advances the players can acquire (research) throughout the game to strengthen the potential of their race. Technologies are presented in a [Technology Tree](http://www.astralvault.net/games/SA/TTS/Misc/CascadingTechTreeDark_SA.jpg) and can be of one of these four colors, corresponding to four technological domains:
 * Blue: Propulsion technologies
@@ -1407,13 +1441,21 @@ Some effects allow players to "use the effects of" some Technologies. This means
 ## Racial Upgrades <a name="RacialUpgrades"></a>
 <!-- > Change from base SA: Renamed "Racial Technologies" into "Racial Upgrades". The term "Racial Technology" was a bit confusing since "Racial Technologies" actually do not behave like "Technologies" at all, and do not count as such for any effect. -->
 
-![RacialUpgrade](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RacialUpgrade.jpg)
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RacialUpgrade.jpg" height="250"/>
+<!-- </i> -->
+
+<!-- ![RacialUpgrade](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RacialUpgrade.jpg) -->
 
 Racial Upgrades are race-specific bonuses and abilities that can be unlocked during the game at the [Unlock Racial Upgrades](#user-content-UnlockRacialUpgrades_StatusPhaseStep) step of the Status Phase.  
 
 ## Trade Goods <a name="TradeGoods"></a>
 
-![TradeGood](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeGood.jpg)
+<!-- ![TradeGood](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeGood.jpg) -->
+
+<!-- <i> -->
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeGood.jpg"/>
+<!-- </i> -->
 
 When a player receives Trade Goods, she places them into the Trade Good Area of her race sheet. Whenever she spends resources or influence, she can decide to spend some of her Trade Goods as substitutes for one resource or influence each. For example if she wants to spend five resources, she can exhaust Planets for three resources and spend two Trade Goods.  
 Spent Trade Goods are returned to the common play area.  
@@ -2367,8 +2409,8 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 
 ## General Definitions <a name="GeneralDefinitions"></a> 
 
-> Change from base SA: Added the definition of *hostile action* for compatibility with base SA, but *hostile act* is a simpler definition because there is actually no need to tie the concept of actions in it.
-
+<!-- > Change from base SA: Added the definition of *hostile action* for compatibility with base SA, but *hostile act* is a simpler definition because there is actually no need to tie the concept of actions in it.
+ -->
 * [Activated](#user-content-Activated) <a name="Activated_def"></a>  
 	* [Activated System](#user-content-Activated_def)  
 	A System is considered **activated by a player** when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to **activated** and **unactivated** Systems without specifying any player, in which case the player is the one using the effect.   
@@ -2378,8 +2420,9 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 	A unit is **activated** when it is in a System activated by its owner.
 * [Agenda](#user-content-Agenda_def) <a name="Agenda_def"></a>  
 	See [here](#user-content-Agenda).
-* [Allegiances](#user-content-Allegiances_def) <a name="Allegiances_def"></a>  
-	See [here](#user-content-Allegiances).
+<!-- * [Allegiances](#user-content-Allegiances_def) <a name="Allegiances_def"></a>  
+	See [here](#user-content-Allegiances). -->
+
 * [Army](#user-content-Army) <a name="Army"></a>  
 	All the ground units a given player has on the same planet form an **army**.
 * [Blockade](#user-content-Blockade_def) <a name="Blockade_def"></a>  
@@ -2396,24 +2439,39 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 	Some effects allow a player to **capture** enemy units or Facilities. When this happens, replace them with your own. Captured Space Dock are immediately exhausted.
 * [Empty Planet](#user-content-EmptyPlanet_def) <a name="EmptyPlanet_def"></a>  
 	See [here](#user-content-emptyPlanet).
+* [Enemy](#user-content-Allegiances)  
+	Enemy units and planets are those that are controlled by other players.
 * [Fleet](#user-content-Fleet_def) <a name="Fleet_def"></a>  
 	All the ships a given player has in the same System form a **fleet**.
-* [Hostile Act](#user-content-HostileAct_def) <a name="HostileAct_def"></a>  
+<!-- * [Hostile Act](#user-content-HostileAct_def) <a name="HostileAct_def"></a>  
 	When a player:
 
 	* Moves ships into a System containing enemy ships (only the Systems in which the ships end their movement is relevant, not the Systems they moved through).  
 	Or
 	* Either lands ground units on or assigns units to bombard an enemy planet.
 
+	She is said to have performed a **Hostile Act** against the player controlling the enemy ships or planet. -->
+
+* [Friendly](#user-content-Allegiances)  
+	Friendly units and planets are those you control.
+* [Hostile Act](#user-content-HostileAct_def) <a name="HostileAct_def"></a>  
+	When a player:
+
+	* Is the attacker in a Space Battle against another player.  
+	Or
+	* Either lands ground units on or assigns units to bombard an enemy planet.
+
 	She is said to have performed a **Hostile Act** against the player controlling the enemy ships or planet.
-* [Hostile Action](#user-content-HostileAction_def) <a name="HostileAction_def"></a>  
-	When a player performs an action in which she performs one or more [Hostile Acts](#user-content-HostileAct_def) against a player, she is said to have performed a **Hostile Action** against this player.
+<!-- * [Hostile Action](#user-content-HostileAction_def) <a name="HostileAction_def"></a>  
+	When a player performs an action in which she performs one or more [Hostile Acts](#user-content-HostileAct_def) against a player, she is said to have performed a **Hostile Action** against this player. -->
 * [Inflicting A Hit](#user-content-InflictingAHit_def) <a name="InflictingAHit_def"></a>  
 	See [here](#user-content-AssigningAHit).
 * [Invasion](#user-content-Invasion_def) <a name="Invasion_def"></a>  
 	See [here](#user-content-Invasion).
 * [Natural Wealth](#user-content-NaturalWealth) <a name="NaturalWealth"></a>  
 	Some effects place Trade Goods working "**as Natural Wealth**". Refer to the effect of the [Natural Wealth Domain Counter](#user-content-NaturalWealthCounter).
+* [Neutral](#user-content-Allegiances)  
+	Neutral units and planets are those that are not controlled by any players.
 * [Reinforcements](#user-content-Reinforcements_def) <a name="Reinforcements_def"></a>  
 	The **reinforcements** of a player designate the area in which she keeps all her unused / destroyed units and tokens.
 * [Recycling](#user-content-Recycle) <a name="Recycle"></a>  
@@ -2511,25 +2569,40 @@ The player holding the **Speaker Token** is referred to as the **Speaker**. -->
 ### 8, 7 and 4 players
 * The 9th Strategy Card, Prospect, is used.
 
-### 4 and 3 players
-* Each player picks ***two*** Strategy Cards instead of one during the Strategy Phase. The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
-
 ### 4 players
-* Each player may self-trade ***one*** Trade Agreement.
+* Players pick ***TWO*** Strategy Cards instead of one during the Strategy Phase (they still pick one card at a time). The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
+* Players may self-trade ***ONE*** of their Trade Agreements.
+* During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Phase, they are discarded during the Status Phase.
 
 ### 3 players
-* Each player may self-trade ***both*** of her Trade Agreements.
-
-### 4, 3 and 2 players
-* During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Action, they are discarded during the Status Phase.
+* Players pick ***TWO*** Strategy Cards instead of one during the Strategy Phase (they still pick one card at a time). The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
+* Players may self-trade ***BOTH*** of their Trade Agreements.
+* During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Phase, they are discarded during the Status Phase.
 
 ### 2 players
 #### Strategy and Status Phase
-* Each player picks ***three*** Strategy Cards instead of one during the Strategy Phase. The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
+* Players pick ***THREE*** Strategy Cards instead of one during the Strategy Phase (they still pick one card at a time). The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
+* During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Phase, they are discarded during the Status Phase.
+* Players gain one fewer Command Counter during the Status Phase.
+
+#### Trade
+* Players may self-trade ***BOTH*** of their Trade Agreements.
+* The option b) of the Trade Strategy Card may not be used.
 
 #### Assembly
-* When the Assembly (3) Strategy Card is played, after agendas have been chosen for voting, players may secretly spend Trade Goods to gain the same number of votes. players should write the amount of Trade Goods spent alongside their votes, then immediately spend them after votes are revealed.
-* After votes are revealed, a die should be rolled for each agenda that received at least one vote, modifying the votes as follow:
+* The option a) of the Assembly Strategy Card (3) can be used to select your own agenda if you also select your opponent's agenda.
+* The option b) of the Assembly Strategy Card (3) also grants +3 votes to the active player.
+* When the Assembly (3) Strategy Card is played, after agendas have been chosen for voting:
+
+<div>
+
+1) Each player rolls three dice and gains as many votes as the lowest of his results.  
+
+2) Each player may secretly spend Trade Goods to gain the same number of votes. Players should write the amount of Trade Goods spent alongside their votes, then immediately spend them after votes are revealed.
+
+</div>
+
+<!-- * After votes are revealed, a die should be rolled for each agenda that received at least one vote, modifying the votes as follow:
 	* 10: +5 votes for the outcome the Speaker voted for
 	* 9: +3
 	* 8: +2
@@ -2539,40 +2612,42 @@ The player holding the **Speaker Token** is referred to as the **Speaker**. -->
 	* 4: +1 vote for the outcome the other player voted for
 	* 3: +2
 	* 2: +3
-	* 1: +5
+	* 1: +5 -->
 
-<div>
+<!-- <div>
 <div>
 A player not having placed votes on an agenda may not receive bonus votes from the die on this agenda.
 </div>
-</div>
-
-#### Trade
-* Players may self-trade both of their Trade Agreements.
-* The Trade Strategy Card does not have an option b)
+</div> -->
 
 #### Objectives
+* Players are *not* dealt Secret Objectives during the setup.
+* The Sovereign and Imperial Special Objectives are *not* in play.
+* No Preliminary Objective is revealed during the setup.
 * The Voice of the Council Special Objective only gives +3 votes instead of +5.
-* Objectives that require spending resources/influence/Trade Goods require spending two times less of each (round up).
 
-#### Action Cards
-* When drawing an Action Card with the "2pX" symbol, it must be [recycled](#user-content-Recycle) immediately.
+#### Action Cards and Political Cards
+* When drawing an Action Card or Political Card with the "2pX" symbol, it must be [recycled](#user-content-Recycle) immediately.
 <div>
 
-![2PX](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/2PX.jpg)
+<div>
+
+<img src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/2PX.jpg" height="300"/>
+
+</div>
+
+<!-- ![2PX](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/2PX.jpg) -->
 </div>
 
 #### Race-specific changes
+* Every other time **Mentak** uses their racial ability to steal Trade Goods, they gain a Trade Good.
+
 * **Mentak** gains 1 Trade Good whenever using their ability to steal Trade Goods.
 * When **Xxcha** plays the Diplomacy Strategy Card, they may spend 1 Command Counter from Strategy Allocation and 2 Trade Goods to execute the Primary Ability a second time.
 * **Hacan** only needs to give 1 Trade Goods to their opponent when using its Commerce Nexus Racial Upgrade.
 
 ## Annex 1: Effects of Domain Counters <a name="DomainCountersEffects"></a>
 > I improved most of these wordings from their base SA version to add precision and fix problems occurring in very specific situations.  
-
-> Change from base SA (sanctioned by PsiComa): Updated the wording of the Alien Artifact Domain Counter to allow players taking control of it afterwards to choose the tech they want the effects of, as opposed to being forced to get what the first holder chose. Also added that it is no longer considered a Domain Counter after its resolution to prevent it being removed from effects like Diplomacy Secondary.
-
-> Change from base SA (sanctioned by PsiComa): Updated the wording of the Lazax Survivors Domain Counter. Also added that it is no longer considered a Domain Counter after its resolution to prevent it being removed from effects like Diplomacy Secondary.
 
 For the general rules regarding Domain Counters, see the [Domain Counter section](#user-content-DomainCounters).
 
@@ -2599,7 +2674,7 @@ For the general rules regarding Domain Counters, see the [Domain Counter section
 |![DS_NaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NaturalWealth.jpg)  | <b> [Natural Wealth](#user-content-NaturalWealthCounter) <a name="NaturalWealthCounter"></a> </b> <br> *The planet is rich on ore, gas, vegetation and other natural resources that can be extracted relatively easily.*  <br> <br> Place the indicated number of Trade Goods on the planet, that will work as Natural Wealth: players may take one of them when they gain control of the planet, when they activate the system while controlling the planet, and during the Refresh Planet step of the Status Phase if they control the planet. <br> Natural Wealth Trade Goods from multiple sources are merged into a single stack.|
 |![DS_IndustrialSociety](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_IndustrialSociety.jpg)  | <b> [Industrial Society](#user-content-IndustrialSociety) <a name="IndustrialSociety"></a> </b> <br> *An industrious and friendly populace welcomes your empire. With your help, they will soon be able to construct ships for interstellar travel.*  <br> <br> Receive a free (exhausted) Space Dock on this planet. <br> If you are the Saar, gain 2 Trade Goods instead.|
 |![DS_TechnologicalLegacy](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_TechnologicalLegacy.jpg)  | <b> [Technological Legacy](#user-content-TechnologicalLegacy) <a name="TechnologicalLegacy"></a> </b> <br> *The populace of this planet harbours relics and remnants of ancient Lazax technology.*  <br> <br> Receive one technology for which you have the needed pre-requisites, chosen by the player on your left.|
-|![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter face-up in place for the remainder of the game. It is no longer treated as a Domain Counter but is controlled as it it was an Artifact. Any player taking control of this counter may choose one Technology and utilize its effect as long as they maintain control of this counter.|
+|![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Technology](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter face-up in place for the remainder of the game. It is no longer treated as a Domain Counter but is controlled as it it was an Artifact. Any player taking control of this counter may choose one Technology and utilize its effect as long as they maintain control of this counter.|
 |![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Leave this counter face-up in place for the remainder of the game. It is no longer treated as a Domain Counter but is controller as if it was an Artifact. The player controlling this counter receives +3 votes.|
 |![DS_NeutronRadiation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NeutronRadiation.jpg)  | <b> [Neutron Radiation](#user-content-NeutronRadiation) <a name="NeutronRadiation"></a> </b> <br> *The entire landing force is exposed to an intense pulsation of ionizing radiation. No survivors are reported.*  <br> <br> Remove all but 2 of your landing ground units. In the next Status Phase, the owner of the planet must either forfeit refreshing this planet, or lose all ground units on it.|
 |![DS_Settlers](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_Settlers.jpg)  | <b> [Settlers](#user-content-Settlers) <a name="Settlers"></a> </b> <br> *Pioneers from one of the Great Races have already settled on the planet.*  <br> <br> Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both her landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).|
@@ -2615,8 +2690,48 @@ For the general rules regarding Domain Counters, see the [Domain Counter section
 
 ## Annex 2: Variants and Optional Rules <a name="VariantsAndOptionalRules"></a>
 
-### Star by Star <a name="StarByStar"></a>
-Todo
+
+### Covert Objectives (complete version, beta) <a name="CovertObjectivesComplete"></a>
+***Description***  
+The Covert Objective Mod is an in-development mod that adds a new type of objectives (Covert Objectives) as light Secret Objectives, focused on agression. These objectives are acquired through a variant of the Bureaucracy Strategy Card. This mod uses an alternative Public Objective deck with much more peaceful objectives, and the injection of these into the game is now done through Assembly.
+
+The main idea of this mod was to reduce the amount of dealing that was happening when an agressive public objective was drawn (like: "I'll let a Ground Force on this planet for you to claim this objective against me if you do ..."), as well as reducing the intuitive turtling reaction that would follow the revelation of objectives like "Destroy an enemy Space Dock". So with this mod, aggressive objectives should hopefully be claimed in an actual aggressive fashion and encourage a more dynamic and proactive behaviour.
+
+***Setup*** (All the assets are available on the [Shattered Ascension website](http://www.astralvault.net/games/SA/))
+* Replace the standard Stage I Public Objective Deck with the alternative version provided by this variant.
+* Replace the standard Bureaucracy Strategy Card with the alternative version provided by this variant.
+* Shuffle the Covert Objectives deck.
+* Each player draws a Covert Objective.
+* There are no Stage II Public Objectives
+
+***Rules***
+* Covert Objectives must be kept secret until claimed or discarded.
+* During the Status Phase, a player may claim a Covert Objective from his hand *instead* of a Public Objective
+* Players may not have more than 2 Covert Objectives in hand. If they have more they must discard down to 2.
+* After agendas have been revealed during the Strategy Phase, draw a Public Objective and add it to the Twilight Council Area as an additional agenda that *must* be included into voting as a *For/Against* agenda if the Assembly Strategy Card is played:
+	* If the objective is voted *For*, put it into play
+	* If the objective is voted *Against*, put it at the bottom of the deck
+	* If no votes are cast on the objective, place it at the top of the deck
+
+***Generalities***
+* If an objective refers to a system that is not in play, [recycle](#user-content-Recycle) it.
+* Only deeds from the current round count towards Covert Objectives unless otherwise specified.
+* Players are advised to keep the units they destroy during the round on their race sheets to make it easier to verify Covert Objective claims. 
+
+### Covert Objectives (light version, beta) <a name="CovertObjectivesLight"></a>
+***Description***  
+This is an attempt at providing a lighter implementation of the complete Covert Objectives variant.
+
+***Setup***  
+* Shuffle the Covert Objectives deck
+
+***Rules***  
+* At the end of each Status Phase, each player draws a Covert Objective (without showing it).
+* Players may not have more than 2 Covert Objectives in hand. If they have more they must discard down to 2.
+* In the Claim Objectives step of the Status Phase, players may claim a Covert Objective if they do not also claim a Secret (or racial) Objective.
+* When executing the Secondary Ability of the Bureaucracy Strategy Card, players may draw a Covert Objective instead of gaining the Trade Good.
+
+
 
 ### Path of Fate (Race Specific Objectives) <a name="PathOfFate"></a>
 Each player is dealt her three Race-Specific Objective cards. Only one of these can be scored during each game (during the Objectives step of the Status Phase), but cannot be scored simultaneously with a Secret Objective.
@@ -2632,6 +2747,10 @@ The Simultaneous Tactical Action System is an optional rule allowing players to 
 
 ### Ascendancy <a name="Ascendancy"></a>
 Todo
+
+### Star by Star <a name="StarByStar"></a>
+Todo
+
 <!-- ***  
 # Below this line are just scrap notes to write the rest of the rulebook
 ***
