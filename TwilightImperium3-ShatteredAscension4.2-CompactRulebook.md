@@ -1,4 +1,4 @@
-# Shattered Ascension Rewritten Rulebook  - v17_2017-08-04
+# Shattered Ascension Rewritten Rulebook  - v18_2017-??-??
 ***By Cyrusa***
 
 
