@@ -1,5 +1,4 @@
-
-# Shattered Ascension Compact Rulebook  - v10_2017-04-30
+# Shattered Ascension Compact Rulebook  - v11_2017-??-??
 
 #### Notes
 ***Contradictions***  
