@@ -38,6 +38,7 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 		* [Types of Objectives](#ObjectiveCards)
 		* [Winning the Game](#WinningTheGame_StatusPhase)
 * [Space Battle](#SpaceBattle)
+	* [Retreat](#ConductRetreat_SpaceBattleStep)
 * [Invasion Combat](#InvasionCombats)
 * [Systems](#Systems)
 	* [Generalities Regarding Systems](#GeneralitiesRegardingSystems)
@@ -828,12 +829,17 @@ First, the **attacker** must assign to her ships the hits scored by the **defend
 <div>
 Skip this step if either side has no remaining ships in the System.
 
-Else, the attacker may announce a retreat (see below). Then the defender may choose to immediately conduct a retreat. If the defender does not retreat, the attacker may conduct the announced retreat.  
+The sequence goes as follows:  
 
-In order to conduct (or announce) a retreat, a player must choose a destination system adjacent to the system of the Space Battle that does not contain enemy ships. When conducting the retreat, the player must move her fleet to the chosen system and place a Command Counter from her reinforcements in it. 
-During this movement, ships with the [Capacity](#Capacity_unitAbility) ability may pick up units with the **Space Cargo** trait (like Fighters) but not other units. Ships that may not perform this movement are considered destroyed by the other player.
+- The attacker may announce a retreat (see below).
+- The defender may choose to immediately conduct a retreat, cancelling the one announced by the attacker if any.
+- If the defender does not retreat, the attacker may conduct the announced retreat.  
 
-***Exception:*** *If the* **system of the Space Battle is activated** *by the player, and the* **destination system is not** *(see figure below), the player must spend a Command Counter from Strategy Allocation to retreat.*
+
+In order to conduct (or announce) a retreat, a player must choose a destination system adjacent to the system of the Space Battle that does not contain enemy ships. When conducting the retreat, the player must move her fleet (which can pick up units with the *Space Cargo* trait like [Fighters](#Fighter), but not other units) to the chosen system and activate it from reinforcements.  
+Ships that may not perform this movement are considered destroyed by the other player instead.
+
+**Extra Cost:** If the **system of the Space Battle is activated** by the player, and the **destination system is not** (see figure below), then the player must spend a Command Counter from Strategy Allocation to retreat. If she cannot pay, she may not announce or conduct that retreat.
 </div>
 
 <div>
