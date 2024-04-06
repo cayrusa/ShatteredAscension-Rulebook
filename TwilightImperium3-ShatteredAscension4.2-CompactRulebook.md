@@ -315,7 +315,8 @@ After that, place a Bonus Counter on each of the unpicked Strategy Cards. These 
 	3. [Space Cannon Abilities](#user-content-SpaceCannonAbilities_TacticalActionStep)
 	4. [Space Battle](#user-content-SpaceBattle_TacticalActionStep)
 	5. [Planetary Landings](#user-content-PlanetaryLandings_TacticalActionStep)
-	6. [Planetary Landings Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep)
+	6. [Invasion Combats](#user-content-PlanetaryLandingsResolution_TacticalActionStep)
+	<!-- 6. [Planetary Landings Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep) -->
 	7. [Production](#user-content-Production_TacticalActionStep)
 
 
@@ -362,7 +363,8 @@ In this section "you" refers to the active player.
 3. [Space Cannons Abilities](#user-content-SpaceCannonAbilities_TacticalActionStep)
 4. [Space Battle](#user-content-SpaceBattle_TacticalActionStep)
 5. [Planetary Landings](#user-content-PlanetaryLandings_TacticalActionStep)
-6. [Planetary Landings Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep)
+6. [Invasion Combats](#user-content-PlanetaryLandingsResolution_TacticalActionStep)
+<!-- 6. [Planetary Landings Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep) -->
 7. [Production](#user-content-Production_TacticalActionStep)
 
 **Activated System**  
@@ -482,7 +484,7 @@ The active player may land [ground units](#user-content-Troop), [PDSs](#user-con
 <div>
 <div>
 
-The active player may assign some of her ships in the active System with the [Bombardment](#user-content-Bombardment_unitAbility) ability to the [non-friendly](#user-content-Allegiances) planets of this System, in order to be able to bombard them during the [6) Planetary Landing Resolution](#user-content-PlanetaryLandingsResolution_TacticalActionStep) step of this Tactical Action. 
+The active player may assign some of her ships in the active System with the [Bombardment](#user-content-Bombardment_unitAbility) ability to the [non-friendly](#user-content-Allegiances) planets of this System, in order to be able to bombard them during the [6) Invasion Combats](#user-content-PlanetaryLandingsResolution_TacticalActionStep) step of this Tactical Action. 
 
 <!-- The Planetary Landings step consists in two parts: 
 
