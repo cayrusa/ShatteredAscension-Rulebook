@@ -1,4 +1,4 @@
-# Shattered Ascension Rulebook  - v26_2018-06-17
+# Shattered Ascension Rulebook  - v27_2018-09-14
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
@@ -159,7 +159,6 @@ Decide on the game options to include:
 **Recommended:** None.
 
 ### 5) Secret Objectives<a name="Setup_SecretObjectives"></a>
-
 Deal two Secret Objective cards to each player. They will have to discard one of them later.
 
 <!-- ### 6) Race Picking<a name="Setup_RacePicking"></a>
@@ -1085,7 +1084,7 @@ Once built, place the Facility card under the planet card, with the bottom edge 
 
 <!-- When a player takes or lose control of a planet containing Facilities, they are destroyed. -->
 
-When a player takes control of a planet containing Facilities, she may destroy some of them to gain 1 Trade Good per destroyed Facility. Facilities that are not destroyed stay on the planet.
+When a player takes control of a planet containing Facilities, she may destroy some of them. Facilities that are not destroyed stay on the planet.
 
 
 ***Note:*** *Facilities are ***NOT*** [units](#user-content-Units).*
@@ -1313,21 +1312,26 @@ Command Counters may not be moved from one area to another, except during the  [
 ### Command Pool<a name="CommandPool"></a>
 The Command Counters in the Command Pool are used to perform [Tactical Actions](#user-content-TacticalAction). If a player does not have any Command Counter in her Command Pool, she may not perform Tactical Actions.
 
-### Fleet Supply<a name="FleetSupply"></a> 
-> Change from base SA: I changed the part about how to handle Fleet Supply excess. Instead of having both 1> and 2>, I went with only keeping 2>, that is enough to solve everything:  
+### Fleet Supply <a name="FleetSupply"></a> 
+<!-- > Change from base SA: I changed the part about how to handle Fleet Supply excess. Instead of having both 1> and 2>, I went with only keeping 2>, that is enough to solve everything:  
 > 1> "A player may never move units, build units, or otherwise acquire units in any system so that the number of ships herein (again, excluding Fighters) exceed the number of Command Counters in her Fleet Supply area."   
 > 2> "If, for any reason, the number of ships in a system should exceed the number of Command Counters in a player's Fleet Supply, the owner of those ships must immediately remove enough ships from the system (by placing them back with her reinforcements) until the number of ships is again in compliance with the number of Command Counters in her Fleet Supply area. "  
 
-> Change from base SA: The only reasons I see against the change above is that it make the Warship Commission Political Cards (the *for* outcome gives a free Dreadnought to everyone, to be placed at a Space Dock) way less interesting, as players out of Fleet Supply would now get a Dreadnought regardless. This is easily fixable by adding that players may not receive the free Dreadnought in a system where they are already maxing out their Fleet Supply.
+> Change from base SA: The only reasons I see against the change above is that it make the Warship Commission Political Cards (the *for* outcome gives a free Dreadnought to everyone, to be placed at a Space Dock) way less interesting, as players out of Fleet Supply would now get a Dreadnought regardless. This is easily fixable by adding that players may not receive the free Dreadnought in a system where they are already maxing out their Fleet Supply. -->
 
 Command Counters placed in Fleet Supply must be placed with the "fleet" side up.  
-The number of Command Counters in a player's Fleet Supply is her **Fleet Supply**: the maximum number of non-Fighter ships she may have in any System at any time.  
+The number of Command Counters in a player's Fleet Supply is her **Fleet Supply**. A player is said to be in **violation of her Fleet Supply** in a given System if she has more non-Fighter ships in that System than her Fleet Supply.  
+<!-- : the maximum number of non-Fighter ships she may have in any System at any time.   -->
 
-If a player has more non-Fighter ships in a System than her Fleet Supply, she must destroy enough of her non-Fighter ships in the System to comply with her Fleet Supply again.
+- A player may not move or acquire units if that would cause her to violate her Fleet Supply. A player may not plot ship trajectories if the corresponding movements could cause her to violate her Fleet Supply (This can typically happen with [Gravity Rift](#user-content-GravityRift)).
 
-The Fleet Supply constraint is *not* checked while ships are moving, but is checked right after all ships have finished their movement.
+- ***Exception:*** *A player* **may** *[retreat](#user-content-Retreat_SpaceBattleStep) ships even if that would cause her to violate her Fleet Supply.*
 
-It is important to note that the **Fleet Supply** is a constraint on the number of non-Fighter ship of fleets, not on the number of fleets. For example, a player with 3 Fleet Supply may have as many fleets as she wants (up to one per System!), but none of these fleets may have more than 3 non-Fighter ships.
+- If a player violates her Fleet Supply in a System, she must destroy enough of her non-Fighter ships in that System to comply with her Fleet Supply again. This can for example happen after a retreat or if she removes Command Counters from her Fleet Supply.
+
+- The Fleet Supply constraint is *not* checked while ships are moving, but is checked right after all ships have finished their movement.
+
+It is important to note that the **Fleet Supply** is a constraint on the number of non-Fighter ship of fleets, not on the number of fleets. For example, a player with 3 Fleet Supply may have as many fleets as she wants (up to one per System!), but none of these fleets may contain more than 3 non-Fighter ships.
 
 ### Strategy Allocation<a name="StrategyAllocation"></a>  
 Command Counters in the Strategy Allocation are spent to use various effects. Most notably, the Secondary Abilities of Strategy Cards often require the spending of a Command Counter from Strategy Allocation in order to be executed.
@@ -2177,7 +2181,7 @@ The only difference between the two abilities is that Deep Space Cannon may also
 #### Sustain Damage (*n*)<a name="SustainDamage_unitAbility"></a>  
 <div>
 
-A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* sustained this way, a unit loses a [combat dice](#user-content-CombatDice) and rolls one less die when bombarding (up to a minimum of one die) until it is repaired, which usually happens during the [Status Phase](#user-content-StatusPhase).
+A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* sustained this way, a unit loses a [combat dice](#user-content-CombatDice) (up to a minimum of one die) and rolls one less die when bombarding (up to a minimum of one die) until it is repaired, which usually happens during the [Status Phase](#user-content-StatusPhase). Dice losses due to this ability are applied *after* other game effects granting/removing dice.
 **Hit Counters** (see next picture) can be used to represent the damages sustained.
 
 ![HitCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/HitCounterDupForServer2.jpg)
@@ -2270,7 +2274,7 @@ Points of this wording that are addressed by this change:
 
 > Change from base SA: I also tweaked the wording of the third ability (the planet-protection one):  
 > < "subject to invasion (or bombardment)" -> "subject to invasion and/or bombardment"  
-> < "cancel the Invasion Combat step and force the attacker to return ground units to whence they came" -> "cancel both (they still count as Hostile Acts)". If you "cancel the Invasion Combat step", nothing can happen on the other planets in the same system, which is not intended.  
+> < "cancel the Invasion Combat step and force the attacker to return ground units to whence they came" -> "cancel both (they still count as Hostile Acts)". 1) If you "cancel the Invasion Combat step", nothing can happen on the other planets in the same system, which is not intended. 2) If you return only "ground units", then the PDSs and Leaders technically stay on the planet which makes no sense.
 > < "the defender may not use this ability again" -> "the defender may not use it again". For concision.
 </div>
 
@@ -2370,7 +2374,7 @@ Sometimes a player does not want to ([surrender](#user-content-Surrender)) or ca
 
 ### Surrender<a name="Surrender"></a>
 
-> Change from base SA: Surrendering happens at the end of the round, instead of in the middle of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
+> Change from base SA: The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
 
 > Change from base SA: Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)
 
@@ -2384,8 +2388,9 @@ Sometimes a player does not want to ([surrender](#user-content-Surrender)) or ca
 
 > Change from base SA: At the end of the Surrender procedure, the surrendering player follows the elimination procedure. Simple, and make it clear what happens to all her remaining stuff.  
 
-If at the *end of a round*, a player wishes to stop playing for some reason, she can *surrender*.<!--  She loses 2 Victory Points, but only if she controls all the planets in her Home System (i.e. this penalty does not stack with the one from the non-control of all the planets in the Home System).   -->
-Then follow this procedure:
+When passing during the Action Phase, players who wish to stop playing may *surrender* to leave the game. Follow this procedure at the end of the round (this procedure does not require the presence of the surrendered player):
+<!-- If at the *end of a round*, a player wishes to stop playing for some reason, she can *surrender*.
+Then follow this procedure: -->
 
 1. **Victory Point penalty:**
 	The surrendering player loses 2 Victory Points. This penalty does *not* stack with the one from the non-control of all the planets in the Home System.
@@ -2403,11 +2408,13 @@ Then follow this procedure:
 	Starting with the Speaker and following the Rotation Cycler (ignoring the surrendering player), each player will choose a fleet or planet *(except the capital planet)* of the surrendering player that will be bid upon.
 
 	After a fleet or planet has been chosen, starting with the player that chose and following the Rotation Cycler (again, ignoring the surrendering player), each player may either place a bid of influence or withdraw from this bidding. Repeat this until only one player has not withdrawn: this player wins this bidding. The winner of a bidding must spend as many influence as her bid, and takes control of the fleet or planet (including the units on it, but exhausted) that was bid upon.  
-	Note that the player that chose *must* place a bid on her first turn (but she can bid 0), and that no player may place a bid she could not afford to pay later.
+	Note that the player that chose *must* place a bid on her first turn (but she can bid 0), and that no player may place a bid she could not afford to pay later. Also, as an exception to the [Fleet Supply](#user-content-FleetSupply) rule, players *are* allowed to take control via this process of a fleet that would put them in violation of their Fleet Supply (they still have to destroy ships to comply with Flet Supply afterwards).
 
 	Repeat this process until all the fleets and planets (except the capital planet) of the surrendering player have been attributed to other players.
 7. **Elimination:**  
-	Finally, the surrendering player is *eliminated* (follow the [elimination procedure](#user-content-Elimination)), with the exception that her Trade Agreements stay open as long as she controls at least one planet.
+	Finally, the surrendering player is *eliminated* (follow the [elimination procedure](#user-content-Elimination)), with the exception that the Trade Agreements she had with other players stay open until the capital planet is lost (or until her trade partners perform [Hostile Acts](#user-content-HostileAct) against the capital planet).
+
+***Note:*** *The capital planet and its units (until they are taken over or destroyed) are to be considered by the remaining players as belonging to an opponent that has the same technologies, racial abilities and racial upgrades the surrendering player had. They systematically use any effects they have to, but none that are optional, except the [Space Cannon](#user-content-SpaceCannon_unitAbility) ability which they use whenever they can.*
 
 ### Elimination<a name="Elimination"></a>
 
@@ -2426,7 +2433,9 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 5. She is ignored by all effects
 6. The game now has one less players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers).
 
-***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.*
+<!-- ***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.* -->
+
+***Note:*** *The Home System of an eliminated player is still considered as the Home System of an opponent by the remaining players. This means in particular that objectives requiring to control planets in an opponent's Home System can be claimed with the Home System of an eliminated player.*
 
 ## Miscellaneous Rules<a name="MiscellaneousRules"></a>
 
@@ -2439,7 +2448,7 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 ## General Definitions<a name="GeneralDefinitions"></a> 
 
 <!-- > Change from base SA: Added the definition of *hostile action* for compatibility with base SA, but *hostile act* is a simpler definition because there is actually no need to tie the concept of actions in it.
- -->
+ --> 
 * [Activated](#user-content-Activated) <a name="Activated_def"></a>  
 	* [Activated System](#user-content-Activated_def)  
 	A System is considered **activated by a player** when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to **activated** and **unactivated** Systems without specifying any player, in which case the player is the one using the effect.   
@@ -2447,6 +2456,8 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 	A planet is **activated by a player** when it is in a System activated by that player.  
 	* [Activated Unit](#user-content-Activated_def)  
 	A unit is **activated** when it is in a System activated by its owner.
+* [Adjacent/Adjoining](#user-content-adjacentadjoining_def) <a name="adjacentadjoining_def"></a>  
+	See [here](#user-content-AdjoiningAdjacent).
 * [Agenda](#user-content-Agenda_def) <a name="Agenda_def"></a>  
 	See [here](#user-content-Agenda).
 <!-- * [Allegiances](#user-content-Allegiances_def) <a name="Allegiances_def"></a>  
