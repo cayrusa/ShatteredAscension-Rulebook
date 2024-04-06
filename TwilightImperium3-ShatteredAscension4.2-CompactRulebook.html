@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>@font-face {
   font-family: octicons-anchor;
   src: url(https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.woff) format('woff');
 }
@@ -909,7 +909,7 @@ html h6 {
 
 /* My Changes (Start)*/
 blockquote {
-  border-left: 4px solid #b58900;
+  border-left: 4px solid #b58900 !important;
   padding: 0 15px;
   color: #baa978;
 }
@@ -1064,6 +1064,21 @@ i img {
 
 }*/
 
+details {
+  border-left: 4px solid #b58900;
+  padding: 0 15px;
+  color: #b7ac8b;
+}
+
+details * {
+ color: #b7ac8b; 
+}
+
+summary {
+ color: #b7ac8b;
+ padding-bottom: 10px;
+}
+
 /* My Changes (End)*/
 
 /*
@@ -1088,8 +1103,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-</style><title>TwilightImperium3-ShatteredAscension4.2-CompactRulebook</title></head><body><article class="markdown-body"><h1 id="shattered-ascension-rulebook----v27_2018-09-14">
-<a id="user-content-shattered-ascension-rulebook----v27_2018-09-14" class="anchor" href="#shattered-ascension-rulebook----v27_2018-09-14" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shattered Ascension Rulebook  - v27_2018-09-14</h1>
+</style><title>TwilightImperium3-ShatteredAscension4.2-CompactRulebook</title></head><body><article class="markdown-body"><h1 id="shattered-ascension-rulebook----v28_2018-11-25">
+<a id="user-content-shattered-ascension-rulebook----v28_2018-11-25" class="anchor" href="#shattered-ascension-rulebook----v28_2018-11-25" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shattered Ascension Rulebook  - v28_2018-11-25</h1>
 <p><em><strong>By Cyrusa</strong></em><br>
 <em><strong>Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net</strong></em></p>
 
@@ -1681,10 +1696,11 @@ No ships may be produced in a System already containing enemy ships.</li>
 </h3>
 
 
-<blockquote>
-<p>Change from base SA: Added a dedicated "Scuttle units and break Trade Agreements" step near the end of the sequence. The scuttle unit part is there so that this option visually appear in the Status Phase sequence.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Added a dedicated "Scuttle units and break Trade Agreements" step near the end of the sequence. The scuttle unit part is there so that this option visually appear in the Status Phase sequence.
 As for the Trade Agreement part, the reasoning is as follows: In the base SA, Trade Agreements could be broken at any time during the Status Phase. But it was annoying and a bit immersion breaking to see people breaking low value Trade Agreements to get 1 Trade Good and buy a racial upgrades. That is why I created this dedicated Status Phase step, located after the Racial Upgrades unlocks.</p>
-</blockquote>
+</details>
 <p>After the Strategy Phase and the Action Phase comes the Status Phase. During this phase, players claim objectives granting them Victory Points, unlock Racial Upgrades, and more generally "clean up the table" and prepare the game for the next Round.</p>
 <p><strong>Status Phase sequence:</strong></p>
 <ol>
@@ -1843,9 +1859,10 @@ Players must pay 1 resource for each Command Counter in their <a href="#user-con
 </h2>
 
 
-<blockquote>
-<p>Change from base SA: Renamed the "Roll Combat Dice" step to "Perform Combat Rolls" to increase the consistency of the rules.</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Renamed the "Roll Combat Dice" step to "Perform Combat Rolls" to increase the consistency of the rules.</p>
+</details>
 <p>This section details how to resolve Space Battles. Space Battles are ships versus ships engagements that occur when a player moves ships into a system containing enemy ships. The player that moved ships is the <strong>attacker</strong>, while the other player is the <strong>defender</strong>.</p>
 <p>A Space Battle consists of a <em>Pre-Combat</em> phase, followed by a succession of <em>Combat Rounds</em> that continues as long as both players have ships in the System the Space Battle takes place in.</p>
 <p><strong>Space Battle sequence:</strong></p>
@@ -2097,18 +2114,19 @@ When computing the distance between two Systems, consider the shortest chain of 
 <a id="user-content-gravity-rift" class="anchor" href="#gravity-rift" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gravity Rift<a name="user-content-GravityRift"></a>
 </h4>
 
-<blockquote>
-<p>Change from base SA: I modified the wordings so that they work and solve common rule questions. The effects are the same however.</p>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>I modified the wordings so that they work and solve common rule questions. The effects are the same however.</p>
 <ul>
 <li>"gain +1 movement" -&gt; "does not cost a movement point". Reason: Since only ships that can reach the destination system can move, having effects that give bonus movement to ships that are already moving is backward since they only work if the ship is already moving, i.e. if its movement value was high enough to reach its destination. The correct way to word it is to say that the trajectory costs less movement points to follow than it normally would.</li>
-<li>"[facilitated movement] when moving through this system in a non-straight line" -&gt; "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation also applies when using a wormhole present inside the Gravity Rift.</li>
+<li>"[facilitated movement] when moving through this system in a non-straight line" -&gt; "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation does not apply when using a wormhole present inside the Gravity Rift.</li>
 </ul>
-</blockquote>
+</details>
 <div>
 <p><a href="https://camo.githubusercontent.com/16d74ac5305ac5382a6d53d5ec7553868e643117/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f47726176697479526966742e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/16d74ac5305ac5382a6d53d5ec7553868e643117/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f47726176697479526966742e6a7067" alt="GravityRift" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GravityRift.jpg" style="max-width:100%;"></a></p>
 </div>
 <ul>
-<li>Moving out of a Gravity Rift right after entering it does not cost a movement point, unless entering and leaving through opposite edges of the tile.</li>
+<li>Moving out of a Gravity Rift right after entering it does not cost a movement point, unless entering and leaving through opposite edges of the tile (or using a wormhole).</li>
 </ul>
 
 
@@ -2414,13 +2432,12 @@ The number of Command Counters in a player's Fleet Supply is her <strong>Fleet S
 <h2 id="action-cards">
 <a id="user-content-action-cards" class="anchor" href="#action-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Cards<a name="user-content-ActionCards"></a>
 </h2>
-<blockquote>
-<p>Change from base SA: Removed the unnecessary "You can't play two Action Cards of the same name at the same situation/unit".</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Removed the unnecessary "You can't play two Action Cards of the same name at the same situation/unit".</p>
+<p>Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." SA rule. It sounded like a nice idea, but is it that useful? If we really need it on some ACs, I think we should instead tweak the wordings of these ACs to allow it rather than introducing a new general rule.</p>
+</details>
 
-<blockquote>
-<p>Change from base SA: Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." SA rule. It sounded like a nice idea, but is it that useful? If we really need it on some ACs, I think we should instead tweak the wordings of these ACs to allow it rather than introducing a new general rule.</p>
-</blockquote>
 
 
 
@@ -2559,10 +2576,11 @@ Spent Trade Goods are returned to the common play area.</p>
 <h2 id="trade-contracts-and-trade-agreements">
 <a id="user-content-trade-contracts-and-trade-agreements" class="anchor" href="#trade-contracts-and-trade-agreements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Contracts and Trade Agreements<a name="user-content-TradeContractsAndTradeAgreements"></a>
 </h2>
-<blockquote>
-<p>Change from base SA: Made the distinction between your "Trade Contracts": the trade cards of your race, and your "Trade Agreements": the Trade Contracts of other races you got in exchange of your Trade Contracts. Without this distinction, you never know when an effect refers to "your Trade Agreements" if it refers to what I called "your Trade Contracts" or what I called "your Trade Agreements". Even saying "your active Trade Agreements" is not actually clear; are these the Trade Contracts you gave to other people, or the Trade Contracts of other people you got in exchange?<br>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Made the distinction between your "Trade Contracts": the trade cards of your race, and your "Trade Agreements": the Trade Contracts of other races you got in exchange of your Trade Contracts. Without this distinction, you never know when an effect refers to "your Trade Agreements" if it refers to what I called "your Trade Contracts" or what I called "your Trade Agreements". Even saying "your active Trade Agreements" is not actually clear; are these the Trade Contracts you gave to other people, or the Trade Contracts of other people you got in exchange?<br>
 In addition, this terminology felt more natural to me as the cards themselves have a "Trade Contract" side and a "Trade Agreement" one.</p>
-</blockquote>
+</details>
 <p><strong>Content:</strong></p>
 <ul>
 <li><a href="#user-content-TradeContracts">Trade Contracts</a></li>
@@ -2634,25 +2652,9 @@ Various effects (most notably the Primary and Secondary Ability of the Trade Str
 <h2 id="components-limitations">
 <a id="user-content-components-limitations" class="anchor" href="#components-limitations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Components Limitations<a name="user-content-ComponentsLimitations"></a>
 </h2>
-<blockquote>
-<p>Change from base SA: Removed all Command Counters and unit limits (except War Suns and Space Docks) because this should not matter. What is the best unit to build at the time should be the concern, not whether you comply with the arbitrary limit put on it. I can only advise you to free your mind from these limitations, and use plastic units from unused colours when you need more. The base SA limits can be found below in another comment.</p>
-</blockquote>
-<p>All components, except those listed below, are unlimited. Players can use any reasonable objects to replace them if they would run out.<br>
-Supplement cardboard tokens exist for Fighters and Ground Forces.</p>
-<p><strong>Limited components:</strong></p>
-<ul>
-<li>
-<a href="#user-content-Flagship">Flagship</a>: 1</li>
-<li>
-<a href="#user-content-WarSun">War Suns</a>: 3</li>
-<li>
-<a href="#user-content-SpaceDock">Space Docks</a>: 5</li>
-<li>
-<a href="#user-content-PDS">PDSs</a>: 10</li>
-</ul>
-<p>If a player goes over one of these limits, she must immediately scuttle the units in excess.</p>
-
-<blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Removed all Command Counters and unit limits (except War Suns and Space Docks) because this should not matter. What is the best unit to build at the time should be the concern, not whether you comply with the arbitrary limit put on it. I can only advise you to free your mind from these limitations, and use plastic units from unused colours when you need more. The base SA limits can be found below.</p>
 <p>Base SA components limits:</p>
 <ul>
 <li>24 Command Counters</li>
@@ -2669,7 +2671,22 @@ Supplement cardboard tokens exist for Fighters and Ground Forces.</p>
 <li>10 PDSs</li>
 <li>5 Space Docks</li>
 </ul>
-</blockquote>
+</details>
+<p>All components, except those listed below, are unlimited. Players can use any reasonable objects to replace them if they would run out.<br>
+Supplement cardboard tokens exist for Fighters and Ground Forces.</p>
+<p><strong>Limited components:</strong></p>
+<ul>
+<li>
+<a href="#user-content-Flagship">Flagship</a>: 1</li>
+<li>
+<a href="#user-content-WarSun">War Suns</a>: 3</li>
+<li>
+<a href="#user-content-SpaceDock">Space Docks</a>: 5</li>
+<li>
+<a href="#user-content-PDS">PDSs</a>: 10</li>
+</ul>
+<p>If a player goes over one of these limits, she must immediately scuttle the units in excess.</p>
+
 <h2 id="units">
 <a id="user-content-units" class="anchor" href="#units" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Units<a name="user-content-Units"></a>
 </h2>
@@ -3027,9 +3044,10 @@ More details on <a href="#user-content-SpaceBattle">Space Battles</a> and <a hre
 <h4 id="armor-aka-mechanised-units">
 <a id="user-content-armor-aka-mechanised-units" class="anchor" href="#armor-aka-mechanised-units" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Armor<a name="user-content-Armor"></a> (A.k.a. Mechanised Units)</h4>
 <div>
-<blockquote>
-<p>Change from base SA: Renamed "Armor (MU)" into simply "Armor". The "(MU)" marks that they used to be called "Mechanised Units", but I don't think there is a point in making the wordings heavier just to keep this around.</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Renamed "Armor (MU)" into simply "Armor". The "(MU)" marks that they used to be called "Mechanised Units", but I don't think there is a point in making the wordings heavier just to keep this around.</p>
+</details>
 </div>
 <div>
 <p><a href="https://camo.githubusercontent.com/93b6f82a46f1027be067dac680a844abcbc4cf5a/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f756e6974732f41726d6f722e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/93b6f82a46f1027be067dac680a844abcbc4cf5a/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f756e6974732f41726d6f722e6a7067" alt="Armor" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Armor.jpg" style="max-width:100%;"></a></p>
@@ -3376,9 +3394,10 @@ Captured <a href="#user-content-SpaceDock">Space Docks</a> are exhausted.</p>
 <a id="user-content-fate-roll" class="anchor" href="#fate-roll" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fate Roll<a name="user-content-FateRoll"></a>
 </h4>
 <div>
-<blockquote>
-<p>Change from base SA: Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" fate roll triggers with the simpler: "When a Leader is present on a non-friendly planet without friendly ground units also being present"</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" fate roll triggers with the simpler: "When a Leader is present on a non-friendly planet without friendly ground units also being present"</p>
+</details>
 <p>When a ship carrying a Leader is destroyed, or when a Leader is present on a non-friendly planet without friendly ground units also being present, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.</p>
 
 </div>
@@ -3413,11 +3432,10 @@ Upon <em>Escape</em>, the original owner of the Leader may place it back in play
 <a id="user-content-admiral" class="anchor" href="#admiral" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Admiral<a name="user-content-Admiral"></a>
 </h4>
 <div>
-<blockquote>
-<p>Change from base SA:
-&lt; For concision: "A ship carrying Admiral(s) receives one extra die during combat rounds of Space Battles" -&gt; "A ship carrying Admiral(s) receives +1 combat die."</p>
-</blockquote>
-
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>For concision: "A ship carrying Admiral(s) receives one extra die during combat rounds of Space Battles" -&gt; "A ship carrying Admiral(s) receives +1 combat die."</p>
+</details>
 </div>
 <div>
 <p><a href="https://camo.githubusercontent.com/f3dc5851073096ca19abdf9bdbd6ec5583729093/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f41646d6972616c2e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/f3dc5851073096ca19abdf9bdbd6ec5583729093/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f41646d6972616c2e6a7067" alt="Admiral" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Admiral.jpg" style="max-width:100%;"></a></p>
@@ -3432,23 +3450,28 @@ Upon <em>Escape</em>, the original owner of the Leader may place it back in play
 <a id="user-content-diplomat" class="anchor" href="#diplomat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Diplomat<a name="user-content-Diplomat"></a>
 </h4>
 <div>
-<blockquote>
-<p>Change from base SA: I reworded the ability to let ships move through enemy ships. The case where the Diplomat is moving was a bit harder to word, since it had to explain that even though the movement of the ship carrying the Diplomat got stopped (for example by a Gravity Rift), then the other ships should still be able to go through the enemy ships. I split the ability in two parts to keep the wordings simpler: one when the Diplomat is moving, and one when it is static.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: Reworded the wording of the second Diplomat ability for more concision and precision. Current wording from the reference sheet: "If the owners of the Diplomat and of both involved fleets comply, a defending fleet may retreat after enemy ships have moved into the system, and before the Space Battle step. This does not break Trade Agreements.".<br>
-Points of this wording that are addressed by this change:<br>
-&lt; Does not explicitly say that the Diplomat needs to be in the system<br>
-&lt; Is not precise on the timing at which the retreat happens. "after enemy ships have moved into" and "before the Space Battle step" are two different timings separated by the Space Cannon fire step<br>
-&lt; "This does not break Trade Agreements". 1) This was written when "hostile act" was defined backward as being "what breaks Trade Agreements". Now that "hostile act" has its definition and that Trade Agreements are broken by hostile acts, this wording should say that "it is not a hostile act". 2) This sentence is actually unnecessary, since the hostile act would only happen when the Space Battle happens, but the Space Battle never happens because the fleet retreats after the movement step.<br>
-&lt; Also, the proposed wording is shorter than the one on the reference sheet.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: I also tweaked the wording of the third ability (the planet-protection one):<br>
-&lt; "subject to invasion (or bombardment)" -&gt; "subject to invasion and/or bombardment"<br>
-&lt; "cancel the Invasion Combat step and force the attacker to return ground units to whence they came" -&gt; "cancel both (they still count as Hostile Acts)". 1) If you "cancel the Invasion Combat step", nothing can happen on the other planets in the same system, which is not intended. 2) If you return only "ground units", then the PDSs and Leaders technically stay on the planet which makes no sense.
-&lt; "the defender may not use this ability again" -&gt; "the defender may not use it again". For concision.</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<ul>
+<li>I reworded the ability to let ships move through enemy ships. The case where the Diplomat is moving was a bit harder to word, since it had to explain that even though the movement of the ship carrying the Diplomat got stopped (for example by a Gravity Rift), then the other ships should still be able to go through the enemy ships. I split the ability in two parts to keep the wordings simpler: one when the Diplomat is moving, and one when it is static.</li>
+<li>Reworded the wording of the second Diplomat ability for more concision and precision. Current wording from the reference sheet: "If the owners of the Diplomat and of both involved fleets comply, a defending fleet may retreat after enemy ships have moved into the system, and before the Space Battle step. This does not break Trade Agreements.".<br>
+Points of this wording that are addressed by this change:
+<ul>
+<li>Does not explicitly say that the Diplomat needs to be in the system</li>
+<li>Is not precise on the timing at which the retreat happens. "after enemy ships have moved into" and "before the Space Battle step" are two different timings separated by the Space Cannon fire step</li>
+<li>"This does not break Trade Agreements". 1) This was written when "hostile act" was defined backward as being "what breaks Trade Agreements". Now that "hostile act" has its definition and that Trade Agreements are broken by hostile acts, this wording should say that "it is not a hostile act". 2) This sentence is actually unnecessary, since the hostile act would only happen when the Space Battle happens, but the Space Battle never happens because the fleet retreats after the movement step.</li>
+<li>Also, the proposed wording is shorter than the one on the reference sheet.</li>
+</ul>
+</li>
+<li>I also tweaked the wording of the third ability (the planet-protection one):
+<ul>
+<li>"subject to invasion (or bombardment)" -&gt; "subject to invasion and/or bombardment"</li>
+<li>"cancel the Invasion Combat step and force the attacker to return ground units to whence they came" -&gt; "cancel both (they still count as Hostile Acts)". 1) If you "cancel the Invasion Combat step", nothing can happen on the other planets in the same system, which is not intended. 2) If you return only "ground units", then the PDSs and Leaders technically stay on the planet which makes no sense.</li>
+<li>"the defender may not use this ability again" -&gt; "the defender may not use it again". For concision.</li>
+</ul>
+</li>
+</ul>
+</details>
 </div>
 <div>
 <p><a href="https://camo.githubusercontent.com/ade811d3954e820336aa02f79296aaced3af7d0d/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f4469706c6f6d61742e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/ade811d3954e820336aa02f79296aaced3af7d0d/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f4469706c6f6d61742e6a7067" alt="Diplomat" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Diplomat.jpg" style="max-width:100%;"></a></p>
@@ -3470,15 +3493,19 @@ If this ability was used without being overturned, the defender may not use it a
 <a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General<a name="user-content-General"></a>
 </h4>
 <div>
-<blockquote>
-<p>Change from base SA:<br>
-First ability:<br>
-&lt; Clarified that the effects of multiple Generals on the same planet do not stack.<br>
-&lt; Clarified that you can only reroll your Combat Rolls, not the opponent's ones.<br>
-Second ability:<br>
-&lt; Clarified that multiple Generals do not mean multiple bombardment penalties
-&lt; Concision</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>First ability:</p>
+<ul>
+<li>Clarified that the effects of multiple Generals on the same planet do not stack.</li>
+<li>Clarified that you can only reroll your Combat Rolls, not the opponent's ones.</li>
+</ul>
+<p>Second ability:</p>
+<ul>
+<li>Clarified that multiple Generals do not mean multiple bombardment penalties</li>
+<li>Concision</li>
+</ul>
+</details>
 </div>
 <div>
 <p><a href="https://camo.githubusercontent.com/9ed18a40145b0ad5e43ab0d44345b42ff3ffc2b8/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f47656e6572616c2e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/9ed18a40145b0ad5e43ab0d44345b42ff3ffc2b8/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f47656e6572616c2e6a7067" alt="General" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/General.jpg" style="max-width:100%;"></a></p>
@@ -3491,19 +3518,20 @@ Second ability:<br>
 <a id="user-content-agent" class="anchor" href="#agent" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Agent<a name="user-content-Agent"></a>
 </h4>
 <div>
-<blockquote>
-<p>Change from base SA: Reworded the first ability to integrate better with the ability-based design and be more concise as a result.  Also removed the "they still count as 'destroyed' for objectives", since this should be taken care of by Objectives saying "destroyed or captured" instead of just "destroyed".</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: Reworded the second ability:<br>
-&lt; "may cancel its effect" -&gt; "may <a href="#user-content-Sabotage">sabotage</a> it". I defined the "sabotage" procedure in this rulebook so that it can be used concisely in all places where it's needed, instead of each place having to describe again what it means. As a result of not doing that, the base SA wording was missing the "the AC is considered as if it had not been played" part.<br>
-&lt; "Doing so, an Agent may not use this ability again this round or the next" -&gt; "An Agent may not use this ability again this round or the next". Concision.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: Reworded the third ability:<br>
-&lt; So as to have it worded in the third person (like the other Leader abilities).<br>
-&lt; So as to also encompass the case where an Agent lands on an enemy planet containing a Leader but without an Invasion Combat taking place (because no enemy ground units/PDS)</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Reworded the first ability to integrate better with the ability-based design and be more concise as a result.  Also removed the "they still count as 'destroyed' for objectives", since this should be taken care of by Objectives saying "destroyed or captured" instead of just "destroyed".</p>
+<p>Reworded the second ability:</p>
+<ul>
+<li>"may cancel its effect" -&gt; "may <a href="#user-content-Sabotage">sabotage</a> it". I defined the "sabotage" procedure in this rulebook so that it can be used concisely in all places where it's needed, instead of each place having to describe again what it means. As a result of not doing that, the base SA wording was missing the "the AC is considered as if it had not been played" part.</li>
+<li>"Doing so, an Agent may not use this ability again this round or the next" -&gt; "An Agent may not use this ability again this round or the next". Concision.</li>
+</ul>
+<p>Reworded the third ability:</p>
+<ul>
+<li>So as to have it worded in the third person (like the other Leader abilities).</li>
+<li>So as to also encompass the case where an Agent lands on an enemy planet containing a Leader but without an Invasion Combat taking place (because no enemy ground units/PDS)</li>
+</ul>
+</details>
 </div>
 <div>
 <p><a href="https://camo.githubusercontent.com/d298400fd8cb1965ee1241920ad1bcf925e46f50/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f4167656e742e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/d298400fd8cb1965ee1241920ad1bcf925e46f50/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f4167656e742e6a7067" alt="Agent" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Agent.jpg" style="max-width:100%;"></a></p>
@@ -3520,18 +3548,19 @@ Second ability:<br>
 <a id="user-content-scientist" class="anchor" href="#scientist" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scientist<a name="user-content-Scientist"></a>
 </h4>
 <div>
-
-<blockquote>
-<p>Change from base SA: First ability wording:<br>
-&lt; " double the effect of a single Technology Specialty" -&gt; "double the effect of a Technology Specialty". unnecessary "single".</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: Third ability wording:<br>
-&lt; "PDS units on a planet with at least one Scientist" -&gt; "PDSs on planets with friendly Scientists". Concision, and the "friendly" ensures an attacker landing a Scientist does not boost enemy PDSs on the planet.<br>
-&lt; "receive +1 on all rolls" -&gt; "receive +1 to their Combat Rolls". Let's use the the right terms.<br>
-&lt; "They also receive +1 planetary shield" -&gt; "and the <a href="#user-content-PlanetaryShield_unitAbility">Planetary Shield (1) ability</a>". Concision, and compliance with the ability-based design.</p>
-</blockquote>
-
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>First ability wording:</p>
+<ul>
+<li>" double the effect of a single Technology Specialty" -&gt; "double the effect of a Technology Specialty". unnecessary "single".</li>
+</ul>
+<p>Third ability wording:</p>
+<ul>
+<li>"PDS units on a planet with at least one Scientist" -&gt; "PDSs on planets with friendly Scientists". Concision, and the "friendly" ensures an attacker landing a Scientist does not boost enemy PDSs on the planet.</li>
+<li>"receive +1 on all rolls" -&gt; "receive +1 to their Combat Rolls". Let's use the the right terms.</li>
+<li>"They also receive +1 planetary shield" -&gt; "and the <a href="#user-content-PlanetaryShield_unitAbility">Planetary Shield (1) ability</a>". Concision, and compliance with the ability-based design.</li>
+</ul>
+</details>
 </div>
 <div>
 <p><a href="https://camo.githubusercontent.com/628359d66e225319fe9d65f8268ceb21fcd893bd/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f536369656e746973742e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/628359d66e225319fe9d65f8268ceb21fcd893bd/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f536369656e746973742e6a7067" alt="Scientist" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Scientist.jpg" style="max-width:100%;"></a></p>
@@ -3539,37 +3568,32 @@ Second ability:<br>
 
 <ul>
 <li>A Scientist may double the effect of a Technology Specialty from a planet or Artifact it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Technology Specialty.</li>
-<li>The cost of building Space Docks on a planet with Scientist(s) is 2 resources (instead of 4).</li>
+<li>The cost of building Space Docks on a planet with Scientist(s) is 3 resources (instead of 4).</li>
 <li>PDSs on planets with friendly Scientists receive +1 to their Combat Rolls and the <a href="#user-content-PlanetaryShield_unitAbility">Planetary Shield (1) ability</a>.</li>
+<li>Before acquiring a Technology, you may exhaust a planet with a Technology Specialty containing your Scientist, in order to ignore a pre-requisite of its color.</li>
 </ul>
 <h2 id="surrender-and-elimination">
 <a id="user-content-surrender-and-elimination" class="anchor" href="#surrender-and-elimination" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Surrender and Elimination<a name="user-content-EliminationAndSurrender"></a>
 </h2>
-<p>Sometimes a player does not want to (<a href="#user-content-Surrender">surrender</a>) or cannot (<a href="#user-content-Elimination">elimination</a>) continue playing. This section explains how to deal with these situations.</p>
+<p>Sometimes a player does not want to (<a href="#user-content-Surrender">surrender</a>) or cannot (<a href="#user-content-Elimination">elimination</a>) continue playing. This section explains how to deal with these situations. Additionally, the <a href="#user-content-GeneralSurrender">general surrender</a> procedure provides a way to amicably settle a game without playing it out to the end.</p>
 <h3 id="surrender">
 <a id="user-content-surrender" class="anchor" href="#surrender" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Surrender<a name="user-content-Surrender"></a>
 </h3>
-<blockquote>
-<p>Change from base SA: The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA <strong>(sanctioned by PsiComa)</strong>: Ties during the identification of the capital planet are broken in favour of the planet with the highest resource value worth of ground units and PDS, and in case there is still a tie, by choosing one at random.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA <strong>(sanctioned by PsiComa)</strong>: The capital planets and the units on it are <strong>not</strong> considered as neutral for the rest of the game. They just belong to a race without player.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA <strong>(sanctioned by PsiComa)</strong>: When adding to the garrison of the capital planet, add ground units until you either added 3 or there are at least 5 <strong>ground units</strong> on the planet. (base SA says "at least 5 Ground Forces")</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: Clarified the orders in which the fleets/planets to be bid upon were chosen, as well as the order in which the bids were placed. Also precised the actual mechanic of the bidding.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: At the end of the Surrender procedure, the surrendering player follows the elimination procedure. Simple, and make it clear what happens to all her remaining stuff.</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<ul>
+<li>The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.</li>
+<li>Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)</li>
+<li>
+<strong>(sanctioned by PsiComa)</strong>: Ties during the identification of the capital planet are broken in favour of the planet with the highest resource value worth of ground units and PDS, and in case there is still a tie, by choosing one at random.</li>
+<li>
+<strong>(sanctioned by PsiComa)</strong>: The capital planets and the units on it are <strong>not</strong> considered as neutral for the rest of the game. They just belong to a race without player.</li>
+<li>
+<strong>(sanctioned by PsiComa)</strong>: When adding to the garrison of the capital planet, add ground units until you either added 3 or there are at least 5 <strong>ground units</strong> on the planet. (base SA says "at least 5 Ground Forces")</li>
+<li>Clarified the orders in which the fleets/planets to be bid upon were chosen, as well as the order in which the bids were placed. Also precised the actual mechanic of the bidding.</li>
+<li>At the end of the Surrender procedure, the surrendering player follows the elimination procedure. Simple, and make it clear what happens to all her remaining stuff.</li>
+</ul>
+</details>
 <p>When passing during the Action Phase, players who wish to stop playing may <em>surrender</em> to leave the game. Follow this procedure at the end of the round (this procedure does not require the presence of the surrendered player):</p>
 
 <ol>
@@ -3614,15 +3638,13 @@ Finally, the surrendering player is <em>eliminated</em> (follow the <a href="#us
 <a id="user-content-elimination" class="anchor" href="#elimination" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Elimination<a name="user-content-Elimination"></a>
 </h3>
 
-<blockquote>
-<p>Change from base SA: Precised the timing at which elimination happens: at the end of actions or during the Status Phase (if the player has no planets and scuttles all her units for some reason...). Else elimination would happen in the middle of actions, potentially messing things.</p>
-</blockquote>
-<blockquote>
-<p>Change from base SA: Eliminated players also have to discard Secret Objectives from their hand. Because why shouldn't they when they already discard all their other cards?</p>
-</blockquote>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+<p>Precised the timing at which elimination happens: at the end of actions or during the Status Phase (if the player has no planets and scuttles all her units for some reason...). Else elimination would happen in the middle of actions, potentially messing things.</p>
+</details>
 <p>If at the <em>end of an action</em> or <em>during the Status Phase</em>, a player does not control any planet or unit, she is <em>eliminated</em>:</p>
 <ol>
-<li>All her Action Cards, Political Cards, Trade Goods, Command Counters and her Secret Objectives in hand are discarded.</li>
+<li>All her Action Cards, Political Cards, Trade Goods and Command Counters are discarded. Her Secret Objective(s) in hand are <em>not</em> discarded and stay secret.</li>
 <li>Trade Agreements opened with her are broken and may never be re-opened.</li>
 <li>If she was the Speaker, the next player in the Rotation Cycler order becomes the Speaker.</li>
 <li>If she had a Strategy Card, she immediately returns it, even if it was not played yet.</li>
@@ -3631,6 +3653,19 @@ Finally, the surrendering player is <em>eliminated</em> (follow the <a href="#us
 </ol>
 
 <p><em><strong>Note:</strong></em> <em>The Home System of an eliminated player is still considered as the Home System of an opponent by the remaining players. This means in particular that objectives requiring to control planets in an opponent's Home System can be claimed with the Home System of an eliminated player.</em></p>
+<h3 id="general-surrender-experimental">
+<a id="user-content-general-surrender-experimental-" class="anchor" href="#general-surrender-experimental-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General Surrender (Experimental) <a name="user-content-GeneralSurrender"></a>
+</h3>
+<p><em>It may happen that a player is almost guaranteed to win, and that other players do not see a way to stop her, but the game would still technically require to be played out. When this happens, the following rule can be used to cut the game short. It simulates an amicable settlement of the end game.</em></p>
+
+<p>At any point during the game, if all players agree, you can follow these steps to end the game immediately. All players must agree on all decisions made during this procedure for the general surrender to be valid.</p>
+<ol>
+<li>Choose a player to be the winner of the game. She is awarded enough Victory Points to reach the Victory Point goal.</li>
+<li>The winner can award Victory Points to any remaining players, up to a total amount of awarded Victory Points equal to the number of players.</li>
+<li>The remaining players may cede Victory Points to each other.</li>
+<li>If all players agree on the final result, the game is over. If no agreement can be reached, it continues as normal.</li>
+</ol>
+<p>The maximum number of Victory Points any non-winning player can have is 2 Victory Points less than the winner.</p>
 <h2 id="miscellaneous-rules">
 <a id="user-content-miscellaneous-rules" class="anchor" href="#miscellaneous-rules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miscellaneous Rules<a name="user-content-MiscellaneousRules"></a>
 </h2>
@@ -3722,51 +3757,66 @@ Or</li>
 </ul>
 <p>She is said to have performed a <strong>Hostile Act</strong> against the player controlling the enemy ships or planet.</p>
 </li>
-</ul>
-
-<ul>
 <li>
-<a href="#user-content-InflictingAHit_def">Inflicting A Hit</a> <a name="user-content-InflictingAHit_def"></a><br>
-See <a href="#user-content-AssigningAHit">here</a>.</li>
+<p><a href="#user-content-HostileAction_def">Hostile Action</a> <a name="user-content-HostileAction_def"></a><br>
+When a player performs an action in which she performs one or more <a href="#user-content-HostileAct_def">Hostile Acts</a> against a player, she is said to have performed a <strong>Hostile Action</strong> against this player.</p>
+</li>
 <li>
-<a href="#user-content-Installation_def">Installations</a> <a name="user-content-Installation_def"></a><br>
-See <a href="#user-content-Installation">here</a>.</li>
+<p><a href="#user-content-InflictingAHit_def">Inflicting A Hit</a> <a name="user-content-InflictingAHit_def"></a><br>
+See <a href="#user-content-AssigningAHit">here</a>.</p>
+</li>
 <li>
-<a href="#user-content-Invasion_def">Invasion</a> <a name="user-content-Invasion_def"></a><br>
-See <a href="#user-content-Invasion">here</a>.</li>
+<p><a href="#user-content-Installation_def">Installations</a> <a name="user-content-Installation_def"></a><br>
+See <a href="#user-content-Installation">here</a>.</p>
+</li>
 <li>
-<a href="#user-content-NaturalWealth">Natural Wealth</a> <a name="user-content-NaturalWealth"></a><br>
-Some effects place Trade Goods working "<strong>as Natural Wealth</strong>". Refer to the effect of the <a href="#user-content-NaturalWealthCounter">Natural Wealth Domain Counter</a>.</li>
+<p><a href="#user-content-Invasion_def">Invasion</a> <a name="user-content-Invasion_def"></a><br>
+See <a href="#user-content-Invasion">here</a>.</p>
+</li>
 <li>
-<a href="#user-content-Allegiances">Neutral</a><br>
-Neutral units and planets are those that are not controlled by any players.</li>
+<p><a href="#user-content-NaturalWealth">Natural Wealth</a> <a name="user-content-NaturalWealth"></a><br>
+Some effects place Trade Goods working "<strong>as Natural Wealth</strong>". Refer to the effect of the <a href="#user-content-NaturalWealthCounter">Natural Wealth Domain Counter</a>.</p>
+</li>
 <li>
-<a href="#user-content-Reinforcements_def">Reinforcements</a> <a name="user-content-Reinforcements_def"></a><br>
-The <strong>reinforcements</strong> of a player designate the area in which she keeps all her unused / destroyed units and tokens.</li>
+<p><a href="#user-content-Allegiances">Neutral</a><br>
+Neutral units and planets are those that are not controlled by any players.</p>
+</li>
 <li>
-<a href="#user-content-Recycle">Recycling</a> <a name="user-content-Recycle"></a><br>
-<strong>Recycling</strong> a card means discarding it and drawing a new one of the same type.</li>
+<p><a href="#user-content-Reinforcements_def">Reinforcements</a> <a name="user-content-Reinforcements_def"></a><br>
+The <strong>reinforcements</strong> of a player designate the area in which she keeps all her unused / destroyed units and tokens.</p>
+</li>
 <li>
-<a href="#user-content-RotationOrder">Rotation Order</a> <a name="user-content-RotationOrder"></a><br>
-A procedure occurring in <strong>Rotation Order</strong> will start with the <a href="#user-content-Speaker">Speaker</a> and continue around the table with the other players in the orientation of the <a href="#user-content-Components">Rotation Cycler</a>.</li>
+<p><a href="#user-content-Recycle">Recycling</a> <a name="user-content-Recycle"></a><br>
+<strong>Recycling</strong> a card means discarding it and drawing a new one of the same type.</p>
+</li>
 <li>
-<a href="#user-content-ScoringAHit_def">"Scoring A Hit"</a> <a name="user-content-ScoringAHit_def"></a><br>
-See <a href="#user-content-CombatRoll">here</a>.</li>
+<p><a href="#user-content-RotationOrder">Rotation Order</a> <a name="user-content-RotationOrder"></a><br>
+A procedure occurring in <strong>Rotation Order</strong> will start with the <a href="#user-content-Speaker">Speaker</a> and continue around the table with the other players in the orientation of the <a href="#user-content-Components">Rotation Cycler</a>.</p>
+</li>
 <li>
-<a href="#user-content-Scuttle">Scuttle</a> <a name="user-content-Scuttle"></a><br>
-<strong>Scuttling</strong> a unit means removing it from the board and placing it back in its owner's reinforcement.</li>
+<p><a href="#user-content-ScoringAHit_def">"Scoring A Hit"</a> <a name="user-content-ScoringAHit_def"></a><br>
+See <a href="#user-content-CombatRoll">here</a>.</p>
+</li>
 <li>
-<a href="#user-content-Ship_def">Ship</a> <a name="user-content-Ship_def"></a><br>
-See <a href="#user-content-Ship">here</a>.</li>
+<p><a href="#user-content-Scuttle">Scuttle</a> <a name="user-content-Scuttle"></a><br>
+<strong>Scuttling</strong> a unit means removing it from the board and placing it back in its owner's reinforcement.</p>
+</li>
 <li>
-<a href="#user-content-Speaker">Speaker</a> <a name="user-content-Speaker"></a><br>
-The player holding the <a href="#user-content-Components">Speaker Token</a> is referred to as the <strong>Speaker</strong>.</li>
+<p><a href="#user-content-Ship_def">Ship</a> <a name="user-content-Ship_def"></a><br>
+See <a href="#user-content-Ship">here</a>.</p>
+</li>
 <li>
-<a href="#user-content-StableWormhole_def">Stable Wormhole</a> <a name="user-content-StableWormhole_def"></a><br>
-See <a href="#user-content-StableWormholes">here</a>.</li>
+<p><a href="#user-content-Speaker">Speaker</a> <a name="user-content-Speaker"></a><br>
+The player holding the <a href="#user-content-Components">Speaker Token</a> is referred to as the <strong>Speaker</strong>.</p>
+</li>
 <li>
-<a href="#user-content-UseTheEffectsOfTechnology_def">"You may use the effects of" (a Technology)</a> <a name="user-content-UseTheEffectsOfTechnology_def"></a><br>
-See <a href="#user-content-UseTheEffectsOfTechnology">here</a>.</li>
+<p><a href="#user-content-StableWormhole_def">Stable Wormhole</a> <a name="user-content-StableWormhole_def"></a><br>
+See <a href="#user-content-StableWormholes">here</a>.</p>
+</li>
+<li>
+<p><a href="#user-content-UseTheEffectsOfTechnology_def">"You may use the effects of" (a Technology)</a> <a name="user-content-UseTheEffectsOfTechnology_def"></a><br>
+See <a href="#user-content-UseTheEffectsOfTechnology">here</a>.</p>
+</li>
 </ul>
 
 

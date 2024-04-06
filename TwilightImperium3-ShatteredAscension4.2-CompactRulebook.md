@@ -1,4 +1,4 @@
-# Shattered Ascension Rulebook  - v27_2018-09-14
+# Shattered Ascension Rulebook  - v28_2018-11-25
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
@@ -597,8 +597,12 @@ The active player may build Space Docks on some of the planets in the System jus
 
 <!-- > Change from base SA: Added a "Take back Agendas" step, where players have to take back their Agendas (the Political Cards they put in the Twilight Council zone during the Strategy Phase), if these agendas have not been voted on or discarded. Else, people would frequently just leave their Agenda in place face-up because they do not care, giving away precious informations to the opponents.    -->
 
-> Change from base SA: Added a dedicated "Scuttle units and break Trade Agreements" step near the end of the sequence. The scuttle unit part is there so that this option visually appear in the Status Phase sequence.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Added a dedicated "Scuttle units and break Trade Agreements" step near the end of the sequence. The scuttle unit part is there so that this option visually appear in the Status Phase sequence.
 As for the Trade Agreement part, the reasoning is as follows: In the base SA, Trade Agreements could be broken at any time during the Status Phase. But it was annoying and a bit immersion breaking to see people breaking low value Trade Agreements to get 1 Trade Good and buy a racial upgrades. That is why I created this dedicated Status Phase step, located after the Racial Upgrades unlocks.
+</details>
 
 After the Strategy Phase and the Action Phase comes the Status Phase. During this phase, players claim objectives granting them Victory Points, unlock Racial Upgrades, and more generally "clean up the table" and prepare the game for the next Round.
 
@@ -764,7 +768,11 @@ Starting with the Speaker and following the Rotation Cycler, players may scuttle
 
 <!-- > Change from base SA: Checking for whether Space Battles are over is done *before* any Combat Round would start, instead of after each Combat Round. This way no Combat Round is started if one side was entirely destroyed during the Pre-Combat part.   -->
 <!-- > Change from base SA: Renamed the "Roll Combat Dice" and "Remove Casualties" steps to respectively "Perform Combat Rolls" and "Assign Hits" to increase the consistency of the rules. -->
-> Change from base SA: Renamed the "Roll Combat Dice" step to "Perform Combat Rolls" to increase the consistency of the rules.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Renamed the "Roll Combat Dice" step to "Perform Combat Rolls" to increase the consistency of the rules.
+</details>
 
 This section details how to resolve Space Battles. Space Battles are ships versus ships engagements that occur when a player moves ships into a system containing enemy ships. The player that moved ships is the **attacker**, while the other player is the **defender**.
 
@@ -989,16 +997,20 @@ Each player will start the game in the Home System of her race, containing her s
 #### Gravity Rift<a name="GravityRift"></a>
 <!-- > Change from base SA: Modified the wording of the first Gravity Rift effect to say it costs less movement to go through, instead of saying ships moving through it gain movement. Effects that give movement to ships while they are moving are bad because they create causality issues: the ship can move (has enough movement) only if it is already moving (to get the bonus movement), which it can only do if it has enough movement... -->
 
-> Change from base SA: I modified the wordings so that they work and solve common rule questions. The effects are the same however.  
-> * "gain +1 movement" -> "does not cost a movement point". Reason: Since only ships that can reach the destination system can move, having effects that give bonus movement to ships that are already moving is backward since they only work if the ship is already moving, i.e. if its movement value was high enough to reach its destination. The correct way to word it is to say that the trajectory costs less movement points to follow than it normally would.
-> * "[facilitated movement] when moving through this system in a non-straight line" -> "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation also applies when using a wormhole present inside the Gravity Rift.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+I modified the wordings so that they work and solve common rule questions. The effects are the same however.  
+- "gain +1 movement" -> "does not cost a movement point". Reason: Since only ships that can reach the destination system can move, having effects that give bonus movement to ships that are already moving is backward since they only work if the ship is already moving, i.e. if its movement value was high enough to reach its destination. The correct way to word it is to say that the trajectory costs less movement points to follow than it normally would.
+- "[facilitated movement] when moving through this system in a non-straight line" -> "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation does not apply when using a wormhole present inside the Gravity Rift.
+</details>
 
 <div>
 
 ![GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GravityRift.jpg)
 </div>
 
-* Moving out of a Gravity Rift right after entering it does not cost a movement point, unless entering and leaving through opposite edges of the tile.  
+* Moving out of a Gravity Rift right after entering it does not cost a movement point, unless entering and leaving through opposite edges of the tile (or using a wormhole).  
 <!-- * Moving out of a Gravity Rift right after entering it does not cost a movement point, unless the entry and exit borders are opposite to each other. -->
 <!-- * Moving through a Gravity Rift costs 1 movement instead of 2, unless leaving through the border at the opposite side of the one entered. -->
 * Roll one die for each ship moving through a Gravity Rift. On a roll of 1,2 or 3, the ship ends its move in it, and the System becomes activated (from reinforcement).  
@@ -1337,12 +1349,17 @@ It is important to note that the **Fleet Supply** is a constraint on the number 
 Command Counters in the Strategy Allocation are spent to use various effects. Most notably, the Secondary Abilities of Strategy Cards often require the spending of a Command Counter from Strategy Allocation in order to be executed.
 
 ## Action Cards<a name="ActionCards"></a>
-> Change from base SA: Removed the unnecessary "You can't play two Action Cards of the same name at the same situation/unit".    
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Removed the unnecessary "You can't play two Action Cards of the same name at the same situation/unit".    
+
+Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." SA rule. It sounded like a nice idea, but is it that useful? If we really need it on some ACs, I think we should instead tweak the wordings of these ACs to allow it rather than introducing a new general rule.
+</details>
 
 <!-- > Change from base SA: Removed the "If a player at 7 cards is about to draw additional cards, she should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied. I think this feels better and allows you to make better choices as to what to keep.   -->
 
 
-> Change from base SA: Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." SA rule. It sounded like a nice idea, but is it that useful? If we really need it on some ACs, I think we should instead tweak the wordings of these ACs to allow it rather than introducing a new general rule.
 
 <!-- > Cut the unnecessary (in my opinion) "You can't play two Action Cards of the same name at the same situation/unit".  
 > Removed the "If a player at 7 cards is about to draw additional cards, he should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied.  
@@ -1485,8 +1502,13 @@ Spent Trade Goods are returned to the common play area.
 Players are allowed to give other players Trade Goods from their Trade Good Area at any time. This makes Trade Goods a flexible currency with which to bribe, pay, or assist other players economically.
 
 ## Trade Contracts and Trade Agreements<a name="TradeContractsAndTradeAgreements"></a>
-> Change from base SA: Made the distinction between your "Trade Contracts": the trade cards of your race, and your "Trade Agreements": the Trade Contracts of other races you got in exchange of your Trade Contracts. Without this distinction, you never know when an effect refers to "your Trade Agreements" if it refers to what I called "your Trade Contracts" or what I called "your Trade Agreements". Even saying "your active Trade Agreements" is not actually clear; are these the Trade Contracts you gave to other people, or the Trade Contracts of other people you got in exchange?  
+
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Made the distinction between your "Trade Contracts": the trade cards of your race, and your "Trade Agreements": the Trade Contracts of other races you got in exchange of your Trade Contracts. Without this distinction, you never know when an effect refers to "your Trade Agreements" if it refers to what I called "your Trade Contracts" or what I called "your Trade Agreements". Even saying "your active Trade Agreements" is not actually clear; are these the Trade Contracts you gave to other people, or the Trade Contracts of other people you got in exchange?  
 In addition, this terminology felt more natural to me as the cards themselves have a "Trade Contract" side and a "Trade Agreement" one.
+</details>
 
 **Content:**
 
@@ -1563,7 +1585,26 @@ While normally forbidden, some effects allow players to *self-trade* some of the
 
 ## Components Limitations<a name="ComponentsLimitations"></a>
 
-> Change from base SA: Removed all Command Counters and unit limits (except War Suns and Space Docks) because this should not matter. What is the best unit to build at the time should be the concern, not whether you comply with the arbitrary limit put on it. I can only advise you to free your mind from these limitations, and use plastic units from unused colours when you need more. The base SA limits can be found below in another comment.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Removed all Command Counters and unit limits (except War Suns and Space Docks) because this should not matter. What is the best unit to build at the time should be the concern, not whether you comply with the arbitrary limit put on it. I can only advise you to free your mind from these limitations, and use plastic units from unused colours when you need more. The base SA limits can be found below.
+
+Base SA components limits:
+- 24 Command Counters
+- 1 Flagship
+- 3 War Suns
+- 7 Dreadnoughts
+- 8 Carriers
+- 12 Cruisers
+- 16 Destroyers
+- No limit on Fighters
+- 8 Armors (a.k.a. Mechanised Units)
+- No limit on Shock Troops
+- No limit on Ground Forces
+- 10 PDSs
+- 5 Space Docks
+</details>
 
 All components, except those listed below, are unlimited. Players can use any reasonable objects to replace them if they would run out.  
 Supplement cardboard tokens exist for Fighters and Ground Forces.
@@ -1581,21 +1622,6 @@ If a player goes over one of these limits, she must immediately scuttle the unit
 Supplement cardboard tokens exist for Fighters and Ground Forces.
 
 ***Exception:*** *Players cannot have more than 3 [War Suns](#user-content-WarSun) on the board at any time. War Suns in excess must be [scuttled](#user-content-Scuttle)* -->
-
-> Base SA components limits:
-> * 24 Command Counters
-> * 1 Flagship
-> * 3 War Suns
-> * 7 Dreadnoughts
-> * 8 Carriers
-> * 12 Cruisers
-> * 16 Destroyers
-> * No limit on Fighters
-> * 8 Armors (a.k.a. Mechanised Units)
-> * No limit on Shock Troops
-> * No limit on Ground Forces
-> * 10 PDSs
-> * 5 Space Docks
 
 ## Units<a name="Units"></a>  
 
@@ -1883,7 +1909,11 @@ A specific subset of Installations.
 #### Armor<a name="Armor"></a> (A.k.a. Mechanised Units)
 <div>
 
-> Change from base SA: Renamed "Armor (MU)" into simply "Armor". The "(MU)" marks that they used to be called "Mechanised Units", but I don't think there is a point in making the wordings heavier just to keep this around.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Renamed "Armor (MU)" into simply "Armor". The "(MU)" marks that they used to be called "Mechanised Units", but I don't think there is a point in making the wordings heavier just to keep this around.
+</details>
 </div>
 
 <div>
@@ -2204,7 +2234,11 @@ This section explains the general rules that apply to all Leaders.
 #### Fate Roll<a name="FateRoll"></a>
 <div>
 
-> Change from base SA: Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" fate roll triggers with the simpler: "When a Leader is present on a non-friendly planet without friendly ground units also being present"
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" fate roll triggers with the simpler: "When a Leader is present on a non-friendly planet without friendly ground units also being present"
+</details>
 
 When a ship carrying a Leader is destroyed, or when a Leader is present on a non-friendly planet without friendly ground units also being present, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.
 <!-- 
@@ -2243,11 +2277,11 @@ During the Status Phase, captives may be released or executed by their captor. T
 
 #### Admiral<a name="Admiral"></a>
 <div>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
 
-> Change from base SA:
-< For concision: "A ship carrying Admiral(s) receives one extra die during combat rounds of Space Battles" -> "A ship carrying Admiral(s) receives +1 combat die."
-
-<!-- > Change from base SA: Reversion to a (tweaked for concision) previous version of the retreat ability, to be clearer regarding the interaction with Naalu's racial ability, and make the wording more consistent style-wise with the other two abilities. -->
+For concision: "A ship carrying Admiral(s) receives one extra die during combat rounds of Space Battles" -> "A ship carrying Admiral(s) receives +1 combat die."
+</details>
 </div>
 
 <div>
@@ -2262,20 +2296,21 @@ During the Status Phase, captives may be released or executed by their captor. T
 
 #### Diplomat<a name="Diplomat"></a>
 <div>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
 
-> Change from base SA: I reworded the ability to let ships move through enemy ships. The case where the Diplomat is moving was a bit harder to word, since it had to explain that even though the movement of the ship carrying the Diplomat got stopped (for example by a Gravity Rift), then the other ships should still be able to go through the enemy ships. I split the ability in two parts to keep the wordings simpler: one when the Diplomat is moving, and one when it is static.  
-
-> Change from base SA: Reworded the wording of the second Diplomat ability for more concision and precision. Current wording from the reference sheet: "If the owners of the Diplomat and of both involved fleets comply, a defending fleet may retreat after enemy ships have moved into the system, and before the Space Battle step. This does not break Trade Agreements.".  
+- I reworded the ability to let ships move through enemy ships. The case where the Diplomat is moving was a bit harder to word, since it had to explain that even though the movement of the ship carrying the Diplomat got stopped (for example by a Gravity Rift), then the other ships should still be able to go through the enemy ships. I split the ability in two parts to keep the wordings simpler: one when the Diplomat is moving, and one when it is static.  
+- Reworded the wording of the second Diplomat ability for more concision and precision. Current wording from the reference sheet: "If the owners of the Diplomat and of both involved fleets comply, a defending fleet may retreat after enemy ships have moved into the system, and before the Space Battle step. This does not break Trade Agreements.".  
 Points of this wording that are addressed by this change:  
-> < Does not explicitly say that the Diplomat needs to be in the system  
-> < Is not precise on the timing at which the retreat happens. "after enemy ships have moved into" and "before the Space Battle step" are two different timings separated by the Space Cannon fire step  
-> < "This does not break Trade Agreements". 1) This was written when "hostile act" was defined backward as being "what breaks Trade Agreements". Now that "hostile act" has its definition and that Trade Agreements are broken by hostile acts, this wording should say that "it is not a hostile act". 2) This sentence is actually unnecessary, since the hostile act would only happen when the Space Battle happens, but the Space Battle never happens because the fleet retreats after the movement step.  
-> < Also, the proposed wording is shorter than the one on the reference sheet.
-
-> Change from base SA: I also tweaked the wording of the third ability (the planet-protection one):  
-> < "subject to invasion (or bombardment)" -> "subject to invasion and/or bombardment"  
-> < "cancel the Invasion Combat step and force the attacker to return ground units to whence they came" -> "cancel both (they still count as Hostile Acts)". 1) If you "cancel the Invasion Combat step", nothing can happen on the other planets in the same system, which is not intended. 2) If you return only "ground units", then the PDSs and Leaders technically stay on the planet which makes no sense.
-> < "the defender may not use this ability again" -> "the defender may not use it again". For concision.
+	- Does not explicitly say that the Diplomat needs to be in the system  
+	- Is not precise on the timing at which the retreat happens. "after enemy ships have moved into" and "before the Space Battle step" are two different timings separated by the Space Cannon fire step  
+	- "This does not break Trade Agreements". 1) This was written when "hostile act" was defined backward as being "what breaks Trade Agreements". Now that "hostile act" has its definition and that Trade Agreements are broken by hostile acts, this wording should say that "it is not a hostile act". 2) This sentence is actually unnecessary, since the hostile act would only happen when the Space Battle happens, but the Space Battle never happens because the fleet retreats after the movement step.  
+	- Also, the proposed wording is shorter than the one on the reference sheet.
+- I also tweaked the wording of the third ability (the planet-protection one):  
+	- "subject to invasion (or bombardment)" -> "subject to invasion and/or bombardment"  
+	- "cancel the Invasion Combat step and force the attacker to return ground units to whence they came" -> "cancel both (they still count as Hostile Acts)". 1) If you "cancel the Invasion Combat step", nothing can happen on the other planets in the same system, which is not intended. 2) If you return only "ground units", then the PDSs and Leaders technically stay on the planet which makes no sense.
+	- "the defender may not use this ability again" -> "the defender may not use it again". For concision.
+</details>
 </div>
 
 <div>
@@ -2297,14 +2332,17 @@ If this ability was used without being overturned, the defender may not use it a
 
 #### General<a name="General"></a>
 <div>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+	
+First ability:  
+- Clarified that the effects of multiple Generals on the same planet do not stack.  
+- Clarified that you can only reroll your Combat Rolls, not the opponent's ones.  
 
-> Change from base SA:  
-> First ability:  
-> < Clarified that the effects of multiple Generals on the same planet do not stack.  
-> < Clarified that you can only reroll your Combat Rolls, not the opponent's ones.  
-> Second ability:  
-> < Clarified that multiple Generals do not mean multiple bombardment penalties
-> < Concision
+Second ability:  
+- Clarified that multiple Generals do not mean multiple bombardment penalties
+- Concision
+</details>
 </div>
 
 <div>
@@ -2317,17 +2355,19 @@ If this ability was used without being overturned, the defender may not use it a
 
 #### Agent<a name="Agent"></a>
 <div>
+<details>
+	<summary>Change from base SA (click to expand)</summary>
 
-> Change from base SA: Reworded the first ability to integrate better with the ability-based design and be more concise as a result.  Also removed the "they still count as 'destroyed' for objectives", since this should be taken care of by Objectives saying "destroyed or captured" instead of just "destroyed".
+Reworded the first ability to integrate better with the ability-based design and be more concise as a result.  Also removed the "they still count as 'destroyed' for objectives", since this should be taken care of by Objectives saying "destroyed or captured" instead of just "destroyed".
 
-> Change from base SA: Reworded the second ability:  
-> < "may cancel its effect" -> "may [sabotage](#user-content-Sabotage) it". I defined the "sabotage" procedure in this rulebook so that it can be used concisely in all places where it's needed, instead of each place having to describe again what it means. As a result of not doing that, the base SA wording was missing the "the AC is considered as if it had not been played" part.  
-> < "Doing so, an Agent may not use this ability again this round or the next" -> "An Agent may not use this ability again this round or the next". Concision.
+Reworded the second ability:  
+- "may cancel its effect" -> "may [sabotage](#user-content-Sabotage) it". I defined the "sabotage" procedure in this rulebook so that it can be used concisely in all places where it's needed, instead of each place having to describe again what it means. As a result of not doing that, the base SA wording was missing the "the AC is considered as if it had not been played" part.  
+- "Doing so, an Agent may not use this ability again this round or the next" -> "An Agent may not use this ability again this round or the next". Concision.
 
-> Change from base SA: Reworded the third ability:  
-> < So as to have it worded in the third person (like the other Leader abilities).  
-> < So as to also encompass the case where an Agent lands on an enemy planet containing a Leader but without an Invasion Combat taking place (because no enemy ground units/PDS)
-
+Reworded the third ability:  
+- So as to have it worded in the third person (like the other Leader abilities).  
+- So as to also encompass the case where an Agent lands on an enemy planet containing a Leader but without an Invasion Combat taking place (because no enemy ground units/PDS)
+</details>
 </div>
 
 <div>
@@ -2343,19 +2383,17 @@ If this ability was used without being overturned, the defender may not use it a
 #### Scientist<a name="Scientist"></a>
 <div>
 
-<!-- > Change from base SA: Artifacts have no technology specialty.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
 
-> Change from base SA: I had no idea why the Planetary Shield obtained from Scientist were to "never be ignored by other abilities", so I removed that part. -->
+First ability wording:  
+- " double the effect of a single Technology Specialty" -> "double the effect of a Technology Specialty". unnecessary "single".
 
-> Change from base SA: First ability wording:  
-> < " double the effect of a single Technology Specialty" -> "double the effect of a Technology Specialty". unnecessary "single".
-
-> Change from base SA: Third ability wording:  
-> < "PDS units on a planet with at least one Scientist" -> "PDSs on planets with friendly Scientists". Concision, and the "friendly" ensures an attacker landing a Scientist does not boost enemy PDSs on the planet.  
-> < "receive +1 on all rolls" -> "receive +1 to their Combat Rolls". Let's use the the right terms.  
-> < "They also receive +1 planetary shield" -> "and the [Planetary Shield (1) ability](#user-content-PlanetaryShield_unitAbility)". Concision, and compliance with the ability-based design.  
-<!-- > < I had no idea why the Planetary Shield obtained from Scientist were to "never be ignored by other abilities", so I removed that part.   -->
-
+Third ability wording:  
+- "PDS units on a planet with at least one Scientist" -> "PDSs on planets with friendly Scientists". Concision, and the "friendly" ensures an attacker landing a Scientist does not boost enemy PDSs on the planet.  
+- "receive +1 on all rolls" -> "receive +1 to their Combat Rolls". Let's use the the right terms.  
+- "They also receive +1 planetary shield" -> "and the [Planetary Shield (1) ability](#user-content-PlanetaryShield_unitAbility)". Concision, and compliance with the ability-based design.  
+</details>
 </div>
 
 <div>
@@ -2365,28 +2403,28 @@ If this ability was used without being overturned, the defender may not use it a
 
 <!-- * A Scientist may double the Technology cost discount granted by a single Artifact or technology specialty it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Artifact or technology specialty for the same Technology purchase. -->
 * A Scientist may double the effect of a Technology Specialty from a planet or Artifact it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Technology Specialty.
-* The cost of building Space Docks on a planet with Scientist(s) is 2 resources (instead of 4).
+* The cost of building Space Docks on a planet with Scientist(s) is 3 resources (instead of 4).
 * PDSs on planets with friendly Scientists receive +1 to their Combat Rolls and the [Planetary Shield (1) ability](#user-content-PlanetaryShield_unitAbility).
+* Before acquiring a Technology, you may exhaust a planet with a Technology Specialty containing your Scientist, in order to ignore a pre-requisite of its color.
 
 ## Surrender and Elimination<a name="EliminationAndSurrender"></a>
 
-Sometimes a player does not want to ([surrender](#user-content-Surrender)) or cannot ([elimination](#user-content-Elimination)) continue playing. This section explains how to deal with these situations.
+Sometimes a player does not want to ([surrender](#user-content-Surrender)) or cannot ([elimination](#user-content-Elimination)) continue playing. This section explains how to deal with these situations. Additionally, the [general surrender](#user-content-GeneralSurrender) procedure provides a way to amicably settle a game without playing it out to the end.
 
 ### Surrender<a name="Surrender"></a>
 
-> Change from base SA: The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
+<details>
+	<summary>Change from base SA (click to expand)</summary>
 
-> Change from base SA: Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)
+- The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
+- Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)
+- **(sanctioned by PsiComa)**: Ties during the identification of the capital planet are broken in favour of the planet with the highest resource value worth of ground units and PDS, and in case there is still a tie, by choosing one at random.
+- **(sanctioned by PsiComa)**: The capital planets and the units on it are **not** considered as neutral for the rest of the game. They just belong to a race without player.
+- **(sanctioned by PsiComa)**: When adding to the garrison of the capital planet, add ground units until you either added 3 or there are at least 5 **ground units** on the planet. (base SA says "at least 5 Ground Forces")
+- Clarified the orders in which the fleets/planets to be bid upon were chosen, as well as the order in which the bids were placed. Also precised the actual mechanic of the bidding.  
+- At the end of the Surrender procedure, the surrendering player follows the elimination procedure. Simple, and make it clear what happens to all her remaining stuff.  
+</details>
 
-> Change from base SA **(sanctioned by PsiComa)**: Ties during the identification of the capital planet are broken in favour of the planet with the highest resource value worth of ground units and PDS, and in case there is still a tie, by choosing one at random.
-
-> Change from base SA **(sanctioned by PsiComa)**: The capital planets and the units on it are **not** considered as neutral for the rest of the game. They just belong to a race without player.
-
-> Change from base SA **(sanctioned by PsiComa)**: When adding to the garrison of the capital planet, add ground units until you either added 3 or there are at least 5 **ground units** on the planet. (base SA says "at least 5 Ground Forces")
-
-> Change from base SA: Clarified the orders in which the fleets/planets to be bid upon were chosen, as well as the order in which the bids were placed. Also precised the actual mechanic of the bidding.  
-
-> Change from base SA: At the end of the Surrender procedure, the surrendering player follows the elimination procedure. Simple, and make it clear what happens to all her remaining stuff.  
 
 When passing during the Action Phase, players who wish to stop playing may *surrender* to leave the game. Follow this procedure at the end of the round (this procedure does not require the presence of the surrendered player):
 <!-- If at the *end of a round*, a player wishes to stop playing for some reason, she can *surrender*.
@@ -2420,13 +2458,15 @@ Then follow this procedure: -->
 
 <!-- > Change from base SA: Players only officially get eliminated at the end of rounds, not in the middle of them. This is to keep the impact on the game minimal, rather than "his Strategy cards are immediately returned (even if still active)" (from the SA living rulebook). -->
 
-> Change from base SA: Precised the timing at which elimination happens: at the end of actions or during the Status Phase (if the player has no planets and scuttles all her units for some reason...). Else elimination would happen in the middle of actions, potentially messing things.
+<details>
+	<summary>Change from base SA (click to expand)</summary>
 
-> Change from base SA: Eliminated players also have to discard Secret Objectives from their hand. Because why shouldn't they when they already discard all their other cards?
+Precised the timing at which elimination happens: at the end of actions or during the Status Phase (if the player has no planets and scuttles all her units for some reason...). Else elimination would happen in the middle of actions, potentially messing things.
+</details>
 
 If at the *end of an action* or *during the Status Phase*, a player does not control any planet or unit, she is *eliminated*:
 
-1. All her Action Cards, Political Cards, Trade Goods, Command Counters and her Secret Objectives in hand are discarded.
+1. All her Action Cards, Political Cards, Trade Goods and Command Counters are discarded. Her Secret Objective(s) in hand are *not* discarded and stay secret.
 2. Trade Agreements opened with her are broken and may never be re-opened.
 3. If she was the Speaker, the next player in the Rotation Cycler order becomes the Speaker.
 4. If she had a Strategy Card, she immediately returns it, even if it was not played yet.
@@ -2436,6 +2476,21 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 <!-- ***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.* -->
 
 ***Note:*** *The Home System of an eliminated player is still considered as the Home System of an opponent by the remaining players. This means in particular that objectives requiring to control planets in an opponent's Home System can be claimed with the Home System of an eliminated player.*
+
+### General Surrender (Experimental) <a name="GeneralSurrender"></a>
+
+*It may happen that a player is almost guaranteed to win, and that other players do not see a way to stop her, but the game would still technically require to be played out. When this happens, the following rule can be used to cut the game short. It simulates an amicable settlement of the end game.*
+
+<!--In case all remaining players agree, a general surrender may be initiated to end the game determining a winner of the game. The winner is awarded enough VP to reach the victory contidition. The winner can then award VP to any remaining player up to a total amount of VP equal to the number of players. The remaining players may cede VPs to each other. The maximum amount of VPs any non-winning player can have is 2VPs less than the winner. Should all remaining active players agree on the final result, the game ends.-->
+
+At any point during the game, if all players agree, you can follow these steps to end the game immediately. All players must agree on all decisions made during this procedure for the general surrender to be valid.
+
+1. Choose a player to be the winner of the game. She is awarded enough Victory Points to reach the Victory Point goal.
+2. The winner can award Victory Points to any remaining players, up to a total amount of awarded Victory Points equal to the number of players.
+3. The remaining players may cede Victory Points to each other.
+4. If all players agree on the final result, the game is over. If no agreement can be reached, it continues as normal.
+
+The maximum number of Victory Points any non-winning player can have is 2 Victory Points less than the winner.
 
 ## Miscellaneous Rules<a name="MiscellaneousRules"></a>
 
@@ -2504,8 +2559,8 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 	* Either lands ground units on or assigns units to bombard an enemy planet.
 
 	She is said to have performed a **Hostile Act** against the player controlling the enemy ships or planet.
-<!-- * [Hostile Action](#user-content-HostileAction_def) <a name="HostileAction_def"></a>  
-	When a player performs an action in which she performs one or more [Hostile Acts](#user-content-HostileAct_def) against a player, she is said to have performed a **Hostile Action** against this player. -->
+* [Hostile Action](#user-content-HostileAction_def) <a name="HostileAction_def"></a>  
+	When a player performs an action in which she performs one or more [Hostile Acts](#user-content-HostileAct_def) against a player, she is said to have performed a **Hostile Action** against this player.
 * [Inflicting A Hit](#user-content-InflictingAHit_def) <a name="InflictingAHit_def"></a>  
 	See [here](#user-content-AssigningAHit).
 * [Installations](#user-content-Installation_def) <a name="Installation_def"></a>  

@@ -179,7 +179,7 @@ html h6 {
 
 /* My Changes (Start)*/
 blockquote {
-  border-left: 4px solid #b58900;
+  border-left: 4px solid #b58900 !important;
   padding: 0 15px;
   color: #baa978;
 }
@@ -333,6 +333,21 @@ i img {
     border-bottom: 1px solid #eee;
 
 }*/
+
+details {
+  border-left: 4px solid #b58900;
+  padding: 0 15px;
+  color: #b7ac8b;
+}
+
+details * {
+ color: #b7ac8b; 
+}
+
+summary {
+ color: #b7ac8b;
+ padding-bottom: 10px;
+}
 
 /* My Changes (End)*/
 
