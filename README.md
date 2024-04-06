@@ -1,6 +1,11 @@
-# TwilightImperium3-ShatteredAscension4.2-CompactRulebook
-A compact and complete rulebook for the Shattered Ascension 4.2 variant of the Twilight Imperium 3 board game
+# Shattered Ascension Rulebook (Twilight Imperium 3)
+A complete rulebook for the Shattered Ascension variant of the Twilight Imperium 3 board game.
+Contains all the rules, no need for any of the original Twilight Imperium 3 rulebooks.
 
-See [this forum post](http://www.astralvault.net/games/forum/viewtopic.php?f=6&t=930&p=9978#p9978) for more information on this project.
+The rulebook itself is written in markdown.
+I use [Sublime Text](https://www.sublimetext.com/) to edit it, and the [MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview) package to render it to html (using the integrated markdown parser, not the github one). To render it in Sublime:
+- Open the markdown file
+- ctrl-shift-P to open the palette
+- use the "Markdown Preview: Save to HTML" to produce the .html file, or "Markdown Preview: Preview in Browser" to just have a look
 
-Regarding the style sheet, I added it in the root of the project. To use it in Markdown Pad, click the "Tools" tab and choose "options". Then in the "stylesheet" tab, "edit" "solarized-dark.css" and paste the content of the customisedStyleSheet.txt in it.
+The rulebook is also available on the [Assets](https://www.astralvault.net/games/SA/downloads/) page of the Shattered Ascension website.
