@@ -1,95 +1,22 @@
-# Shattered Ascension Compact Rulebook  - v5_2017-02-10
+# Shattered Ascension Compact Rulebook  - v6_2017-03-14
 
-#### Note on Contradictions
-If the text of a component (card, technology,...) would contradict with the rules presented in this rulebook, the component takes precedence. 
+#### Notes
+***Contradictions***  
+If the text of a component (card, technology,...) would contradict with the rules presented in this rulebook, the component takes precedence.
+
+***Compliance***  
+A player subject to negative effects (for example discard *3* Trade Goods) must fulfil them as far as able (if she only has *2* Trade Goods, she must discard them).
 
 ## Overview
+<!---
 ### Game Overview
-In a game of Twilight Imperium, 2 to 8 players take the role of varied great races fighting for supremacy in the galaxy after the ruling Lazax Empire has fallen. The game is played over several rounds, during which players strive to fulfil Objectives in order to score Victory Points. The first player to reach a predetermined number of Victory Points is declared the winner and the new Emperor of the Galaxy.
-	
-### Components Overview
-#### Systems
-[image]  
-Every game, these hexagonal tiles will be assembled to create the game board: the galaxy. They represent areas of space and may contain planets or other elements of interest.  
-[More details on Systems](#GameConcepts_Systems)
+-->
+In a game of Twilight Imperium, 2 to 8 players take the role of varied great races fighting for supremacy in the galaxy after the ruling Lazax Empire has fallen. The game is played over several Rounds, during which players strive to fulfil Objectives in order to score Victory Points. The first player to reach a predetermined number of Victory Points is declared the winner and the new Empress of the Galaxy.
 
-#### Units
-[image]  
-These detailed plastic pieces represent the military personnel, shipyards, defence systems, and spaceships that players will command. 
-[More details on Units](#GameConcepts_Units)
-
-#### Planet Cards
-[image]  
-Each of these cards corresponds to a planet present in one of the systems. They are used to indicate the ownership over the planets, and whether they have been "exhausted" by their owner.  
-[More details on Planets](#GameConcepts_Planets)
-
-#### Technology Tree
-[image]  
-This tree depicts all the technologies the players can acquire in the game, and help them to keep track of those that they already have. 
-[More details on Technologies](#GameConcepts_Technologies)
-
-#### Action Cards
-[image]  
-These cards are acquired by players throughout the game, and can be used to provide various effects.  
-[More details on Action Cards](#GameConcepts_ActionCards)
-
-#### Political Cards
-[image]  
-These cards represent the agendas that the players will vote on at the Twilight Council located on Mecatol Rex.  
-[More details on Political Cards](#GameConcepts_PoliticalCards)
-
-#### Objective Cards
-[image of Preliminary, Public Stage1, Public Stage2, Secret and Special objectives]  
-In order to win a game of Twilight Imperium, players need to accumulate victory points. This is mostly done by qualifying for the requirements of the Objective Cards.  
-[More details on Objective Cards](#GameConcepts_ObjectiveCards)
-
-#### Artefact Tokens
-[image]  
-These tokens are placed either on planets or in space, and give benefits to their controller.  
-[More details on Artefacts](#GameConcepts_Artefacts)
-
-#### Trade Agreement cards
-[image]  
-Each race has some of these cards, and uses them to trade with other races.  
-[More details on Trade](#GameConcepts_Trade)
-
-<a name="StrategyCards">
-#### Strategy Cards (and the High Alert token)
-</a>
-[image]  
-These cards represent powerful short-term strategies the players can choose from each round, during the [Strategy Phase](#StrategyPhase). The Warfare (number 6) Strategy Card comes with the High Alert token. They are played through [Strategic Actions](#StrategicAction). 
-
-#### Bonus Counters
-[image]  
-These counters are placed on unpicked [Strategy Cards](#StrategyCards) to make them more attractive.
-
-#### Command Counters
-[image]  
-These counters represent the domestic mandates and logisitics of the races. They are used by players for various actions, such as moving units on the board through [Tactical Actions](#TacticalAction).
-
-#### Control Markers (also called "Flags")
-[image]  
-These markers are used to represent the races in various places
-
-#### Trade Goods
-[image]  
-These tokens represent wealth. They are used as currency, and can be exchanged between players.  
-[More details on Trade Goods](#GameConcepts_TradeGoods).
-
-#### The Victory Point Track
-[image]
-During the setup of the game, each player places a flag on the Victory Point Track, to track the number of his Victory Points throughout the game.
-
-#### The Speaker Token and the Rotation Cycler
-[image]
-The holder of the Speaker Token (called the Speaker) chooses first his [Strategy Cards](#StrategyCards) during the Strategy Phase, and break ties during the [Twilight Council](#GameConcepts_TwilightCouncil).  
-The Rotation Cycler determine the order
-
-#### The Rotation Cycler
-
-## Goal of the Game (Overview)
-
+<!---	
+### Goal of the Game (Overview)
 A game of Shattered Ascension is a succession of Rounds. At the end of each Round, players can acquire Victory Points by claiming various Objectives. If a player ends a Round with at least as many Victory Points as the limit that was decided at the beginning of the game (usually 10), she is declared winner.
+-->
 
 ## Setup
 *Note: players may sit now, but will likely have to change seat at some point.*
@@ -241,24 +168,24 @@ Reveal:
 * Each player discards a Secret Objective (the discard pile of Secret Objectives cards is NOT public)
 * Each player draws 2 Political Cards
 * Reveal hidden races
-* Each player chooses a set of plastic miniatures and take his race's Command Counters. She places them near his race sheet. They will form his "Reinforcements".
+* Each player chooses a set of plastic miniatures and takes her race's Command Counters. She places them near her race sheet. They will form her "Reinforcements".
 > * I think that "Flag" is a better name than "Control Marker". It's more visual. And we say "flag" when we talk anyway.
 > * Let's forget about the dual name "Trade Contract"-"Trade Agreement", and just call these cards "Trade Agreements", that may be either "active" or "inactive".
 > * "Race-Specific Technology" -> "Racial Improvement", to show that they are really not like normal technologies.
 > * "Promissory Notes" do not exist in SA.
 
-* Each player takes the assets of his race:
+* Each player takes the assets of her race:
 	* Flags
 	* Flagship card
 	* Trade Agreement cards
 	* Racial Improvement cards
 * Each player places a Flag on the zero of the Victory Point Track.
-* Each player places Flags on the technology tree, besides his starting technologies (indicated on his race sheet).
+* Each player places Flags on the technology tree, besides her starting technologies (indicated on her race sheet).
 
 > "Installations" = PDSs and SpaceDocks
 
-* Each player places his starting units and Leaders (indicated on his race sheet) in his Home Systems. Ground units and Installations may be placed on any planet. Leaders may be placed on any ships or planet.
-* Each players places Command Counters from his reinforcements onto his race sheet as follows:
+* Each player places her starting units and Leaders (indicated on her race sheet) in her Home System. Ground units and Installations may be placed on any planet. Leaders may be placed on any ships or planet.
+* Each players places Command Counters from her reinforcements onto her race sheet as follows:
 	* 2 in Strategy Allocation (with the race's symbol side up)
 	* 3 in Command Pool (with the race's symbol side up)
 	* 3 in Fleet Supply (with the ship silhouette side up)
@@ -365,16 +292,12 @@ In fact, as a general rule, you can ignore Command Counters belonging to other p
 
 ***Important:*** When rules and effects are referring to **Activated Systems**, they refer to Systems that have been activated by the player they are mentioning.
 
-> New in SA  
-
-You may not activate the Home System of another player during the first Round of a game.
-
 ***2) Ships movement***
 
 > Precised in SA  
 > Note that Space Mines are now placed on borders and not in Systems
 
-In this step, you may move friendly ships **into**, and this is important, only **into the System just activated**. This means that all the ships you are moving must **end their movement in the System just activated**.
+In this step, you may move friendly ships **into**, and this is important, only **into the System just activated**. This means that all the ships you are moving must **end their movement in the System just activated** (except if something happens to them on their way, that would stop their movement, like a failed Gravity Rift roll).
 
 The ship movement step can be broken down into 2 main parts:
 
@@ -387,11 +310,11 @@ The ship movement step can be broken down into 2 main parts:
 
 For each friendly ship she wants to move, the active player has to plot a legal trajectory for it. A legal trajectory for a ship is a chain of adjacent systems starting from the System containing the ship and ending in the System just activated, that satisfies the following conditions:
 
-* The starting System was **not activated** by the active player, or is the System that was just previously activated. (e.g. ships may not move out of an activated System, unless it has been activated during the step 1 of the same action)
+* The starting System was **not activated** by the active player, or is the System that was just previously activated. (e.g. ships may not move out of an activated System, unless it is the System that has been activated during the step 1 of the same action)
 * No System of the trajectory contains enemy ships. (e.g. ships may not move through Systems containing enemy ships)
 > SA: Unlike in TI3, enemy Fighters do block movement in SA.
 
-* The trajectory doe not contain more Systems than the *movement value* of the ship +1 (for example, a ship with a *movement value* of 1 can only move to an adjacent System, because any legal trajectory for this ship cannot contain more than 2 systems)
+* The ship must have a sufficient *movement value* to follow the trajectory. By default, moving from a System to an adjacent System costs 1 movement. For example, a ship with a *movement value* of 1 can not move further away than 1 system.
 
 *note: a ship does not need to take the shortest trajectory towards its final destination*
 
@@ -519,7 +442,7 @@ After the Strategy Phase and the Action Phase comes the Status Phase. During thi
 	2. Progression Feedback to Victory Point Leader
 	3. Unlock Racial Improvements
 	4. Produce Trade Goods (2:1)
-	5. Refresh Planets / Build Facilities
+	5. Refresh Planets
 	6. Receive 1 Action Card, 1 Political Card and 2 Command Counters
 	7. Reallocate Command Counters
 	8. Scuttling
@@ -564,7 +487,7 @@ When claiming a Secret Objective, a player must reveal it and show she indeed me
 </a>  
 There are three kind of Special Objectives:
   
-* *The Artefact Objectives* award Victory Points to the players controlling some of the four [Artefacts](#GameConcepts_Artefacts).
+* *The Artifact Objectives* award Victory Points to the players controlling some of the four [Artifacts](#Artifact).
 * *Sovereign and Imperial* award Victory Points to the players controlling respectively more than 8 and 12 planets.
 * *Voice of the Council* awards a Victory Point to the player that was elected [Voice of the Council](#VoiceOfTheCouncil) during the [Twilight Council](#GameConcepts_TwilightCouncil).
 
@@ -600,17 +523,19 @@ Multiple Racial Improvements can be unlocked at the same time, but they must be 
 
 Starting with the Speaker and following the Rotation Cycler, each player may spend resources to receive one Trade Good for each two resources spent.
 
-***5) Refresh Planets / Build Facilities***  
+<a name="StatusPhase_RefreshPlanetsStep">
+***5) Refresh Planets***
+</a>  
 > New in SA: Facilities are built at this step rather than during Tactical Action.  
 > Change: Refresh abilities are used by not refreshing the planet, instead of requiring the exhaustion of the planet. 
 
 Starting with the Speaker, and following the Rotation Cycler, each player refreshes his planets, by turning the corresponding planet cards upright.  
 Instead of refreshing a planet at this step, players may either:
 
-* Build a [Facility](#GameConcept_Facilities) on the planet, provided it does not already have one.
-* Use the [refresh ability](#RefreshAbilities) of the planet, if it has one.
+* Build a [Facility](#Facility) on the planet, provided it does not already have one.
+* Use the [refresh ability](#RefreshAbility) of the planet, if it has one.
 
-**Note:** "Instead of refreshing" means that the planet stays in the state it was in before this step. So for example, an unexhausted planet on which a Facility is built stays unexhausted.
+**Note:** "Instead of refreshing" means that the planet stays in the state it was in before this step. So for example, a refreshed planet on which a Facility is built stays refreshed.
 
 
 ***6) Receive 1 Action Card, 1 Political Card and 2 Command Counters***
@@ -743,7 +668,196 @@ Each troop on the planet performs as many [Combat Rolls](#CombatRoll) as its [Co
 #### 2.b) Assign Hits  
 First, the **attacker** must assign to her troops the hits obtained by the **defender**. Then the defender does the same with the attacker's hits.
 
+<a name="System">
+## Systems
+</a>
 
+The hexagons that make up the galaxy map are called Systems. There are three types of Systems: Home Systems, Special Systems and Regular Systems.  
+
+### Control of a System
+A player **controls** a System if she has at least one ship in it and controls all of its planets.
+
+### Home Systems (Yellow Borders)
+> TI3->SA: Some special rules have been added to Home Systems.
+[image]  
+Each race has one of these Systems, that contain the race's home worlds and constitute their starting position in the game.
+
+***Special rules:*** 
+
+* During the first Round of a game, players may not activate the Home System of another race than the one they play.
+* A player that does not control all the planets of his race's Home System suffers a -2 Victory Points penalty. This penalty disappears as soon as she takes these planets back.
+* At the beginning of the Strategy Phase, players regain control of the planets in their race's Home System that do not contain any enemy troop. These planets are acquired exhausted.
+* A player does not need to have been in control of the planets of his Home System since the beginning of the Round in order to build Space Docks on them.
+
+### Special Systems (Red Borders) 
+***Note:*** *"Moving through" a System means moving inside and outside in the same movement.*
+
+#### Asteroid Field
+[image]  
+
+* Ships may not stop inside an Asteroid Field.
+* Ships may not move through an Asteroid Field.
+* The Space Cannon ability may not fire at an Asteroid Field.
+
+#### Ion Storm
+[image]  
+
+* Ships may not move through an Ion Storm
+* The Space Cannon ability may not fire at an Ion Storm.
+* Fighters in an Ion Storm cannot perform Combat Rolls.
+
+#### Nebula
+[image]  
+
+* Ships may not move through a Nebula.
+* Ships inside a Nebula have a movement value of 1 that cannot be increased by any effect.
+* During Space Battles in a Nebula, the defending fleets receives +1 to all its combat rolls.
+
+
+#### Supernova
+[image]  
+
+* Ships may not stop inside a Supernova.
+* Ships may not move through a Supernova.
+
+#### Gravity Rift
+[image]  
+
+* Moving through a Gravity Rift costs 1 movement instead of 2, unless moving in a straight line.
+* Roll one die for each ship moving through a Gravity Rift. On a roll of 1,2 or 3, the ship ends its move in it, and the System becomes activated (from reinforcement).  
+If enemy ships are present in the System, the ship is destroyed instead.
+* Ships in a Gravity Rift do not block enemy movement through the System.
+
+### Regular Systems
+[image]  
+Systems that are neither Home Systems nor Special Systems are **Regular Systems**. Usually, the majority of the Systems of a galaxy are Regular Systems.  
+**Void Systems** are Regular Systems that do not contain any planet.
+
+<a name="Planet">
+## Planets
+</a>
+
+[images of planets, with tech specs and refresh abilities]  
+Each planet has a [resource](#GameConcept_ResourceAndInfluence) value (the number on a green background) and an [influence](#GameConcept_ResourceAndInfluence) (the number on a red background). Planets may also feature a number of [Technology Specialties](#TechnologySpecialty) (red/green/blue/yellow technology symbols), and a [Refresh Ability](#RefreshAbility) (symbol depending on the actual refresh ability). 
+
+### Planet Card
+Each planet has an associated planet card. When a player takes control of a planet, she takes the corresponding planet card. 
+
+### Planet Control
+Planets are usually acquired by landing troops on them during the Planetary Landing step of a Tactical Action, but there are other ways. When a player acquires a planet, the planet is received **exhausted** (and the planet card is rotated to indicate this fact).  
+
+A player does not need to keep troops on a planet to retain control of it. If no units remain on a controlled planet, its controller must place a flag to indicate he still controls the planet.
+
+### Refreshed and Exhausted states
+[image with a refreshed planet card and an exhausted one]  
+Planets can exist in two states: **refreshed** and **exhausted**. When a planet is refreshed, its planet card is upright, and its controller may use it to for example pay the production cost of some units. When a planet is exhausted, its planet card is rotated, and its controller does not get any benefit from it until it is refreshed (which usually happens during the Status Phase).
+
+
+<a name="TechnologySpecialty">
+### Technology Specialties
+</a>
+[image of the 4 possible Tech spec symbol]  
+Technology Specialties represent a certain local knowledge or a natural resource important to a specific research field.  
+Each Technology Specialty on a **refreshed** planet reduces by 1 (down to a minimum of 0) the cost of purchasing a Technology of the same colour via the Secondary Ability of the Technology Strategy Card, for the controller of the planet.
+
+<a name="RefreshAbility">
+### Refresh Abilities
+</a>
+[image of some refresh abilities symbols]  
+A Refresh Ability is indicated by a symbol on the right of a planet's influence value, and is detailed on the associated planet card.  
+Refresh Abilities can be used during the [Refresh Planets step of the Status Phase](#StatusPhase_RefreshPlanetsStep), by *not* refreshing the planet.
+
+<a name="Facility">
+### Facilities
+</a>
+> TI3->SA: No limits on the number of Facility cards available (instead of 8 of each type)  
+> TI3->SA: Important changes in the way Facilities are built.
+
+Facilities are [Installations](#Installation) that can be built on planets to increase their resource or influence value.  
+There are two types of Facilities: Refineries and Colonies. Refineries increase the resource value of the planets they are on by 1, while Colonies do the same for the influence value.    
+Facilities are not built for resources. Instead, a Facility may be placed on a planet *instead* of normally refreshing it during the [Refresh Planets step of the Status Phase](#StatusPhase_RefreshPlanetsStep), *if the planet did not previously contain one*.  
+Once built, place the Facility card under the planet card, with the bottom edge sticking out to display the +1 in either resource or influence.  
+
+<a name="PlanetTurnsNeutral">
+### "Turning Neutral"
+</a>
+When a planet **"turns neutral"** (because of a game effect), all units and Facilities on it are destroyed, and each Leader on it must make a [Fate Roll](#FateRoll). The current controller of the planet also loses control of it.
+
+### Trade Stations
+> TI3->SA Trade Stations are acquired at the end of actions, instead of whenever a player is the only one having ships in the system.
+
+Trade Stations are a specific type of planets, with the following special rules:
+
+* No [Domain Counter](#GameConcepts_DomainCounters) may exist on a Trade Station.
+* Troops, Installations and Leaders may not exist on Trade Stations, and no Invasion Combat or bombardment may be conducted against them.
+* A player takes control of a Trade Station when she is the only one having ships in its System at the end of an action. She retains control of it even if she stops having ships in the System, until another player takes control of it.  
+* A player cannot lose control of a Trade Station for any reason if she has ships in its system.
+
+## Other Board Elements
+> Recent in SA: New [Worldgate](#Worldgate) token.
+
+### Border Tokens
+These tokens are placed on the border between two Systems.
+
+#### Asteroid Belts
+[image]  
+
+* Ships may not move through Asteroid Belts
+* The Space Cannon ability may not fire through an Asteroid Belt.
+
+### Wormholes
+[image]
+>TI3->SA: Wormholes make systems adjacent **for all purposes**.  
+> TI3->SA: Wormhole Tokens flip when used.
+
+Wormholes are spatial anomalies that connect distant areas of space.
+
+Two Systems containing wormholes of the same type are considered adjacent for all purposes.
+
+#### Wormhole tokens
+Wormhole Tokens have different Wormholes printed on each side of the token.
+At the end of an action in which at least one ship moved through such Wormhole, the token is flipped, changing the type of the Wormhole.
+
+#### Definitions
+***Stable Wormholes*** are Wormholes that are directly printed on a tile.
+
+***Unstable Wormholes*** are all the Wormholes that are *not* printed on a tile. (Wormholes from [Domain Counters](#GameConcepts_DomainCounters), Wormhole Tokens...)
+
+<a name="Artifact">
+### Artifacts
+</a>
+
+> TI3->SA: Artifacts may exist in space.  
+[images of both real and dummy artefacts]  
+
+There are eight Artifact tokens. Four of them harbor technology colors and are actual Artifacts, while the other four have [Trade Goods](#GameConcepts_TradeGoods) symbols and are called **Dummy Artifacts**. 
+
+Artifacts may exist on planets or in space, are placed on the galaxy when it is created and may not be moved or destroyed by players.
+
+#### Controlling Artifacts
+* ***Artifact on a Planet***  
+Whoever controls the planet controls the Artifact.
+* ***Artifact in Space***  
+A player takes control of an Artifact in space when she is the only one having ships in its System at the end of an action. She retains control of it even if she stops having ships in the System, until another player takes control of it. 
+
+When a player takes control of a facedown Artifacts, she flips it. The Artifact will stay in this state for the rest of the game.
+
+#### Dummy Artifacts
+When a Dummy Artifacts is revealed, it is removed from the game and its controller receives 2 Trade Goods.
+
+#### Artifacts-related Special Objectives
+There are four [Special Objective](#SpecialObjectives) awarding Victory Points for the control of the four non-Dummy Artifacts.
+
+#### Artifact Technology Discounts
+The controller of an Artifact reduces her cost to purchase Technologies of the same color by 1.
+
+<a name="Worldgate">
+### Worldgates
+</a>
+[image]  
+Worldgates are placed on some planets of the galaxy when it is created and may not be moved or destroyed by players.
+
+When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#PlanetaryLandings_TacticalActionStep), move any number of her troops, PDSs and Leaders from other planets in *unactivated Systems* that also contain Worldgates to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
 
 <a name="OtherGameConceptsAndRules">
 ## Other Game Concepts and Rules
@@ -753,30 +867,11 @@ First, the **attacker** must assign to her troops the hits obtained by the **def
 # Below this line are just scrap notes to write the rest of the rulebook
 
 ## Game Concepts
-<a name="GameConcepts_Systems">
-### Systems
-</a>
-Zones: Space + Planets  
-wormholes classification (wormholes on Domain Counters and Unstable wormholes...)
-Void systems  
-Gravity Rifts: moving through them in non-straight line cost 0 movement points.
-Home Systems: Lose 2 VP when not controlling all its planets. Original owner gets his HS planet that do not contain enemy units back (exhausted) during the Strategy Phase. One may build SDs on his HS planets in the same round as capturing them.
 <a name="GameConcepts_Units">
 ### Units
 </a>
 Fleet  
 Abilities: Space Cannon (n)
-<a name="GameConcepts_Planets">
-### Planets
-</a>
-<a name="PlanetTurnsNeutral">
-**Turning neutral**</a>: When a planet "turns neutral", all [installations](#Installation) on it are destroyed, and each Leader on it must make a [Fate Roll](#FateRoll). The previous owner of the planet also loses control of it.
-
-Place a flag on planets without units, to indicate their ownership.
-
-<a name="RefreshAbilities">
-Refresh Abilities
-</a>
 
 <a name="GameConcepts_Technologies">
 ### Technologies
@@ -784,6 +879,7 @@ Refresh Abilities
 <a name="GameConcepts_ActionCards">
 ### Action Cards
 </a>
+AC restricted from being played in HSs may be played in the HS of a race whose player gives its permission.
 EffectLocation: Scattered Effect case
 <a name="GameConcepts_PoliticalCards">
 ### Political Cards
@@ -797,9 +893,6 @@ EffectLocation: Scattered Effect case
 
 <a name="GameConcepts_ObjectiveCards">
 ### Objective Cards
-</a>
-<a name="GameConcepts_Artefacts">
-### Artefacts
 </a>
 <a name="GameConcepts_TradeGoods">
 ### Trade Goods
@@ -826,9 +919,10 @@ Cards, effects or other rules may refer to one of the following player orders wh
 <a name="StrategyAllocation">Strategy Allocation</a>  
 When receiving a Command Counter, the player can place it either in Command Pool, Fleet Supply or Strategy Allocation.
 
-<a name="GameConcept_Facilities">
-### Facilities
+<a name="GameConcept_ResourceAndInfluence">
+### Resource and Influence
 </a>
+[From Mo's rulebook: Resources represent a planet's economic surplus, which can be used by its owner to purchase units and technology. Influence represents a planet's population, knowledge base, and/or political importance. Influence is used to acquire Command Counters, to play certain Action Cards, and to provide vital votes at The Galactic Council.]
 
 <a name="GameConcept_Leaders">
 ### Leaders
@@ -837,29 +931,37 @@ When receiving a Command Counter, the player can place it either in Command Pool
 
 
 ## Specific Definitions  
-[Combat Roll](#CombatRoll)  
-<a>Activated System</a>:  
-Technically, "an Activated System" is an incomplete statement and should rather be "a System Activated by [a given player]", but since this would make wordings too long, they simply use "Activated System" when the player they refer to can be inferred from the context.  
-A System is said to be "Activated" by a specific player if it contains a Command Counter of that player.  
+[Combat Roll](#CombatRoll) 
+
+<a>Activated</a>  
+***Activated System***   
+Technically, "an activated System" is an incomplete statement and should rather be "a System activated by [a player]", but since this would make wordings too long, they simply use "activated System" when the player they refer to can be inferred from the context.  
+A System is said to be "activated" by a specific player if it contains a Command Counter of that player.  
+***Activated Planet***  
+By extension, a planet is "activated by [a player]" when it is in a System containing a Command Counter of that player.  
+***Activated Unit***  
+Also by extension, a unit is "activated" when it is in a System containing a Command Counter of its owner.
+
 <a>Activating a System</a>:  
 The main way for a player to activate a System is 
 Allegiances: Friendly, Neutral, Hostile  
+
+<a name="HostileAction">
 Hostile Action   
+</a>
+Taking control of a Trade Station is not a Hostile Action.
+
 Invasion (not needed if we change Dackxive Animators so that it doesn't use this term)  
 <a name="Reinforcements">Reinforcements</a>
-> ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location. 
-
-Technology Specialties  
-Technology Discounts  
-
-Spending (resource or influence)  
+> ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location.  
+  
 Active player  
 
 <a name="Troop">Troop</a>:  
 This term is used to designate either a [Ground Force](#GroundForce), a [Shock Troop](#ShockTroop) or an [Armor (MU)](#Armor).
 
 <a name="Installation">Installation</a>: 
-This term is used to designate either a [PDS](#PDS), a [Space Dock](#SpaceDock) or a [Facility](#GameConcept_Facilities).
+This term is used to designate either a [PDS](#PDS), a [Space Dock](#SpaceDock) or a [Facility](#Facility).
 
 
 
@@ -949,3 +1051,86 @@ Todo
 Players pick multiple strategy cards
 A player's initiative is the lowest initiative of his SCs
 A player may not Passs before having played all of his Strategy Cards through Strategic Actions.
+
+***
+I moved the Component Overview section from the top of the rulebook. Not sure it was that helpful, nor if it should be kept in the final product.
+
+### Components Overview
+#### Systems
+[image]  
+Every game, these hexagonal tiles will be assembled to create the game board: the galaxy. They represent areas of space and may contain planets or other elements of interest.  
+[More details on Systems](#System)
+
+#### Units
+[image]  
+These detailed plastic pieces represent the military personnel, shipyards, defence systems, and spaceships that players will command. 
+[More details on Units](#GameConcepts_Units)
+
+#### Planet Cards
+[image]  
+Each of these cards corresponds to a planet present in one of the systems. They are used to indicate the ownership over the planets, and whether they have been "exhausted" by their owner.  
+[More details on Planets](#Planet)
+
+#### Technology Tree
+[image]  
+This tree depicts all the technologies the players can acquire in the game, and help them to keep track of those that they already have. 
+[More details on Technologies](#GameConcepts_Technologies)
+
+#### Action Cards
+[image]  
+These cards are acquired by players throughout the game, and can be used to provide various effects.  
+[More details on Action Cards](#GameConcepts_ActionCards)
+
+#### Political Cards
+[image]  
+These cards represent the agendas that the players will vote on at the Twilight Council located on Mecatol Rex.  
+[More details on Political Cards](#GameConcepts_PoliticalCards)
+
+#### Objective Cards
+[image of Preliminary, Public Stage1, Public Stage2, Secret and Special objectives]  
+In order to win a game of Twilight Imperium, players need to accumulate victory points. This is mostly done by qualifying for the requirements of the Objective Cards.  
+[More details on Objective Cards](#GameConcepts_ObjectiveCards)
+
+#### Artifact Tokens
+[image]  
+These tokens are placed either on planets or in space, and give benefits to their controller.  
+[More details on Artifacts](#Artifact)
+
+#### Trade Agreement cards
+[image]  
+Each race has some of these cards, and uses them to trade with other races.  
+[More details on Trade](#GameConcepts_Trade)
+
+<a name="StrategyCards">
+#### Strategy Cards (and the High Alert token)
+</a>
+[image]  
+These cards represent powerful short-term strategies the players can choose from each round, during the [Strategy Phase](#StrategyPhase). The Warfare (number 6) Strategy Card comes with the High Alert token. They are played through [Strategic Actions](#StrategicAction). 
+
+#### Bonus Counters
+[image]  
+These counters are placed on unpicked [Strategy Cards](#StrategyCards) to make them more attractive.
+
+#### Command Counters
+[image]  
+These counters represent the domestic mandates and logisitics of the races. They are used by players for various actions, such as moving units on the board through [Tactical Actions](#TacticalAction).
+
+#### Control Markers (also called "Flags")
+[image]  
+These markers are used to represent the races in various places
+
+#### Trade Goods
+[image]  
+These tokens represent wealth. They are used as currency, and can be exchanged between players.  
+[More details on Trade Goods](#GameConcepts_TradeGoods).
+
+#### The Victory Point Track
+[image]
+During the setup of the game, each player places a flag on the Victory Point Track, to track the number of his Victory Points throughout the game.
+
+#### The Speaker Token and the Rotation Cycler
+[image]
+The holder of the Speaker Token (called the Speaker) chooses first his [Strategy Cards](#StrategyCards) during the Strategy Phase, and break ties during the [Twilight Council](#GameConcepts_TwilightCouncil).  
+The Rotation Cycler determine the order
+
+#### The Rotation Cycler
