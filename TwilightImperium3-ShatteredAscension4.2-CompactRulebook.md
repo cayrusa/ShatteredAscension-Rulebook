@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v3_23/01/2017
+# Shattered Ascension Compact Rulebook  - v4_2017-02-04
 
 #### Note on Contradictions
 If the text of a component (card, technology,...) would contradict with the rules presented in this rulebook, the component takes precedence. 
@@ -35,7 +35,7 @@ These cards are acquired by players throughout the game, and can be used to prov
 
 #### Political Cards
 [image]  
-These cards represent the agendas that the players will vote on at the Galactic Council located on Mecatol Rex.  
+These cards represent the agendas that the players will vote on at the Twilight Council located on Mecatol Rex.  
 [More details on Political Cards](#GameConcepts_PoliticalCards)
 
 #### Objective Cards
@@ -82,7 +82,7 @@ During the setup of the game, each player places a flag on the Victory Point Tra
 
 #### The Speaker Token and the Rotation Cycler
 [image]
-The holder of the Speaker Token (called the Speaker) chooses first his [Strategy Cards](#StrategyCards) during the Strategy Phase, and break ties during the [Galactic Council](#GameConcepts_GalacticCouncil).  
+The holder of the Speaker Token (called the Speaker) chooses first his [Strategy Cards](#StrategyCards) during the Strategy Phase, and break ties during the [Twilight Council](#GameConcepts_TwilightCouncil).  
 The Rotation Cycler determine the order
 
 #### The Rotation Cycler
@@ -139,7 +139,7 @@ space the *common play area*, and populate it with the following:
 * The Special Objective Cards
 * The Victory Point track
 
-Inside this common play area, designate a space that will be used as the *Galactic Council*.  
+Inside this common play area, designate a space that will be used as the *Twilight Council*.  
 
 <a name="Setup_VictoryPointGoal">
 **3) Victory Point Goal**  
@@ -269,7 +269,7 @@ Start the first Round.
 
 ## The Game Round
 
-Shattered Ascension is played over a consecutive number of Rounds. Each Round is split into three phases: The [Strategy Phase](#StrategyPhase) where player place a Political Card in the Galactic Council and select their Strategy Card for the Round, the [Action Phase](#ActionPhase), where players use their Strategy Cards, move their ships, conquer planets and build units, and the [Status Phase](#StatusPhase), where the board is cleaned up and players can gain Victory Points by claiming Objectives. If no player is declared winner at the end of a Round, another Round starts.
+Shattered Ascension is played over a consecutive number of Rounds. Each Round is split into three phases: The [Strategy Phase](#StrategyPhase) where player place a Political Card in the Twilight Council and select their Strategy Card for the Round, the [Action Phase](#ActionPhase), where players use their Strategy Cards, move their ships, conquer planets and build units, and the [Status Phase](#StatusPhase), where the board is cleaned up and players can gain Victory Points by claiming Objectives. If no player is declared winner at the end of a Round, another Round starts.
 
 <a name="StrategyPhase">
 ### Strategy Phase
@@ -277,7 +277,7 @@ Shattered Ascension is played over a consecutive number of Rounds. Each Round is
 The Strategy Phase is divided into three steps:  
 
 * [Home System Planets Reclamation](#HomeSystemPlanetsReclamation)
-* [Galactic Council Propositions](#GalacticCouncilPropositions)
+* [Twilight Council Propositions](#TwiligthCouncilPropositions)
 * [Strategy Card Picking](#StrategyCardPicking)
 
 
@@ -288,18 +288,18 @@ The Strategy Phase is divided into three steps:
 
 During this step, players regain control of any planet that is in their Home System, does not contain any troop, and is not already under their control. These planet are acquired exhausted.
 
-<a name="GalacticCouncilPropositions">
-#### Galactic Council Propositions
+<a name="TwilightCouncilPropositions">
+#### Twilight Council Propositions
 </a>
 > New in SA  
 
-During this step, players will place or update their Political Card in the Galactic Council. If the Galactic Council concur this round, the agendas to be voted on will be chosen among these cards.
+During this step, players will place or update their Political Card in the Twilight Council. If the Twilight Council concur this round, the agendas to be voted on will be chosen among these cards.
 
-* Players that already have a Political Card in the Galactic Council must retake it into their hand.
+* Players that already have a Political Card in the Twilight Council must retake it into their hand.
 * Players may, as many times as they want, discard two Political Cards from their hand to draw another Political Card.
-* Then each player must place a hidden Political Card from their hand into the Galactic Council, and place one of their flag on it.  
+* Then each player must place a hidden Political Card from their hand into the Twilight Council, and place one of their flag on it.  
 Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
-* Finally, when all players have done so, reveal all Political Cards in the Galactic Council.
+* Finally, when all players have done so, reveal all Political Cards in the Twilight Council.
 
 <a name="StrategyCardPicking">
 #### Strategy Card Picking
@@ -441,14 +441,18 @@ When a Space Cannon (*n*) unit fires, it performs *n* combat rolls. Hits must be
 At this time, if there are ships controlled by two different players in the just activated System, a Space Battle must be resolved.  
 In this Space Battle, the active player is the *attacker*, while the other player is the defender*. For complete rules about how to resolve a Space Battle, see the [Space Battles section](#SpaceBattles).
 
+<a name="PlanetaryLandings_TacticalActionStep">
 ***5) Planetary Landings***
+</a>
 
 The Planetary Landings step is divided in two parts: the proper Planetary landings, and the Bombardment assignment.
 
 * **Planetary landings**: The active player may land ground units, PDSs and Leaders currently carried by his ships in the just activated System on the planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one ground unit.
 * **Bombardment assignment**: The active player may assign some of his ships in the just activated System with the *Bombardment* ability to the non-friendly planets of this System, in order to bombard them during the 6) Planetary Landing resolution step. 
 
+<a name="PlanetaryLandingsResolution_TacticalActionStep">
 ***6) Planetary Landings resolution***
+</a>
 > Formerly known as the "Invasion Combat" step.
 
 Until all planets in the just activated System have been resolved, the active player chooses an unresolved planet and resolve it according to the following:
@@ -464,7 +468,7 @@ The active player must resolve the Domain Counters present on the planet (if the
 	* c-1) The planet **contains at least one enemy ground unit or PDS**:  
 	Resolve an [Invasion Combat](#InvasionCombats) on this planet.
 	* c-2) The planet **does not contain any enemy ground unit and PDS**:  
-	The ships assigned to this planet may bombard it. Then place all landed ground units, PDSs and Leaders on the planet and the active player takes control of it.  
+	The ships assigned to this planet may [bombard](#) it. Then place all landed ground units, PDSs and Leaders on the planet and the active player takes control of it.  
 
 
 ***7) Production***  
@@ -499,6 +503,137 @@ After units have been produced, they must be placed according to the following r
 * Ships are placed in the space of the System containing the *producer*
 * If the *producer* is on a planet, then all produces troops and PDSs must be placed on the same planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#Capacity_unitAbility) to carry them.
 
+<a name="StatusPhase">
+### Status Phase
+</a>
+
+After the Strategy Phase and the Action Phase comes the Status Phase. During this phase, players claim objectives granting them Victory Points, research Racial Improvements, and "clean up the table" for the next Round.
+
+***The Status Sequence:***
+</a>  
+> I am voluntarily excluding the "Pay upkeep for Fleet Supply > 8" step from the Status Phase sequence. It does not have enough effects in normal games to justify its word count and learning time. It could become part of a set of optional rules related to epic games with huge maps and high Victory Point goal.   
+> Made slight changes to the names of the step to better reflect their content  
+> Added a "Scuttling" step at the end of the sequence.
+
+	1. Claim Objectives
+	2. Progression Feedback to Victory Point Leader
+	3. Unlock Racial Improvements
+	4. Produce Trade Goods (2:1)
+	5. Refresh Planets / Build Facilities
+	6. Receive 1 Action Card, 1 Political Card and 2 Command Counters
+	7. Reallocate Command Counters
+	8. Scuttling
+	9. Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks
+
+  
+***1) Claim Objectives***  
+
+In this step, players claim objectives, which gives them Victory Points, eventually allowing them to win the game.
+
+**Claiming an Objective**  
+In order to claim an objective, a player must satisfy the requirements written on it, and not have already claimed it in the past (whether other players have already claimed it or not does not matter). The player then places a flag on the objective, and advances her flag on the Victory Point Track by the number of Victory Points granted by the objective.
+
+**Claiming Limit**  
+During a Claim Objective step, a player:  
+
+* May claim:
+	* At most 1 revealed Public Objective (either from Stage 1 or [Stage 2](#Stage2PublicObjectives) (Stage 2 Objectives may only be claimed if Stage 2 has been initiated))
+	* At most 1 [Secret Objective](#SecretObjectives) from her hand
+	* The [Preliminary Objective](#PreliminaryObjectives) (if it is still claimable)
+* Must claim:
+	* All [Special Objectives](#SpecialObjectives) she qualifies for
+
+<a name="Stage2PublicObjectives">
+**Stage 2 Public Objectives (Blue)**
+</a>  
+Stage 2 Public Objectives are harder Objectives that grant more Victory Points than Stage 1 ones. However, a player may only claim a Stage 2 Public Objective if the number of revealed Stage 1 Public Objectives is equal or higher to the Victory Point goal of the game (10 by default).
+
+<a name="PreliminaryObjectives">
+**Preliminary Objectives (Grey)**  
+</a>
+At the end of a Round in which a Preliminary Objective has been claimed by at least one player, it becomes unclaimable by any other player for the rest of the game. This creates a race among players to score them as early as possible.
+
+<a name="SecretObjectives">
+**Secret Objectives (Red)**
+</a>  
+When claiming a Secret Objective, a player must reveal it and show she indeed meets its requirements. If she does not meet them, the Secret Objective is discarded.
+
+
+<a name="SpecialObjectives">
+**Special Objectives (Green)**
+</a>  
+There are three kind of Special Objectives:
+  
+* *The Artefact Objectives* award Victory Points to the players controlling some of the four [Artefacts](#GameConcepts_Artefacts).
+* *Sovereign and Imperial* award Victory Points to the players controlling respectively more than 8 and 12 planets.
+* *Voice of the Council* awards a Victory Point to the player that was elected [Voice of the Council](#VoiceOfTheCouncil) during the [Twilight Council](#GameConcepts_TwilightCouncil).
+
+Special Objectives differ from the other kinds of objective in that if a player that has claimed one of them stop meeting its requirements, her claim on the Special Objective is lost **instantly**: she must remove her flag from the objective card and lose the associated Victory Points **immediately**.  
+
+**Winning the game**  
+After all players have finished claiming objectives, if at least one of them has the required amount of Victory Point (or more) that was decided at the start of the game, the game ends.  
+Whoever has the most Victory Points at that time is declared winner. If two or more players have the same number of Victory Points, ties are broken in favour of the one controlling the most planets outside of his Home System. If there is still a tie, tied players share the victory.
+
+	She has gained the power needed to claim the for too long empty Imperial Throne on Mecatol Rex. The Winnaran Custodians will step aside for their new Empress, who must lead the galaxy to a new age of prosperity, peace and enlightenment.
+
+Note that it is possible for a player to win the game outside of the Status Phase (some effects grant Victory Points during the Action Phase). If a player reaches the required amount of Victory Point at any time outside of the Status Phase, the game ends immediately and a victor is determined following the same procedure as above.
+
+***2) Progression Feedback to Victory Point Leader***  
+> New in SA  
+
+The player with the most Victory Points gains as many Trade Goods as his Victory Point lead over the player with the second-most Victory Points.
+
+
+***3) Unlock Racial Improvements***
+> New in SA  
+
+Starting with the Speaker and following the Rotation Cycler, each player may now unlock some of his Racial Improvements (also known as "Racial Technologies") by spending resources.
+
+The cost of unlocking a Racial Improvement is computed as follows:  
+
+	Base cost (printed on the card) - Victory Points (owned by the player) + Base costs of the other Racial Improvements the player has already unlocked 
+
+Multiple Racial Improvements can be unlocked at the same time, but they must be unlocked one after the other.
+
+***4) Produce Trade Goods (2:1)***  
+> New in SA  
+
+Starting with the Speaker and following the Rotation Cycler, each player may spend resources to receive one Trade Good for each two resources spent.
+
+***5) Refresh Planets / Build Facilities***  
+> New in SA: Facilities are built at this step rather than during Tactical Action.  
+> Change: Refresh abilities are used by not refreshing the planet, instead of requiring the exhaustion of the planet. 
+
+Starting with the Speaker, and following the Rotation Cycler, each player refreshes his planets, by turning the corresponding planet cards upright.  
+Instead of refreshing a planet at this step, players may either:
+
+* Build a [Facility](#GameConcept_Facilities) on the planet, provided it does not already have one.
+* Use the [refresh ability](#RefreshAbilities) of the planet, if it has one.
+
+**Note:** "Instead of refreshing" means that the planet stays in the state it was in before this step. So for example, an unexhausted planet on which a Facility is built stays unexhausted.
+
+
+***6) Receive 1 Action Card, 1 Political Card and 2 Command Counters***
+
+Starting with the Speaker and following the Rotation Cycler, each player draws one [Action Card](#GameConcepts_ActionCards), one [Political Card](#GameConcepts_PoliticalCards), and receives two [Command Counters](#GameConcept_CommandCounter).
+
+***7) Reallocate Command Counters***
+
+Starting with the Speaker and following the Rotation Cycler, each player may redistribute his Command Counters between the Command Pool, Fleet Supply and Strategy Allocation areas of her race sheet. 
+
+***8) Scuttling***  
+Starting with the Speaker and following the Rotation Cycler, players may scuttle some of their units on the board by placing them in [reinforcements](#Reinforcements).
+
+***9) Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks***  
+
+* Command Counters on the board are removed and placed in [reinforcements](#Reinforcements).
+* Strategy Cards are returned to the common play area.
+* Units with used [Sustain Damage abilities](#SustainDamage_unitAbility) are repaired.
+* Space Docks are refreshed
+
+
+**The end of the Status Phase marks the end of the Round. If no player has won the game yet, a new Round begins.**
+
 <a name="SpaceBattles">
 ### Space Battles
 </a>
@@ -507,14 +642,21 @@ After units have been produced, they must be placed according to the following r
 ### Invasion Combats
 </a>
 
-***  
-# Below this line are just scrap notes to write the rest of the rulebook
-
-<a name="StatusPhase">
-### Status Phase
+<a name="OtherGameConceptsAndRules">
+## Other Game Concepts and Rules
 </a>
 
-Refresh Space Docks
+<a name="Bombardment">
+### Bombardment
+</a>
+
+During the [Planetary Landings Resolution step](#PlanetaryLandingsResolution_TacticalActionStep) of the Tactical Action, Ships with the [bombardment (*n*) ability](#Bombardment_unitAbility) that have been assigned to a planet in the  previous [Planetary Landing step](#PlanetaryLandings_TacticalActionStep) bombard it.  
+Each bombarding ship performs *n* combat rolls. Deduce from the number of hits obtained the number of [planetary shields](#PlanetaryShield_unitAbility) the units on the planet have. The result is the number of hits the owner of the planet must assign to his troops on the planet.  
+
+**Bombarding to neutrality**: If the owner of a bombarded planet is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to turn the planet neutral. All the Facilities on the planet are destroyed and all Leaders present on it must make a Fate Roll.  
+
+***  
+# Below this line are just scrap notes to write the rest of the rulebook
 
 ## Game Concepts
 <a name="GameConcepts_Systems">
@@ -524,6 +666,7 @@ Zones: Space + Planets
 wormholes classification (wormholes on Domain Counters and Unstable wormholes...)
 Void systems  
 Gravity Rifts: moving through them in non-straight line cost 0 movement points.
+Home Systems: Lose 2 VP when not controlling all its planets. Original owner gets his HS planet that do not contain enemy units back (exhausted) during the Strategy Phase. One may build SDs on his HS planets in the same round as capturing them.
 <a name="GameConcepts_Units">
 ### Units
 </a>
@@ -532,6 +675,10 @@ Abilities: Space Cannon (n)
 <a name="GameConcepts_Planets">
 ### Planets
 </a>
+<a name="RefreshAbilities">
+Refresh Abilities
+</a>
+
 <a name="GameConcepts_Technologies">
 ### Technologies
 </a>
@@ -542,9 +689,13 @@ EffectLocation: Scattered Effect case
 <a name="GameConcepts_PoliticalCards">
 ### Political Cards
 </a>
-<a name="GameConcepts_GalacticCouncil">
-### Galactic Council
+<a name="GameConcepts_TwilightCouncil">
+### Twilight Council
 </a>
+<a name="VoiceOfTheCouncil">
+#### Voice of the Council
+</a>
+
 <a name="GameConcepts_ObjectiveCards">
 ### Objective Cards
 </a>
@@ -569,14 +720,27 @@ Cards, effects or other rules may refer to one of the following player orders wh
 
 - order of resolution (Reds before Greens, and follow priority order for each)
 
+<a name="GameConcept_CommandCounter">
 ### Command Counters
+</a>
 Fleet Supply
+When receiving a Command Counter, the player can place it either in Command Pool, Fleet Supply or Strategy Allocation.
+
+<a name="GameConcept_Facilities">
+### Facilities
+</a>
 
 ## Specific Definitions
 Hostile Action   
 Invasion (not needed if we change Dackxive Animators so that it doesn't use this term)  
-Combat Roll / Combat Die
-> ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location.  
+Combat Roll / Combat Die  
+<a name="Reinforcements">
+Reinforcements
+</a>
+> ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location. 
+
+Technology Specialties  
+Technology Discounts  
 
 Spending (resource or influence)  
 Active player  
@@ -605,6 +769,9 @@ units abilities
 - <a name="Capacity_unitAbility">Capacity, and Fighter Capacity of a System</a>  
 - <a name="DeploySpaceMines_unitAbility">Deploy Space Mines (*n*)</a>  
 - <a name="ProduceUnits_unitAbility">Produce Units (*n*)</a>  
+- <a name="PlanetaryShield_unitAbility">Planetary Shield</a>     
+- <a name="Bombardment_unitAbility">Bombardment (*n*)</a>  
+- <a name="SustainDamage_unitAbility">Sustain Damage (*n*)</a>
 
 ### Space Dock
 * Exhausted/Refreshed states
