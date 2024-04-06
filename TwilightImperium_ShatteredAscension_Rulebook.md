@@ -2440,7 +2440,9 @@ The maximum number of Victory Points any non-winning player can have is 2 Victor
 
 ## General Definitions<a name="GeneralDefinitions"></a> 
 
-- [Activated](#Activated) <a name="Activated_def"></a>  
+- [Activate a System](#Activate_def) <a name="Activate_def"></a>  
+The act of placing a Command Counter in a System. The most occurence is the [first step of Tactical Actions](#1-system-activation), but other effects can also require it.
+- [Activated](#Activated_def) <a name="Activated_def"></a>  
 	- [Activated System](#Activated_def)  
 	A System is considered **activated by a player** when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to **activated** and **unactivated** Systems without specifying any player, in which case the player is the one using the effect.   
 	- [Activated Planet](#Activated_def)  
@@ -2501,6 +2503,8 @@ The maximum number of Victory Points any non-winning player can have is 2 Victor
 	- [Executed](#executions-and-releases) that leader.
 	- Destroyed through [combat roll](#CombatRoll) the ship the leader was on, and the ensuing [fate roll](#fate-roll) was a 1.
 	- Took control of the planet the leader was on, and the ensuing fate roll was a 1.
+- [Moving through a System](#MovingThrough) <a name="MovingThrough"></a>  
+	Moving through a System means entering and leaving it in the same movement. A movement that just enters it, or just leaves it is not a movement through this system.
 - [Natural Wealth](#NaturalWealth) <a name="NaturalWealth"></a>  
 	Some effects place Trade Goods working "**as Natural Wealth**". Refer to the effect of the [Natural Wealth Domain Counter](#NaturalWealthCounter).
 - [Neutral](#Allegiances)  
