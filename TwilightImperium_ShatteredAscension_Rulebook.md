@@ -2306,10 +2306,9 @@ During the Status Phase, captives may be released or executed by their captor. T
 <div><img src="./Images/Admiral.jpg"></div>
 <!-- ![Admiral](./Images/Admiral.jpg) -->
 
-* **Fire Control:** A ship carrying Admiral(s) has one extra combat die.\*
+* **Fire Control:** A ship carrying an Admiral has one extra combat die.\*
 * **Astrogation:** A [Dreadnought](#Dreadnought) carrying an Admiral has +1 movement.\*
-* **Withdrawal:** [Retreating](#ConductRetreat_SpaceBattleStep) a fleet with an Admiral uses a Command Counter from reinforcements.
-<!-- * If participating in a Space Battle, an Admiral may prevent the opposing fleet from retreating, unless it also contains an Admiral. -->
+* **Withdrawal:** When [retreating](#ConductRetreat_SpaceBattleStep) a fleet with an Admiral, ignore any Command Counter cost.
 
 #### Diplomat<a name="Diplomat"></a>
 
