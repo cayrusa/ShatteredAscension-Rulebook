@@ -1,4 +1,4 @@
-# Shattered Ascension Rulebook  - v38_2022-10-16
+# Shattered Ascension Rulebook  - v39_2022-??-??
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
@@ -8,6 +8,8 @@
 
 > This rulebook is a work in progress, and an attempt at providing Shattered Ascension players all the rules they need so that they do not have to read from 3 different rulebooks, the TI3 FAQ and the SA change-list. The design goals were to be as concise, consistent and precise as possible.  
 > During the writing, some changes were made to clear ambiguities and clean up rules, that will be debated and progressively included in the SA ruleset or removed from this rulebook. These changes are indicated in comments such as this one.
+
+> This rulebook contains
 
 > To get an url pointing to a specific part of this rulebook (to give to a friend for example), hover over a title and click on the link icon that will pop up on its left, then copy the new url of the webpage. This also works for internal links, simply click on them and copy the new url of the webpage.
 
@@ -1220,7 +1222,7 @@ Artifacts may exist on planets or in space, are placed on the galaxy when it is 
 #### Controlling Artifacts
 
 * ***Artifact on a Planet***  
-A player takes control of an Artifact on a planet if she controls the planet at the end of an action. She loses control of it as soon as she loses control of th planet.
+A player takes control of an Artifact on a planet if she controls the planet at the end of an action. She loses control of it as soon as she loses control of the planet.
 * ***Artifact in Space***  
 A player takes control of an Artifact in space if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it. 
 
@@ -1321,7 +1323,7 @@ If multiple Domain Counters are at the same location (planet or space), follow t
 
 ![Custodians](./Images/Custodians.jpg)
 
-These two Domain Counters have a different appearance and are sometimes used on some galaxies to protect the Mecatol Rex planet from early attacks. In general, they behave exatly like their regular counterpart. One notable exception is that they prevent their planet from being annexed with the Secondary Ability of the Diplomacy [Strategy Card](#user-content-StrategyCardPicking).
+These two Domain Counters have a different appearance and are sometimes used on some galaxies to protect the Mecatol Rex planet from early attacks. In general, they behave exactly like their regular counterpart. One notable exception is that they prevent their planet from being annexed with the Secondary Ability of the Diplomacy [Strategy Card](#user-content-StrategyCardPicking).
 </div>
 
 ## Spending Resources and Influence<a name="SpendingResourcesAndInfluence"></a>
@@ -1512,7 +1514,7 @@ Some Technologies have other Technologies as prerequisites. This is indicated on
 
 **Purchases and Discounts**  
 Some effects allow players to "purchase" Technology for a given resource price. This simply means the player may pay the required amount of resources to acquire a Technology.  
-This cost is reduced by 1 if the player controls the [Artefact](#user-content-ArtifactTechnologyDiscounts) of the same color than the purchased Technology, and by 1 for each [Technology Specialy](#user-content-TechnologySpecialty) of the same color than the purchased Technology present on *refreshed* planets the player controls.
+This cost is reduced by 1 if the player controls the [Artefact](#user-content-ArtifactTechnologyDiscounts) of the same color than the purchased Technology, and by 1 for each [Technology Specialty](#user-content-TechnologySpecialty) of the same color than the purchased Technology present on *refreshed* planets the player controls.
 
 ### "You may use the effects of ..."<a name="UseTheEffectsOfTechnology"></a>
 Some effects allow players to "use the effects of" some Technologies. This means that even though they may not have a particular Technology, they are allowed to benefit from its effects. However, they are not considered as having this Technology (for example for the purpose of Objectives, or prerequisites), and even if they do have this Technology, they cannot benefit from its effects twice.
@@ -1543,12 +1545,12 @@ Players are allowed to give other players Trade Goods from their Trade Good Area
 
 ## Trade Contracts and Trade Agreements<a name="TradeContractsAndTradeAgreements"></a>
 
-<details>
+<!-- <details>
 	<summary>Change from base SA (click to expand)</summary>
 
 Made the distinction between your "Trade Contracts": the trade cards of your race, and your "Trade Agreements": the Trade Contracts of other races you got in exchange of your Trade Contracts. Without this distinction, you never know when an effect refers to "your Trade Agreements" if it refers to what I called "your Trade Contracts" or what I called "your Trade Agreements". Even saying "your active Trade Agreements" is not actually clear; are these the Trade Contracts you gave to other people, or the Trade Contracts of other people you got in exchange?  
 In addition, this terminology felt more natural to me as the cards themselves have a "Trade Contract" side and a "Trade Agreement" one.
-</details>
+</details> -->
 
 **Content:**
 
@@ -1591,7 +1593,7 @@ Some effects (most notably the Primary Ability of the Trade Strategy Card (5)) a
 The "Trade Contracts" of a race are the cards bearing its symbol, while its "Trade Agreements" are the Trade Contracts of other races it received when opening Trade Agreements with them.
 
 ### Receiving Trade Goods from Trade Agreements<a name="ReceivingTradeGoodsFromTradeAgreements"></a>
-Various effects (most notably the Primary Ability of the Trade Strategy Card (5)) "place Trade Goods on active Trade Agreements". When this happens, players place, on their Trade Agreements, a number of Trade Goods equal to the numerical values of these Trade Agreements.  
+Various effects (most notably the Special Ability of the Trade Strategy Card (5)) "place Trade Goods on active Trade Agreements". When this happens, players place, on their Trade Agreements, a number of Trade Goods equal to the numerical values of these Trade Agreements.  
 Various effects (most notably the Primary and Secondary Ability of the Trade Strategy Card (5)) allow players to collect the Trade Goods present on their Trade Agreements and place them in their Trade Goods Area.
 
 ### Breaking Trade Agreements<a name="BreakingTradeAgreements"></a> 
@@ -1600,9 +1602,9 @@ There are multiple ways a Trade Agreement can be broken. The most common ones ar
 * Any player involved in a Trade Agreement may unilaterally break it during the [Scuttle Units And Break Trade Agreements](#user-content-Scuttling_StatusPhaseStep) step of the Status Phase.  
 * At the end of an action during which a player performed a [Hostile Act](#user-content-HostileAct_def) against another, any Trade Agreements between these two players are broken.
 
-When a Trade Agreement is broken, the two players automatically collect a certain amount of the Trade Goods present on their Trade Agreement (the other Trade Goods are discarded), then they flip the cards so that the Trade Agreement sides face the table and finally give the card back to their former trade partner.
+When a Trade Agreement is broken, the two players automatically collect some of the Trade Goods present on their Trade Agreements (the rest are discarded), then they flip the cards so that the Trade Agreement sides face the table and finally give the card back to their former trade partner.
 
-How many Trade Goods get collected depends on how the Trade Agreement was broken:  
+How many Trade Goods players collect depends on how the Trade Agreement was broken:  
 
 * If it was broken due to a [Hostile Act](#user-content-HostileAct_def), the player that performed the Hostile Act collects none of the Trade Goods on her Trade Agreements, while her trade partner collects all the Trade Goods on her Trade Agreement.
 * If it was broken for any other reason, both players collect half (round down) of the Trade Goods on their Trade Agreement.
@@ -2098,7 +2100,7 @@ Renamed "Armor (MU)" into simply "Armor". The "(MU)" marks that they used to be 
 	* **Special building process:** This unit can be *built* during the [Production step](#user-content-Production_TacticalActionStep) of Tactical Actions. See the description of this step for more details.
 	* **Planet-based:** This unit is placed on planets and cannot move on its own.
 	* **Limited to 1 per planet:** A player cannot have more than 1 unit of this type on the same planet.
-	* **Exhaustion:** This unit can be *exhausted* by some effects. Flip the unit to indicate this state. When it is *exhausted*, it cannot use its Produce Units ability. Flip the unit back when it is *refreshed* (in most cases during the [last step of the Status Phase](#user-content-CleanUp_StatusPhaseStep)).
+	* **Exhaustion:** This unit can be *exhausted* by some effects. Flip the unit to indicate this state. When it is *exhausted*, it cannot use its Produce Units ability. Flip the unit back when it is *refreshed* (typically during the [last step of the Status Phase](#user-content-CleanUp_StatusPhaseStep)).
 
 <!-- #### Refinery<a name="Refinery"></a>
 > I made Refineries and Colonies into units, because it looked ugly to have the 3 main categories of things be: Units, Leaders and Facilities, while Facilities were their own thing. A plastic piece could be used for them to represent their new status
@@ -2287,13 +2289,13 @@ This section explains the general rules that apply to all Leaders.
 #### Fate Roll<a name="FateRoll"></a>
 <div>
 
-<details>
+<!-- <details>
 	<summary>Change from base SA (click to expand)</summary>
 
 Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" fate roll triggers with the simpler: "When a Leader is present on a non-friendly planet without friendly ground units also being present"
-</details>
+</details> -->
 
-When a ship carrying a Leader is destroyed, or when a Leader is present on a non-friendly planet without friendly ground units also being present, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.
+When a ship carrying a Leader is destroyed, or when a Leader is present on a non-friendly planet without accompanying friendly ground units, remove that Leader from the board. At the end of the current action, conduct a Fate Roll (roll a D10 and look at the following table) to determine its new location.
 <!-- 
 When a Ship / planet containing a Leader is destroyed / lost (or changes owner), or when a Leader is part of the attacking forces in an Invasion Combat lost by the attacker, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.
  -->
@@ -2464,7 +2466,7 @@ Sometimes a player does not want to ([surrender](#user-content-Surrender)) or ca
 
 ### Surrender<a name="Surrender"></a>
 
-<details>
+<!-- <details>
 	<summary>Change from base SA (click to expand)</summary>
 
 - **(sanctioned by PsiComa)**: The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
@@ -2474,10 +2476,10 @@ Sometimes a player does not want to ([surrender](#user-content-Surrender)) or ca
 - **(sanctioned by PsiComa)**: When adding to the garrison of the capital planet, add ground units until you either added 3 or there are at least 5 **ground units** on the planet. (base SA says "at least 5 Ground Forces")
 - Clarified the orders in which the fleets/planets to be bid upon were chosen, as well as the order in which the bids were placed. Also precised the actual mechanic of the bidding.  
 - At the end of the Surrender procedure, the surrendering player follows the elimination procedure. Simple, and make it clear what happens to all her remaining stuff.  
-</details>
+</details> -->
 
 
-When passing during the Action Phase, a player who wish to stop playing may surrender to leave the game. After this happens, the surrendering player may not act in the game anymore and her next Status Phase is skipped. Follow this procedure at the end of the round:
+When passing during the Action Phase, a player who wish to stop playing may surrender to leave the game. After this happens, the surrendering player may not act in the game anymore and her next Status Phase is skipped (she can leave the table). Follow this procedure at the end of the round:
 <!-- If at the *end of a round*, a player wishes to stop playing for some reason, she can *surrender*.
 Then follow this procedure: -->
 
@@ -2510,11 +2512,11 @@ Then follow this procedure: -->
 
 <!-- > Change from base SA: Players only officially get eliminated at the end of rounds, not in the middle of them. This is to keep the impact on the game minimal, rather than "his Strategy cards are immediately returned (even if still active)" (from the SA living rulebook). -->
 
-<details>
+<!-- <details>
 	<summary>Change from base SA (click to expand)</summary>
 
 Precised the timing at which elimination happens: at the end of actions or during the Status Phase (if the player has no planets and scuttles all her units for some reason...). Else elimination would happen in the middle of actions, potentially messing things.
-</details>
+</details> -->
 
 If at the *end of an action* or *during the Status Phase*, a player does not control any planet or unit, she is *eliminated*:
 
@@ -2544,7 +2546,7 @@ The maximum number of Victory Points any non-winning player can have is 2 Victor
 
 ## Miscellaneous Rules<a name="MiscellaneousRules"></a>
 
-* When an effect asks a player to place a Command Counter in a System in which she already has a Command Counter, there is no need to place the second Command Counter.
+* When an effect asks a player to place a Command Counter in a System in which she already has a Command Counter, do not add a second Command Counter. 
 
 * When a player controls a planet without having any units on it, she should place a flag on it so that other players do not mistake the planet as being neutral.
 
@@ -2807,7 +2809,6 @@ A player not having placed votes on an agenda may not receive bonus votes from t
 * When **Xxcha** plays the Diplomacy Strategy Card, they may spend 1 Command Counter from Strategy Allocation and 2 influence to execute the Primary Ability a second time.
 
 ## Annex 1: Effects of Domain Counters<a name="DomainCountersEffects"></a>
-> I improved most of these wordings from their base SA version to add precision and fix problems occurring in very specific situations.  
 
 For the general rules regarding Domain Counters, see the [Domain Counter section](#user-content-DomainCounters).
 
