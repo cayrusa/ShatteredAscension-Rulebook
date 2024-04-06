@@ -8,14 +8,9 @@
 
 > This rulebook is a work in progress, and an attempt at providing Shattered Ascension players all the rules they need so that they do not have to read from 3 different rulebooks, the TI3 FAQ and the SA change-list. The design goals were to be as concise, consistent and precise as possible.  
 > During the writing, some changes were made to clear ambiguities and clean up rules, that will be debated and progressively included in the SA ruleset or removed from this rulebook. These changes are indicated in comments such as this one.
+>
+> To get a url pointing to a specific part of this rulebook (to give to a friend for example), hover over a title and click on the link icon that will pop up on its left, then copy the new url of the webpage. This also works for internal links, simply click on them and copy the new url of the webpage.
 
-
-> This rulebook contains
-
-
-> To get an url pointing to a specific part of this rulebook (to give to a friend for example), hover over a title and click on the link icon that will pop up on its left, then copy the new url of the webpage. This also works for internal links, simply click on them and copy the new url of the webpage.
-
-Hi there hello
 
 ### Notes
 ***Contradictions***  
