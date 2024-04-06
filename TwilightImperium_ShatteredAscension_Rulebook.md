@@ -2801,6 +2801,16 @@ Todo
 ### Star by Star<a name="StarByStar"></a>
 Todo
 
+<!-- Example of a collapsible block of txt with summary -->
+<!-- <details>
+	<summary>Change from base SA (click to expand)</summary>
+
+I modified the wordings so that they work and solve common rule questions. The effects are the same however.  
+- "gain +1 movement" -> "does not cost a movement point". Reason: Since only ships that can reach the destination system can move, having effects that give bonus movement to ships that are already moving is backward since they only work if the ship is already moving, i.e. if its movement value was high enough to reach its destination. The correct way to word it is to say that the trajectory costs less movement points to follow than it normally would.
+- "[facilitated movement] when moving through this system in a non-straight line" -> "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation does not apply when using a wormhole present inside the Gravity Rift.
+</details> -->
+
+
 <!-- ***  
 # Below this line are just scrap notes to write the rest of the rulebook
 ***
