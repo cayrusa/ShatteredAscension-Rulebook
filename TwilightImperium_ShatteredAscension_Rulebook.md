@@ -1335,6 +1335,8 @@ Throughout a game, players will need to spend *resources* and *influence* for ma
 
 Each player has a number of Command Counters. They are used for various purposes, which this section will explain. During the game, Command Counters can exist either in a player's reinforcements, on one of the three dedicated zones of her race sheet, or in systems of the galaxy.
 
+A System may not contain more than one Command Counter of the same player. If an effect would place another, place it back in that player's reinforcements instead.
+
 Whenever a player receives or gain a Command Counter, she must place it on her race sheets in one of the three following areas (she chooses which):
 
 * [Command Pool](#CommandPool)
