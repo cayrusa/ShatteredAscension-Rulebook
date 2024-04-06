@@ -210,11 +210,11 @@ blockquote>:last-child {
 
 h4,
 h5{
-  margin: 25px;
+  margin-left: 25px;
 }
 
 h6 {
-  margin: 50px;
+  margin-left: 50px;
 }
 
 .markdown-body h6 {
@@ -280,6 +280,12 @@ background-image: url(http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/
 background-position:center top;
 /*background-repeat:repeat-y;*/
 /*background-attachment:fixed;*/
+/*padding: 45px;
+border: 1px solid #fff;
+word-wrap: break-word;
+font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+line-height: 1.6;*/
 }
 
 /*Link font colour (start)*/
@@ -312,6 +318,21 @@ i img {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/*.markdown-body > :first-child {
+
+    margin-top: 0 !important;
+
+}
+.markdown-body h1 {
+
+    padding-bottom: 0.3em;
+    font-size: 1.90em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+
+}*/
 
 /* My Changes (End)*/
 
