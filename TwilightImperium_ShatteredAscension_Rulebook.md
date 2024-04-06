@@ -296,7 +296,7 @@ After all players have placed their Agenda, they are revealed and the game goes 
 <div>
 
 <!-- Starting with the Speaker and proceeding in the order defined by the Rotation Cycler -->
-In [rotation order](#RotationOrder), each player must pick one of the available Strategy Cards (that was not already picked by another player). They will be able to use them during the upcoming Action Phase. All the 9 Strategy Cards are available on [our website](http://www.astralvault.net/games/SA/index.php/downloads/).
+In [rotation order](#RotationOrder), each player must pick one of the available Strategy Cards (that was not already picked by another player). They will be able to use them during the upcoming Action Phase. All 9 Strategy Cards are available on [our website](http://www.astralvault.net/games/SA/index.php/downloads/).
 
 After that, place a Bonus Counter on each of the unpicked Strategy Cards. These Bonus Counters stack from one Round to the next, and increase the value of the Strategy Cards they are on: when a player picks a Strategy Card, she converts each Bonus Counter on it into either a Command Counter or a Trade Goods that she adds to her race sheet.
 </div>
@@ -442,9 +442,6 @@ One by one and in the order of your choice, move each ship according to their tr
 
 ##### 3) Space Cannons Abilities<a name="SpaceCannonAbilities_TacticalActionStep"></a>
 <div>
-
-<!-- > Change from base SA: This step is now called "Space Cannons Fire" instead of "PDS Fire", because any unit with the Space Cannon ability can shoot during this step, not only PDSs (some Flagships for example). -->
-<!-- > Change from base SA: Precise order in which players decide whether to shoot their Space Cannons: Non-active players with the Speaker being first, then following the Rotation Cycler, and finally the active player -->
 
 During this step, units with the [Space Cannon (*n*)](#SpaceCannon_unitAbility) ability that are in the active System may fire at a fleet in the active System. There are two possibilities:
 
@@ -1496,7 +1493,7 @@ Some Technologies have other Technologies as prerequisites. This is indicated on
 
 **Purchases and Discounts**  
 Some effects allow players to "purchase" Technology for a given resource price. This simply means the player may pay the required amount of resources to acquire a Technology.  
-This cost is reduced by 1 if the player controls the [Artefact](#ArtifactTechnologyDiscounts) of the same color than the purchased Technology, and by 1 for each [Technology Specialty](#TechnologySpecialty) of the same color than the purchased Technology present on *refreshed* planets the player controls.
+This cost is reduced by 1 if the player controls the [Artifact](#ArtifactTechnologyDiscounts) of the same color than the purchased Technology, and by 1 for each [Technology Specialty](#TechnologySpecialty) of the same color than the purchased Technology present on *refreshed* planets the player controls.
 
 ### "You may use the effects of ..."<a name="UseTheEffectsOfTechnology"></a>
 Some effects allow players to "use the effects of" some Technologies. This means that even though they may not have a particular Technology, they are allowed to benefit from its effects. However, they are not considered as having this Technology (for example for the purpose of Objectives, or prerequisites), and even if they do have this Technology, they cannot benefit from its effects twice.
@@ -1797,14 +1794,14 @@ A specific subset of Installations.
 </div>
 
 * categories: **ship, Non-Fighter ship**
-* movement value: ***Race-dependant***  
-* resource cost: ***10***  
-* production capacity cost: ***3***
-* combat dice: ***Race-dependant***
-* combat value: ***Race-dependant***
+* movement value: ***Race-dependent***  
+* resource cost: ***Race-dependent***  
+* production capacity cost: ***Race-dependent***
+* combat dice: ***Race-dependent***
+* combat value: ***Race-dependent***
 
 * abilities: 
-	* ***Race-dependant***
+	* ***Race-dependent***
 * traits:
 
 #### War Sun<a name="WarSun"></a>  
@@ -2693,7 +2690,6 @@ A player not having placed votes on an agenda may not receive bonus votes from t
 
 #### Race-specific changes
 * Every other time **Mentak** uses their racial ability to steal Trade Goods, they gain a Trade Good.
-* When **Xxcha** plays the Diplomacy Strategy Card, they may spend 1 Command Counter from Strategy Allocation and 2 influence to execute the Primary Ability a second time.
 
 ## Annex 1: Effects of Domain Counters<a name="DomainCountersEffects"></a>
 
