@@ -15,19 +15,19 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 ## Setup
 *Note: players may sit now, but will likely have to change seat at some point.*
 
-[**1) Building the Galaxy**](#Setup_BuildingTheGalaxy)  
-[**2) Table Setup**](#Setup_TableSetup)  
-[**3) Victory Point Goal**](#Setup_VictoryPointGoal)  
-[**4) Game Options**](#Setup_GameOptions)  
-[**5) Secret Objectives**](#Setup_SecretObjectives)  
-[**6) Race Picking**](#Setup_RacePicking)  
-[**7) Home System Location Bidding OR Galaxy Building**](#Setup_HSLocationBiddingORGalaxyBuilding)  
-[**8) Speaker Token Bidding**](#Setup_SpeakerTokenBidding)  
-[**9) Starting Trade Goods Normalisation**](#Setup_StartingTradeGoodsNormalisation)  
-[**10) Orienting the Rotation Cycler**](#Setup_OrientingTheRotationCycler)  
-[**11) Deck Building**](#Setup_DeckBuiding)  
-[**12) Revealing Objectives**](#Setup_RevealingObjectives)  
-[**13) Finalising Setup**](#Setup_FinalisingSetup)  
+[**1) Building the Galaxy**](#user-content-Setup_BuildingTheGalaxy)  
+[**2) Table Setup**](#user-content-Setup_TableSetup)  
+[**3) Victory Point Goal**](#user-content-Setup_VictoryPointGoal)  
+[**4) Game Options**](#user-content-Setup_GameOptions)  
+[**5) Secret Objectives**](#user-content-Setup_SecretObjectives)  
+[**6) Race Picking**](#user-content-Setup_RacePicking)  
+[**7) Home System Location Bidding OR Galaxy Building**](#user-content-Setup_HSLocationBiddingORGalaxyBuilding)  
+[**8) Speaker Token Bidding**](#user-content-Setup_SpeakerTokenBidding)  
+[**9) Starting Trade Goods Normalisation**](#user-content-Setup_StartingTradeGoodsNormalisation)  
+[**10) Orienting the Rotation Cycler**](#user-content-Setup_OrientingTheRotationCycler)  
+[**11) Deck Building**](#user-content-Setup_DeckBuiding)  
+[**12) Revealing Objectives**](#user-content-Setup_RevealingObjectives)  
+[**13) Finalising Setup**](#user-content-Setup_FinalisingSetup)  
 
 
 <a name="Setup_BuildingTheGalaxy">
@@ -39,7 +39,7 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 Choose either:
  
 * Choose and build a pre-set map from [Shattered Ascension Map Database](http://www.astralvault.net/games/SA/maps.html)
-* Decide to have the player build the map following the [Star by Star procedure](#StarByStar). In this case, the map will be built at step 6.
+* Decide to have the player build the map following the [Star by Star procedure](#user-content-StarByStar). In this case, the map will be built at step 6.
 
 <a name="Setup_TableSetup">
 **2) Table Setup**  
@@ -79,9 +79,9 @@ Decide on the number of Victory Points required to win. The recommanded values a
 
 Decide on the game options to include:
 
-* [Path of Fate](#PathOfFate) (Race-Specific Objectives)
-* [Simultaneous Action System](#SimultaneousActionSystem)
-* [Ascendancy](#Ascendancy) (essentially doubles the Victory Point goal and makes objectives claimable multiple times)
+* [Path of Fate](#user-content-PathOfFate) (Race-Specific Objectives)
+* [Simultaneous Action System](#user-content-SimultaneousActionSystem)
+* [Ascendancy](#user-content-Ascendancy) (essentially doubles the Victory Point goal and makes objectives claimable multiple times)
 
 <a name="Setup_SecretObjectives">
 **5) Secret Objectives**  
@@ -112,7 +112,7 @@ The highest rolling player places a race flag (or another item if her race is no
 Then in **decreasing rolling order** (looping), each player either places a bid on a new Home System or overbid another. This continues until all players have a Home System location (skipping the turn of players who already have a Home System location).
 All players add as many Trade Goods as the difference between the highest bid and their own bid to their starting Trade Goods.
 
-If you chose to build the map using the [Star by Star procedure](#StarByStar), now is the time to do it.
+If you chose to build the map using the [Star by Star procedure](#user-content-StarByStar), now is the time to do it.
 
 *Players may now change seat in order to be aligned with their Home System location.*
 
@@ -190,16 +190,16 @@ Start the first Round.
 
 ## The Game Round
 
-Shattered Ascension is played over a consecutive number of Rounds. Each Round is split into three phases: The [Strategy Phase](#StrategyPhase) where player place a Political Card in the Twilight Council and select their Strategy Card for the Round, the [Action Phase](#ActionPhase), where players use their Strategy Cards, move their ships, conquer planets and build units, and the [Status Phase](#StatusPhase), where the board is cleaned up and players can gain Victory Points by claiming Objectives. If no player is declared winner at the end of a Round, another Round starts.
+Shattered Ascension is played over a consecutive number of Rounds. Each Round is split into three phases: The [Strategy Phase](#user-content-StrategyPhase) where player place a Political Card in the Twilight Council and select their Strategy Card for the Round, the [Action Phase](#user-content-ActionPhase), where players use their Strategy Cards, move their ships, conquer planets and build units, and the [Status Phase](#user-content-StatusPhase), where the board is cleaned up and players can gain Victory Points by claiming Objectives. If no player is declared winner at the end of a Round, another Round starts.
 
 <a name="StrategyPhase">
 ### Strategy Phase
 </a>
 The Strategy Phase is divided into three steps:  
 
-* [Home System Planets Reclamation](#HomeSystemPlanetsReclamation)
-* [Twilight Council Propositions](#TwilightCouncilPropositions)
-* [Strategy Card Picking](#StrategyCardPicking)
+* [Home System Planets Reclamation](#user-content-HomeSystemPlanetsReclamation)
+* [Twilight Council Propositions](#user-content-TwilightCouncilPropositions)
+* [Strategy Card Picking](#user-content-StrategyCardPicking)
 
 
 <a name="HomeSystemPlanetsReclamation">
@@ -236,7 +236,7 @@ After that, place a **Bonus Counter** on each of the unpicked Strategy Cards. Th
 ### Action Phase
 </a>
 
-During the Action Phase, each player will take an Action, that can be either a [Strategic Action](#StrategicAction), a [Tactical Action](#TacticalAction), or [Passing](#Passing). The order in which players can take their Action is given by their [initiative](#Initiative), the player with the lowest initiative being the first to take an Action.  
+During the Action Phase, each player will take an Action, that can be either a [Strategic Action](#user-content-StrategicAction), a [Tactical Action](#user-content-TacticalAction), or [Passing](#user-content-Passing). The order in which players can take their Action is given by their [initiative](#user-content-Initiative), the player with the lowest initiative being the first to take an Action.  
 This sequence is repeated until all players have Passed, at which point the Action Phase ends and the Status Phase begins.
 
 <a name="Initiative">
@@ -253,7 +253,7 @@ Some effects in the game allow players to do things "as an action". This means t
 <a name="Passing">
 #### Passing
 </a>
-A player performs this action when she does not want to perform any other action for the rest of this Action Phase. When it would be the turn of a player that passed, simply skip her. If all players have passed, the Action Phase ends and the [Status Phase](#StatusPhase) starts.  
+A player performs this action when she does not want to perform any other action for the rest of this Action Phase. When it would be the turn of a player that passed, simply skip her. If all players have passed, the Action Phase ends and the [Status Phase](#user-content-StatusPhase) starts.  
 **Important:** A player may not pass before having used her Strategy Card through a Strategic Action.
 
 <a name="StrategicAction">
@@ -270,7 +270,7 @@ After that the used Strategy Card is flipped on its *inactive* side, and may not
 #### Tactical Action
 </a>
 Most of the ship movements, planetary conquest and unit production of a game will happen during Tactical Actions.  
-After declaring a Tactical Action, a player must follow the steps of the [Activation Sequence](#ActivationSequence) described below. With the exception of the first one, each of these steps is only resolved if necessary.
+After declaring a Tactical Action, a player must follow the steps of the [Activation Sequence](#user-content-ActivationSequence) described below. With the exception of the first one, each of these steps is only resolved if necessary.
 
 <a name="ActivationSequence">
 ***The Activation Sequence:***
@@ -301,8 +301,8 @@ In this step, you may move friendly ships **into**, and this is important, only 
 
 The ship movement step can be broken down into 2 main parts:
 
-* a) [Plotting trajectories](#PlottingTrajectories)
-* b) [Executing movements](#ExecutingMovements)
+* a) [Plotting trajectories](#user-content-PlottingTrajectories)
+* b) [Executing movements](#user-content-ExecutingMovements)
 
 <a name="PlottingTrajectories">
 ***a) Plotting Trajectories***  
@@ -322,15 +322,15 @@ For each friendly ship she wants to move, the active player has to plot a legal 
 ***b) Executing movements***  
 </a>
 
-The active player moves all ships according to their trajectory, up until they either reach its end in the just activated System. These ships may [pick up cargo](#PickingUpCargo) from the traversed Systems (but not land or drop any cargo).  
+The active player moves all ships according to their trajectory, up until they either reach its end in the just activated System. These ships may [pick up cargo](#user-content-PickingUpCargo) from the traversed Systems (but not land or drop any cargo).  
 
 <a name="PickingUpCargo">
 ***Picking up cargo***
 </a>  
-When a ship with the [capacity ability](#Capacity_unitAbility) starts its movement, move through a System, or simply stays in the System just activated, it may pick up units from other friendly cargo sources in the System: other friendly ships with the [capacity ability](#Capacity_unitAbility) and friendly planets.  
+When a ship with the [capacity ability](#user-content-Capacity_unitAbility) starts its movement, move through a System, or simply stays in the System just activated, it may pick up units from other friendly cargo sources in the System: other friendly ships with the [capacity ability](#user-content-Capacity_unitAbility) and friendly planets.  
 There are two main restrictions to this:  
 
-* The ship must be able to carry the units picked up (the precise number and types of units a ship can carry is described by its [capacity ability](#Capacity_unitAbility)  
+* The ship must be able to carry the units picked up (the precise number and types of units a ship can carry is described by its [capacity ability](#user-content-Capacity_unitAbility)  
 * No cargo may be picked up from activated Systems
 
 ***3) Space Cannons Fire***
@@ -352,7 +352,7 @@ When a Space Cannon (*n*) unit fires, it performs *n* combat rolls. Hits must be
 ***4) Space Battles***
 
 At this time, if there are ships controlled by two different players in the just activated System, a Space Battle must be resolved.  
-In this Space Battle, the active player is the *attacker*, while the other player is the *defender*. For complete rules about how to resolve a Space Battle, see the [Space Battles section](#SpaceBattles).
+In this Space Battle, the active player is the *attacker*, while the other player is the *defender*. For complete rules about how to resolve a Space Battle, see the [Space Battles section](#user-content-SpaceBattles).
 
 <a name="PlanetaryLandings_TacticalActionStep">
 ***5) Planetary Landings***
@@ -376,12 +376,12 @@ Until all planets that had units or Leaders landed on them or ships assigned to 
 * a) The planet is **friendly**:    
  Place the landed troops, PDSs and Leaders on the planet. No bombardment occur.
 * b) The planet is **neutral**:  
-The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#DomainCounters). No bombardment occur (unless included in an Invasion Combat triggered by a Domain Counter). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
+The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#user-content-DomainCounters). No bombardment occur (unless included in an Invasion Combat triggered by a Domain Counter). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
 * c) The planet is **controlled by an opponent**:  
 	* c-1) The planet **contains at least one enemy troop or PDS**:  
-	If you landed at least one troop, resolve an [Invasion Combat](#InvasionCombats) on this planet, else the ships assigned to this planet [bombard](#Bombardment_unitAbility) it without an Invasion Combat taking place.
+	If you landed at least one troop, resolve an [Invasion Combat](#user-content-InvasionCombats) on this planet, else the ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it without an Invasion Combat taking place.
 	* c-2) The planet **does not contain any enemy troop and PDS**:  
-	The ships assigned to this planet [bombard](#Bombardment_unitAbility) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
+	The ships assigned to this planet [bombard](#user-content-Bombardment_unitAbility) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
 
 ***7) Production***  
 Note: All the resources that the active player decides to spend during this step may be added up and spent at once at the end of the step. The total amount of resources that must be spend is rounded up. 
@@ -389,20 +389,20 @@ Note: All the resources that the active player decides to spend during this step
 > Ditched the "at least one Cruiser -> at most 2 Space Mines". Let's be modular. Each unit with the Deploy Space Mines (*n*) ability may deploy up to *n* Space Mines.
 
 * **Deploy Space Mines**:  
-The active player may deploy a number of [Space Mines](#SpaceMines) in the just activated System up to the number of [Deploy Space Mines](#DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy two of them). Each Space Mine costs two resources and must be placed on one of the borders of the System (Wormholes are not borders). Place a flag of the active player on each Space Mine built to indicate their ownership.  
+The active player may deploy a number of [Space Mines](#user-content-SpaceMines) in the just activated System up to the number of [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy two of them). Each Space Mine costs two resources and must be placed on one of the borders of the System (Wormholes are not borders). Place a flag of the active player on each Space Mine built to indicate their ownership.  
 >There is a problem with the Arborec racial that gives them production capacity for their Ground Forces. As it currently stands, their *planets* get the production capacity, which just does not work well with the Space Dock-centric production model of this rulebook. I could define planets with production capacity, but that would be a lengthy rule (to clarify what happens when there is a Space Dock on the same planet, and what happens when this Space Dock cannot produce units for some reason) for a single use-case. So I think that it would be the job of the text of the racial ability to clarify these issues itself.  
 
 * **Produce units**:  
-The active player may produce units at each of her units with the [Produce Units (*n*) ability](#ProduceUnits_unitAbility) in the just activated Systems, with a *production capacity* of *n*. In most cases, units will be produced by **unexhausted** Space Docks, that have as many *production capacity* as the resource value of the planet they are on plus two.  
+The active player may produce units at each of her units with the [Produce Units (*n*) ability](#user-content-ProduceUnits_unitAbility) in the just activated Systems, with a *production capacity* of *n*. In most cases, units will be produced by **unexhausted** Space Docks, that have as many *production capacity* as the resource value of the planet they are on plus two.  
 * **Build Space Docks**:  
 The active player may build Space Docks on some of the planets in the just activated System. A Space Dock may only be built on a planet that she has controlled since the beginning of the Round, and that does not already have a Space Dock. Newly built Space Docks are placed **exhausted** (flipped) and may thus not produce units until they are refreshed (usually during the Status Phase).  
 
 ***Producing units***  
-When producing units, any combination of units may be produced provided the following four limitations are respected and it can be placed in the System (see [placing produced units](#PlacingProducedUnits)):
+When producing units, any combination of units may be produced provided the following four limitations are respected and it can be placed in the System (see [placing produced units](#user-content-PlacingProducedUnits)):
   
 * **Production Capacity**: Each unit has a production capacity cost, the total production capacity cost of the produced units may not exceed the production capacity of the unit producing them.
-* **Fleet Supply**: No ships may be produced if they would violate the [Fleet Supply limit](#FleetSupply) of the System.  
-* **Fighter Capacity**: The System must have a sufficient [Fighter Capacity](#Capacity_unitAbility) to support the produced Fighters.
+* **Fleet Supply**: No ships may be produced if they would violate the [Fleet Supply limit](#user-content-FleetSupply) of the System.  
+* **Fighter Capacity**: The System must have a sufficient [Fighter Capacity](#user-content-Capacity_unitAbility) to support the produced Fighters.
 * **Resource Cost**: Each unit has a resource cost. The player producing units must spend the required amount of resources.  
 
 <a name="PlacingProducedUnits">
@@ -413,7 +413,7 @@ When producing units, any combination of units may be produced provided the foll
 After units have been produced, they must be placed according to the following rules. The *producer* refers to the unit that produced them:  
 
 * Ships are placed in the space of the System containing the *producer*
-* If the *producer* is on a planet, then all produced troops and PDSs must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#Capacity_unitAbility) to carry them.
+* If the *producer* is on a planet, then all produced troops and PDSs must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#user-content-Capacity_unitAbility) to carry them.
 
 ***Blockade***   
 No ships may be produce in a System already containing enemy ships.
@@ -451,11 +451,11 @@ In order to claim an objective, a player must satisfy the requirements written o
 During a Claim Objective step, a player:  
 
 * May claim:
-	* At most 1 revealed Public Objective (either from Stage 1 or [Stage 2](#Stage2PublicObjectives) (Stage 2 Objectives may only be claimed if Stage 2 has been initiated))
-	* At most 1 [Secret Objective](#SecretObjectives) from her hand
-	* The [Preliminary Objective](#PreliminaryObjectives) (if it is still claimable)
+	* At most 1 revealed Public Objective (either from Stage 1 or [Stage 2](#user-content-Stage2PublicObjectives) (Stage 2 Objectives may only be claimed if Stage 2 has been initiated))
+	* At most 1 [Secret Objective](#user-content-SecretObjectives) from her hand
+	* The [Preliminary Objective](#user-content-PreliminaryObjectives) (if it is still claimable)
 * Must claim:
-	* All [Special Objectives](#SpecialObjectives) she qualifies for
+	* All [Special Objectives](#user-content-SpecialObjectives) she qualifies for
 
 <a name="Stage2PublicObjectives">
 **Stage 2 Public Objectives (Blue)**
@@ -478,9 +478,9 @@ When claiming a Secret Objective, a player must reveal it and show she indeed me
 </a>  
 There are three kind of Special Objectives:
   
-* *The Artifact Objectives* award Victory Points to the players controlling some of the four [Artifacts](#Artifact).
+* *The Artifact Objectives* award Victory Points to the players controlling some of the four [Artifacts](#user-content-Artifact).
 * *Sovereign and Imperial* award Victory Points to the players controlling respectively more than 8 and 12 planets.
-* *Voice of the Council* awards a Victory Point to the player that was elected [Voice of the Council](#VoiceOfTheCouncil) during the [Twilight Council](#GameConcepts_TwilightCouncil).
+* *Voice of the Council* awards a Victory Point to the player that was elected [Voice of the Council](#user-content-VoiceOfTheCouncil) during the [Twilight Council](#user-content-GameConcepts_TwilightCouncil).
 
 Special Objectives differ from the other kinds of objective in that if a player that has claimed one of them stop meeting its requirements, her claim on the Special Objective is lost **instantly**: she must remove her flag from the objective card and lose the associated Victory Points **immediately**.  
 
@@ -523,15 +523,15 @@ Starting with the Speaker and following the Rotation Cycler, each player may spe
 Starting with the Speaker, and following the Rotation Cycler, each player refreshes his planets, by turning the corresponding planet cards upright.  
 Instead of refreshing a planet at this step, players may either:
 
-* Build a [Facility](#Facility) on the planet, provided it does not already have one.
-* Use the [refresh ability](#RefreshAbility) of the planet, if it has one.
+* Build a [Facility](#user-content-Facility) on the planet, provided it does not already have one.
+* Use the [refresh ability](#user-content-RefreshAbility) of the planet, if it has one.
 
 **Note:** "Instead of refreshing" means that the planet stays in the state it was in before this step. So for example, a refreshed planet on which a Facility is built stays refreshed.
 
 
 ***6) Receive 1 Action Card, 1 Political Card and 2 Command Counters***
 
-Starting with the Speaker and following the Rotation Cycler, each player draws one [Action Card](#GameConcepts_ActionCards), one [Political Card](#GameConcepts_PoliticalCards), and receives two [Command Counters](#CommandCounters).
+Starting with the Speaker and following the Rotation Cycler, each player draws one [Action Card](#user-content-GameConcepts_ActionCards), one [Political Card](#user-content-GameConcepts_PoliticalCards), and receives two [Command Counters](#user-content-CommandCounters).
 
 <a name="StatusPhase_ReallocateCommandCountersStep">
 ***7) Reallocate Command Counters***
@@ -540,13 +540,13 @@ Starting with the Speaker and following the Rotation Cycler, each player draws o
 Starting with the Speaker and following the Rotation Cycler, each player may redistribute his Command Counters between the Command Pool, Fleet Supply and Strategy Allocation areas of her race sheet. 
 
 ***8) Scuttling***  
-Starting with the Speaker and following the Rotation Cycler, players may scuttle some of their units on the board by placing them in [reinforcements](#Reinforcements).
+Starting with the Speaker and following the Rotation Cycler, players may scuttle some of their units on the board by placing them in [reinforcements](#user-content-Reinforcements).
 
 ***9) Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks***  
 
-* Command Counters on the board are removed and placed in [reinforcements](#Reinforcements).
+* Command Counters on the board are removed and placed in [reinforcements](#user-content-Reinforcements).
 * Strategy Cards are returned to the common play area.
-* Units with used [Sustain Damage abilities](#SustainDamage_unitAbility) are repaired.
+* Units with used [Sustain Damage abilities](#user-content-SustainDamage_unitAbility) are repaired.
 * Space Docks are refreshed
 
 
@@ -591,14 +591,14 @@ If before a Combat Round would begin, either the attacker or the defender does n
 ### 1) Pre-Combat  
 During this phase, all pre-combat effects are resolved.  
 #### 1.a) Anti-Fighter Barrages
-First both sides use the [Anti-Fighter Barrage abilities](#AntiFighterBarrage_unitAbility) of their involved units. The [combat rolls](#CombatRoll) are performed simultaneously, then the attacker must assign to her Fighters the hits obtained by the defender, before the defender does the same with the attacker's hits (see [assigning a hit](#AssigningAHit)).  
+First both sides use the [Anti-Fighter Barrage abilities](#user-content-AntiFighterBarrage_unitAbility) of their involved units. The [combat rolls](#user-content-CombatRoll) are performed simultaneously, then the attacker must assign to her Fighters the hits obtained by the defender, before the defender does the same with the attacker's hits (see [assigning a hit](#user-content-AssigningAHit)).  
 
 #### 1.b) Other Pre-Combat effects
-After the Anti-Fighter Barrages, all other pre-combat effects are resolved. All pre-combat [combat rolls](#CombatRoll) granted by these effects are performed simultaneously, then the attacker assigns to her units the hits obtained by the defender, before the defender does the same with the attacker's hits (see [assigning a hit](#AssigningAHit)).  
+After the Anti-Fighter Barrages, all other pre-combat effects are resolved. All pre-combat [combat rolls](#user-content-CombatRoll) granted by these effects are performed simultaneously, then the attacker assigns to her units the hits obtained by the defender, before the defender does the same with the attacker's hits (see [assigning a hit](#user-content-AssigningAHit)).  
 
 ### 2) Space Battle Combat Round  
 #### 2.a) Perform Combat Rolls  
-Each ship in the System of the Space Battle performs as many [Combat Rolls](#CombatRoll) as its [Combat Dice](#CombatDice) characteristic. All dice are rolled simultaneously.
+Each ship in the System of the Space Battle performs as many [Combat Rolls](#user-content-CombatRoll) as its [Combat Dice](#user-content-CombatDice) characteristic. All dice are rolled simultaneously.
 
 #### 2.b) Assign Hits  
 First, the **attacker** must assign to her ships the hits obtained by the **defender**. Then the defender does the same with the attacker's hits.
@@ -621,8 +621,8 @@ Like Space Battles, Invasion Combats consist of a *Pre-Combat* phase, followed b
 **End of an Invasion Combat**:  
 If before a Combat Round would begin, either the attacker or the defender does not have troops on the planet the Invasion Combat is taking place, the Invasion Combat ends.  
 
-* If the attacker still has troops on the planet at this point, she wins the Invasion Combat. The defender's [installations](#Installation) on the planet are destroyed, and each of her [Leaders](#Leader) on it must make a [Fate Roll](#FateRoll), then the attacker takes control of the planet, exhausted. Finally, the attacker may replace one of his [Ground Forces](#GroundForce) on the planet with a [Shock Troop](#ShockTroop).
-* Else (if the attacker no longer has troops on the planet, regardless of whether the defender has any), the defender wins the Invasion Combat. The attacker's [PDSs](#PDS) on the planet are destroyed, and each of her [Leaders](#Leader) on it must make a [Fate Roll](#FateRoll).
+* If the attacker still has troops on the planet at this point, she wins the Invasion Combat. The defender's [installations](#user-content-Installation) on the planet are destroyed, and each of her [Leaders](#user-content-Leader) on it must make a [Fate Roll](#user-content-FateRoll), then the attacker takes control of the planet, exhausted. Finally, the attacker may replace one of his [Ground Forces](#user-content-GroundForce) on the planet with a [Shock Troop](#user-content-ShockTroop).
+* Else (if the attacker no longer has troops on the planet, regardless of whether the defender has any), the defender wins the Invasion Combat. The attacker's [PDSs](#user-content-PDS) on the planet are destroyed, and each of her [Leaders](#user-content-Leader) on it must make a [Fate Roll](#user-content-FateRoll).
 
 The Invasion Combat sequence:
 
@@ -641,17 +641,17 @@ The Invasion Combat sequence:
 <a name="InvasionCombatBombardment">
 #### 1.a) Bombardment  
 </a>  
-Ships with the [bombardment (*n*) ability](#Bombardment_unitAbility) that have been assigned to bombard this planet in the previous [Planetary Landing step](#PlanetaryLandings_TacticalActionStep) bombard it.  
-Each bombarding ship performs *n* combat rolls. Deduce from the number of hits obtained the number of [planetary shields](#PlanetaryShield_unitAbility) the units on the planet have. The result is the number of hits the owner of the planet must assign to his troops on the planet.  
+Ships with the [bombardment (*n*) ability](#user-content-Bombardment_unitAbility) that have been assigned to bombard this planet in the previous [Planetary Landing step](#user-content-PlanetaryLandings_TacticalActionStep) bombard it.  
+Each bombarding ship performs *n* combat rolls. Deduce from the number of hits obtained the number of [planetary shields](#user-content-PlanetaryShield_unitAbility) the units on the planet have. The result is the number of hits the owner of the planet must assign to his troops on the planet.  
 
-**Bombarding to neutrality**: If the owner of a bombarded planet is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to [turn the planet neutral](#PlanetTurnsNeutral). All the installations on the planet are destroyed and all Leaders present on it must make a Fate Roll.  
+**Bombarding to neutrality**: If the owner of a bombarded planet is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to [turn the planet neutral](#user-content-PlanetTurnsNeutral). All the installations on the planet are destroyed and all Leaders present on it must make a Fate Roll.  
 
 #### 1.b) PDS fire  
 The PDS *of the defender* present on the planet may each perform one combat roll. The attacker must assign the hits to his troops on the planet.
 
 ### 2) Invasion Combat Combat Round  
 #### 2.a) Perform Combat Rolls  
-Each troop on the planet performs as many [Combat Rolls](#CombatRoll) as its [Combat Dice](#CombatDice) characteristic. All dice are rolled simultaneously.
+Each troop on the planet performs as many [Combat Rolls](#user-content-CombatRoll) as its [Combat Dice](#user-content-CombatDice) characteristic. All dice are rolled simultaneously.
 
 #### 2.b) Assign Hits  
 First, the **attacker** must assign to her troops the hits obtained by the **defender**. Then the defender does the same with the attacker's hits.
@@ -729,7 +729,7 @@ Systems that are neither Home Systems nor Special Systems are **Regular Systems*
 </a>
 
 [images of planets, with tech specs and refresh abilities]  
-Each planet has a [resource](#GameConcept_ResourceAndInfluence) value (the number on a green background) and an [influence](#GameConcept_ResourceAndInfluence) (the number on a red background). Planets may also feature a number of [Technology Specialties](#TechnologySpecialty) (red/green/blue/yellow technology symbols), and a [Refresh Ability](#RefreshAbility) (symbol depending on the actual refresh ability). 
+Each planet has a [resource](#user-content-GameConcept_ResourceAndInfluence) value (the number on a green background) and an [influence](#user-content-GameConcept_ResourceAndInfluence) (the number on a red background). Planets may also feature a number of [Technology Specialties](#user-content-TechnologySpecialty) (red/green/blue/yellow technology symbols), and a [Refresh Ability](#user-content-RefreshAbility) (symbol depending on the actual refresh ability). 
 
 ### Planet Card
 Each planet has an associated planet card. When a player takes control of a planet, she takes the corresponding planet card. 
@@ -758,7 +758,7 @@ Each Technology Specialty on a **refreshed** planet reduces by 1 (down to a mini
 </a>
 [image of some refresh abilities symbols]  
 A Refresh Ability is indicated by a symbol on the right of a planet's influence value, and is detailed on the associated planet card.  
-Refresh Abilities can be used during the [Refresh Planets step of the Status Phase](#StatusPhase_RefreshPlanetsStep), by *not* refreshing the planet.
+Refresh Abilities can be used during the [Refresh Planets step of the Status Phase](#user-content-StatusPhase_RefreshPlanetsStep), by *not* refreshing the planet.
 
 <a name="Facility">
 ### Facilities
@@ -766,28 +766,28 @@ Refresh Abilities can be used during the [Refresh Planets step of the Status Pha
 > TI3->SA: No limits on the number of Facility cards available (instead of 8 of each type)  
 > TI3->SA: Important changes in the way Facilities are built.
 
-Facilities are [Installations](#Installation) that can be built on planets to increase their resource or influence value.  
+Facilities are [Installations](#user-content-Installation) that can be built on planets to increase their resource or influence value.  
 There are two types of Facilities: Refineries and Colonies. Refineries increase the resource value of the planets they are on by 1, while Colonies do the same for the influence value.    
-Facilities are not built for resources. Instead, a Facility may be placed on a planet *instead* of normally refreshing it during the [Refresh Planets step of the Status Phase](#StatusPhase_RefreshPlanetsStep), *if the planet did not previously contain one*.  
+Facilities are not built for resources. Instead, a Facility may be placed on a planet *instead* of normally refreshing it during the [Refresh Planets step of the Status Phase](#user-content-StatusPhase_RefreshPlanetsStep), *if the planet did not previously contain one*.  
 Once built, place the Facility card under the planet card, with the bottom edge sticking out to display the +1 in either resource or influence.  
 
 <a name="PlanetTurnsNeutral">
 ### "Turning Neutral"
 </a>
-When a planet **"turns neutral"** (because of a game effect), all units and Facilities on it are destroyed, and each Leader on it must make a [Fate Roll](#FateRoll). The current controller of the planet also loses control of it.
+When a planet **"turns neutral"** (because of a game effect), all units and Facilities on it are destroyed, and each Leader on it must make a [Fate Roll](#user-content-FateRoll). The current controller of the planet also loses control of it.
 
 ### Trade Stations
 > TI3->SA Trade Stations are acquired at the end of actions, instead of whenever a player is the only one having ships in the system.
 
 Trade Stations are a specific type of planets, with the following special rules:
 
-* No [Domain Counter](#DomainCounters) may exist on a Trade Station.
+* No [Domain Counter](#user-content-DomainCounters) may exist on a Trade Station.
 * Troops, Installations and Leaders may not exist on Trade Stations, and no Invasion Combat or bombardment may be conducted against them.
 * A player takes control of a Trade Station  if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it.  
 * A player cannot lose control of a Trade Station for any reason if she has ships in its system.
 
 ## Other Board Elements
-> Recent in SA: New [Worldgate](#Worldgate) token.
+> Recent in SA: New [Worldgate](#user-content-Worldgate) token.
 
 ### Border Tokens
 These tokens are placed on the border between two Systems.
@@ -803,7 +803,7 @@ These tokens are placed on the border between two Systems.
 </a>
 [image]
 
-Space Mines are a type of border tokens. They are built by ships with the [Deploy Space Mines ability](#DeploySpaceMines_unitAbility) and belong to the player that built them.
+Space Mines are a type of border tokens. They are built by ships with the [Deploy Space Mines ability](#user-content-DeploySpaceMines_unitAbility) and belong to the player that built them.
 
 ***Simple rule:***  
 *This rule should be enough to cover most cases.*
@@ -834,7 +834,7 @@ At the end of an action in which at least one ship moved through such Wormhole f
 #### Definitions
 ***Stable Wormholes*** are Wormholes that are directly printed on a tile.
 
-***Unstable Wormholes*** are all the Wormholes that are *not* printed on a tile. (Wormhole Tokens, Wormholes from [Domain Counters](#DomainCounters)...)
+***Unstable Wormholes*** are all the Wormholes that are *not* printed on a tile. (Wormhole Tokens, Wormholes from [Domain Counters](#user-content-DomainCounters)...)
 
 <a name="Artifact">
 ### Artifacts
@@ -843,7 +843,7 @@ At the end of an action in which at least one ship moved through such Wormhole f
 > TI3->SA: Artifacts may exist in space.  
 [images of both real and dummy artefacts]  
 
-There are eight Artifact tokens. Four of them harbor technology colors and are actual Artifacts, while the other four have [Trade Goods](#GameConcepts_TradeGoods) symbols and are called **Dummy Artifacts**. 
+There are eight Artifact tokens. Four of them harbor technology colors and are actual Artifacts, while the other four have [Trade Goods](#user-content-GameConcepts_TradeGoods) symbols and are called **Dummy Artifacts**. 
 
 Artifacts may exist on planets or in space, are placed on the galaxy when it is created and may not be moved or destroyed by players.
 
@@ -859,7 +859,7 @@ When a player takes control of a facedown Artifacts, she flips it. The Artifact 
 When a Dummy Artifacts is revealed, it is removed from the game and its controller receives 2 Trade Goods.
 
 #### Artifacts-related Special Objectives
-There are four [Special Objective](#SpecialObjectives) awarding Victory Points for the control of the four non-Dummy Artifacts.
+There are four [Special Objective](#user-content-SpecialObjectives) awarding Victory Points for the control of the four non-Dummy Artifacts.
 
 #### Artifact Technology Discounts
 The controller of an Artifact reduces her cost to purchase Technologies of the same color by 1.
@@ -870,7 +870,7 @@ The controller of an Artifact reduces her cost to purchase Technologies of the s
 [image]  
 Worldgates are placed on some planets of the galaxy when it is created and may not be moved or destroyed by players.
 
-When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#PlanetaryLandings_TacticalActionStep), move any number of her troops, PDSs and Leaders from other planets in *unactivated Systems* that also contain Worldgates to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
+When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#user-content-PlanetaryLandings_TacticalActionStep), move any number of her troops, PDSs and Leaders from other planets in *unactivated Systems* that also contain Worldgates to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
 
 <a name="DomainCounters">
 ### Domain Counters
@@ -884,7 +884,7 @@ There are two types of Domain Counters, the *Distant Suns* ones have the image o
 
 Even though the *Distant Suns* Domain Counters are mostly intended to be placed on planets while the *Final Frontier* ones are intended to be placed in space, some counters can be placed in both places.
 
-Refer to the [Effects of Domain Counters](#DomainCountersEffects) annex to find the effects of all the Domain Counters.
+Refer to the [Effects of Domain Counters](#user-content-DomainCountersEffects) annex to find the effects of all the Domain Counters.
 
 #### Domain Counters on planets
 Domain Counters on planets are revealed and resolved immediately after a player has landed units on the planet (and after all units were landed). Resolved Domain Counters are then removed from the board. 
@@ -914,10 +914,10 @@ Throughout a game, players will need to spend *resources* and *influence* for ma
 
 ***Key points:***  
 
-* In order to pay a certain amount of resources or influence, players must [exhaust](#RefreshedAndExhaustedStates) some of their planets to provide at least as many resources/influence as the required amount (extra resources/influence provided are lost).
+* In order to pay a certain amount of resources or influence, players must [exhaust](#user-content-RefreshedAndExhaustedStates) some of their planets to provide at least as many resources/influence as the required amount (extra resources/influence provided are lost).
 * Exhausting a planet provides either as many resources as its resource value, or as many influence as its influence value, but not both. The player controlling the planet decides.  
 * It is not possible to use only a portion of the resources/influence of a planet when exhausting and save the rest for later. Planets always provides the full values when they are exhausted.
-* An exhausted planet may not be exhausted again until it is [refreshed](#RefreshedAndExhaustedStates) by another effect.
+* An exhausted planet may not be exhausted again until it is [refreshed](#user-content-RefreshedAndExhaustedStates) by another effect.
 
 <a name="CommandCounters">
 ### Command Counters
@@ -933,7 +933,7 @@ Whenever a player receives or gain a Command Counter, he must place it on his ra
 * Strategy Allocation
 
 
-Command Counters may not be moved from one area to another, except during the  [Reallocate Command Counters step](#StatusPhase_ReallocateCommandCountersStep)  of the Status Phase.
+Command Counters may not be moved from one area to another, except during the  [Reallocate Command Counters step](#user-content-StatusPhase_ReallocateCommandCountersStep)  of the Status Phase.
 
 <a name="CommandPool">
 #### Command Pool
@@ -1001,7 +1001,7 @@ For example, in order to place 3 votes on the FOR outcome of an agenda, a player
 4. All vote sheets are collected and votes are tallied. Then the agendas are resolved according to the outcome that got the more votes.
 
 ***Ties***  
-If multiple outcomes of the same agenda receive the same number of votes, the tie is broken by the [Speaker](#Speaker).  
+If multiple outcomes of the same agenda receive the same number of votes, the tie is broken by the [Speaker](#user-content-Speaker).  
 Exception: an agenda that does not receive any vote is discarded without effect.
 
 #### Political Cards keywords
@@ -1075,7 +1075,7 @@ Cards, effects or other rules may refer to one of the following player orders wh
 
 
 ## Specific Definitions  
-[Combat Roll](#CombatRoll) 
+[Combat Roll](#user-content-CombatRoll) 
 
 <a>Activated</a>  
 ***Activated System***   
@@ -1102,10 +1102,10 @@ Invasion (not needed if we change Dackxive Animators so that it doesn't use this
 Active player  
 
 <a name="Troop">Troop</a>:  
-This term is used to designate either a [Ground Force](#GroundForce), a [Shock Troop](#ShockTroop) or an [Armor (MU)](#Armor).
+This term is used to designate either a [Ground Force](#user-content-GroundForce), a [Shock Troop](#user-content-ShockTroop) or an [Armor (MU)](#user-content-Armor).
 
 <a name="Installation">Installation</a>: 
-This term is used to designate either a [PDS](#PDS), a [Space Dock](#SpaceDock) or a [Facility](#Facility).
+This term is used to designate either a [PDS](#user-content-PDS), a [Space Dock](#user-content-SpaceDock) or a [Facility](#user-content-Facility).
 
 <a name="Speaker">
 Speaker
@@ -1143,11 +1143,11 @@ units abilities
 - <a name="ProduceUnits_unitAbility">Produce Units (*n*)</a>  
 - <a name="PlanetaryShield_unitAbility">Planetary Shield</a>     
 - <a name="Bombardment_unitAbility">Bombardment (*n*)</a>  
-See the description of the [Pre-Combat phase of Invasion Combats](#InvasionCombatBombardment).  
+See the description of the [Pre-Combat phase of Invasion Combats](#user-content-InvasionCombatBombardment).  
 - <a name="SustainDamage_unitAbility">Sustain Damage (*n*)</a>  
-A unit with the Sustain Damage (*n*) ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* it sustains this way, a unit loses a [combat dice](#CombatDice). Sustained *hits* persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the [Status Phase](#StatusPhase).
+A unit with the Sustain Damage (*n*) ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* it sustains this way, a unit loses a [combat dice](#user-content-CombatDice). Sustained *hits* persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the [Status Phase](#user-content-StatusPhase).
 - <a name="AntiFighterBarrage_unitAbility">Anti-Fighter Barrage (*n*)</a>  
-During the pre-combat phase of the Space Battles in which this unit participates, it performs *n* [combat rolls](#CombatRoll). Hits from these [combat rolls](#CombatRoll) may only be assigned to [Fighters](#Fighter).  
+During the pre-combat phase of the Space Battles in which this unit participates, it performs *n* [combat rolls](#user-content-CombatRoll). Hits from these [combat rolls](#user-content-CombatRoll) may only be assigned to [Fighters](#user-content-Fighter).  
 - <a name="InvasionDefence_unitAbility">Invasion Defence (*n*)</a>  
 If this unit is on a planet that is invaded, it performs *n* combat rolls against the attacking forces.
 
@@ -1210,61 +1210,61 @@ I moved the Component Overview section from the top of the rulebook. Not sure it
 #### Systems
 [image]  
 Every game, these hexagonal tiles will be assembled to create the game board: the galaxy. They represent areas of space and may contain planets or other elements of interest.  
-[More details on Systems](#System)
+[More details on Systems](#user-content-System)
 
 #### Units
 [image]  
 These detailed plastic pieces represent the military personnel, shipyards, defence systems, and spaceships that players will command. 
-[More details on Units](#GameConcepts_Units)
+[More details on Units](#user-content-GameConcepts_Units)
 
 #### Planet Cards
 [image]  
 Each of these cards corresponds to a planet present in one of the systems. They are used to indicate the ownership over the planets, and whether they have been "exhausted" by their owner.  
-[More details on Planets](#Planet)
+[More details on Planets](#user-content-Planet)
 
 #### Technology Tree
 [image]  
 This tree depicts all the technologies the players can acquire in the game, and help them to keep track of those that they already have. 
-[More details on Technologies](#GameConcepts_Technologies)
+[More details on Technologies](#user-content-GameConcepts_Technologies)
 
 #### Action Cards
 [image]  
 These cards are acquired by players throughout the game, and can be used to provide various effects.  
-[More details on Action Cards](#GameConcepts_ActionCards)
+[More details on Action Cards](#user-content-GameConcepts_ActionCards)
 
 #### Political Cards
 [image]  
 These cards represent the agendas that the players will vote on at the Twilight Council located on Mecatol Rex.  
-[More details on Political Cards](#GameConcepts_PoliticalCards)
+[More details on Political Cards](#user-content-GameConcepts_PoliticalCards)
 
 #### Objective Cards
 [image of Preliminary, Public Stage1, Public Stage2, Secret and Special objectives]  
 In order to win a game of Twilight Imperium, players need to accumulate victory points. This is mostly done by qualifying for the requirements of the Objective Cards.  
-[More details on Objective Cards](#GameConcepts_ObjectiveCards)
+[More details on Objective Cards](#user-content-GameConcepts_ObjectiveCards)
 
 #### Artifact Tokens
 [image]  
 These tokens are placed either on planets or in space, and give benefits to their controller.  
-[More details on Artifacts](#Artifact)
+[More details on Artifacts](#user-content-Artifact)
 
 #### Trade Agreement cards
 [image]  
 Each race has some of these cards, and uses them to trade with other races.  
-[More details on Trade](#GameConcepts_Trade)
+[More details on Trade](#user-content-GameConcepts_Trade)
 
 <a name="StrategyCards">
 #### Strategy Cards (and the High Alert token)
 </a>
 [image]  
-These cards represent powerful short-term strategies the players can choose from each round, during the [Strategy Phase](#StrategyPhase). The Warfare (number 6) Strategy Card comes with the High Alert token. They are played through [Strategic Actions](#StrategicAction). 
+These cards represent powerful short-term strategies the players can choose from each round, during the [Strategy Phase](#user-content-StrategyPhase). The Warfare (number 6) Strategy Card comes with the High Alert token. They are played through [Strategic Actions](#user-content-StrategicAction). 
 
 #### Bonus Counters
 [image]  
-These counters are placed on unpicked [Strategy Cards](#StrategyCards) to make them more attractive.
+These counters are placed on unpicked [Strategy Cards](#user-content-StrategyCards) to make them more attractive.
 
 #### Command Counters
 [image]  
-These counters represent the domestic mandates and logisitics of the races. They are used by players for various actions, such as moving units on the board through [Tactical Actions](#TacticalAction).
+These counters represent the domestic mandates and logisitics of the races. They are used by players for various actions, such as moving units on the board through [Tactical Actions](#user-content-TacticalAction).
 
 #### Control Markers (also called "Flags")
 [image]  
@@ -1273,7 +1273,7 @@ These markers are used to represent the races in various places
 #### Trade Goods
 [image]  
 These tokens represent wealth. They are used as currency, and can be exchanged between players.  
-[More details on Trade Goods](#GameConcepts_TradeGoods).
+[More details on Trade Goods](#user-content-GameConcepts_TradeGoods).
 
 #### The Victory Point Track
 [image]
@@ -1281,7 +1281,7 @@ During the setup of the game, each player places a flag on the Victory Point Tra
 
 #### The Speaker Token and the Rotation Cycler
 [image]
-The holder of the Speaker Token (called the Speaker) chooses first his [Strategy Cards](#StrategyCards) during the Strategy Phase, and break ties during the [Twilight Council](#GameConcepts_TwilightCouncil).  
+The holder of the Speaker Token (called the Speaker) chooses first his [Strategy Cards](#user-content-StrategyCards) during the Strategy Phase, and break ties during the [Twilight Council](#user-content-GameConcepts_TwilightCouncil).  
 The Rotation Cycler determine the order
 
 #### The Rotation Cycler
@@ -1455,21 +1455,21 @@ A game of Shattered Ascension is a succession of Rounds. At the end of each Roun
 From the Planetary Landing resolution step
 
 	* c-1) The planet **contains at least one enemy troop or PDS**:  
-	Resolve an [Invasion Combat](#InvasionCombats) on this planet.
+	Resolve an [Invasion Combat](#user-content-InvasionCombats) on this planet.
 	* c-2) The planet **does not contain any enemy troop and PDS**:  
-	The ships assigned to this planet may [bombard](#) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
+	The ships assigned to this planet may [bombard](#user-content-) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
 -->
 
 
 <!--- 
 From the description of the Action Phase
 
-During the Action Phase, players will, in the order defined by their [initiative](#InitiativeOrder), take one Action each and repeat this sequence until all of them have Passed.
+During the Action Phase, players will, in the order defined by their [initiative](#user-content-InitiativeOrder), take one Action each and repeat this sequence until all of them have Passed.
 
 During the Action Phase, players will take Actions in turn until all of them have Passed.
 The first player to take an Action is the one with the lowest initiative.
 
-During the Action Phase, players will take Actions in the [Initiative Order](#InitiativeOrder) (see below). At her turn, a player must perform one Action, which can be either a [Strategic Action](#StrategicAction), a [Tactical Action](#TacticalAction), or [Passing](#Passing).  Once a player has taken an Action, the next player in the [Initiative Order](#InitiativeOrder) must take an Action, and so on. After the last player in the [Initiative Order](#InitiativeOrder) has taken an Action, . Players that have not yet passed will keep taking Actions, until all of them have Passed and the Action Phase ends.
+During the Action Phase, players will take Actions in the [Initiative Order](#user-content-InitiativeOrder) (see below). At her turn, a player must perform one Action, which can be either a [Strategic Action](#user-content-StrategicAction), a [Tactical Action](#user-content-TacticalAction), or [Passing](#user-content-Passing).  Once a player has taken an Action, the next player in the [Initiative Order](#user-content-InitiativeOrder) must take an Action, and so on. After the last player in the [Initiative Order](#user-content-InitiativeOrder) has taken an Action, . Players that have not yet passed will keep taking Actions, until all of them have Passed and the Action Phase ends.
 
 A player currently in the process of taking her turn (i.e. performing an Action) is called the **active player**.
 
