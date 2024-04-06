@@ -11,6 +11,8 @@ body {
     width: 980px;
     margin-right: auto;
     margin-left: auto;
+    color:#333;
+    background:#fff;
 }
 
 body .markdown-body {
@@ -1103,8 +1105,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-</style><title>TwilightImperium3-ShatteredAscension4.2-CompactRulebook</title></head><body><article class="markdown-body"><h1 id="shattered-ascension-rulebook----v32_2019-01-10">
-<a id="user-content-shattered-ascension-rulebook----v32_2019-01-10" class="anchor" href="#shattered-ascension-rulebook----v32_2019-01-10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shattered Ascension Rulebook  - v32_2019-01-10</h1>
+</style><title>TwilightImperium3-ShatteredAscension4.2-CompactRulebook</title></head><body><article class="markdown-body"><h1 id="shattered-ascension-rulebook----v33_2019-06-26">
+<a id="user-content-shattered-ascension-rulebook----v33_2019-06-26" class="anchor" href="#shattered-ascension-rulebook----v33_2019-06-26" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shattered Ascension Rulebook  - v33_2019-06-26</h1>
 <p><em><strong>By Cyrusa</strong></em><br>
 <em><strong>Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net</strong></em></p>
 
@@ -1471,7 +1473,7 @@ Some effects in the game are used "as an action". This means that using such eff
 <a id="user-content-strategic-action" class="anchor" href="#strategic-action" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategic Action<a name="user-content-StrategicAction"></a>
 </h4>
 <div>
-<p>A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she executes* the <strong>Primary Ability</strong> of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to execute the <strong>Secondary Ability</strong> of the card.<br>
+<p>A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she executes the <strong>Primary Ability</strong> of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to execute the <strong>Secondary Ability</strong> of the card.<br>
 After that the used Strategy Card is flipped on its <em>inactive</em> side, and may not be used again this Round.</p>
 <p><strong>Important: When performing a Strategic Action, the active player <em><strong>may not</strong></em> execute the Secondary Ability of the Strategy Card she is playing.</strong></p>
 </div>
@@ -1668,13 +1670,15 @@ When producing units, any combination of units may be produced provided the foll
 No ships may be produced in a System already containing enemy ships.</li>
 </ul>
 
-<p><strong>Placing produced units</strong> <a name="user-content-PlacingProducedUnits"></a></p>
-<p>After units have been produced, they must be placed according to the following rules. The <em>producer</em> refers to the unit that produced them:</p>
+<p><strong>Placing produced units</strong> <a name="user-content-PlacingProducedUnits"></a><br>
+After units have been produced, they must be placed according to the following rules. The <em>producer</em> refers to the unit that produced them:</p>
 <ul>
 <li>Ships are placed in the space of the System containing the <em>producer</em>
 </li>
 <li>If the <em>producer</em> is on a planet (or <em>is</em> a planet in some cases), then all produced units with the <em>Planet-based</em> trait (ground units and PDSs) must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient <a href="#user-content-Capacity_unitAbility">capacity</a> to carry them.</li>
 </ul>
+<p><strong>Space Docks</strong><br>
+<a href="#user-content-SpaceDock">Space Docks</a> cannot be produced using the <a href="#user-content-ProduceUnits_unitAbility">Produce Units (<em>n</em>)</a> ability. They have their own specific construction process (see step C just after).</p>
 </div>
 </div>
 <h6 id="c-build-space-docks">
@@ -2315,7 +2319,7 @@ Then remove <strong>all</strong> (not just the one resolved) non-friendly Space 
 <ul>
 <li>
 <em><strong>Artifact on a Planet</strong></em><br>
-Whoever controls the planet controls the Artifact.</li>
+A player takes control of an Artifact on a planet if she controls the planet at the end of an action. She loses control of it as soon as she loses control of th planet.</li>
 <li>
 <em><strong>Artifact in Space</strong></em><br>
 A player takes control of an Artifact in space if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it.</li>
@@ -2456,11 +2460,7 @@ The number of Command Counters in a player's Fleet Supply is her <strong>Fleet S
 <h2 id="action-cards">
 <a id="user-content-action-cards" class="anchor" href="#action-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Cards<a name="user-content-ActionCards"></a>
 </h2>
-<details>
-	<summary>Change from base SA (click to expand)</summary>
-<p>Removed the unnecessary "You can't play two Action Cards of the same name at the same situation/unit".</p>
-<p>Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." SA rule. It sounded like a nice idea, but is it that useful? If we really need it on some ACs, I think we should instead tweak the wordings of these ACs to allow it rather than introducing a new general rule.</p>
-</details>
+
 
 
 
@@ -2474,8 +2474,6 @@ The number of Command Counters in a player's Fleet Supply is her <strong>Fleet S
 <strong>Timing:</strong> Each Action Card has a specified timing at which it can be played, indicated by the "Play:" label.</li>
 <li>
 <strong>"As an Action":</strong> Action Cards with the "As an action" timing are played instead of taking an action during the <a href="#user-content-ActionPhase">Action Phase</a>.</li>
-<li>
-<strong>Secret:</strong> Players may not show their Action Cards to other players.</li>
 <li>
 <strong>Hand limit:</strong> A player may not have more than <strong>7</strong> Action Cards in her hand. If she would exceed this limit by drawing Action Cards, she first draws all her Action Cards, and then discard Action Cards from her hand until she has 7.</li>
 </ul>
@@ -2491,6 +2489,10 @@ The number of Command Counters in a player's Fleet Supply is her <strong>Fleet S
 <strong>Private Information:</strong> Players may not show the Action Cards from their hand to others unless when playing them.</li>
 <li>
 <strong>Take-backs:</strong> After revealing an Action Card to play it, but before resolving it, the player that revealed it may take the Action Card back to her hand without resolving it.</li>
+<li>
+<strong>No Double Play:</strong> A player may not play two Action Cards with the same name during the same action.</li>
+<li>
+<strong>Home System Restriction:</strong> Action Cards that are normally restricted from being used in Home Systems can still be used if granted permission by the System's original owner.</li>
 </ul>
 <h2 id="twilight-council-and-political-cards">
 <a id="user-content-twilight-council-and-political-cards" class="anchor" href="#twilight-council-and-political-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Twilight Council and Political Cards<a name="user-content-TwilightCouncilAndPoliticalCards"></a>
@@ -2545,9 +2547,9 @@ Political Cards with the "Law" keyword represent permanent changes and will stay
 <p><a href="https://camo.githubusercontent.com/4a7af8f014e880b6d38c72d0b6c2015e8219c9da/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f566f6963654f66546865436f756e63696c2e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/4a7af8f014e880b6d38c72d0b6c2015e8219c9da/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f566f6963654f66546865436f756e63696c2e6a7067" height="250" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoiceOfTheCouncil.jpg" style="max-width:100%;"></a></p>
 
 
-<p>After the agendas being voted on and their resolution order have been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council <a href="#user-content-SpecialObjectives">Special Objective</a> to the agendas being voted on. The decision is made starting with the active player and following the rotation cycler.<br>
+<p>After the agendas being voted on and their resolution order have been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council <a href="#user-content-SpecialObjectives">Special Objective</a> to the agendas being voted on. If no player choose to do so, the game continues.<br>
 Voice of the Council is treated as a Political Card with the "elect player" keyword <em>for the duration of the vote</em> (it stops being treated as a Political Card after being resolved). It will always be resolved after the other agendas have been resolved.
-The player elected as voice of the council now qualifies for the corresponding objective, until another voice of the council election is called.</p>
+The player elected as voice of the council now qualifies for the corresponding objective, until another player is elected voice of the council in a later election.</p>
 <p><em><strong>Note:</strong></em> <em>As for all the Special Objectives (green), Voice of the Council is not claimed instantly after a player qualifies for it.</em></p>
 <h2 id="technologies">
 <a id="user-content-technologies" class="anchor" href="#technologies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technologies<a name="user-content-Technologies"></a>
@@ -3601,6 +3603,11 @@ If this ability was used without being overturned, the defender may not use it a
 <a id="user-content-surrender-and-elimination" class="anchor" href="#surrender-and-elimination" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Surrender and Elimination<a name="user-content-EliminationAndSurrender"></a>
 </h2>
 <p>Sometimes a player does not want to (<a href="#user-content-Surrender">surrender</a>) or cannot (<a href="#user-content-Elimination">elimination</a>) continue playing. This section explains how to deal with these situations. Additionally, the <a href="#user-content-Armistice">armistice</a> procedure provides a way to amicably settle a game without playing it out to the end.</p>
+<ul>
+<li><a href="#user-content-Surrender">Surrender</a></li>
+<li><a href="#user-content-Elimination">Elimination</a></li>
+<li><a href="#user-content-Armistice">Armistice</a></li>
+</ul>
 <h3 id="surrender">
 <a id="user-content-surrender" class="anchor" href="#surrender" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Surrender<a name="user-content-Surrender"></a>
 </h3>
@@ -3684,7 +3691,7 @@ Finally, the surrendering player is <em>eliminated</em> (follow the <a href="#us
 
 <p><em><strong>Note:</strong></em> <em>The Home System of an eliminated player is still considered as the Home System of an opponent by the remaining players. This means in particular that objectives requiring to control planets in an opponent's Home System can be claimed with the Home System of an eliminated player.</em></p>
 <h3 id="armistice-experimental">
-<a id="user-content-armistice-experimental-" class="anchor" href="#armistice-experimental-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Armistice (Experimental) <a name="user-content-Armistice"></a>
+<a id="user-content-armistice-experimental" class="anchor" href="#armistice-experimental" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Armistice (Experimental)<a name="user-content-Armistice"></a>
 </h3>
 <p><em>It may happen that a player is almost guaranteed to win, and that other players do not see a way to stop her, but the game would still technically require to be played out. When this happens, the following rule can be used to cut the game short. It simulates an amicable settlement of the end game.</em></p>
 <p>At any point during the game, if all players agree, you can follow these steps to end the game immediately. All players must agree on all decisions made during this procedure for the armistice to be valid.</p>
@@ -3801,6 +3808,16 @@ See <a href="#user-content-Installation">here</a>.</p>
 <li>
 <p><a href="#user-content-Invasion_def">Invasion</a> <a name="user-content-Invasion_def"></a><br>
 See <a href="#user-content-Invasion">here</a>.</p>
+</li>
+<li>
+<p><a href="#user-content-Killing_a_Leader">Killing a Leader</a> <a name="user-content-Killing_a_Leader"></a><br>
+A player is said to have killed a leader if she either:</p>
+<ul>
+<li>
+<a href="#user-content-executions-and-releases">Executed</a> that leader.</li>
+<li>Destroyed through <a href="#user-content-CombatRoll">combat roll</a> the ship the leader was on, and the ensuing <a href="#user-content-fate-roll">fate roll</a> was a 1.</li>
+<li>Took control of the planet the leader was on, and the ensuing fate roll was a 1.</li>
+</ul>
 </li>
 <li>
 <p><a href="#user-content-NaturalWealth">Natural Wealth</a> <a name="user-content-NaturalWealth"></a><br>
@@ -3980,12 +3997,12 @@ See <a href="#user-content-UseTheEffectsOfTechnology">here</a>.</p>
 <tr>
 <td><a href="https://camo.githubusercontent.com/665df5e91349178cd26217393410b541cecb5148/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f44535f4e6174697665496e74656c6c6967656e63652e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/665df5e91349178cd26217393410b541cecb5148/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f44535f4e6174697665496e74656c6c6967656e63652e6a7067" alt="DS_NativeIntelligence" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NativeIntelligence.jpg" style="max-width:100%;"></a></td>
 <td>
-<b> <a href="#user-content-NativeIntelligence">Native Intelligence</a> <a name="user-content-NativeIntelligence"></a> </b> <br> <em>The local civilizations offers their allegiance and share their research about distant starts.</em> <br> <br> Secretly look at any face down Domain Counter on the board.</td>
+<b> <a href="#user-content-NativeIntelligence">Native Intelligence</a> <a name="user-content-NativeIntelligence"></a> </b> <br> <em>The local civilization offers their allegiance and share their research about distant stars.</em> <br> <br> Secretly look at any face down Domain Counter on the board.</td>
 </tr>
 <tr>
 <td><a href="https://camo.githubusercontent.com/1d65e7a29fc08572ace810dfe815c0aa73f5f3cd/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f4162616e646f6e6e6564467265696768746572732e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/1d65e7a29fc08572ace810dfe815c0aa73f5f3cd/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f4162616e646f6e6e6564467265696768746572732e6a7067" alt="FF_AbandonnedFreighters" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AbandonnedFreighters.jpg" style="max-width:100%;"></a></td>
 <td>
-<b> <a href="#user-content-AbandonedFreighters">Abandoned Freighters</a> <a name="user-content-AbandonedFreighters"></a> </b> <br> <em>An abandoned fleet of freighters drift in dead space, with cargo intact. The whereabouts of the crew remains a mystery.</em> <br> <br> Immediately receive 2 Trade Goods.</td>
+<b> <a href="#user-content-AbandonedFreighters">Abandoned Freighters</a> <a name="user-content-AbandonedFreighters"></a> </b> <br> <em>An abandoned fleet of freighters drift in dead space, with cargo intact. The whereabouts of the crew remains a mystery.</em> <br> <br> Receive 2 Trade Goods.</td>
 </tr>
 <tr>
 <td><a href="https://camo.githubusercontent.com/b391db2f70981e2a2aa67a93b4127266ab2e2a88/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f556e6368617274656448616269746174732e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/b391db2f70981e2a2aa67a93b4127266ab2e2a88/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f556e6368617274656448616269746174732e6a7067" alt="FF_UnchartedHabitats" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_UnchartedHabitats.jpg" style="max-width:100%;"></a></td>
@@ -4020,7 +4037,7 @@ See <a href="#user-content-UseTheEffectsOfTechnology">here</a>.</p>
 <tr>
 <td><a href="https://camo.githubusercontent.com/08a295931ef91a7200164dba2f40fdaabd6ca45b/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f416c69656e41727469666163742e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/08a295931ef91a7200164dba2f40fdaabd6ca45b/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f416c69656e41727469666163742e6a7067" alt="FF_AlienArtifact" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg" style="max-width:100%;"></a></td>
 <td>
-<b> <a href="#user-content-AlienArtifact">Alien Technology</a> <a name="user-content-AlienArtifact"></a> </b> <br> <em>Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.</em>  <br> <br> Leave this counter face-up in place for the remainder of the game. It is no longer treated as a Domain Counter but is controlled as it it was an Artifact. Any player taking control of this counter may choose one Technology and utilize its effect as long as they maintain control of this counter.</td>
+<b> <a href="#user-content-AlienArtifact">Alien Technology</a> <a name="user-content-AlienArtifact"></a> </b> <br> <em>Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.</em>  <br> <br> Leave this counter face-up in place for the remainder of the game. It is no longer treated as a Domain Counter but is controlled as if it was an Artifact. Any player taking control of this counter may choose one Technology and utilize its effect as long as they maintain control of this counter.</td>
 </tr>
 <tr>
 <td><a href="https://camo.githubusercontent.com/cf47d9216ae710788444cbd56ed468b42a4c266c/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f44535f4c617a61785375727669766f72732e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/cf47d9216ae710788444cbd56ed468b42a4c266c/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f44535f4c617a61785375727669766f72732e6a7067" alt="DS_LazaxSurvivors" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg" style="max-width:100%;"></a></td>
@@ -4045,7 +4062,7 @@ See <a href="#user-content-UseTheEffectsOfTechnology">here</a>.</p>
 <tr>
 <td><a href="https://camo.githubusercontent.com/b6ecb421ace83004d85db9865625422990821091/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f44535f576f726d686f6c65446973636f766572792e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/b6ecb421ace83004d85db9865625422990821091/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f44535f576f726d686f6c65446973636f766572792e6a7067" alt="DS_WormholeDiscovery" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_WormholeDiscovery.jpg" style="max-width:100%;"></a></td>
 <td>
-<b> <a href="#user-content-WormholeDiscovery">Wormhole Discovery</a> <a name="user-content-WormholeDiscovery"></a> </b> <br> <em>investigating an anomaly in the sector reveals unexpected wormhole activity.</em>  <br> <br> Leave this counter in the system. Treat the system as having an unstable wormhole of the indicated type.</td>
+<b> <a href="#user-content-WormholeDiscovery">Wormhole Discovery</a> <a name="user-content-WormholeDiscovery"></a> </b> <br> <em>Investigating an anomaly in the sector reveals unexpected wormhole activity.</em>  <br> <br> Leave this counter in the system. Treat the system as having an unstable wormhole of the indicated type.</td>
 </tr>
 <tr>
 <td><a href="https://camo.githubusercontent.com/a69d828169d6c9d0bced51f431e3d549d009cbfe/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f5370616365506972617465732e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/a69d828169d6c9d0bced51f431e3d549d009cbfe/687474703a2f2f7777772e61737472616c7661756c742e6e65742f67616d65732f53412f6379727573612f63797275736152756c65626f6f6b2f496d616765732f46465f5370616365506972617465732e6a7067" alt="FF_SpacePirates" data-canonical-src="http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SpacePirates.jpg" style="max-width:100%;"></a></td>
