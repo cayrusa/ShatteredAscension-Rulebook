@@ -958,9 +958,9 @@ Each player will start the game in the Home System of her race, containing her s
 <!-- ![AsteroidField](./Images/AsteroidField.jpg) -->
 
 
-* Ships may not end their movement in an Asteroid Field.
-* Ships may not enter and leave an Asteroid Field in the same movement.
-* The [Space Cannon](#SpaceCannon_unitAbility) ability may not fire at units in an Asteroid Field.
+* Ships may not end their movement here.
+* Ships may not [move through](#MovingThrough).
+* [Space Cannon](#SpaceCannon_unitAbility) may not fire at this System.
 
 
 #### Ion Storm<a name="IonStorm"></a>
@@ -969,9 +969,9 @@ Each player will start the game in the Home System of her race, containing her s
 <div><img src="./Images/IonStorm.jpg"></div>
 <!-- ![IonStorm](./Images/IonStorm.jpg) -->
 
-* Ships may not enter and leave an Ion Storm in the same movement.
-* The [Space Cannon](#user-contnt-SpaceCannon_unitAbility) ability may not fire at units in an Ion Storm.
-* [Fighters](#Fighter) in an Ion Storm cannot perform [Combat Rolls](#CombatRoll).
+* Ships may not [move through](#MovingThrough).
+* [Fighters](#Fighter) may not perform [Combat Rolls](#CombatRoll).
+* [Space Cannon](#SpaceCannon_unitAbility) may not fire at this System.
 
 
 #### Nebula<a name="Nebula"></a>
@@ -980,9 +980,9 @@ Each player will start the game in the Home System of her race, containing her s
 <div><img src="./Images/Nebula.jpg"></div>
 <!-- ![Nebula](./Images/Nebula.jpg) -->
 
-* Ships may not enter and leave a Nebula in the same movement.
-* Ships inside a Nebula have a movement value of 1 that cannot be increased by any effect.
-* During Space Battles in a Nebula, the defender receives +1 to all her [Combat Rolls](#CombatRoll).
+* Ships may not [move through](#MovingThrough).
+* Ships here have an unmodifiable movement value of 1.
+* During Space Battles, defending units receive to all [Combat Rolls](#CombatRoll).
 
 
 #### Supernova<a name="Supernova"></a>
@@ -991,31 +991,20 @@ Each player will start the game in the Home System of her race, containing her s
 <div><img src="./Images/Supernova.jpg"></div>
 <!-- ![Supernova](./Images/Supernova.jpg) -->
 
-* Ships may not end their movement in a Supernova.
-* Ships may not enter and leave a Supernova in the same movement.
+* Ships may not end their movement here.
+* Ships may not [move through](#MovingThrough).
 
 
 #### Gravity Rift<a name="GravityRift"></a>
-<!-- > Change from base SA: Modified the wording of the first Gravity Rift effect to say it costs less movement to go through, instead of saying ships moving through it gain movement. Effects that give movement to ships while they are moving are bad because they create causality issues: the ship can move (has enough movement) only if it is already moving (to get the bonus movement), which it can only do if it has enough movement... -->
-
-<details>
-	<summary>Change from base SA (click to expand)</summary>
-
-I modified the wordings so that they work and solve common rule questions. The effects are the same however.  
-- "gain +1 movement" -> "does not cost a movement point". Reason: Since only ships that can reach the destination system can move, having effects that give bonus movement to ships that are already moving is backward since they only work if the ship is already moving, i.e. if its movement value was high enough to reach its destination. The correct way to word it is to say that the trajectory costs less movement points to follow than it normally would.
-- "[facilitated movement] when moving through this system in a non-straight line" -> "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation does not apply when using a wormhole present inside the Gravity Rift.
-</details>
 
 <!-- Necessary to make sure the image after displays correctly -->
 <div><img src="./Images/GravityRift.jpg"></div>
 <!-- ![GravityRift](./Images/GravityRift.jpg) -->
 
-* Moving out of a Gravity Rift right after entering it does not cost a movement point, unless entering and leaving through opposite edges of the tile (or using a wormhole).  
-<!-- * Moving out of a Gravity Rift right after entering it does not cost a movement point, unless the entry and exit borders are opposite to each other. -->
-<!-- * Moving through a Gravity Rift costs 1 movement instead of 2, unless leaving through the border at the opposite side of the one entered. -->
-* Roll one die for each ship moving through a Gravity Rift. On a roll of 1,2 or 3, the ship ends its move in it, and the System becomes activated (from reinforcement).  
-If enemy ships are present in the System, the ship is destroyed instead.
-* Ships in a Gravity Rift do not block enemy movement through the System.
+* Ships [moving through](#MovingThrough) gain +1 movement, except when moving through in a straight line or using wormholes.
+* Roll 1 die per ship\* [moving through](#MovingThrough). For each 1-3 obtained, end one of the ship's movement here (activate from reinforcements), or destroy it if enemy ships are present.  
+\**Disregard carried ships*
+* Ships here do not block enemy movement.
 
 Here is a diagram of the movement costs when moving through a Gravity Rift:
 <!-- Necessary to make sure the image after displays correctly -->
