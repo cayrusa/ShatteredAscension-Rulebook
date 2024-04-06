@@ -226,6 +226,36 @@ div {
     margin-left: 25px;
 } 
 
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+  /*background-color:rgba(0, 0, 0, 0);*/
+  /*background: none;*/
+  background-color: #002b36;
+  border: 0px;
+}
+
+.markdown-body table tr {
+  /*background-color: #fff;
+  border-top: 1px solid #ccc;*/
+  border: 0px;
+}
+
+.markdown-body table th {
+  /*background-color: #fff;
+  border-top: 1px solid #ccc;*/
+  border: 0px;
+}
+
+.markdown-body table td {
+  /*background-color: #fff;
+  border-top: 1px solid #ccc;*/
+  border: 0px;
+}
+
 /* My Changes (End)*/
 
 /*
