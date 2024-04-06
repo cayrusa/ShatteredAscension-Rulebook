@@ -1,5 +1,5 @@
 # Shattered Ascension Rulebook (Twilight Imperium 3)
-A complete rulebook for the Shattered Ascension variant of the Twilight Imperium 3 board game.
+A complete rulebook for the [Shattered Ascension](https://www.astralvault.net/games/SA) variant of the Twilight Imperium 3 board game.
 Contains all the rules, no need for any of the original Twilight Imperium 3 rulebooks.
 
 The rulebook itself is written in markdown.
