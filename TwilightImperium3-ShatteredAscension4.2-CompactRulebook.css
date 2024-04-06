@@ -209,10 +209,22 @@ blockquote>:last-child {
 }
 
 h4,
-h5,
-h6 {
+h5{
   margin: 25px;
 }
+
+h6 {
+  margin: 50px;
+}
+
+.markdown-body h6 {
+/*  font-size: 1em;*/
+  color: #b58900;
+}
+
+div {
+    margin-left: 25px;
+} 
 
 /* My Changes (End)*/
 

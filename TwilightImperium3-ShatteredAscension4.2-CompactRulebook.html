@@ -932,10 +932,22 @@ blockquote>:last-child {
 }
 
 h4,
-h5,
-h6 {
+h5{
   margin: 25px;
 }
+
+h6 {
+  margin: 50px;
+}
+
+.markdown-body h6 {
+/*  font-size: 1em;*/
+  color: #b58900;
+}
+
+div {
+    margin-left: 25px;
+} 
 
 /* My Changes (End)*/
 
@@ -961,65 +973,45 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/</style><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-MathJax.Hub.Config({
-  config: ["MMLorHTML.js"],
-  extensions: ["tex2jax.js"],
-  jax: ["input/TeX"],
-  tex2jax: {
-    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-    processEscapes: false
-  },
-  TeX: {
-    extensions: ["AMSmath.js", "AMSsymbols.js"],
-    TagSide: "right",
-    TagIndent: ".8em",
-    MultLineWidth: "85%",
-    equationNumbers: {
-      autoNumber: "AMS",
-    },
-    unicode: {
-      fonts: "STIXGeneral,'Arial Unicode MS'"
-    }
-  },
-  showProcessingMessages: false
-});
-</script>
-<title>TwilightImperium3-ShatteredAscension4.2-CompactRulebook</title></head><body><article class="markdown-body"><h1 id="shattered-ascension-compact-rulebook----v12_2017-05-28">
-<a id="user-content-shattered-ascension-compact-rulebook----v12_2017-05-28" class="anchor" href="#shattered-ascension-compact-rulebook----v12_2017-05-28" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shattered Ascension Compact Rulebook  - v12_2017-05-28</h1>
-<h4 id="notes">
-<a id="user-content-notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes</h4>
+*/</style><title>TwilightImperium3-ShatteredAscension4.2-CompactRulebook</title></head><body><article class="markdown-body"><h1 id="shattered-ascension-rewritten-rulebook----v13_2017-06-11">
+<a id="user-content-shattered-ascension-rewritten-rulebook----v13_2017-06-11" class="anchor" href="#shattered-ascension-rewritten-rulebook----v13_2017-06-11" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shattered Ascension Rewritten Rulebook  - v13_2017-06-11</h1>
+<p><em><strong>By Cyrusa</strong></em></p>
+<blockquote>
+<p>This rulebook is an attempt at rewriting the full Twilight Imperium 3 rules integrating the Shattered Ascension mod. The main goals were to be more concise and more precise (meaning less ambiguities in games).
+To do this, I had to make some minor changes to the SA ruleset here and there. I have indicated the changes I made in comments such as this one so they stand out.</p>
+</blockquote>
+<h3 id="notes">
+<a id="user-content-notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes</h3>
 <p><em><strong>Contradictions</strong></em><br>
-If the text of a component (card, technology,...) would contradict with the rules presented in this rulebook, the component takes precedence.</p>
+If a wording would contradict with another (for example saying you can do something that another wording prevents), then either it explicitly refers to the other wording it is contradicting with, in which case it takes precedence, or it does not, in which case the default precedence order is:<br>
+Action Card &gt; Political Card &gt; Racial Improvements &gt; Racial Abilities &gt; Technologies &gt; Rules from this rulebook</p>
 <p><em><strong>Compliance</strong></em><br>
 A player subject to negative effects (for example discard <em>3</em> Trade Goods) must fulfil them as far as able (if she only has <em>2</em> Trade Goods, she must discard them).</p>
 <h2 id="overview">
 <a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
-<p>In a game of Twilight Imperium, 2 to 8 players take the role of varied great races fighting for supremacy in the galaxy after the ruling Lazax Empire has fallen. The game is played over several Rounds, during which players strive to fulfil Objectives in order to score Victory Points. The first player to reach a predetermined number of Victory Points is declared the winner and the new Empress of the Galaxy.</p>
+<p>In a game of Twilight Imperium, 2 to 8 players take the role of varied great races fighting for supremacy in the galaxy after the ruling Lazax Empire has fallen. The game is played over several Rounds, during which players strive to <a href="#user-content-ClaimObjectives_StatusPhaseStep">claim Objectives</a> in order to score Victory Points. The first player to reach a predetermined number of Victory Points is declared the winner and the new Empress of the Galaxy.</p>
 <h2 id="content">
 <a id="user-content-content" class="anchor" href="#content" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Content</h2>
 <ul>
+<li><a href="#user-content-Components">Components</a></li>
 <li><a href="#user-content-Setup">Setup</a></li>
 <li>
-<a href="#user-content-GameRound">Game Round</a>
+<a href="#user-content-Round">Round</a>
 <ul>
 <li><a href="#user-content-StrategyPhase">Strategy Phase</a></li>
 <li><a href="#user-content-ActionPhase">Action Phase</a></li>
 <li><a href="#user-content-StatusPhase">Status Phase</a></li>
 </ul>
 </li>
-<li><a href="#user-content-SpaceBattles">Space Battles</a></li>
+<li><a href="#user-content-SpaceBattle">Space Battle</a></li>
 <li><a href="#user-content-InvasionCombats">Invasion Combat</a></li>
 <li>
 <a href="#user-content-Systems">Systems</a>
 <ul>
+<li><a href="#user-content-GeneralitiesRegardingSystems">Generalities Regarding Systems</a></li>
 <li><a href="#user-content-HomeSystems">Home Systems</a></li>
 <li><a href="#user-content-SpecialSystems">Special Systems</a></li>
 <li><a href="#user-content-RegularSystems">Regular Systems</a></li>
-<li><a href="#user-content-VoidSystems">Void Systems</a></li>
-<li><a href="#user-content-PlanetarySystems">Planetary Systems</a></li>
 </ul>
 </li>
 <li>
@@ -1069,7 +1061,7 @@ A player subject to negative effects (for example discard <em>3</em> Trade Goods
 <a href="#user-content-Units">Units</a>
 <ul>
 <li><a href="#user-content-UnitCharacteristics">Unit Characteristics</a></li>
-<li><a href="#user-content-UnitCategoriesOverview">Unit Categories Overview</a></li>
+<li><a href="#user-content-UnitCategories">Unit Categories</a></li>
 <li><a href="#user-content-UnitList">Unit List</a></li>
 <li><a href="#user-content-UnitAbilities">Unit Abilities</a></li>
 </ul>
@@ -1090,27 +1082,128 @@ A player subject to negative effects (for example discard <em>3</em> Trade Goods
 </li>
 </ul>
 </li>
+<li><a href="#user-content-MiscellaneousRules">Miscellaneous Rules</a></li>
+<li><a href="#user-content-Definitions">Definitions</a></li>
+<li><a href="#user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers">Rule Adjustments Based On The Number Of Players</a></li>
+<li><a href="#user-content-DomainCountersEffects">Annex 1: Domain Counters Effects</a></li>
+<li><a href="#user-content-VariantsAndOptionalRules">Annex 2: Variants and Optional Rules</a></li>
 </ul>
+<h2 id="components-">
+<a id="user-content-components-" class="anchor" href="#components-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Components <a name="user-content-Components"></a>
+</h2>
+<h3 id="galaxy">
+<a id="user-content-galaxy" class="anchor" href="#galaxy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Galaxy</h3>
+<h5 id="artifacts">
+<a id="user-content-artifacts" class="anchor" href="#artifacts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Artifacts</h5>
+<p>[image]</p>
+<h5 id="asteroid-belts">
+<a id="user-content-asteroid-belts" class="anchor" href="#asteroid-belts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Asteroid Belts</h5>
+<p>[image]</p>
+<h5 id="domain-counters">
+<a id="user-content-domain-counters" class="anchor" href="#domain-counters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Domain Counters</h5>
+<p>[image]</p>
+<h5 id="mecatol-rex-custodians">
+<a id="user-content-mecatol-rex-custodians" class="anchor" href="#mecatol-rex-custodians" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mecatol Rex Custodians</h5>
+<p>[image]</p>
+<h5 id="planet-cards">
+<a id="user-content-planet-cards" class="anchor" href="#planet-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Planet Cards</h5>
+<p>[image]</p>
+<h5 id="space-mines">
+<a id="user-content-space-mines" class="anchor" href="#space-mines" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Space Mines</h5>
+<p>[image]</p>
+<h5 id="systems">
+<a id="user-content-systems" class="anchor" href="#systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Systems</h5>
+<p>[image]</p>
+<h5 id="wormhole-tokens">
+<a id="user-content-wormhole-tokens" class="anchor" href="#wormhole-tokens" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wormhole Tokens</h5>
+<p>[image]</p>
+<h3 id="units">
+<a id="user-content-units" class="anchor" href="#units" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Units</h3>
+<h5 id="units-1">
+<a id="user-content-units-1" class="anchor" href="#units-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Units</h5>
+<p>[image]</p>
+<h5 id="shock-troops-tokens">
+<a id="user-content-shock-troops-tokens" class="anchor" href="#shock-troops-tokens" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shock Troops Tokens</h5>
+<p>[image]</p>
+<h5 id="supplement-ground-force-and-fighter-tokens">
+<a id="user-content-supplement-ground-force-and-fighter-tokens" class="anchor" href="#supplement-ground-force-and-fighter-tokens" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Supplement Ground Force and Fighter Tokens</h5>
+<p>[image]</p>
+<h3 id="general">
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h3>
+<h5 id="action-cards">
+<a id="user-content-action-cards" class="anchor" href="#action-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Cards</h5>
+<p>[image]</p>
+<h5 id="bonus-counters">
+<a id="user-content-bonus-counters" class="anchor" href="#bonus-counters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bonus Counters</h5>
+<p>[image]</p>
+<h5 id="facilities">
+<a id="user-content-facilities" class="anchor" href="#facilities" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Facilities</h5>
+<p>[image]</p>
+<h5 id="objective-cards">
+<a id="user-content-objective-cards" class="anchor" href="#objective-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objective Cards</h5>
+<p>[image]</p>
+<h5 id="political-cards">
+<a id="user-content-political-cards" class="anchor" href="#political-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Political Cards</h5>
+<p>[image]</p>
+<h5 id="speaker-token-and-rotation-cycler">
+<a id="user-content-speaker-token-and-rotation-cycler" class="anchor" href="#speaker-token-and-rotation-cycler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Speaker Token And Rotation Cycler</h5>
+<p>[image]</p>
+<h5 id="strategy-cards">
+<a id="user-content-strategy-cards" class="anchor" href="#strategy-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategy Cards</h5>
+<p>[image]</p>
+<h5 id="technology-tree">
+<a id="user-content-technology-tree" class="anchor" href="#technology-tree" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technology Tree</h5>
+<p>[image]</p>
+<h5 id="trade-goods">
+<a id="user-content-trade-goods" class="anchor" href="#trade-goods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Goods</h5>
+<p>[image]</p>
+<h5 id="victory-point-track">
+<a id="user-content-victory-point-track" class="anchor" href="#victory-point-track" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Victory Point Track</h5>
+<p>[image]</p>
+<h3 id="race-specific">
+<a id="user-content-race-specific" class="anchor" href="#race-specific" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Race-Specific</h3>
+<h5 id="command-counters">
+<a id="user-content-command-counters" class="anchor" href="#command-counters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Counters</h5>
+<p>[image]</p>
+<h5 id="flags">
+<a id="user-content-flags" class="anchor" href="#flags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Flags</h5>
+<p>[image]</p>
+<h5 id="flagship-cards">
+<a id="user-content-flagship-cards" class="anchor" href="#flagship-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Flagship Cards</h5>
+<p>[image]</p>
+<h5 id="race-sheets">
+<a id="user-content-race-sheets" class="anchor" href="#race-sheets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Race Sheets</h5>
+<p>[image]</p>
+<h5 id="racial-improvements">
+<a id="user-content-racial-improvements" class="anchor" href="#racial-improvements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Racial Improvements</h5>
+<p>[image]</p>
+<h5 id="trade-contracts">
+<a id="user-content-trade-contracts" class="anchor" href="#trade-contracts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Contracts</h5>
+<p>[image]</p>
 <h2 id="setup-">
 <a id="user-content-setup-" class="anchor" href="#setup-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup <a name="user-content-Setup"></a>
 </h2>
 <p><em>Note: players may sit now, but will likely have to change seat at some point.</em></p>
-<p><a href="#user-content-Setup_BuildingTheGalaxy"><strong>1) Building the Galaxy</strong></a><br>
-<a href="#user-content-Setup_TableSetup"><strong>2) Table Setup</strong></a><br>
-<a href="#user-content-Setup_VictoryPointGoal"><strong>3) Victory Point Goal</strong></a><br>
-<a href="#user-content-Setup_GameOptions"><strong>4) Game Options</strong></a><br>
-<a href="#user-content-Setup_SecretObjectives"><strong>5) Secret Objectives</strong></a><br>
-<a href="#user-content-Setup_RacePicking"><strong>6) Race Picking</strong></a><br>
-<a href="#user-content-Setup_HSLocationBiddingORGalaxyBuilding"><strong>7) Home System Location Bidding OR Galaxy Building</strong></a><br>
-<a href="#user-content-Setup_SpeakerTokenBidding"><strong>8) Speaker Token Bidding</strong></a><br>
-<a href="#user-content-Setup_StartingTradeGoodsNormalisation"><strong>9) Starting Trade Goods Normalisation</strong></a><br>
-<a href="#user-content-Setup_OrientingTheRotationCycler"><strong>10) Orienting the Rotation Cycler</strong></a><br>
-<a href="#user-content-Setup_DeckBuiding"><strong>11) Deck Building</strong></a><br>
-<a href="#user-content-Setup_RevealingObjectives"><strong>12) Revealing Objectives</strong></a><br>
-<a href="#user-content-Setup_FinalisingSetup"><strong>13) Finalising Setup</strong></a></p>
-<p><a name="user-content-Setup_BuildingTheGalaxy"><strong>1) Building the Galaxy</strong></a></p>
+<p><strong>Setup Sequence</strong></p>
+<ol>
+<li><a href="#user-content-Setup_BuildingTheGalaxy">Building the Galaxy</a></li>
+<li><a href="#user-content-Setup_TableSetup">Table Setup</a></li>
+<li><a href="#user-content-Setup_VictoryPointGoal">Victory Point Goal</a></li>
+<li><a href="#user-content-Setup_GameOptions">Game Options</a></li>
+<li><a href="#user-content-Setup_SecretObjectives">Secret Objectives</a></li>
+<li><a href="#user-content-Setup_RacePicking">Race Picking</a></li>
+<li><a href="#user-content-Setup_HSLocationBiddingORGalaxyBuilding">Home System Location Bidding OR Galaxy Building</a></li>
+<li><a href="#user-content-Setup_SpeakerTokenBidding">Speaker Token Bidding</a></li>
+<li><a href="#user-content-Setup_StartingTradeGoodsNormalisation">Starting Trade Goods Normalisation</a></li>
+<li><a href="#user-content-Setup_OrientingTheRotationCycler">Orienting the Rotation Cycler</a></li>
+<li><a href="#user-content-Setup_RevealingObjectives">Revealing Objectives</a></li>
+<li><a href="#user-content-Setup_FinalisingSetup">Finalising Setup</a></li>
+</ol>
+<h3 id="1-building-the-galaxy-">
+<a id="user-content-1-building-the-galaxy-" class="anchor" href="#1-building-the-galaxy-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1) Building the Galaxy <a name="user-content-Setup_BuildingTheGalaxy"></a>
+</h3>
 <blockquote>
-<p>I put the creation of a pre set map before everything else, because then you can set it up in advance, and it's how we do it in TTS, and it works better.</p>
+<p>I put this step at the beginning of the setup so it can be done in advance by the host.</p>
 </blockquote>
 <p>Choose either:</p>
 <ul>
@@ -1118,36 +1211,43 @@ A player subject to negative effects (for example discard <em>3</em> Trade Goods
 </li>
 <li>Decide to have the player build the map following the <a href="#user-content-StarByStar">Star by Star procedure</a>. In this case, the map will be built at step 6.</li>
 </ul>
-<p><a name="user-content-Setup_TableSetup"><strong>2) Table Setup</strong></a></p>
+<h3 id="2-table-setup-">
+<a id="user-content-2-table-setup-" class="anchor" href="#2-table-setup-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2) Table Setup <a name="user-content-Setup_TableSetup"></a>
+</h3>
 <blockquote>
-<p>Again, this step is at the top, because it doesn't require cerebral activity and can be done in advance.</p>
+<p>Again, this step is at the top, because it does not require any choice and can be done in advance.</p>
 </blockquote>
 <p>Find an area of the table that is convenient for all players to reach. Designate this
 space the <em>common play area</em>, and populate it with the following:</p>
 <ul>
-<li>Action Cards deck</li>
-<li>Polical Cards deck</li>
+<li>Shuffled Action Cards deck</li>
+<li>Shuffled Polical Cards deck</li>
 <li>Ground Force and Fighter tokens</li>
 <li>Trade Goods tokens</li>
 <li>Planet Cards deck</li>
 <li>The Strategy Cards from number 1 to 8. Add in the 9th if there are 4, 7 or 8 players.</li>
-<li>The Objective deck: all the Stage I Objective Cards.</li>
+<li>Shuffled deck of Stage I Public Objectives</li>
+<li>Shuffle deck of Stage II Public Objectives</li>
+<li>Shuffled deck of Preliminary Objectives</li>
+<li>Shuffled deck of Secret Objectives</li>
 <li>The Special Objective Cards</li>
 <li>The Victory Point track</li>
 <li>The Technology Tree</li>
 </ul>
 <p>Inside this common play area, designate a space that will be used as the <em>Twilight Council</em>.</p>
-<p><a name="user-content-Setup_VictoryPointGoal"><strong>3) Victory Point Goal</strong></a></p>
+<h3 id="3-victory-point-goal-">
+<a id="user-content-3-victory-point-goal-" class="anchor" href="#3-victory-point-goal-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3) Victory Point Goal <a name="user-content-Setup_VictoryPointGoal"></a>
+</h3>
 <p>Decide on the number of Victory Points required to win. The recommanded values are:</p>
 <ul>
-<li>8 Victory Points for duels</li>
+<li>8 Victory Points for 2-player games</li>
 <li>10 Victory Points for normal games</li>
+<li>12 Victory Points for a normal game with one more round. Some prefer it because it provides a real late-game stage.</li>
 <li>14 Victory Points for epic (long) games</li>
 </ul>
-<p><a name="user-content-Setup_GameOptions"><strong>4) Game Options</strong></a></p>
-<blockquote>
-<p>Twilight Council is no more an option, it is part of SA.</p>
-</blockquote>
+<h3 id="4-game-options-">
+<a id="user-content-4-game-options-" class="anchor" href="#4-game-options-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4) Game Options <a name="user-content-Setup_GameOptions"></a>
+</h3>
 <p>Decide on the game options to include:</p>
 <ul>
 <li>
@@ -1156,83 +1256,89 @@ space the <em>common play area</em>, and populate it with the following:</p>
 <li>
 <a href="#user-content-Ascendancy">Ascendancy</a> (essentially doubles the Victory Point goal and makes objectives claimable multiple times)</li>
 </ul>
-<p><a name="user-content-Setup_SecretObjectives"><strong>5) Secret Objectives</strong></a></p>
-<p>If this game is not a duel, deal two Secret Objective cards to each player. They will have to discard one of them later.</p>
-<p><a name="user-content-Setup_RacePicking"><strong>6) Race Picking</strong></a></p>
+<h3 id="5-secret-objectives-">
+<a id="user-content-5-secret-objectives-" class="anchor" href="#5-secret-objectives-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5) Secret Objectives <a name="user-content-Setup_SecretObjectives"></a>
+</h3>
+<p>If this game is not a 2-player game, deal two Secret Objective cards to each player. They will have to discard one of them later.</p>
+<h3 id="6-race-picking-">
+<a id="user-content-6-race-picking-" class="anchor" href="#6-race-picking-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>6) Race Picking <a name="user-content-Setup_RacePicking"></a>
+</h3>
 <blockquote>
-<p>For the race picking and biddings, the SA patchrule starts with either the highest or lowest rolling player and go either clockwise or counter clockwise, but since we use the rolling order in TTS, I thought I may as well write the rule for it.</p>
+<p>The race picking and Home System bidding now use the order given by the die roll, instead of starting with the highest roller and going clockwise.</p>
 </blockquote>
-<ul>
+<ol>
 <li>Have each player roll a die. Remember the results, as they will be used in the following setup steps as well.</li>
-<li>Starting with the highest rolling player in <strong>decreasing rolling order</strong>, each player may either choose any availlable race to command or pass. The unchosen races form the pool of random races.</li>
-<li>All players without a race are <strong>secretly</strong> dealt a random race from the pool. They may either keep it, or reshuffle it into the pool (without revealing them).</li>
+<li>Starting with the highest rolling player and in <strong>decreasing rolling order</strong>, each player may either choose any availlable race to play or pass. The unchosen races form the pool of random races.</li>
+<li>All players without a race are <strong>secretly</strong> dealt a random race from the pool. They may either keep them, or reshuffle them into the pool (without revealing them).</li>
 <li>Conduct the above step a second time.</li>
 <li>All player without a race are <strong>publicly</strong> dealt a random race from the pool, that they must play for this game.</li>
-</ul>
-<p><a name="user-content-Setup_HSLocationBiddingORGalaxyBuilding"><strong>7) Home System Location Bidding OR Galaxy Building</strong></a></p>
+</ol>
+<h3 id="7-home-system-location-bidding-or-galaxy-building-">
+<a id="user-content-7-home-system-location-bidding-or-galaxy-building-" class="anchor" href="#7-home-system-location-bidding-or-galaxy-building-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>7) Home System Location Bidding OR Galaxy Building <a name="user-content-Setup_HSLocationBiddingORGalaxyBuilding"></a>
+</h3>
 <p><em>Note: The Trade Goods that are bid at this step are taken from the reserve, not from the players.</em></p>
-<p>If you chose a pre-set map, then players will now bid on the Home System location they wish to start on.<br>
-The highest rolling player places a race flag (or another item if her race is not public) along with a bid of Trade Goods on any Home System Location.
-Then in <strong>decreasing rolling order</strong> (looping), each player either places a bid on a new Home System or overbid another. This continues until all players have a Home System location (skipping the turn of players who already have a Home System location).
-All players add as many Trade Goods as the difference between the highest bid and their own bid to their starting Trade Goods.</p>
-<p>If you chose to build the map using the <a href="#user-content-StarByStar">Star by Star procedure</a>, now is the time to do it.</p>
-<p><em>Players may now change seat in order to be aligned with their Home System location.</em></p>
-<p><a name="user-content-Setup_SpeakerTokenBidding"><strong>8) Speaker Token Bidding</strong></a></p>
+<h4 id="pre-set-map">
+<a id="user-content-pre-set-map" class="anchor" href="#pre-set-map" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pre-Set Map</h4>
+<div>
+<p>If you chose a <strong>pre-set map</strong>, then players will now bid on the Home System location they wish to start on.</p>
+<p>The highest rolling player places a flag (or another item if her race is not public) along with a bid of Trade Goods (0 is allowed) on any Home System Location.
+Then in <strong>decreasing rolling order</strong> (looping), each player not currently holding a bid on a Home System either places a bid on a new Home System or overbid another player. This continues until all players hold a bid on a Home System location.</p>
+<p>All players then receive as many Trade Goods as the difference between the highest bid and their own bid.</p>
+</div>
+<h4 id="star-by-star-map">
+<a id="user-content-star-by-star-map" class="anchor" href="#star-by-star-map" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Star by Star Map</h4>
+<div>
+If you chose to build the map using the [Star by Star procedure](#user-content-StarByStar), now is the time to do it.
+<p><em><strong>Players may now change seat in order to be aligned with their Home System location.</strong></em></p>
+</div>
+<h3 id="8-speaker-token-bidding-">
+<a id="user-content-8-speaker-token-bidding-" class="anchor" href="#8-speaker-token-bidding-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>8) Speaker Token Bidding <a name="user-content-Setup_SpeakerTokenBidding"></a>
+</h3>
 <p><em>Note: The Trade Goods that are bid at this step are taken from the reserve, not from the players.</em></p>
-<p>The lowest rolling player places a bid of Trade Goods (may be 0) on the Speaker Token. Then in <strong>increasing rolling order</strong> (looping), each player may either withdraw from the bidding or overbid. The winner is assigned the Speaker Token/ The other players add as many Trade Goods as the winning bid to their starting Trade Goods.</p>
-<p><a name="user-content-Setup_StartingTradeGoodsNormalisation"><strong>9) Starting Trade Goods Normalisation</strong></a></p>
-<p>All players now add or subtract the same number of Trade Goods such that the player with the lowest amount starts out with 1 Trade Good.</p>
-<p><a name="user-content-Setup_OrientingTheRotationCycler"><strong>10) Orienting the Rotation Cycler</strong></a></p>
+<p>The lowest rolling player places a bid of Trade Goods (0 is allowed) on the Speaker Token. Then in <strong>increasing rolling order</strong> (looping), each player may either withdraw from the bidding or overbid. The winner gains the Speaker Token. The other players receive as many Trade Goods as the winning bid.</p>
+<h3 id="9-starting-trade-goods-normalization-">
+<a id="user-content-9-starting-trade-goods-normalization-" class="anchor" href="#9-starting-trade-goods-normalization-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>9) Starting Trade Goods Normalization <a name="user-content-Setup_StartingTradeGoodsNormalisation"></a>
+</h3>
+<p>All players now gain or lose the same number of Trade Goods such that the player with the lowest amount has exactly 1 Trade Good.</p>
+<h3 id="10-orienting-the-rotation-cycler-">
+<a id="user-content-10-orienting-the-rotation-cycler-" class="anchor" href="#10-orienting-the-rotation-cycler-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>10) Orienting the Rotation Cycler <a name="user-content-Setup_OrientingTheRotationCycler"></a>
+</h3>
 <blockquote>
-<p>This thing has its own step, that is placed AFTER the TG normalisation step, because we don't want potential TG transactions to affect the TG Normalisation.</p>
+<p>I created a dedicated step for this, placed after the Trade Good Normalization step, so transactions between players do not affect the normalization</p>
 </blockquote>
-<p>The player holding the Speaker Token may now set the orientation of the Rotation Cycler.</p>
-<p><a name="user-content-Setup_DeckBuiding"><strong>11) Deck Building</strong></a></p>
-<ul>
-<li>Build the objective deck by shuffling all the Stage I Public Objective cards.</li>
-<li>Shuffle the Action Cards and Political Cards decks</li>
-</ul>
-<p><a name="user-content-Setup_RevealingObjectives"><strong>12) Revealing Objectives</strong></a></p>
+<p>The player holding the Speaker Token may now set the orientation of the Rotation Cycler as she wishes.</p>
+<h3 id="11-revealing-objectives-">
+<a id="user-content-11-revealing-objectives-" class="anchor" href="#11-revealing-objectives-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>11) Revealing Objectives <a name="user-content-Setup_RevealingObjectives"></a>
+</h3>
 <p>Reveal:</p>
 <ul>
-<li>All Special Objectives (if playing a duel, exclude Sovereign and Magisterial)</li>
+<li>All Special Objectives (if playing a 2-player game, exclude Sovereign and Magisterial)</li>
 <li>3 random Stage I Public Objectives</li>
-<li>1 random Preliminary Objective (not if playing a duel)</li>
+<li>1 random Preliminary Objective (not if playing a 2-player game)</li>
 <li>3 random Stage II Public Objectives</li>
 </ul>
-<p><a name="user-content-Setup_FinalisingSetup"><strong>13) Finalising Setup</strong></a></p>
+<h3 id="12-finalising-setup-">
+<a id="user-content-12-finalising-setup-" class="anchor" href="#12-finalising-setup-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>12) Finalising Setup <a name="user-content-Setup_FinalisingSetup"></a>
+</h3>
 <ul>
-<li>Each player discards a Secret Objective (the discard pile of Secret Objectives cards is NOT public)</li>
+<li>Each player discards a Secret Objective and shuffles it back into the deck.</li>
 <li>Each player draws 2 Political Cards</li>
 <li>Reveal hidden races</li>
-<li>Each player chooses a set of plastic miniatures and takes her race's Command Counters. She places them near her race sheet. They will form her "Reinforcements".</li>
-</ul>
-<blockquote>
-<ul>
-<li>I think that "Flag" is a better name than "Control Marker". It's more visual. And we say "flag" when we talk anyway.</li>
-<li>Let's forget about the dual name "Trade Contract"-"Trade Agreement", and just call these cards "Trade Agreements", that may be either "active" or "inactive".</li>
-<li>"Race-Specific Technology" -&gt; "Racial Improvement", to show that they are really not like normal technologies.</li>
-<li>"Promissory Notes" do not exist in SA.</li>
-</ul>
-</blockquote>
-<ul>
-<li>Each player takes the assets of her race:
+<li>Each player chooses a set of plastic miniatures and takes her race's Command Counters. She places them near her race sheet to form her "reinforcements".</li>
+<li>Each player takes the other assets of her race:
 <ul>
 <li>Flags</li>
 <li>Flagship card</li>
-<li>Trade Agreement cards</li>
-<li>Racial Improvement cards</li>
+<li>Trade Contracts</li>
+<li>Racial Improvements</li>
+<li>Leaders</li>
+<li>Planet Cards of her race's Home System planets</li>
 </ul>
 </li>
 <li>Each player places a Flag on the zero of the Victory Point Track.</li>
-<li>Each player places Flags on the technology tree, besides her starting technologies (indicated on her race sheet).</li>
-</ul>
-<blockquote>
-<p>"Installations" = PDSs and SpaceDocks</p>
-</blockquote>
-<ul>
-<li>Each player places her starting units and Leaders (indicated on her race sheet) in her Home System. Ground units and Installations may be placed on any planet. Leaders may be placed on any ships or planet.</li>
-<li>Each players places Command Counters from her reinforcements onto her race sheet as follows:
+<li>Each player places Flags on the technology tree besides her starting technologies (indicated on her race sheet).</li>
+<li>Each player places her starting units and Leaders (indicated on her race sheet) in her Home System. <a href="#user-content-Troop">Troops</a> and <a href="#user-content-Installation">Installations</a> may be placed on any planet in it. Leaders may be placed on any ship or planet in it.</li>
+<li>Each player places Command Counters from her reinforcements onto her race sheet as follows:
 <ul>
 <li>2 in Strategy Allocation (with the race's symbol side up)</li>
 <li>3 in Command Pool (with the race's symbol side up)</li>
@@ -1240,16 +1346,17 @@ All players add as many Trade Goods as the difference between the highest bid an
 </ul>
 </li>
 </ul>
-<p><strong>14) Play!</strong></p>
+<h3 id="13-play">
+<a id="user-content-13-play" class="anchor" href="#13-play" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>13) Play!</h3>
 <p>Start the first Round.</p>
-<h2 id="game-round-">
-<a id="user-content-game-round-" class="anchor" href="#game-round-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Round <a name="user-content-GameRound"></a>
+<h2 id="round-">
+<a id="user-content-round-" class="anchor" href="#round-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Round <a name="user-content-Round"></a>
 </h2>
-<p>Shattered Ascension is played over a consecutive number of Rounds. Each Round is split into three phases: The <a href="#user-content-StrategyPhase">Strategy Phase</a> where player place a Political Card in the Twilight Council and select their Strategy Card for the Round, the <a href="#user-content-ActionPhase">Action Phase</a>, where players use their Strategy Cards, move their ships, conquer planets and build units, and the <a href="#user-content-StatusPhase">Status Phase</a>, where the board is cleaned up and players can gain Victory Points by claiming Objectives. If no player is declared winner at the end of a Round, another Round starts.</p>
+<p>Shattered Ascension is played over a consecutive number of Rounds. Each Round is split into three phases: The <a href="#user-content-StrategyPhase">Strategy Phase</a> where players place a Political Card in the Twilight Council as their agenda and pick their Strategy Card for the Round, the <a href="#user-content-ActionPhase">Action Phase</a>, where players use their Strategy Cards, move their ships, conquer planets and build units, and the <a href="#user-content-StatusPhase">Status Phase</a>, where the board is cleaned up and players can gain Victory Points by claiming Objectives. If no player is declared winner at the end of a Round, another Round starts.</p>
 <h3 id="strategy-phase-">
 <a id="user-content-strategy-phase-" class="anchor" href="#strategy-phase-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategy Phase <a name="user-content-StrategyPhase"></a>
 </h3>
-<p>The Strategy Phase is divided into three steps:</p>
+<p>The Strategy Phase is divided into two steps:</p>
 <ol>
 <li><a href="#user-content-TwilightCouncilPropositions">Twilight Council Propositions</a></li>
 <li><a href="#user-content-StrategyCardPicking">Strategy Card Picking</a></li>
@@ -1257,212 +1364,270 @@ All players add as many Trade Goods as the difference between the highest bid an
 <h4 id="1-twilight-council-propositions-">
 <a id="user-content-1-twilight-council-propositions-" class="anchor" href="#1-twilight-council-propositions-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1) Twilight Council Propositions <a name="user-content-TwilightCouncilPropositions"></a>
 </h4>
-<blockquote>
-<p>New in SA</p>
-</blockquote>
-<p>Each player must place face down a Political Card from their hand in the Twilight Council, and mark it with one of their flags. Political Cards placed in the Twilight Council zone in this manner are called <strong>Agendas</strong>. If the Twilight Council concurs this round, the Agendas to be voted on will be chosen among these cards.<br>
+<div>
+<p>Each player must place face down a Political Card from her hand in the Twilight Council, and mark it with one of her flags. Political Cards placed in the Twilight Council zone in this manner are called <strong>Agendas</strong>. If the Assembly Strategy Card is played this round, the Agendas to be voted on will be chosen among these cards.<br>
 After all players have placed their Agenda, they are revealed and the game goes on.</p>
-<p><em><strong>Additional rules:</strong></em></p>
+<p><strong>Additional rules:</strong></p>
 <ul>
-<li>At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do it as many times as they want.</li>
+<li>At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do so as many times as they want.</li>
 <li>Instead of placing a card from their hand, players may place the first card of the Political Cards deck, without looking at it.</li>
-<li>After all Agendas have been revealed and if there are less than 5 players, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area.</li>
 </ul>
+</div>
 <h4 id="2-strategy-card-picking-">
 <a id="user-content-2-strategy-card-picking-" class="anchor" href="#2-strategy-card-picking-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2) Strategy Card Picking <a name="user-content-StrategyCardPicking"></a>
 </h4>
-<p>Starting with the Speaker and proceeding in the order defined by the Rotation Cycler, each player must pick one of the available Strategy Cards (that was not already picked by another player). She will be able to use it during the upcoming Action Phase.</p>
-<p>[Bonus Counter image]<br>
-After that, place a <strong>Bonus Counter</strong> on each of the unpicked Strategy Cards. These Bonus Counters stacks from one Round to the next, and increase the value of the Strategy Cards are they are on: When a player picks a Strategy Card, she converts each present Bonus Counter into either a Command Counter or a Trade Goods that she adds to her race sheet.</p>
+<div>
+<p>Starting with the Speaker and proceeding in the order defined by the Rotation Cycler, each player must pick one of the available Strategy Cards (that was not already picked by another player). they will be able to use them during the upcoming Action Phase.</p>
+<p>After that, place a Bonus Counter on each of the unpicked Strategy Cards. These Bonus Counters stack from one Round to the next, and increase the value of the Strategy Cards they are on: when a player picks a Strategy Card, she converts each Bonus Counter on it into either a Command Counter or a Trade Goods that she adds to her race sheet.</p>
+</div>
 <h3 id="action-phase-">
 <a id="user-content-action-phase-" class="anchor" href="#action-phase-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Phase <a name="user-content-ActionPhase"></a>
 </h3>
-<p><em><strong>Content:</strong></em></p>
+<p><strong>Content:</strong></p>
 <ul>
-<li><a href="#user-content-Passing">Passing</a></li>
 <li><a href="#user-content-StrategicAction">Strategic Action</a></li>
+<li><a href="#user-content-Passing">Passing</a></li>
 <li>
 <a href="#user-content-TacticalAction">Tactical Action</a>
 <ol>
 <li><a href="#user-content-SystemActivation_TacticalActionStep">System Activation</a></li>
 <li><a href="#user-content-ShipsMovement_TacticalActionStep">Ships Movement</a></li>
 <li><a href="#user-content-SpaceCannonFire_TacticalActionStep">Space Cannon Fire</a></li>
-<li><a href="#user-content-SpaceBattles_TacticalActionStep">Space Battles</a></li>
+<li><a href="#user-content-SpaceBattle_TacticalActionStep">Space Battle</a></li>
 <li><a href="#user-content-PlanetaryLandings_TacticalActionStep">Planetary Landings</a></li>
 <li><a href="#user-content-PlanetaryLandingsResolution_TacticalActionStep">Planetary Landings Resolution</a></li>
 <li><a href="#user-content-Production_TacticalActionStep">Production</a></li>
 </ol>
 </li>
 </ul>
-<p>During the Action Phase, each player will take an Action, that can be either a <a href="#user-content-StrategicAction">Strategic Action</a>, a <a href="#user-content-TacticalAction">Tactical Action</a>, or <a href="#user-content-Passing">Passing</a>. The order in which players can take their Action is given by their <a href="#user-content-Initiative">initiative</a>, the player with the lowest initiative being the first to take an Action.<br>
-This sequence is repeated until all players have Passed, at which point the Action Phase ends and the Status Phase begins.</p>
-<p><em><strong>Initiative</strong></em> <a name="user-content-Initiative"></a><br>
-The <strong>initiative</strong> of a player is the number printed on his Strategy Card.</p>
-<p><em><strong>Active Player</strong></em><br>
+<p>During the Action Phase, each player will take an <strong>Action</strong>, that can be either a <a href="#user-content-StrategicAction">Strategic Action</a>, a <a href="#user-content-TacticalAction">Tactical Action</a>, or <a href="#user-content-Passing">Passing</a>. The order in which players can take their Action is given by their <a href="#user-content-Initiative">initiative</a>, the player with the lowest initiative being the first to take an Action.<br>
+This sequence (each player taking an Action) is repeated until all players have Passed, at which point the Action Phase ends and the Status Phase begins.</p>
+<p><strong>Initiative</strong> <a name="user-content-Initiative"></a><br>
+The <strong>initiative</strong> of a player is the number printed on her Strategy Card.</p>
+<p><strong>Active Player</strong><br>
 A player currently taking an Action is called the <strong>active player</strong>.</p>
-<p><em><strong>"as an action"</strong></em><br>
-Some effects in the game allow players to do things "as an action". This means that using such effects is done instead of taking an Action during the Action Phase.</p>
-<h4 id="passing-">
-<a id="user-content-passing-" class="anchor" href="#passing-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Passing <a name="user-content-Passing"></a>
-</h4>
-<p>A player performs this action when she does not want to perform any other action for the rest of this Action Phase. When it would be the turn of a player that passed, simply skip her. If all players have passed, the Action Phase ends and the <a href="#user-content-StatusPhase">Status Phase</a> starts.<br>
-<strong>Important:</strong> A player may not pass before having used her Strategy Card through a Strategic Action.
-<strong>Note:</strong> A player that passed may still use the Secondary Abilities of Strategy Cards played after she passed.</p>
+<p><strong>"as an action"</strong><br>
+Some effects in the game are used "as an action". This means that using such effects is done instead of taking an Action during the Action Phase.</p>
 <h4 id="strategic-action-">
 <a id="user-content-strategic-action-" class="anchor" href="#strategic-action-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategic Action <a name="user-content-StrategicAction"></a>
 </h4>
-<p>A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she reads and execute for herself the <strong>Primary Ability</strong> of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to execute the <strong>Secondary Ability</strong> of the card.<br>
+<div>
+<p>A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she uses the <strong>Primary Ability</strong> of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to use the <strong>Secondary Ability</strong> of the card.<br>
 After that the used Strategy Card is flipped on its <em>inactive</em> side, and may not be used again this Round.</p>
-<p><em><strong>Important:</strong></em> When performing a Strategic Action, the active player <em>cannot</em> execute the Secondary Ability of the Strategy Card she is playing.</p>
-<p><em><strong>Hint:</strong></em> Most of the Secondary Abilities of the Strategy Cards require a Command Counter from Strategy Allocation to be spent in order to be executed. So be sure to keep at least one if you plan on using the Secondary Ability of a given Strategy Card.</p>
+<p><strong>Important: When performing a Strategic Action, the active player <em><strong>may not</strong></em> execute the Secondary Ability of the Strategy Card she is playing.</strong></p>
+</div>
+<h4 id="passing-">
+<a id="user-content-passing-" class="anchor" href="#passing-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Passing <a name="user-content-Passing"></a>
+</h4>
+<div>
+<p>A player performs this action when she does not want to perform any other action for the rest of this Action Phase. When it would be the turn of a player that passed, simply skip her. If all players have passed, the Action Phase ends and the <a href="#user-content-StatusPhase">Status Phase</a> starts.</p>
+<p><strong>Important: A player may not pass before having used her Strategy Card through a Strategic Action.</strong><br>
+<em>Note: A player that passed may still use the Secondary Abilities of Strategy Cards played after she passed.</em></p>
+</div>
 <h4 id="tactical-action-">
 <a id="user-content-tactical-action-" class="anchor" href="#tactical-action-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tactical Action <a name="user-content-TacticalAction"></a>
 </h4>
-<p>Most of the ship movements, planetary conquest and unit production of a game will happen during Tactical Actions.<br>
-After declaring a Tactical Action, a player must follow the steps of the <a href="#user-content-ActivationSequence">Activation Sequence</a> described below. With the exception of the first one, each of these steps is only resolved if necessary.</p>
+<div>
+<p>All the ship movements, planetary conquests, unit productions and much more will happen during Tactical Actions.<br>
+After declaring a Tactical Action, a player must follow the steps of the <a href="#user-content-ActivationSequence">Activation Sequence</a> described below. With the exception of the first one, each of these steps is only resolved if necessary.<br>
+In this section "you" refers to the active player.</p>
 <p><em><strong>The Activation Sequence:</strong></em> <a name="user-content-ActivationSequence"></a></p>
-<pre><code>1. System Activation
-2. Ships movement
-3. Space Cannons Fire (aka PDS Fire)
-4. Space Battle
-5. Planetary Landings
-6. Planetary Landings Resolution (aka Invasion Combat)
-7. Production
-</code></pre>
-<p><em><strong>1) System Activation</strong></em> <a name="user-content-SystemActivation_TacticalActionStep"></a></p>
-<p><strong>Activate</strong> a system by placing a Command Counter from the Command Pool area of your Race Sheet ("your Command Pool") in it.<br>
-You may not activate a system that already contains one of your Command Counters, but you can activate a system that contains Command Counters from <em>other players</em>.<br>
+<ol>
+<li><a href="#user-content-SystemActivation_TacticalActionStep">System Activation</a></li>
+<li><a href="#user-content-ShipsMovement_TacticalActionStep">Ships movement</a></li>
+<li><a href="#user-content-SpaceCannonFire_TacticalActionStep">Space Cannons Fire</a></li>
+<li><a href="#user-content-SpaceBattle_TacticalActionStep">Space Battle</a></li>
+<li><a href="#user-content-PlanetaryLandings_TacticalActionStep">Planetary Landings</a></li>
+<li><a href="#user-content-PlanetaryLandingsResolution_TacticalActionStep">Planetary Landings Resolution</a></li>
+<li><a href="#user-content-Production_TacticalActionStep">Production</a></li>
+</ol>
+<p><strong>Activated System</strong><br>
+A System is considered <strong>activated by a player</strong> when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to <strong>activated</strong> and <strong>unactivated</strong> Systems without specifying any player, in which case the player is the one using the effect.</p>
+<p><strong>Allegiances</strong> <a name="user-content-Allegiances"></a><br>
+From the perspective of a given player:</p>
+<ul>
+<li>
+<strong>Friendly</strong> units and planets are those she controls.</li>
+<li>
+<strong>Enemy</strong> units and planets are those that are controlled by other players.</li>
+<li>
+<strong>Neutral</strong> units and planets are those that are not controlled by any player.</li>
+</ul>
+<p>Most effects using these terms do not specify which player they use the perspective of. In these cases, the player is the one using the effect.</p>
+</div>
+<h5 id="1-system-activation-">
+<a id="user-content-1-system-activation-" class="anchor" href="#1-system-activation-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1) System Activation <a name="user-content-SystemActivation_TacticalActionStep"></a>
+</h5>
+<div>
+<p><strong>Activate</strong> a system by placing a <a href="#user-content-CommandCounters">Command Counter</a> from the <a href="#user-content-CommandPool">Command Pool</a> area of your Race Sheet in it.<br>
+You may not activate a system that already contains one of your Command Counters, but you can activate a system that contains Command Counters of <em>other players</em>.<br>
 In fact, as a general rule, you can ignore Command Counters belonging to other players on the galaxy.</p>
-<p><em><strong>Important:</strong></em> When rules and effects are referring to <strong>Activated Systems</strong>, they refer to Systems that have been activated by the player they are mentioning.</p>
-<p><em><strong>2) Ships movement</strong></em> <a name="user-content-ShipsMovement_TacticalActionStep"></a></p>
-<blockquote>
-<p>Precised in SA<br>
-Note that Space Mines are now placed on borders and not in Systems</p>
-</blockquote>
-<p>In this step, you may move friendly ships <strong>into</strong>, and this is important, only <strong>into the System just activated</strong>. This means that all the ships you are moving must <strong>end their movement in the System just activated</strong> (except if something happens to them on their way, that would stop their movement, like a failed Gravity Rift roll).</p>
-<p>The ship movement step can be broken down into 2 main parts:</p>
+</div>
+<h5 id="2-ships-movement-">
+<a id="user-content-2-ships-movement-" class="anchor" href="#2-ships-movement-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2) Ships movement <a name="user-content-ShipsMovement_TacticalActionStep"></a>
+</h5>
+<div>
+
+During this step, you may move some of your ships from unactivated Systems to the System that was just activated.
+<p>The ships movement step consists in two parts:</p>
 <ul>
-<li>a) <a href="#user-content-PlottingTrajectories">Plotting trajectories</a>
+<li>A) <a href="#user-content-PlottingTrajectories">Plotting trajectories</a>
 </li>
-<li>b) <a href="#user-content-ExecutingMovements">Executing movements</a>
+<li>B) <a href="#user-content-ExecutingMovements">Executing movements</a>
 </li>
 </ul>
-<p><em><strong>a) Plotting Trajectories</strong></em> <a name="user-content-PlottingTrajectories"></a></p>
-<p>For each friendly ship she wants to move, the active player has to plot a legal trajectory for it. A legal trajectory for a ship is a chain of adjacent systems starting from the System containing the ship and ending in the System just activated, that satisfies the following conditions:</p>
+</div>
+<h6 id="a-plotting-trajectories-">
+<a id="user-content-a-plotting-trajectories-" class="anchor" href="#a-plotting-trajectories-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A) Plotting Trajectories <a name="user-content-PlottingTrajectories"></a>
+</h6>
+<div>
+<div>
+<p>You may not move ships present in activated Systems, unless they are in the System just activated.
+For each ship you want to move, you have to plot a legal trajectory for it. A legal trajectory is a chain of <a href="#user-content-AdjoiningAdjacent">adjacent</a> Systems starting with the System containing the ship and ending with the System just activated. It must also satisfy the following conditions:</p>
 <ul>
-<li>The starting System was <strong>not activated</strong> by the active player, or is the System that was just previously activated. (e.g. ships may not move out of an activated System, unless it is the System that has been activated during the step 1 of the same Tactical Action)</li>
-<li>No System of the trajectory (except the System just activated) contains enemy ships. (e.g. ships may not move through Systems containing enemy ships)</li>
+<li>No System of the trajectory (except the System just activated) may contain <a href="#user-content-Allegiances">enemy</a> ships. (e.g. ships may not move through Systems containing enemy ships)</li>
+<li>The ship must have a sufficient <a href="#user-content-MovementValue">movement value</a> to follow the trajectory. By default, moving from a System to an adjacent System costs 1 movement. For example, a ship with a <em>movement value</em> of 1 can only move in adjacent Systems.</li>
 </ul>
-<blockquote>
-<p>SA: Unlike in TI3, enemy Fighters do block movement in SA.</p>
-</blockquote>
+<p><em><strong>Notes:</strong></em></p>
 <ul>
-<li>The ship must have a sufficient <em>movement value</em> to follow the trajectory. By default, moving from a System to an adjacent System costs 1 movement. For example, a ship with a <em>movement value</em> of 1 can not move further away than 1 system.</li>
+<li><em>A ship does not need to take the shortest trajectory towards its final destination.</em></li>
+<li><em>Trajectories that start and end in the just activated System without leaving it are allowed, and constitute a movement.</em></li>
 </ul>
-<p><em>Notes:</em></p>
+
+</div>
+</div>
+<h6 id="b-executing-movements-">
+<a id="user-content-b-executing-movements-" class="anchor" href="#b-executing-movements-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>B) Executing movements <a name="user-content-ExecutingMovements"></a>
+</h6>
+<div>
+<div>
+<p>One by one and in the order of your choice, move each ship according to their trajectory.</p>
+</div>
+</div>
+<h5 id="3-space-cannons-fire-">
+<a id="user-content-3-space-cannons-fire-" class="anchor" href="#3-space-cannons-fire-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3) Space Cannons Fire <a name="user-content-SpaceCannonFire_TacticalActionStep"></a>
+</h5>
+<div>
+<blockquote>
+<p>Change from base SA: This step is now called "Space Cannons Fire" instead of "PDS Fire", because any unit with the Space Cannon ability can shoot during this step, not only PDSs (some Flagships for example).
+Change from base SA: Precise order in which players decide whether to shoot: Non-active players with the Speaker being first, then following the Rotation Cycler, and finally the active player</p>
+</blockquote>
+<p>During this step, units with the <a href="#user-content-SpaceCannon_unitAbility">Space Cannon (<em>n</em>)</a> ability that are in the System just activated may fire at a fleet in the System just activated. There are two possibilities:</p>
 <ul>
-<li>A ship does not need to take the shortest trajectory towards its final destination</li>
-<li>Trajectories that start and end in the just activated System without leaving it are allowed, and will result in a movement.</li>
+<li>If the unit <strong>does not belong to the active player</strong>, it can only fire at a fleet <strong>belonging to the active player</strong> in the just activated System.</li>
+<li>If the unit <strong>belongs to the active player</strong>, it can fire at <strong>any</strong> fleet in the just activated System (except the active player's own fleet).</li>
 </ul>
-<p><em><strong>b) Executing movements</strong></em> <a name="user-content-ExecutingMovements"></a></p>
-<p>The active player moves all ships according to their trajectory, in the order of her choice.</p>
-<p><em><strong>3) Space Cannons Fire</strong></em> <a name="user-content-SpaceCannonFire_TacticalActionStep"></a></p>
+<p>Starting with the Speaker and following the Rotation Cycler, the non-active players may in turn shoot with some or all of their units with Space Cannon. Then it is the turn of the active player.</p>
+<p>When a unit with Space Cannon (<em>n</em>) fires, it performs <em>n</em> <a href="#user-content-CombatRoll">combat rolls</a>. Hits must be assigned to ships of the targeted fleet by the fleet's owner.</p>
+</div>
+<h5 id="4-space-battle-">
+<a id="user-content-4-space-battle-" class="anchor" href="#4-space-battle-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4) Space Battle <a name="user-content-SpaceBattle_TacticalActionStep"></a>
+</h5>
+<div>
+<p>At this step, if there are ships controlled by two different players in the System just activated, a Space Battle must be resolved.<br>
+In this Space Battle, the active player is the <em>attacker</em>, while the other player is the <em>defender</em>. For complete rules about how to resolve a Space Battle, see the <a href="#user-content-SpaceBattle">Space Battle section</a>.</p>
+</div>
+<h5 id="5-planetary-landings-">
+<a id="user-content-5-planetary-landings-" class="anchor" href="#5-planetary-landings-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5) Planetary Landings <a name="user-content-PlanetaryLandings_TacticalActionStep"></a>
+</h5>
+<div>
 <blockquote>
-<p>New: precise timing about who must take the decision to shoot first: non-active players from Speaker following Rotation Cycler, then active player.
-Formerly known as the "PDS Fire" step.</p>
+<p>Change from base SA: Clarification that each ship bombarding must be assigned to a single planet and may not split its bombardment between multiple planets. Clarification that the ships bombarding must be assigned during this step of the activation sequence.</p>
 </blockquote>
-<p>During this step, units with the Space Cannon (<em>n</em>) ability that are in the just activated System may fire at a fleet in the just activated System. There are two possibilities:</p>
-<ul>
-<li>a) If the Space Cannon unit <strong>does not belong to the active player</strong>, it can only fire at a fleet <strong>belonging to the active player</strong> in the just activated System. (e.g. it is not possible to allow third party Space Cannon units to fire at an enemy fleet by activating it)</li>
-<li>b) If the Space Cannon unit <strong>belongs to the active player</strong>, it can fire at <strong>any</strong> fleet in the just activated System.</li>
-</ul>
+<p>The Planetary Landings step consists in two parts:</p>
+</div>
+<h6 id="a-planetary-landings">
+<a id="user-content-a-planetary-landings" class="anchor" href="#a-planetary-landings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A) Planetary landings</h6>
+<div>
+<div>
+<p>The active player may land <a href="#user-content-Troop">Troops</a>, <a href="#user-content-PDS">PDSs</a> and <a href="#user-content-Leaders">Leaders</a> currently carried by her ships in the System just activated on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one Troop.</p>
+</div>
+</div>
+<h6 id="b-bombardment-assignment">
+<a id="user-content-b-bombardment-assignment" class="anchor" href="#b-bombardment-assignment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>B) Bombardment assignment</h6>
+<div>
+<div>
+<p>The active player may assign some of her ships in the System just activated with the <a href="#user-content-Bombardment_unitAbility">Bombardment</a> ability to the <a href="#user-content-Allegiances">non-friendly</a> planets of this System, in order to be able to bombard them during the <a href="#user-content-PlanetaryLandingsResolution_TacticalActionStep">6) Planetary Landing Resolution</a> step of this Tactical Action.</p>
+
+</div>
+</div>
+<h5 id="6-planetary-landings-resolution-">
+<a id="user-content-6-planetary-landings-resolution-" class="anchor" href="#6-planetary-landings-resolution-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>6) Planetary Landings Resolution <a name="user-content-PlanetaryLandingsResolution_TacticalActionStep"></a>
+</h5>
+<div>
 <blockquote>
-<p>A potential problem with the wording above is that it allows the active player to fire her Space Cannon units at her own fleet.</p>
+<p>Change from base SA: This step is now called "Planetary Landings Resolution" instead of "Invasion Combat", since not all planetary landings trigger an Invasion Combat.</p>
 </blockquote>
-<p>Starting with the Speaker and following the Rotation Cycler, the non-active players may in turn shoot with their Space Cannon units. Then it is the turn of the active player.</p>
-<blockquote>
-<p>The above wording could use the term Rotation Order.</p>
-</blockquote>
-<p>When a Space Cannon (<em>n</em>) unit fires, it performs <em>n</em> combat rolls. Hits must be attributed to the targeted fleet.</p>
-<p><em><strong>4) Space Battles</strong></em> <a name="user-content-SpaceBattles_TacticalActionStep"></a></p>
-<p>At this time, if there are ships controlled by two different players in the just activated System, a Space Battle must be resolved.<br>
-In this Space Battle, the active player is the <em>attacker</em>, while the other player is the <em>defender</em>. For complete rules about how to resolve a Space Battle, see the <a href="#user-content-SpaceBattles">Space Battles section</a>.</p>
-<p><em><strong>5) Planetary Landings</strong></em> <a name="user-content-PlanetaryLandings_TacticalActionStep"></a></p>
-<p>The Planetary Landings step is divided in two parts: the lanetary landings themselves, and the Bombardment assignment.</p>
+<p>Until all planets that had units or Leaders landed on them or ships assigned to bombard them in the System just activated have been <em>resolved</em>, the active player chooses an unresolved planet and resolves it according to the following:</p>
+<p><em><strong>Note:</strong></em> <em>In what follows, "landed" Troops, PDSs and Leaders refer to the Troops, PDSs and Leaders that were landed on the planet being resolved.</em></p>
+
+<p><strong>Planetary Landing Resolution:</strong></p>
 <ul>
 <li>
-<strong>Planetary landings</strong>: The active player may land troops, PDSs and Leaders currently carried by his ships in the just activated System on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one troop.</li>
+<em>If the planet is <strong>friendly</strong>:</em><br>
+No bombardment occur.</li>
 <li>
-<strong>Bombardment assignment</strong>: The active player may assign some of his ships in the just activated System with the <em>Bombardment</em> ability to the non-friendly planets of this System, in order to be able to bombard them during the 6) Planetary Landing resolution step.</li>
-</ul>
-<p><em><strong>6) Planetary Landings resolution</strong></em> <a name="user-content-PlanetaryLandingsResolution_TacticalActionStep"></a></p>
-<blockquote>
-<p>Formerly known as the "Invasion Combat" step.</p>
-</blockquote>
-<p>Until all planets that had units or Leaders landed on them or ships assigned to bombard them in the just activated System have been resolved, the active player chooses an unresolved planet and resolves it according to the following:
-(In what follows, "landed" troops, PDSs and Leaders refer to the troops, PDSs and Leaders that were landed on the planet being resolved)</p>
-<blockquote>
-<p>Could be cool to have "friendly", "neutral" and "hostile" in colour, but I did not find how to do it yet.</p>
-</blockquote>
-<ul>
-<li>a) The planet is <strong>friendly</strong>:<br>
-Place the landed troops, PDSs and Leaders on the planet. No bombardment occur.</li>
-<li>b) The planet is <strong>neutral</strong>:<br>
-The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the <a href="#user-content-DomainCounters">Domain Counters section</a>. No bombardment occur (unless included in an Invasion Combat triggered by a Domain Counter). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.</li>
-<li>c) The planet is <strong>controlled by an opponent</strong>:
-<ul>
-<li>c-1) The planet <strong>contains at least one enemy troop or PDS</strong>:<br>
+<em>If the planet is <strong>neutral</strong>:</em><br>
+The active player must resolve the <a href="#user-content-DomainCounters">Domain Counters</a> present on the planet (if there is any). No bombardment occur (unless a Domain Counter triggers an Invasion Combat). If there are still landed Troops after resolving the Domain Counters, the active player takes control of the planet, <a href="#user-content-RefreshedAndExhaustedStates">exhausted</a>, else, the defender destroys all landed PDSs and makes a <a href="#user-content-FateRoll">Fate Roll</a> for each landed Leader.</li>
+<li>
+<em>If the planet is <strong>enemy</strong> and <strong>contains</strong> at least one enemy troop or PDS:</em><br>
 If you landed at least one troop, resolve an <a href="#user-content-InvasionCombats">Invasion Combat</a> on this planet, else the ships assigned to this planet <a href="#user-content-Bombardment_unitAbility">bombard</a> it without an Invasion Combat taking place.</li>
-<li>c-2) The planet <strong>does not contain any enemy troop and PDS</strong>:<br>
-The ships assigned to this planet <a href="#user-content-Bombardment_unitAbility">bombard</a> it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.</li>
+<li>
+<em>If the planet is <strong>enemy</strong> and <strong>does not contain</strong> any enemy troop or PDS:</em><br>
+The ships assigned to this planet <a href="#user-content-Bombardment_unitAbility">bombard</a> it. Then the active player takes control of it, exhausted.</li>
 </ul>
-</li>
-</ul>
-<p><em><strong>7) Production</strong></em> <a name="user-content-Production_TacticalActionStep"></a>
-Note: All the resources that the active player decides to spend during this step may be added up and spent at once at the end of the step. The total amount of resources that must be spend is rounded up.</p>
-<blockquote>
-<p>Ditched the "at least one Cruiser -&gt; at most 2 Space Mines". Let's be modular. Each unit with the Deploy Space Mines (<em>n</em>) ability may deploy up to <em>n</em> Space Mines.</p>
-</blockquote>
+</div>
+<h5 id="7-production-">
+<a id="user-content-7-production-" class="anchor" href="#7-production-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>7) Production <a name="user-content-Production_TacticalActionStep"></a>
+</h5>
+<div>
+<p><em><strong>Note:</strong></em> <em>All the resources that the active player decides to spend during this step are added up and spent at once at the end of the step. The total amount of resources that must be spent is rounded up.</em></p>
+<p>The Production step consists in three parts, that must be resolved in the following order:</p>
+</div>
+<h6 id="a-deploy-space-mines">
+<a id="user-content-a-deploy-space-mines" class="anchor" href="#a-deploy-space-mines" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A) Deploy Space Mines</h6>
+<div>
+<div>
+<p>See the <a href="#user-content-DeploySpaceMines_unitAbility">Deploy Space Mines</a> ability.</p>
+</div>
+</div>
+<h6 id="b-produce-units">
+<a id="user-content-b-produce-units" class="anchor" href="#b-produce-units" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>B) Produce units</h6>
+<div>
+<div>
+<p>The active player may produce units at each of her units with the <a href="#user-content-ProduceUnits_unitAbility">Produce Units (<em>n</em>)</a> ability in the Systems just activated, with a <strong>production capacity</strong> of <em>n</em>. In most cases, units will be produced by <a href="#user-content-SpaceDock">Space Docks</a>.</p>
+<p><strong>Producing units</strong><br>
+When producing units, any combination of units may be produced provided the following three limitations are respected and they can be placed in the System (see <a href="#user-content-PlacingProducedUnits">placing produced units</a>):</p>
 <ul>
 <li>
-<strong>Deploy Space Mines</strong>:<br>
-See the <a href="#user-content-DeploySpaceMines_unitAbility">Deploy Space Mines</a> ability.</li>
+<strong>Production Capacity:</strong> Each unit has a production capacity cost, the total production capacity cost of the produced units may not exceed the production capacity of the unit producing them.</li>
+<li>
+<strong>Resource Cost:</strong> Each unit has a resource cost. The player producing units must spend the required amount of resources.</li>
+<li>
+<strong>Blockade:</strong><br>
+No ships may be produced in a System already containing enemy ships.</li>
 </ul>
+
+<p><strong>Placing produced units</strong> <a name="user-content-PlacingProducedUnits"></a></p>
 <blockquote>
-<p>There is a problem with the Arborec racial that gives them production capacity for their Ground Forces. As it currently stands, their <em>planets</em> get the production capacity, which just does not work well with the Space Dock-centric production model of this rulebook. I could define planets with production capacity, but that would be a lengthy rule (to clarify what happens when there is a Space Dock on the same planet, and what happens when this Space Dock cannot produce units for some reason) for a single use-case. So I think that it would be the job of the text of the racial ability to clarify these issues itself.</p>
-</blockquote>
-<ul>
-<li>
-<strong>Produce units</strong>:<br>
-The active player may produce units at each of her units with the <a href="#user-content-ProduceUnits_unitAbility">Produce Units (<em>n</em>) ability</a> in the just activated Systems, with a <em>production capacity</em> of <em>n</em>. In most cases, units will be produced by <strong>unexhausted</strong> Space Docks, that have as many <em>production capacity</em> as the resource value of the planet they are on plus two.</li>
-<li>
-<strong>Build Space Docks</strong>:<br>
-The active player may build Space Docks on some of the planets in the just activated System. A Space Dock may only be built on a planet that she has controlled since the beginning of the Round, and that does not already have a Space Dock. Newly built Space Docks are placed <strong>exhausted</strong> (flipped) and may thus not produce units until they are refreshed (usually during the Status Phase).</li>
-</ul>
-<p><em><strong>Producing units</strong></em><br>
-When producing units, any combination of units may be produced provided the following four limitations are respected and it can be placed in the System (see <a href="#user-content-PlacingProducedUnits">placing produced units</a>):</p>
-<ul>
-<li>
-<strong>Production Capacity</strong>: Each unit has a production capacity cost, the total production capacity cost of the produced units may not exceed the production capacity of the unit producing them.</li>
-<li>
-<strong>Fleet Supply</strong>: Be careful that if you violate your <a href="#user-content-FleetSupply">Fleet Supply limit</a> in the System, you will have to scuttle some ships.</li>
-<li>
-<strong>Fighter Capacity</strong>: The System must have a sufficient <a href="#user-content-Capacity_unitAbility">Fighter Capacity</a> to support the produced Fighters.</li>
-<li>
-<strong>Resource Cost</strong>: Each unit has a resource cost. The player producing units must spend the required amount of resources.</li>
-</ul>
-<p><em><strong>Placing produced units</strong></em> <a name="user-content-PlacingProducedUnits"></a></p>
-<blockquote>
-<p>New: placement of troops and PDSs produced by units in space</p>
+<p>Change from base SA: Made explicit where troops and PDSs produced by units in space may be placed.</p>
 </blockquote>
 <p>After units have been produced, they must be placed according to the following rules. The <em>producer</em> refers to the unit that produced them:</p>
 <ul>
 <li>Ships are placed in the space of the System containing the <em>producer</em>
 </li>
-<li>If the <em>producer</em> is on a planet, then all produced troops and PDSs must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient <a href="#user-content-Capacity_unitAbility">capacity</a> to carry them.</li>
+<li>If the <em>producer</em> is on a planet, then all produced units with the <em>Planet-based</em> trait (Troops and PDSs) must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient <a href="#user-content-Capacity_unitAbility">capacity</a> to carry them.</li>
 </ul>
-<p><em><strong>Blockade</strong></em><br>
-No ships may be produced in a System already containing enemy ships.</p>
+</div>
+</div>
+<h6 id="c-build-space-docks">
+<a id="user-content-c-build-space-docks" class="anchor" href="#c-build-space-docks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>C) Build Space Docks</h6>
+<div>
+<div>
+<p>The active player may build Space Docks on some of the planets in the System just activated. A Space Dock may only be built on a planet that she has controlled since the beginning of the Round, and that does not already contain a Space Dock. Newly built Space Docks are placed <strong>exhausted</strong> (flipped) and may thus not produce units until they are refreshed (usually during the Status Phase).</p>
+ 
+</div>
+</div>
 <h3 id="status-phase-">
 <a id="user-content-status-phase-" class="anchor" href="#status-phase-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Status Phase <a name="user-content-StatusPhase"></a>
 </h3>
@@ -1520,14 +1685,13 @@ There are three kinds of Special Objectives:</a></p>
 <li>
 <em>Sovereign and Imperial</em> award Victory Points to the players controlling more than 8 and 12 planets outside their <a href="#user-content-HomeSystems">Home Systems</a> respectively.</li>
 <li>
-<em>Voice of the Council</em> awards a Victory Point to the player that was elected <a href="#user-content-VoiceOfTheCouncil">Voice of the Council</a> during the <a href="#user-content-GameConcepts_TwilightCouncil">Twilight Council</a>.</li>
+<em>Voice of the Council</em> awards a Victory Point to the player that was elected <a href="#user-content-VoiceOfTheCouncil">Voice of the Council</a> during the <a href="#user-content-TwilightCouncilAndPoliticalCards">Twilight Council</a>.</li>
 </ul>
 <p>Special Objectives differ from the other kinds of objective in that if a player that has claimed one of them stop meeting its requirements, her claim on the Special Objective is lost <strong>instantly</strong>: she must remove her flag from the objective card and loses the associated Victory Points <strong>immediately</strong>. This does not prevent her from claiming this objective again later in the game.</p>
 <p><strong>Winning the game</strong><br>
 After all players have finished claiming objectives, if at least one of them has the required amount of Victory Point (or more) that was decided at the start of the game, the game ends.<br>
 Whoever has the most Victory Points at that time is declared winner. If two or more players have the same number of Victory Points, ties are broken in favour of the one controlling the most planets outside of his Home System. If there is still a tie, tied players share the victory.</p>
-<pre><code>She has gained the power needed to claim the for too long empty Imperial Throne on Mecatol Rex. The Winnaran Custodians will step aside for their new Empress, who must lead the galaxy to a new age of prosperity, peace and enlightenment.
-</code></pre>
+<p><em><strong>She has gained the power needed to claim the for too long empty Imperial Throne of Mecatol Rex. The Winnaran Custodians will step aside for their new Empress, who must lead the galaxy to a new age of prosperity, peace and enlightenment.</strong></em></p>
 <p>Note that it is possible for a player to win the game outside of the Status Phase (some effects grant Victory Points during the Action Phase). If a player reaches the required amount of Victory Point at any time outside of the Status Phase, the game ends immediately and a victor is determined following the same procedure as above.</p>
 <p><em><strong>2) Progression Feedback to Victory Point Leader</strong></em> <a name="user-content-ProgressionFeedback_StatusPhaseStep"></a></p>
 <blockquote>
@@ -1541,8 +1705,14 @@ Replaces "Racial Technology" with "Racial Improvement" to reduce the confusion, 
 </blockquote>
 <p>Starting with the Speaker and following the Rotation Cycler, each player may now unlock some of his <a href="#user-content-RacialImprovements">Racial Improvements</a> by spending resources.</p>
 <p>The cost of unlocking a Racial Improvement is computed as follows:</p>
-<pre><code>Base cost (printed on the card) - Victory Points (owned by the player) + Base costs of the other Racial Improvements the player has already unlocked 
-</code></pre>
+<ul>
+<li>Base cost (printed on the card)</li>
+<li>
+<strong>-</strong> Victory Points (owned by the player)</li>
+<li>
+<strong>+</strong>
+Base costs of the other Racial Improvements the player has already unlocked</li>
+</ul>
 <p>Multiple Racial Improvements can be unlocked at the same time, but they must be unlocked one after the other.</p>
 <p><em><strong>4) Produce Trade Goods (2:1)</strong></em> <a name="user-content-ProduceTradeGoods_StatusPhaseStep"></a></p>
 <blockquote>
@@ -1562,10 +1732,9 @@ Instead of refreshing a planet at this step, players may either:</p>
 </ul>
 <p><strong>Note:</strong> "Instead of refreshing" means that the planet stays in the state it was in before this step. So for example, a refreshed planet on which a Facility is built stays refreshed.</p>
 <p><em><strong>6) Receive 1 Action Card, 1 Political Card and 2 Command Counters</strong></em> <a name="user-content-ReceiveCardsAndCCs_StatusPhaseStep"></a></p>
-<p>Starting with the Speaker and following the Rotation Cycler, each player draws one <a href="#user-content-GameConcepts_ActionCards">Action Card</a>, one <a href="#user-content-GameConcepts_PoliticalCards">Political Card</a>, and receives two <a href="#user-content-CommandCounters">Command Counters</a>.</p>
+<p>Starting with the Speaker and following the Rotation Cycler, each player draws one <a href="#user-content-ActionCards">Action Card</a>, one <a href="#user-content-TwilightCouncilAndPoliticalCards">Political Card</a>, and receives two <a href="#user-content-CommandCounters">Command Counters</a>.</p>
 <p><em><strong>7) Take back Agendas</strong></em> <a name="user-content-#user-content-TakeBackAgendas"></a></p>
-<p>Players take back into their hand the Political Cards they placed as agendas in the Twilight Council during the previous Strategy Phase that were not included for voting or discarded during the Round.<br>
-If there are less than 5 players, the agendas that were a</p>
+<p>Players take back into their hand the Political Cards they placed as agendas in the Twilight Council during the previous Strategy Phase that were not included for voting or discarded during the Round.</p>
 <p><em><strong>8) Reallocate Command Counters</strong></em> <a name="user-content-ReallocateCommandCounters_StatusPhaseStep"></a></p>
 <p>Starting with the Speaker and following the Rotation Cycler, each player may redistribute his Command Counters between the Command Pool, Fleet Supply and Strategy Allocation areas of her race sheet.</p>
 <p><em><strong>9) Scuttle units and break Trade Agreements</strong></em> <a name="user-content-Scuttling_StatusPhaseStep"></a></p>
@@ -1581,8 +1750,8 @@ If there are less than 5 players, the agendas that were a</p>
 <li>Space Docks are refreshed</li>
 </ul>
 <p><strong>The end of the Status Phase marks the end of the Round. If no player has won the game yet, a new Round begins.</strong></p>
-<h2 id="space-battles-">
-<a id="user-content-space-battles-" class="anchor" href="#space-battles-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Space Battles <a name="user-content-SpaceBattles"></a>
+<h2 id="space-battle-">
+<a id="user-content-space-battle-" class="anchor" href="#space-battle-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Space Battle <a name="user-content-SpaceBattle"></a>
 </h2>
 <blockquote>
 <p>From TI3 to SA: Forget the terms "Withdrawals" and "Tactical Retreats". They have been unified under a single and simple system called "Retreat".<br>
@@ -1644,8 +1813,9 @@ If before a Combat Round would begin, either the attacker or the defender does n
 </h4>
 <p>Skip this step if either side has no remaining ships in the System.</p>
 <p>At this step, the attacker may announce a retreat (see below). Then the defender may choose to immediately conduct a retreat. If the defender does not retreat, the attacker may conduct the announced retreat.
-In order to conduct (or announce) a retreat, a player must choose an adjacent system that does not contain enemy ships. The retreat is conducted by moving the fleet to the destination system and activating it from reinforcements.</p>
-<p>Exception; If the retreating fleet is <em>activated</em>, and the destination system is <em>not</em>, the activation must instead be paid from Strategy Allocation.</p>
+In order to conduct (or announce) a retreat, a player must choose an adjacent system that does not contain enemy ships. The retreat is conducted by moving the fleet to the destination system and activating it from reinforcements.<br>
+During this movement ships with the <a href="#user-content-Capacity_unitAbility">Capacity</a> may pick up units with the <strong>Space Cargo</strong> trait (like Fighters) but not other units.</p>
+<p>Exception: If the retreating fleet is <em>activated</em>, and the destination system is <em>not</em>, the activation must instead be paid from Strategy Allocation.</p>
 <h2 id="invasion-combats-">
 <a id="user-content-invasion-combats-" class="anchor" href="#invasion-combats-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Invasion Combats <a name="user-content-InvasionCombats"></a>
 </h2>
@@ -1671,8 +1841,8 @@ In order to conduct (or announce) a retreat, a player must choose an adjacent sy
 <p><strong>End of an Invasion Combat</strong>:<br>
 If before a Combat Round would begin, either the attacker or the defender does not have troops on the planet the Invasion Combat is taking place, the Invasion Combat ends:</p>
 <ul>
-<li>If the attacker still has troops on the planet at this point, she wins the Invasion Combat. The defender's <a href="#user-content-Installation">installations</a> on the planet are destroyed, and each of her <a href="#user-content-Leader">Leaders</a> on it must make a <a href="#user-content-FateRoll">Fate Roll</a>, then the attacker takes control of the planet, exhausted. Finally, the attacker may replace one of his <a href="#user-content-GroundForce">Ground Forces</a> on the planet with a <a href="#user-content-ShockTroop">Shock Troop</a>.</li>
-<li>Else (if the attacker no longer has troops on the planet, regardless of whether the defender has any), the defender wins the Invasion Combat. The attacker's <a href="#user-content-PDS">PDSs</a> on the planet are destroyed, and each of her <a href="#user-content-Leader">Leaders</a> on it must make a <a href="#user-content-FateRoll">Fate Roll</a>.</li>
+<li>If the attacker still has troops on the planet at this point, she wins the Invasion Combat. The defender's <a href="#user-content-Installation">installations</a> on the planet are destroyed and the attacker takes control of the planet, exhausted. Finally, the attacker may replace one of his <a href="#user-content-GroundForce">Ground Forces</a> on the planet with a <a href="#user-content-ShockTroop">Shock Troop</a>.</li>
+<li>Else (if the attacker no longer has troops on the planet, regardless of whether the defender has any), the defender wins the Invasion Combat. The attacker's <a href="#user-content-PDS">PDSs</a> on the planet are destroyed.</li>
 </ul>
 <h3 id="1-pre-combat--1">
 <a id="user-content-1-pre-combat--1" class="anchor" href="#1-pre-combat--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1) Pre-Combat <a name="user-content-PreCombat_InvasionCombatStep"></a>
@@ -1701,11 +1871,49 @@ Each bombarding ship performs <em>n</em> combat rolls. Sum up the total number o
 <h2 id="systems-">
 <a id="user-content-systems-" class="anchor" href="#systems-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Systems <a name="user-content-Systems"></a>
 </h2>
-<p>The hexagons that make up the galaxy map are called Systems. There are three types of Systems: Home Systems, Special Systems and Regular Systems.</p>
-<p><strong>Planetary Systems</strong> are Systems that contain at least one planet.</p>
-<h3 id="control-of-a-system">
-<a id="user-content-control-of-a-system" class="anchor" href="#control-of-a-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control of a System</h3>
-<p>A player <strong>controls</strong> a System if she has at least one ship in it and controls all of its planets.</p>
+<p>The hexagonal tiles that make up the galaxy map are called Systems.</p>
+<p><strong>Content:</strong></p>
+<ul>
+<li><a href="#user-content-GeneralitiesRegardingSystems">Generalities Regarding Systems</a></li>
+<li><a href="#user-content-HomeSystems">Home Systems</a></li>
+<li><a href="#user-content-SpecialSystems">Special Systems</a></li>
+<li><a href="#user-content-RegularSystems">Regular Systems</a></li>
+</ul>
+<h3 id="generalities-regarding-systems-">
+<a id="user-content-generalities-regarding-systems-" class="anchor" href="#generalities-regarding-systems-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generalities Regarding Systems <a name="user-content-GeneralitiesRegardingSystems"></a>
+</h3>
+<h4 id="system-classification-">
+<a id="user-content-system-classification-" class="anchor" href="#system-classification-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>System Classification <a name="user-content-SystemClassification"></a>
+</h4>
+<p>There are three types of Systems:</p>
+<ul>
+<li><a href="#user-content-HomeSystems">Home Systems</a></li>
+<li><a href="#user-content-SpecialSystems">Special Systems</a></li>
+<li><a href="#user-content-RegularSystems">Regular Systems</a></li>
+</ul>
+<p>Two other terms are also used to classify Systems:</p>
+<ul>
+<li>Any System that contains at least one planet is a <strong>Planetary System</strong>
+</li>
+<li>Any <a href="#user-content-RegularSystems">Regular Systems</a> that does not contain any planet or <a href="#user-content-Wormholes">Wormholes</a> is a <strong>Void System</strong>
+</li>
+</ul>
+<h4 id="adjoining--adjacent-">
+<a id="user-content-adjoining--adjacent-" class="anchor" href="#adjoining--adjacent-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Adjoining / Adjacent <a name="user-content-AdjoiningAdjacent"></a>
+</h4>
+<ul>
+<li>Two Systems are <strong>adjoining</strong> if their tiles are in physical contact.</li>
+<li>Two Systems are <strong>adjacent</strong> if they are adjoining, or if they are connected by a
+<a href="#user-content-Wormholes">Wormholes</a>.</li>
+</ul>
+<h4 id="distance-between-systems-">
+<a id="user-content-distance-between-systems-" class="anchor" href="#distance-between-systems-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Distance Between Systems <a name="user-content-DistanceBetweenSystems"></a>
+</h4>
+<p>A System that is adjacent to another is <strong>1 System away</strong> from this System.</p>
+<h4 id="control-of-a-system-">
+<a id="user-content-control-of-a-system-" class="anchor" href="#control-of-a-system-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control of a System <a name="user-content-ControlOfASystem"></a>
+</h4>
+<p>A player <strong>controls</strong> a System if she has at least one Ship in it and controls all of its planets.</p>
 <h3 id="home-systems-yellow-borders-">
 <a id="user-content-home-systems-yellow-borders-" class="anchor" href="#home-systems-yellow-borders-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Home Systems (Yellow Borders) <a name="user-content-HomeSystems"></a>
 </h3>
@@ -1727,7 +1935,7 @@ Each race has one of these Systems, that contain the race's starting planets and
 <blockquote>
 <p>TI3 -&gt; SA: You can activate Systems like Asteroid Fields and Supernova if you wish (as opposed to the vanilla TI3 rules). You still cannot move ships into these Systems though.</p>
 </blockquote>
-<p><em><strong>Content:</strong></em></p>
+<p><strong>Content:</strong></p>
 <ul>
 <li><a href="#user-content-AsteroidField">Asteroid Fields</a></li>
 <li><a href="#user-content-IonStorm">Ion Storms</a></li>
@@ -1735,7 +1943,7 @@ Each race has one of these Systems, that contain the race's starting planets and
 <li><a href="#user-content-Supernova">Supernova</a></li>
 <li><a href="#user-content-GravityRift">Gravity Rifts</a></li>
 </ul>
-<p><em><strong>Note:</strong></em> <em>"Moving through" a System means moving inside and outside in the same movement.</em></p>
+<p><em><strong>Note:</strong></em> <em>"Moving through" a System means moving inside and outside of it in the same movement.</em></p>
 <h4 id="asteroid-field-">
 <a id="user-content-asteroid-field-" class="anchor" href="#asteroid-field-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Asteroid Field <a name="user-content-AsteroidField"></a>
 </h4>
@@ -1790,19 +1998,11 @@ If enemy ships are present in the System, the ship is destroyed instead.</li>
 </h3>
 <p>[image]<br>
 Systems that are neither Home Systems nor Special Systems are <strong>Regular Systems</strong>. Usually, the majority of the Systems of a galaxy are Regular Systems.</p>
-<h3 id="void-systems-">
-<a id="user-content-void-systems-" class="anchor" href="#void-systems-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Void Systems <a name="user-content-VoidSystems"></a>
-</h3>
-<p><strong>Void Systems</strong> are <em>Regular Systems</em> that do not contain any planet nor <a href="#user-content-Wormholes">Wormholes</a>.</p>
-<h3 id="planetary-systems-">
-<a id="user-content-planetary-systems-" class="anchor" href="#planetary-systems-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Planetary Systems <a name="user-content-PlanetarySystems"></a>
-</h3>
-<p><strong>Planetary Systems</strong> are Systems that contain at least one planet.</p>
 <h2 id="planets-">
 <a id="user-content-planets-" class="anchor" href="#planets-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Planets <a name="user-content-Planet"></a>
 </h2>
 <p>[images of planets, with tech specs and refresh abilities]<br>
-Each planet has a <a href="#user-content-GameConcept_ResourceAndInfluence">resource</a> value (the number on a green background) and an <a href="#user-content-GameConcept_ResourceAndInfluence">influence</a> (the number on a red background). Planets may also feature a number of <a href="#user-content-TechnologySpecialty">Technology Specialties</a> (red/green/blue/yellow technology symbols), and a <a href="#user-content-RefreshAbility">Refresh Ability</a> (symbol depending on the actual refresh ability).</p>
+Each planet has a resource value (the number on a green background) and an influence (the number on a red background). Planets may also feature a number of <a href="#user-content-TechnologySpecialty">Technology Specialties</a> (red/green/blue/yellow technology symbols), and a <a href="#user-content-RefreshAbility">Refresh Ability</a> (symbol depending on the actual refresh ability).</p>
 <h3 id="planet-card">
 <a id="user-content-planet-card" class="anchor" href="#planet-card" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Planet Card</h3>
 <p>Each planet has an associated planet card. When a player takes control of a planet, she takes the corresponding planet card.</p>
@@ -1834,10 +2034,11 @@ Refresh Abilities can be used during the <a href="#user-content-RefreshPlanets_S
 <p>TI3-&gt;SA: No limits on the number of Facility cards available (instead of 8 of each type)<br>
 TI3-&gt;SA: Important changes in the way Facilities are built.</p>
 </blockquote>
-<p>Facilities are <a href="#user-content-Installation">Installations</a> that can be built on planets to increase their resource or influence value.<br>
-There are two types of Facilities: Refineries and Colonies. Refineries increase the resource value of the planets they are on by 1, while Colonies do the same for the influence value.<br>
+<p>Facilities can be built on planets to increase their resource or influence value.<br>
+There are two types of Facilities: Refineries and Colonies. A Refinery increases the resource value of the planet it is on by 1, while a Colony does the same for the influence value.<br>
 Facilities are not built for resources. Instead, a Facility may be placed on a planet <em>instead</em> of normally refreshing it during the <a href="#user-content-RefreshPlanets_StatusPhaseStep">Refresh Planets step of the Status Phase</a>, <em>if the planet did not previously contain one</em>.<br>
 Once built, place the Facility card under the planet card, with the bottom edge sticking out to display the +1 in either resource or influence.</p>
+<p><em>Note:</em> Facilities are NOT <a href="#user-content-Units">units</a>.</p>
 <h3 id="turning-neutral-">
 <a id="user-content-turning-neutral-" class="anchor" href="#turning-neutral-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>"Turning Neutral" <a name="user-content-PlanetTurnsNeutral"></a>
 </h3>
@@ -1892,14 +2093,14 @@ Then remove <strong>all</strong> (not just the one resolved) non-friendly Space 
 TI3-&gt;SA: Wormhole Tokens flip when used.</p>
 </blockquote>
 <p>Wormholes are spatial anomalies that connect distant areas of space.</p>
-<p>Two Systems containing wormholes of the same type are considered adjacent for all purposes. Important: the <a href="#user-content-DeepSpaceCannon-unitAbility">Deep Space Cannon</a> ability may <em>not</em> fire through a Wormhole.</p>
-<h4 id="wormhole-tokens">
-<a id="user-content-wormhole-tokens" class="anchor" href="#wormhole-tokens" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wormhole tokens</h4>
+<p>Two Systems containing wormholes of the same type are considered adjacent for all purposes.</p>
+<h4 id="wormhole-tokens-1">
+<a id="user-content-wormhole-tokens-1" class="anchor" href="#wormhole-tokens-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wormhole tokens</h4>
 <p>Wormhole Tokens have different Wormholes printed on each side of the token.
 At the end of an action in which at least one ship moved through such Wormhole from the System containing the Wormhole to another System (and only in this direction), the token is flipped, changing the type of the Wormhole.</p>
 <h4 id="definitions">
 <a id="user-content-definitions" class="anchor" href="#definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Definitions</h4>
-<p><em><strong>Stable Wormholes</strong></em> <a name="user-content-StableWormholes"></a> are Wormholes that are directly printed on a tile.</p>
+<p><em><strong>Stable Wormholes</strong></em> <a name="user-content-StableWormholes"></a> are Wormholes that are directly printed on tiles.</p>
 <p><em><strong>Unstable Wormholes</strong></em> <a name="user-content-UnstableWormholes"></a> are all the Wormholes that are <em>not</em> printed on a tile. (Wormhole Tokens, Wormholes from <a href="#user-content-DomainCounters">Domain Counters</a>...)</p>
 <h3 id="artifacts-">
 <a id="user-content-artifacts-" class="anchor" href="#artifacts-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Artifacts <a name="user-content-Artifact"></a>
@@ -1908,7 +2109,7 @@ At the end of an action in which at least one ship moved through such Wormhole f
 <p>TI3-&gt;SA: Artifacts may exist in space.<br>
 [images of both real and dummy artefacts]</p>
 </blockquote>
-<p>There are eight Artifact tokens. Four of them harbor technology colors and are actual Artifacts, while the other four have <a href="#user-content-GameConcepts_TradeGoods">Trade Goods</a> symbols and are called <strong>Dummy Artifacts</strong>.</p>
+<p>There are eight Artifact tokens. Four of them harbor technology colors and are actual Artifacts, while the other four have <a href="#user-content-TradeGoods">Trade Goods</a> symbols and are called <strong>Dummy Artifacts</strong>.</p>
 <p>Artifacts may exist on planets or in space, are placed on the galaxy when it is created and may not be moved or destroyed by players.</p>
 <h4 id="controlling-artifacts">
 <a id="user-content-controlling-artifacts" class="anchor" href="#controlling-artifacts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Controlling Artifacts</h4>
@@ -2000,13 +2201,13 @@ These two Domain Counters have a different appearance and are sometimes used to 
 <li>"A player may never move units, build units, or otherwise acquire units in any system so that the number of ships herein (again, excluding Fighters) exceed the number of Command Counters in his Fleet Supply area. "</li>
 <li>AND</li>
 <li>"If, for any reason, the number of ships in a system should exceed the number of Command Counters in a player's Fleet Supply, the owner of those ships must immediately remove enough ships from the system (by placing them back with his reinforcements) until the number of ships is again in compliance with the number of Command Counters in his Fleet Supply area. "<br>
-I said that you must destroy the ships that were added last and caused the Fleet Supply excess.</li>
+I went with only keeping the second.</li>
 </ul>
 </blockquote>
 <p>Command Counters placed in Fleet Supply must be placed with the "fleet" side up.<br>
 The number of Command Counters in a player's Fleet Supply is her <strong>Fleet Supply</strong>: the maximum number of non-Fighter ships she may have in any System at any time.</p>
-<p>If a player has more non-Fighter ships in a System than her Fleet Supply the ships that were added last and caused the violation must be immediately scuttled. For example, if a player has a Fleet Supply of 2, and moves a non-Fighter ship into a System where she already has two non-Fighter ship, she must destroy the ship she just moved (she may not destroy one of the ships that were already in the System).</p>
-<p>The Fleet Supply constraints is <em>not</em> checked while ships are moving, but is checked right after all ships have finished their movement.</p>
+<p>If a player has more non-Fighter Ships in a System than her Fleet Supply, she must destroy enough of her non-Fighter Ships in the System to comply with her Fleet Supply again.</p>
+<p>The Fleet Supply constraint is <em>not</em> checked while ships are moving, but is checked right after all ships have finished their movement.</p>
 <p>It is important to note that the <strong>Fleet Supply</strong> is a constraint on the number of non-Fighter ship of fleets, not on the number of fleets. For example, a player with 3 Fleet Supply may have as many fleets as she wants (up to one per System!), but none of these fleets may have more than 3 non-Fighter ships.</p>
 <h3 id="strategy-allocation-">
 <a id="user-content-strategy-allocation-" class="anchor" href="#strategy-allocation-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategy Allocation <a name="user-content-StrategyAllocation"></a>
@@ -2118,8 +2319,8 @@ Spent Trade Goods are returned to the common play area.</p>
 <h2 id="trade-contracts-and-trade-agreements-">
 <a id="user-content-trade-contracts-and-trade-agreements-" class="anchor" href="#trade-contracts-and-trade-agreements-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Contracts and Trade Agreements <a name="user-content-TradeContractsAndTradeAgreements"></a>
 </h2>
-<h3 id="trade-contracts">
-<a id="user-content-trade-contracts" class="anchor" href="#trade-contracts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Contracts</h3>
+<h3 id="trade-contracts-1">
+<a id="user-content-trade-contracts-1" class="anchor" href="#trade-contracts-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Contracts</h3>
 <p>Each race has two Trade Contracts, with numerical values printed on one of the sides (the Trade Agreement side). At the beginning of the game, players place these cards face down in their playing area (with the Trade Agreement side facing the table).</p>
 <h3 id="opening-trade-agreements">
 <a id="user-content-opening-trade-agreements" class="anchor" href="#opening-trade-agreements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Opening Trade Agreements</h3>
@@ -2134,12 +2335,12 @@ Various effects (most notably the Primary and Secondary Ability of the Trade Str
 <p>There are multiple ways a Trade Agreement can be broken. The most common ones are:</p>
 <ul>
 <li>Any player involved in a Trade Agreement may unilaterally break it during the <a href="#user-content-Scuttling_StatusPhaseStep">Scuttling and Breaking Trade Agreements</a> step of the Status Phase.</li>
-<li>At the end of an action during which a player performed a <a href="#user-content-HostileAction">hostile action</a> against another, any Trade Agreements between these two players are broken.</li>
+<li>At the end of an action during which a player performed a <a href="#user-content-HostileAct">Hostile Act</a> against another, any Trade Agreements between these two players are broken.</li>
 </ul>
 <p>When a Trade Agreement is broken, the two players automatically collect a certain part of the Trade Goods present on their Trade Agreement (the other Trade Goods are discarded), then they flip the cards so that the Trade Agreement sides face the table and finally give the card back to their former trade partner.</p>
 <p>How many Trade Goods get collected depends on how the Trade Agreement was broken:</p>
 <ul>
-<li>If it was broken due to a <a href="#user-content-HostileAction">hostile action</a>, the player that performed the hostile action collects none of the Trade Goods on her Trade Agreements, while her trade partner collects all the Trade Goods on her Trade Agreement.</li>
+<li>If it was broken due to a <a href="#user-content-HostileAct">Hostile Act</a>, the player that performed the hostile action collects none of the Trade Goods on her Trade Agreements, while her trade partner collects all the Trade Goods on her Trade Agreement.</li>
 <li>If it was broken for any other reason, both players collect half (round down) of the Trade Goods on their Trade Agreement.</li>
 </ul>
 <h3 id="difference-between-trade-contract-and-trade-agreement">
@@ -2201,38 +2402,37 @@ Supplement cardboard tokens exist for Fighters and Ground Forces.</p>
 <h4 id="categories">
 <a id="user-content-categories" class="anchor" href="#categories" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Categories</h4>
 <p>Some effects will refer to categories of units instead of specific unit types.</p>
-<h4 id="movement-value">
-<a id="user-content-movement-value" class="anchor" href="#movement-value" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Movement Value</h4>
+<h4 id="movement-value-">
+<a id="user-content-movement-value-" class="anchor" href="#movement-value-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Movement Value <a name="user-content-MovementValue"></a>
+</h4>
 <p>This characteristic determines the maximum number of systems the unit can move in a single movement.<br>
 More details on units movement can be found in the <a href="#user-content-ShipsMovement_TacticalActionStep">Ships Movement</a> step of the Tactical Action.</p>
 <h4 id="resource-cost-and-production-capacity-cost">
 <a id="user-content-resource-cost-and-production-capacity-cost" class="anchor" href="#resource-cost-and-production-capacity-cost" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resource Cost and Production Capacity Cost</h4>
 <p>These characteristic determine the cost of producing the unit.<br>
 More details on how units are produced can be found in the <a href="#user-content-Production_TacticalActionStep">Production</a> step of the Tactical Action.</p>
-<h4 id="combat-dice">
-<a id="user-content-combat-dice" class="anchor" href="#combat-dice" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Combat Dice</h4>
+<h4 id="combat-dice-">
+<a id="user-content-combat-dice-" class="anchor" href="#combat-dice-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Combat Dice <a name="user-content-CombatDice"></a>
+</h4>
 <p>This characteristic determines the number of <a href="#user-content-CombatRoll">Combat Rolls</a> the unit performs during the combat rounds of Space Battles (if the unit is a Ship) or Invasion Combats (if it is a Troop).</p>
 <p><strong>Important:</strong> If, after all modifiers have been taken into account, a unit would have zero or less Combat Dice, it is considered as having one Combat Dice instead.<br>
-More details on <a href="#user-content-SpaceBattles">Space Battles</a> and <a href="#user-content-InvasionCombats">Invasion Combats</a> can be found in the relevant sections.</p>
+More details on <a href="#user-content-SpaceBattle">Space Battles</a> and <a href="#user-content-InvasionCombats">Invasion Combats</a> can be found in the relevant sections.</p>
 <h4 id="combat-value">
 <a id="user-content-combat-value" class="anchor" href="#combat-value" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Combat Value</h4>
 <p>When a unit performs a <a href="#user-content-CombatRoll">Combat Roll</a>, the result of the die is compared to its <em>Combat Value</em>. If the result is higher or equal to the Combat Value, a <em>hit</em> is generated.<br>
-More details on <a href="#user-content-SpaceBattles">Space Battles</a> and <a href="#user-content-InvasionCombats">Invasion Combats</a> can be found in the relevant sections.</p>
+More details on <a href="#user-content-SpaceBattle">Space Battles</a> and <a href="#user-content-InvasionCombats">Invasion Combats</a> can be found in the relevant sections.</p>
 <h4 id="abilities">
 <a id="user-content-abilities" class="anchor" href="#abilities" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abilities</h4>
 <p>Abilities give units unique ways of interacting with the game, like producing units or being tougher to destroy. Abilities are described in the <a href="#user-content-UnitAbilities">Unit Abilities</a> section.</p>
 <h4 id="traits">
 <a id="user-content-traits" class="anchor" href="#traits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Traits</h4>
 <p>Traits define how units operate and the specific contraints that apply to them.</p>
-<h3 id="unit-categories-overview-">
-<a id="user-content-unit-categories-overview-" class="anchor" href="#unit-categories-overview-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unit Categories Overview <a name="user-content-UnitCategoriesOverview"></a>
+<h3 id="unit-categories-">
+<a id="user-content-unit-categories-" class="anchor" href="#unit-categories-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unit Categories <a name="user-content-UnitCategories"></a>
 </h3>
-<blockquote>
-<p>Not sure this section is really necessary.</p>
-</blockquote>
 <h4 id="ship">
 <a id="user-content-ship" class="anchor" href="#ship" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ship</h4>
-<p>Ships can move by themselves in the galaxy and engage in <a href="#user-content-SpaceBattles">Space Battles</a>.</p>
+<p>Ships can move by themselves in the galaxy and engage in <a href="#user-content-SpaceBattle">Space Battles</a>.</p>
 <p><strong>Units in this category:</strong></p>
 <ul>
 <li><a href="#user-content-Flagship">Flagship</a></li>
@@ -2251,8 +2451,9 @@ More details on <a href="#user-content-SpaceBattles">Space Battles</a> and <a hr
 <li>All Ships but <a href="#user-content-Fighter">Fighters</a>
 </li>
 </ul>
-<h4 id="troop">
-<a id="user-content-troop" class="anchor" href="#troop" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Troop</h4>
+<h4 id="troop-">
+<a id="user-content-troop-" class="anchor" href="#troop-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Troop <a name="user-content-Troop"></a>
+</h4>
 <p>The role of these units is to take control and defend planets, by engaging in <a href="#user-content-InvasionCombats">Invasion Combats</a>.</p>
 <p><strong>Units in this category:</strong></p>
 <ul>
@@ -2260,8 +2461,9 @@ More details on <a href="#user-content-SpaceBattles">Space Battles</a> and <a hr
 <li><a href="#user-content-ShockTroop">Shock Troop</a></li>
 <li><a href="#user-content-GroundForce">Ground Force</a></li>
 </ul>
-<h4 id="infantry">
-<a id="user-content-infantry" class="anchor" href="#infantry" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Infantry</h4>
+<h4 id="infantry-">
+<a id="user-content-infantry-" class="anchor" href="#infantry-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Infantry <a name="user-content-Infantry"></a>
+</h4>
 <p>A specific subset of Troops.</p>
 <p><strong>Units in this category:</strong></p>
 <ul>
@@ -2276,17 +2478,9 @@ More details on <a href="#user-content-SpaceBattles">Space Battles</a> and <a hr
 <ul>
 <li><a href="#user-content-SpaceDock">Space Dock</a></li>
 <li><a href="#user-content-PDS">PDS</a></li>
-<li><a href="#user-content-Refinery">Refinery</a></li>
-<li><a href="#user-content-Colony">Colony</a></li>
 </ul>
-<h4 id="facility">
-<a id="user-content-facility" class="anchor" href="#facility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Facility</h4>
-<p>A specific subset of Installations.</p>
-<p><strong>Units in this category:</strong></p>
-<ul>
-<li><a href="#user-content-Refinery">Refinery</a></li>
-<li><a href="#user-content-Colony">Colony</a></li>
-</ul>
+
+
 <h3 id="units-list-">
 <a id="user-content-units-list-" class="anchor" href="#units-list-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Units List <a name="user-content-UnitList"></a>
 </h3>
@@ -2473,7 +2667,7 @@ More details on <a href="#user-content-SpaceBattles">Space Battles</a> and <a hr
 <li>
 <strong>Space Cargo:</strong> This ship may be picked up and carried by ships with adequate capacity, but is released as soon as the ship carrying it ends its movement.</li>
 <li>
-<strong>Requires Support:</strong> The amount of free capacity able to carry units with this trait that a player has in a given System determines the maximum amount of units with this trait she can have in the System. Units in excess must be scuttled. This check is not performed during Space Battles.</li>
+<strong>Requires Support:</strong> The amount of free capacity able to carry units with this trait that a player has in a given System determines the maximum amount of units with this trait she can have in the System. Units in excess must be scuttled. This check is <em>not</em> performed during Space Battles.</li>
 </ul>
 </li>
 </ul>
@@ -2647,80 +2841,7 @@ More details on <a href="#user-content-SpaceBattles">Space Battles</a> and <a hr
 </ul>
 </li>
 </ul>
-<h4 id="refinery-">
-<a id="user-content-refinery-" class="anchor" href="#refinery-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Refinery <a name="user-content-Refinery"></a>
-</h4>
-<blockquote>
-<p>I made Refineries and Colonies into units, because it looked ugly to have the 3 main categories of things be: Units, Leaders and Facilities, while Facilities were their own thing. A plastic piece could be used for them to represent their new status</p>
-</blockquote>
-<ul>
-<li>categories: <strong>Installation, Facility</strong>
-</li>
-<li>movement value: <em><strong>NA</strong></em>
-</li>
-<li>resource cost: <em><strong>0</strong></em>
-</li>
-<li>production capacity cost: <em><strong>NA</strong></em>
-</li>
-<li>combat dice: <em><strong>NA</strong></em>
-</li>
-<li>combat value: <em><strong>NA</strong></em>
-</li>
-<li>abilities:
-<ul>
-<li><a href="#user-content-IncreaseResourceValue_unitAbility">Increase Resource Value (<em><strong>1</strong></em>)</a></li>
-</ul>
-</li>
-<li>traits:
-<ul>
-<li>
-<strong>Unproduceable:</strong> This unit cannot be produced using the <a href="#user-content-ProduceUnits_unitAbility">Produce Units ability</a>.</li>
-<li>
-<strong>Special building process:</strong> This unit can be <em>built</em> during the <a href="#user-content-RefreshPlanets_StatusPhaseStep">Refresh Planets step</a> of the Status Phase. See the description of this step for more details.</li>
-<li>
-<strong>Planet-based:</strong> This unit is placed on planets and cannot move on its own.</li>
-<li>
-<strong>Incompatible with Facility:</strong> This unit may not be built on a planet containing a Facility</li>
-</ul>
-</li>
-</ul>
-<h4 id="colony-">
-<a id="user-content-colony-" class="anchor" href="#colony-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Colony <a name="user-content-Colony"></a>
-</h4>
-<blockquote>
-<p>I made Refineries and Colonies into units, because it looked ugly to have the 3 main categories of things be: Units, Leaders and Facilities, while Facilities were their own thing. A plastic piece could be used for them to represent their new status</p>
-</blockquote>
-<ul>
-<li>categories: <strong>Installation, Facility</strong>
-</li>
-<li>movement value: <em><strong>NA</strong></em>
-</li>
-<li>resource cost: <em><strong>0</strong></em>
-</li>
-<li>production capacity cost: <em><strong>NA</strong></em>
-</li>
-<li>combat dice: <em><strong>NA</strong></em>
-</li>
-<li>combat value: <em><strong>NA</strong></em>
-</li>
-<li>abilities:
-<ul>
-<li><a href="#user-content-IncreaseInfluenceValue_unitAbility">Increase Influence Value (<em><strong>1</strong></em>)</a></li>
-</ul>
-</li>
-<li>traits:
-<ul>
-<li>
-<strong>Unproduceable:</strong> This unit cannot be produced using the <a href="#user-content-ProduceUnits_unitAbility">Produce Units ability</a>.</li>
-<li>
-<strong>Special building process:</strong> This unit can be <em>built</em> during the <a href="#user-content-RefreshPlanets_StatusPhaseStep">Refresh Planets step</a> of the Status Phase. See the description of this step for more details.</li>
-<li>
-<strong>Planet-based:</strong> This unit is placed on planets and cannot move on its own.</li>
-<li>
-<strong>Incompatible with Facility:</strong> This unit may not be built on a planet containing a Facility</li>
-</ul>
-</li>
-</ul>
+
 <h3 id="unit-abilities-">
 <a id="user-content-unit-abilities-" class="anchor" href="#unit-abilities-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unit Abilities <a name="user-content-UnitAbilities"></a>
 </h3>
@@ -2798,14 +2919,14 @@ There are variants of this ability, that limit the types of units that can be ca
 </h4>
 <p>After a player wins an Invasion Combat <a href="#user-content-InvasionCombats">Invasion Combat</a> as the attacker and takes control of the planet, one of his units with this ability on the planet may be replaced with a <a href="#user-content-ShockTroop">Shock Troop</a>.</p>
 <h4 id="space-cannon-n-">
-<a id="user-content-space-cannon-n-" class="anchor" href="#space-cannon-n-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Space Cannon (<em>n</em>) <a name="user-content-SpaceCannon-unitAbility"></a>
+<a id="user-content-space-cannon-n-" class="anchor" href="#space-cannon-n-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Space Cannon (<em>n</em>) <a name="user-content-SpaceCannon_unitAbility"></a>
 </h4>
 <p>Units with this ability can shoot at ships in their system during the <a href="#user-content-SpaceCannonFire_TacticalActionStep">Space Cannon Fire</a> step of Tactical Actions. Look at the description of this step for more details.</p>
 
 <h4 id="sustain-damage-n-">
 <a id="user-content-sustain-damage-n-" class="anchor" href="#sustain-damage-n-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sustain Damage (<em>n</em>) <a name="user-content-SustainDamage_unitAbility"></a>
 </h4>
-<p>A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of <em>n</em> hits without being destroyed, and is destroyed if one more <em>hit</em> is assigned to it. For each <em>hit</em> it sustains this way, a unit loses a <a href="#user-content-CombatDice">combat dice</a>. Sustained <em>hits</em> persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the <a href="#user-content-StatusPhase">Status Phase</a>.</p>
+<p>A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of <em>n</em> hits without being destroyed, and is destroyed if one more <em>hit</em> is assigned to it. For each <em>hit</em> sustained this way, a unit loses a <a href="#user-content-CombatDice">combat dice</a> and rolls one less die when bombrding (up to a minimum of one die) until it is repaired, which usually happens during the <a href="#user-content-StatusPhase">Status Phase</a>.</p>
 <h2 id="leaders-">
 <a id="user-content-leaders-" class="anchor" href="#leaders-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Leaders <a name="user-content-Leaders"></a>
 </h2>
@@ -2822,9 +2943,14 @@ There are variants of this ability, that limit the types of units that can be ca
 <li>Leaders may use any effect allowing the movement of friendly Troops, without counting towards the number of Troops moved.</li>
 <li>A Leader may not land on a non-friendly planet without being accompanied by Troops.</li>
 </ul>
-<h4 id="fate">
-<a id="user-content-fate" class="anchor" href="#fate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fate</h4>
-<p>When a Ship / planet containing a Leader is destroyed / lost (or changes owner), or when a Leader is part of the attacking forces in an Invasion Combat lost by the attacker, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.</p>
+<h4 id="fate-roll-">
+<a id="user-content-fate-roll-" class="anchor" href="#fate-roll-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fate Roll <a name="user-content-FateRoll"></a>
+</h4>
+<blockquote>
+<p>Replaced the "when a Leader is on a planet that is lost or changes owner"+"when a Leader is part of a failed invasion" with the simpler: "When a Leader is present on a non-friendly planet without friendly Troops also being present"</p>
+</blockquote>
+<p>When a Ship carrying a Leader is destroyed, or when a Leader is present on a non-friendly planet without friendly Troops also being present, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.</p>
+
 <h5 id="fate-roll-table">
 <a id="user-content-fate-roll-table" class="anchor" href="#fate-roll-table" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fate Roll Table:</h5>
 <ul>
@@ -2862,14 +2988,18 @@ Reversion to a (tweaked for concision) previous version of the retreat ability, 
 <a id="user-content-diplomat-" class="anchor" href="#diplomat-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Diplomat <a name="user-content-Diplomat"></a>
 </h4>
 <blockquote>
-<p>I don't see how to write properly the ability to move (and let other ships move) through enemy fleets of the Diplomat. I'm considering giving this ability to all fleets regardless of Diplomat presence to compensate.<br>
-I had to modify the wording of the second ability (the special retreat) to make it work cleanly. Unfortunately it made it longer, but I'm of the opinion that a wording that works is better thn a wording that is short.<br>
+<p>I reworded the ability to let ships move through enemy ships. The case where the Diplomat is moving was a bit harder to word, since it had to explain that even though the movement of the ship carrying the Diplomat got stopped (for example by a Gravity Rift), then the other ships should still be able to go through the enemy ships. I split the ability in two parts to keep the wordings simpler: one when the Diplomat is moving, and one when it is static.</p>
+</blockquote>
+
+<blockquote>
+<p>I had to modify the wording of the second ability (the special retreat) to make it work cleanly. Unfortunately it made it longer, but I'm of the opinion that a wording that works is better thn a wording that is short.<br>
 Aaaaand I also had to reword the third ability (the "please don't attack me" one) to make it work (and shorter), because it was using undefined terms like "invasion".</p>
 </blockquote>
 
 
 <ul>
-<li>&lt;I can't find a way to word the ability of letting enemy ships through. See above&gt;</li>
+<li>When plotting it, the trajectory of a ship carrying a Diplomat may go through Systems containing enemy ships, provided the owners of these ships agree. Other ships may then also go through these Systems during the current action.</li>
+<li>Ship trajectories may be plotted through a System containing a Diplomat and enemy ships if the owners of both agree.</li>
 <li>After the Ships Movement step of a Tactical Action where Ships were moved into a system containing a Diplomat and an enemy fleet, the enemy fleet may, if the owners of both fleets and of the Diplomat comply, immediately retreat. If it does, the initial movement is not considered as a Hostile Action.</li>
 <li>After the Planetary Landings step of a Tactical Action, a Diplomat may cancel landings and bombardments against the planet it is on. The attacker may overturn this ability by spending 6 influence, in which case the Diplomat Escapes.<br>
 If this ability was used without being overturned, it may not be used to protect the planet again during this round or the next (even by another Diplomat).</li>
@@ -2907,234 +3037,166 @@ I had no idea why the Planetary Shield obtained from Scientist were to "never be
 <li>The resource cost of building a Space Dock on a planet with (a) Scientist(s) is 2 resources (instead of 4).</li>
 <li>PDSs on planets with friendly Scientists receive +1 to their Combat Rolls and the <a href="#user-content-PlanetaryShield_unitAbility">Planetary Shield (1) ability</a>.</li>
 </ul>
-<hr>
-<h1 id="below-this-line-are-just-scrap-notes-to-write-the-rest-of-the-rulebook">
-<a id="user-content-below-this-line-are-just-scrap-notes-to-write-the-rest-of-the-rulebook" class="anchor" href="#below-this-line-are-just-scrap-notes-to-write-the-rest-of-the-rulebook" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Below this line are just scrap notes to write the rest of the rulebook</h1>
-<h2 id="game-concepts">
-<a id="user-content-game-concepts" class="anchor" href="#game-concepts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Concepts</h2>
-<h3 id="units--1">
-<a id="user-content-units--1" class="anchor" href="#units--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Units <a name="user-content-GameConcepts_Units"></a>
-</h3>
-<p>Fleet<br>
-Abilities: Space Cannon (n)</p>
-<h3 id="technologies--1">
-<a id="user-content-technologies--1" class="anchor" href="#technologies--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technologies <a name="user-content-GameConcepts_Technologies"></a>
-</h3>
-<h3 id="action-cards--1">
-<a id="user-content-action-cards--1" class="anchor" href="#action-cards--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Cards <a name="user-content-GameConcepts_ActionCards"></a>
-</h3>
-<p>AC restricted from being played in HSs may be played in the HS of a race whose player gives its permission.
-EffectLocation: Scattered Effect case</p>
-<h3 id="political-cards-">
-<a id="user-content-political-cards-" class="anchor" href="#political-cards-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Political Cards <a name="user-content-GameConcepts_PoliticalCards"></a>
-</h3>
-<h3 id="twilight-council-">
-<a id="user-content-twilight-council-" class="anchor" href="#twilight-council-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Twilight Council <a name="user-content-GameConcepts_TwilightCouncil"></a>
-</h3>
-<h3 id="objective-cards--1">
-<a id="user-content-objective-cards--1" class="anchor" href="#objective-cards--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objective Cards <a name="user-content-GameConcepts_ObjectiveCards"></a>
-</h3>
-<h3 id="trade-goods--1">
-<a id="user-content-trade-goods--1" class="anchor" href="#trade-goods--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Goods <a name="user-content-GameConcepts_TradeGoods"></a>
-</h3>
-<p>Can be spent as resource or influence to complement or completely replace a resource or influence spending</p>
-<h3 id="trade-">
-<a id="user-content-trade-" class="anchor" href="#trade-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade <a name="user-content-GameConcepts_Trade"></a>
-</h3>
-<h3 id="player-orders-">
-<a id="user-content-player-orders-" class="anchor" href="#player-orders-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Player Orders <a name="user-content-GameConcepts_PlayerOrders"></a>
-</h3>
-<p>Cards, effects or other rules may refer to one of the following player orders when (Useful?)</p>
-<h3 id="resource-and-influence-">
-<a id="user-content-resource-and-influence-" class="anchor" href="#resource-and-influence-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resource and Influence <a name="user-content-GameConcept_ResourceAndInfluence"></a>
-</h3>
-<p>[From Mo's rulebook: Resources represent a planet's economic surplus, which can be used by its owner to purchase units and technology. Influence represents a planet's population, knowledge base, and/or political importance. Influence is used to acquire Command Counters, to play certain Action Cards, and to provide vital votes at The Galactic Council.]</p>
-<h3 id="leaders--1">
-<a id="user-content-leaders--1" class="anchor" href="#leaders--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Leaders <a name="user-content-GameConcept_Leaders"></a>
-</h3>
-<p>Fate Roll <a name="user-content-FateRoll"></a></p>
+<h2 id="miscellaneous-rules-">
+<a id="user-content-miscellaneous-rules-" class="anchor" href="#miscellaneous-rules-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miscellaneous Rules <a name="user-content-MiscellaneousRules"></a>
+</h2>
 <ul>
-<li>Admiral</li>
-<li>Diplomat</li>
-<li>General</li>
-<li>Agent <a name="user-content-Agent"></a>
+<li>
+<p>When an effect asks a player to place a Command Counter in a System in which she already has a Command Counter, there is no need to place the second Command Counter.</p>
 </li>
-<li>Scientist</li>
+<li>
+<p>When a player controls a planet without having any units on it, she should place a flag on it so that other players do not mistake the planet as being neutral.</p>
+</li>
 </ul>
-<h2 id="specific-definitions">
-<a id="user-content-specific-definitions" class="anchor" href="#specific-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Specific Definitions</h2>
-<p><a href="#user-content-CombatRoll">Combat Roll</a></p>
-<p>Activated<br>
-<em><strong>Activated System</strong></em><br>
-Technically, "an activated System" is an incomplete statement and should rather be "a System activated by [a player]", but since this would make wordings too long, they simply use "activated System" when the player they refer to can be inferred from the context.<br>
-A System is said to be "activated" by a specific player if it contains a Command Counter of that player.<br>
-<em><strong>Activated Planet</strong></em><br>
+<h2 id="definitions-">
+<a id="user-content-definitions-" class="anchor" href="#definitions-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Definitions <a name="user-content-Definitions"></a>
+</h2>
+<h3 id="activated">
+<a id="user-content-activated" class="anchor" href="#activated" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Activated</h3>
+<p><strong>Activated System</strong><br>
+A System is considered <strong>activated by a player</strong> when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to <strong>activated</strong> and <strong>unactivated</strong> Systems without specifying any player, in which case the player is the one using the effect.
+<strong>Activated Planet</strong><br>
 By extension, a planet is "activated by [a player]" when it is in a System containing a Command Counter of that player.<br>
-<em><strong>Activated Unit</strong></em><br>
+<strong>Activated Unit</strong><br>
 Also by extension, a unit is "activated" when it is in a System containing a Command Counter of its owner.</p>
-<p>Activating a System:<br>
-The main way for a player to activate a System is
-Allegiances: Friendly, Neutral, Hostile</p>
-<p>Hostile Action <a name="user-content-HostileAction"></a>
-Taking control of a Trade Station is not a Hostile Action.</p>
-<ol>
-<li>player moves ships into a system containing ships from another player.</li>
-<li>A player lands grond units or bombards a planet belonging to another planet.</li>
-</ol>
-<p>Invasion (not needed if we change Dackxive Animators so that it doesn't use this term)<br>
-Reinforcements <a name="user-content-Reinforcements"></a></p>
-<blockquote>
-<p>ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location.</p>
-</blockquote>
-<p>Active player</p>
-<p>Troop <a name="user-content-Troop"></a>:<br>
-This term is used to designate either a <a href="#user-content-GroundForce">Ground Force</a>, a <a href="#user-content-ShockTroop">Shock Troop</a> or an <a href="#user-content-Armor">Armor (MU)</a>.</p>
-<p><a href="#user-content-Installation">Installation</a>.</p>
-<p>Speaker <a name="user-content-Speaker"></a>
-The player holding the <strong>Speaker Token</strong> is referred to as the <strong>Speaker</strong>.</p>
-<p>Fleet Supply <a name="user-content-FleetSupply"></a>
-Galaxy (the game board created from System tiles)</p>
-<p>Adjacent Systems <a name="user-content-Adjacency"></a></p>
-<p>Recycle <a name="user-content-Recycle"></a>
-Recycling an Action Card or Political Card means discarding it and drawing another.</p>
-<p>Scuttling <a name="user-content-Scuttling"></a>
-<em>Scuttling</em> a unit means removing it from the board and placing it back in its owner's reinforcements</p>
-<p>Blockade <a name="user-content-Blocade"></a>
-A planet controlled by a player (and by extension a unit on such planet) is <em>blockaded</em> when enemy ships are present in the system (except when friendly ships are also present in the system, for example just before a Space Battle is resolved).</p>
-<h2 id="unit-characteristics-abilities-and-special-rules">
-<a id="user-content-unit-characteristics-abilities-and-special-rules" class="anchor" href="#unit-characteristics-abilities-and-special-rules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unit Characteristics, Abilities And Special Rules</h2>
-<p>Units characteristics</p>
-<ul>
-<li>movement value</li>
-<li>res cost</li>
-<li>prod cap cost</li>
-<li>combat dice</li>
-<li>combat value</li>
-</ul>
-<p>Combat Dice: <a name="user-content-CombatDice"></a> A unit characteristic. The number of combat rolls it performs during the combat rounds of Space Battles (if the unit is a ship) or Invasion Combats (if it is a troop).<br>
-Note that if after all modifiers have been taken into account, a unit would have zero or less Combat Dice, it is considered as having one Combat Dice instead.</p>
-<p>units abilities</p>
-<ul>
-<li>Capacity, and Fighter Capacity of a System <a name="user-content-Capacity_unitAbility"></a>
-</li>
-<li>Deploy Space Mines (<em>n</em>)<a name="user-content-DeploySpaceMines_unitAbility"></a>
-</li>
-<li>Produce Units (<em>n</em>)<a name="user-content-ProduceUnits_unitAbility"></a>
-</li>
-<li>Planetary Shield<a name="user-content-PlanetaryShield_unitAbility"></a>
-</li>
-<li>Bombardment (<em>n</em>)<a name="user-content-Bombardment_unitAbility"></a><br>
-See the description of the <a href="#user-content-Bombardment_InvasionCombatStep">Pre-Combat phase of Invasion Combats</a>.</li>
-<li>Sustain Damage (<em>n</em>)<a name="user-content-SustainDamage_unitAbility"></a><br>
-A unit with the Sustain Damage (<em>n</em>) ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of <em>n</em> hits without being destroyed, and is destroyed if one more <em>hit</em> is assigned to it. For each <em>hit</em> it sustains this way, a unit loses a <a href="#user-content-CombatDice">combat dice</a>. Sustained <em>hits</em> persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the <a href="#user-content-StatusPhase">Status Phase</a>.</li>
-<li>Anti-Fighter Barrage (<em>n</em>)<a name="user-content-AntiFighterBarrage_unitAbility"></a><br>
-During the pre-combat phase of the Space Battles in which this unit participates, it performs <em>n</em> <a href="#user-content-CombatRoll">combat rolls</a>. Hits from these <a href="#user-content-CombatRoll">combat rolls</a> may only be assigned to <a href="#user-content-Fighter">Fighters</a>.</li>
-<li>Invasion Defence (<em>n</em>)<a name="user-content-InvasionDefence_unitAbility"></a><br>
-If this unit is on a planet that is invaded, it performs <em>n</em> combat rolls against the attacking forces.</li>
-</ul>
-<h2 id="game-options--variants">
-<a id="user-content-game-options--variants" class="anchor" href="#game-options--variants" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Options / Variants</h2>
-<p>###Star by Star <a name="user-content-StarByStar"></a>
-Todo
-###Path of Fate <a name="user-content-PathOfFate"></a>
-Each player is dealt her three Race-Specific Objective cards. Only one of these can be scored during each game (during the Objectives step of the Status Phase), but cannot be scored simultaneously with a Secret Objective.</p>
-<h3 id="simultaneous-action-system-">
-<a id="user-content-simultaneous-action-system-" class="anchor" href="#simultaneous-action-system-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Simultaneous Action System <a name="user-content-SimultaneousActionSystem"></a>
+<h3 id="allegiances">
+<a id="user-content-allegiances" class="anchor" href="#allegiances" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Allegiances</h3>
+<p><a href="#user-content-Allegiances">Link</a></p>
+<h3 id="army-">
+<a id="user-content-army-" class="anchor" href="#army-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Army <a name="user-content-Army"></a>
 </h3>
-<p>Todo
-###Ascendancy <a name="user-content-Ascendancy"></a>
-Todo</p>
-<h3 id="2-3-4-players-game-variant">
-<a id="user-content-2-3-4-players-game-variant" class="anchor" href="#2-3-4-players-game-variant" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2-3-4 players game variant</h3>
-<p>Players pick multiple strategy cards
-A player's initiative is the lowest initiative of his SCs
-A player may not Passs before having played all of his Strategy Cards through Strategic Actions.</p>
-<hr>
-<p>I moved the Component Overview section from the top of the rulebook. Not sure it was that helpful, nor if it should be kept in the final product.</p>
-<h3 id="components-overview">
-<a id="user-content-components-overview" class="anchor" href="#components-overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Components Overview</h3>
-<h4 id="systems">
-<a id="user-content-systems" class="anchor" href="#systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Systems</h4>
-<p>[image]<br>
-Every game, these hexagonal tiles will be assembled to create the game board: the galaxy. They represent areas of space and may contain planets or other elements of interest.<br>
-<a href="#user-content-Systems">More details on Systems</a></p>
-<h4 id="units">
-<a id="user-content-units" class="anchor" href="#units" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Units</h4>
-<p>[image]<br>
-These detailed plastic pieces represent the military personnel, shipyards, defence systems, and spaceships that players will command.
-<a href="#user-content-GameConcepts_Units">More details on Units</a></p>
-<h4 id="planet-cards">
-<a id="user-content-planet-cards" class="anchor" href="#planet-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Planet Cards</h4>
-<p>[image]<br>
-Each of these cards corresponds to a planet present in one of the systems. They are used to indicate the ownership over the planets, and whether they have been "exhausted" by their owner.<br>
-<a href="#user-content-Planet">More details on Planets</a></p>
-<h4 id="technology-tree">
-<a id="user-content-technology-tree" class="anchor" href="#technology-tree" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technology Tree</h4>
-<p>[image]<br>
-This tree depicts all the technologies the players can acquire in the game, and help them to keep track of those that they already have.
-<a href="#user-content-GameConcepts_Technologies">More details on Technologies</a></p>
-<h4 id="action-cards">
-<a id="user-content-action-cards" class="anchor" href="#action-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Cards</h4>
-<p>[image]<br>
-These cards are acquired by players throughout the game, and can be used to provide various effects.<br>
-<a href="#user-content-GameConcepts_ActionCards">More details on Action Cards</a></p>
-<h4 id="political-cards">
-<a id="user-content-political-cards" class="anchor" href="#political-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Political Cards</h4>
-<p>[image]<br>
-These cards represent the agendas that the players will vote on at the Twilight Council located on Mecatol Rex.<br>
-<a href="#user-content-GameConcepts_PoliticalCards">More details on Political Cards</a></p>
-<h4 id="objective-cards">
-<a id="user-content-objective-cards" class="anchor" href="#objective-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objective Cards</h4>
-<p>[image of Preliminary, Public Stage1, Public Stage2, Secret and Special objectives]<br>
-In order to win a game of Twilight Imperium, players need to accumulate victory points. This is mostly done by qualifying for the requirements of the Objective Cards.<br>
-<a href="#user-content-GameConcepts_ObjectiveCards">More details on Objective Cards</a></p>
-<h4 id="artifact-tokens">
-<a id="user-content-artifact-tokens" class="anchor" href="#artifact-tokens" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Artifact Tokens</h4>
-<p>[image]<br>
-These tokens are placed either on planets or in space, and give benefits to their controller.<br>
-<a href="#user-content-Artifact">More details on Artifacts</a></p>
-<h4 id="trade-agreement-cards">
-<a id="user-content-trade-agreement-cards" class="anchor" href="#trade-agreement-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Agreement cards</h4>
-<p>[image]<br>
-Each race has some of these cards, and uses them to trade with other races.<br>
-<a href="#user-content-GameConcepts_Trade">More details on Trade</a></p>
-<h4 id="strategy-cards-and-the-high-alert-token-">
-<a id="user-content-strategy-cards-and-the-high-alert-token-" class="anchor" href="#strategy-cards-and-the-high-alert-token-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategy Cards (and the High Alert token) <a name="user-content-StrategyCards"></a>
-</h4>
-<p>[image]<br>
-These cards represent powerful short-term strategies the players can choose from each round, during the <a href="#user-content-StrategyPhase">Strategy Phase</a>. The Warfare (number 6) Strategy Card comes with the High Alert token. They are played through <a href="#user-content-StrategicAction">Strategic Actions</a>.</p>
-<h4 id="bonus-counters">
-<a id="user-content-bonus-counters" class="anchor" href="#bonus-counters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bonus Counters</h4>
-<p>[image]<br>
-These counters are placed on unpicked <a href="#user-content-StrategyCards">Strategy Cards</a> to make them more attractive.</p>
-<h4 id="command-counters">
-<a id="user-content-command-counters" class="anchor" href="#command-counters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Counters</h4>
-<p>[image]<br>
-These counters represent the domestic mandates and logisitics of the races. They are used by players for various actions, such as moving units on the board through <a href="#user-content-TacticalAction">Tactical Actions</a>.</p>
-<h4 id="control-markers-also-called-flags">
-<a id="user-content-control-markers-also-called-flags" class="anchor" href="#control-markers-also-called-flags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control Markers (also called "Flags")</h4>
-<p>[image]<br>
-These markers are used to represent the races in various places</p>
-<h4 id="trade-goods">
-<a id="user-content-trade-goods" class="anchor" href="#trade-goods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Goods</h4>
-<p>[image]<br>
-These tokens represent wealth. They are used as currency, and can be exchanged between players.<br>
-<a href="#user-content-GameConcepts_TradeGoods">More details on Trade Goods</a>.</p>
-<h4 id="the-victory-point-track">
-<a id="user-content-the-victory-point-track" class="anchor" href="#the-victory-point-track" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Victory Point Track</h4>
-<p>[image]
-During the setup of the game, each player places a flag on the Victory Point Track, to track the number of his Victory Points throughout the game.</p>
-<h4 id="the-speaker-token-and-the-rotation-cycler">
-<a id="user-content-the-speaker-token-and-the-rotation-cycler" class="anchor" href="#the-speaker-token-and-the-rotation-cycler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Speaker Token and the Rotation Cycler</h4>
-<p>[image]
-The holder of the Speaker Token (called the Speaker) chooses first his <a href="#user-content-StrategyCards">Strategy Cards</a> during the Strategy Phase, and break ties during the <a href="#user-content-GameConcepts_TwilightCouncil">Twilight Council</a>.<br>
-The Rotation Cycler determine the order</p>
-<h4 id="the-rotation-cycler">
-<a id="user-content-the-rotation-cycler" class="anchor" href="#the-rotation-cycler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Rotation Cycler</h4>
-<h4 id="effects-of-domain-counters-">
-<a id="user-content-effects-of-domain-counters-" class="anchor" href="#effects-of-domain-counters-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Effects of Domain Counters <a name="user-content-DomainCountersEffects"></a>
-</h4>
-<p><em><strong>Note:</strong></em> All Domain Counter units are treated as regular units in respect to combat. Such units can be bombarded, 'converted' or 'captured' just like normal plastic units.</p>
+<p>All the Troops a given player has on the same planet form an <strong>army</strong>.</p>
+<h3 id="blockade-">
+<a id="user-content-blockade-" class="anchor" href="#blockade-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blockade <a name="user-content-Blockade"></a>
+</h3>
+<blockquote>
+<p>If it really necessary to talk about blockaded units?</p>
+</blockquote>
+<p>A player <strong>blockades</strong> enemy planets when she is the only player having ships in the System of the planet. By extension, she also blockades all units present on blockaded planets.</p>
+
+<h3 id="combat-roll">
+<a id="user-content-combat-roll" class="anchor" href="#combat-roll" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Combat Roll</h3>
+<p><a href="#user-content-CombatRoll">Link</a></p>
+<h3 id="capture-">
+<a id="user-content-capture-" class="anchor" href="#capture-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Capture <a name="user-content-Capture"></a>
+</h3>
+<p>Some effects allow a player to <strong>capture</strong> enemy units or Facilities. When this happens, replace them with your own. Captured Space Dock are immediately exhausted.</p>
+<h3 id="fleet-">
+<a id="user-content-fleet-" class="anchor" href="#fleet-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fleet <a name="user-content-Fleet"></a>
+</h3>
+<p>All the ships a given player has in the same System form a <strong>fleet</strong>.</p>
+<h3 id="hostile-act-">
+<a id="user-content-hostile-act-" class="anchor" href="#hostile-act-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hostile Act <a name="user-content-HostileAct"></a>
+</h3>
+<blockquote>
+<p>I renammed "Hostile Action" into "Hostile Act", because "action" is a specific game term but "Hostile Actions" were actually not "action" despite their name, which was confusing.</p>
+</blockquote>
+<p>When a player:</p>
+<ul>
+<li>Move Ships into a System containing enemy Ships (only the Systems in which the Ships end their movement is relevant, not the Systems they moved through).<br>
+Or</li>
+<li>Either land Troops on or assign Ships to bombard an enemy planet.</li>
+</ul>
+<p>She is said to have performed a <strong>Hostile Act</strong> against the player controlling the enemy Ships or planet.</p>
+<h3 id="natural-wealth-">
+<a id="user-content-natural-wealth-" class="anchor" href="#natural-wealth-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Natural Wealth <a name="user-content-NaturalWealth"></a>
+</h3>
+<p>Some effects place Trade Goods on planets working "as <strong>Natural Wealth</strong>".</p>
+<h3 id="reinforcements">
+<a id="user-content-reinforcements" class="anchor" href="#reinforcements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reinforcements</h3>
+<p>The <strong>reinforcements</strong> of a player designate the area in which she keeps all her unused / destroyed units and tokens.</p>
+<h3 id="recycling-">
+<a id="user-content-recycling-" class="anchor" href="#recycling-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Recycling <a name="user-content-Recycle"></a>
+</h3>
+<p><strong>Recycling</strong> an Action Card or Political Card means discarding it and drawing a new one.</p>
+<h3 id="scuttle-">
+<a id="user-content-scuttle-" class="anchor" href="#scuttle-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scuttle <a name="user-content-Scuttle"></a>
+</h3>
+<p><strong>Scuttling</strong> a unit means removing it from the board and placing it back in its owner's reinforcement.</p>
+<h3 id="speaker-">
+<a id="user-content-speaker-" class="anchor" href="#speaker-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Speaker <a name="user-content-Speaker"></a>
+</h3>
+<p>The player holding the <strong>Speaker Token</strong> is referred to as the <strong>Speaker</strong>.</p>
+<h2 id="rule-adjustments-based-on-the-number-of-players-">
+<a id="user-content-rule-adjustments-based-on-the-number-of-players-" class="anchor" href="#rule-adjustments-based-on-the-number-of-players-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rule Adjustments Based On The Number Of Players <a name="user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers"></a>
+</h2>
+<h3 id="4-7-and-8-players">
+<a id="user-content-4-7-and-8-players" class="anchor" href="#4-7-and-8-players" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4, 7 and 8 players</h3>
+<ul>
+<li>The 9th Strategy Card, Prospect, is used.</li>
+</ul>
+<h3 id="3-and-4-players">
+<a id="user-content-3-and-4-players" class="anchor" href="#3-and-4-players" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3 and 4 players</h3>
+<ul>
+<li>Each player picks two Strategy Cards instead of one during the Strateyg Phase. The <em>initiative</em> of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.</li>
+<li>Each player may open one Trade Agreement with herself.</li>
+</ul>
+<h3 id="2-3-and-4-players">
+<a id="user-content-2-3-and-4-players" class="anchor" href="#2-3-and-4-players" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2, 3 and 4 players</h3>
+<ul>
+<li>During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Action, they are discarded buring the Status Phase.</li>
+</ul>
+<h3 id="2-players">
+<a id="user-content-2-players" class="anchor" href="#2-players" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2 players</h3>
+<h4 id="strategy-and-status-phase">
+<a id="user-content-strategy-and-status-phase" class="anchor" href="#strategy-and-status-phase" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategy and Status Phase</h4>
+<ul>
+<li>Each player picks three Strategy Cards instead of one during the Strateyg Phase. The <em>initiative</em> of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.</li>
+</ul>
+<h4 id="assembly">
+<a id="user-content-assembly" class="anchor" href="#assembly" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Assembly</h4>
+<ul>
+<li>When the Assembly (3) Strategy Card is played, after agendas have been chosen for voting, players may secretly spend Trade Goods to gain the same number of votes. players should write the amount of Trade Goods spent alongside their votes, then immediately spend them after votes are revealed.</li>
+<li>After votes are revealed, a die should be rolled for each agenda that received at least one vote, modifying the votes as follow:
+<ul>
+<li>10: +5 votes for the outcome the Speaker voted for</li>
+<li>9: +3</li>
+<li>8: +2</li>
+<li>7: +1</li>
+<li>6: Nothing</li>
+<li>5: Nothing</li>
+<li>4: +1 vote for the outcome the other player voted for</li>
+<li>3: +2</li>
+<li>2: +3</li>
+<li>1: +5
+A player not having placed votes on an agenda may not receive bonus votes from the die on this agenda.</li>
+</ul>
+</li>
+</ul>
+<h4 id="trade">
+<a id="user-content-trade" class="anchor" href="#trade" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade</h4>
+<ul>
+<li>Player may open both of their Trade Agreements with themselves.</li>
+<li>The Trade Strategy Card does not have an option b)</li>
+</ul>
+<h4 id="objectives">
+<a id="user-content-objectives" class="anchor" href="#objectives" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objectives</h4>
+<ul>
+<li>The Voice of the Council Special Objective only gives +3 votes instead of +5.</li>
+<li>Objectives that require spending resources/influence/Trade Goods require spending two times less of each (round up).</li>
+</ul>
+<h4 id="action-cards-1">
+<a id="user-content-action-cards-1" class="anchor" href="#action-cards-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Cards</h4>
+<ul>
+<li>When drawing an Action Card with the "2pX" symbol, it must be recycled immediately.</li>
+</ul>
+<h4 id="race-specific-changes">
+<a id="user-content-race-specific-changes" class="anchor" href="#race-specific-changes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Race-specific changes</h4>
+<ul>
+<li>
+<strong>Mentak</strong> gains 1 Trade Good whenever using her ability to steal Trade Goods.</li>
+<li>When <strong>Xxcha</strong> plays the Diplomacy Strategy Card, she may spend 1 Command Counter from Strategy Allocation and 2 Trade Goods to execute the Primary Ability a second time.</li>
+<li>
+<strong>Hacan</strong> only needs to give 1 Trade Goods to her opponent when using her Commerce Nexus Racial Improvement.</li>
+</ul>
+<h2 id="annex-1-effects-of-domain-counters-">
+<a id="user-content-annex-1-effects-of-domain-counters-" class="anchor" href="#annex-1-effects-of-domain-counters-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Annex 1: Effects of Domain Counters <a name="user-content-DomainCountersEffects"></a>
+</h2>
+<blockquote>
+<p>I improved most of these wordings from their SA version to add precision.</p>
+</blockquote>
+<p>For the general rules regarding Domain Counters, see the <a href="#user-content-DomainCounters">Domain Counter section</a>.</p>
+<p><em><strong>Note:</strong></em> All units created by Domain Counters are treated as regular units for all intents and purposes. </p>
 <p><strong>Peaceful Annexation</strong><br>
 [image]<br>
 <em>The local civilization accepts the annexation into your galactic empire.</em><br>
@@ -3242,6 +3304,110 @@ These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on 
 [image]<br>
 <em>The planet is abundant with natural resources, but the local populace will defend it at all costs.</em><br>
 Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.</p>
+<h2 id="annex-2-variants-and-optional-rules-">
+<a id="user-content-annex-2-variants-and-optional-rules-" class="anchor" href="#annex-2-variants-and-optional-rules-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Annex 2: Variants and Optional Rules <a name="user-content-VariantsAndOptionalRules"></a>
+</h2>
+<h3 id="star-by-star-">
+<a id="user-content-star-by-star-" class="anchor" href="#star-by-star-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Star by Star <a name="user-content-StarByStar"></a>
+</h3>
+<p>Todo</p>
+<h3 id="path-of-fate-race-specific-objectives-">
+<a id="user-content-path-of-fate-race-specific-objectives-" class="anchor" href="#path-of-fate-race-specific-objectives-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Path of Fate (Race Specific Objectives) <a name="user-content-PathOfFate"></a>
+</h3>
+<p>Each player is dealt her three Race-Specific Objective cards. Only one of these can be scored during each game (during the Objectives step of the Status Phase), but cannot be scored simultaneously with a Secret Objective.</p>
+<h3 id="simultaneous-action-system-">
+<a id="user-content-simultaneous-action-system-" class="anchor" href="#simultaneous-action-system-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Simultaneous Action System <a name="user-content-SimultaneousActionSystem"></a>
+</h3>
+<p>Todo</p>
+<h3 id="ascendancy-">
+<a id="user-content-ascendancy-" class="anchor" href="#ascendancy-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ascendancy <a name="user-content-Ascendancy"></a>
+</h3>
+<p>Todo</p>
+<hr>
+<h1 id="below-this-line-are-just-scrap-notes-to-write-the-rest-of-the-rulebook">
+<a id="user-content-below-this-line-are-just-scrap-notes-to-write-the-rest-of-the-rulebook" class="anchor" href="#below-this-line-are-just-scrap-notes-to-write-the-rest-of-the-rulebook" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Below this line are just scrap notes to write the rest of the rulebook</h1>
+<hr>
+<p>I moved the Component Overview section from the top of the rulebook. Not sure it was that helpful, nor if it should be kept in the final product.</p>
+<h3 id="components-overview">
+<a id="user-content-components-overview" class="anchor" href="#components-overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Components Overview</h3>
+<h4 id="systems-1">
+<a id="user-content-systems-1" class="anchor" href="#systems-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Systems</h4>
+<p>[image]<br>
+Every game, these hexagonal tiles will be assembled to create the game board: the galaxy. They represent areas of space and may contain planets or other elements of interest.<br>
+<a href="#user-content-Systems">More details on Systems</a></p>
+<h4 id="units-2">
+<a id="user-content-units-2" class="anchor" href="#units-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Units</h4>
+<p>[image]<br>
+These detailed plastic pieces represent the military personnel, shipyards, defence systems, and spaceships that players will command.
+<a href="#user-content-GameConcepts_Units">More details on Units</a></p>
+<h4 id="planet-cards-1">
+<a id="user-content-planet-cards-1" class="anchor" href="#planet-cards-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Planet Cards</h4>
+<p>[image]<br>
+Each of these cards corresponds to a planet present in one of the systems. They are used to indicate the ownership over the planets, and whether they have been "exhausted" by their owner.<br>
+<a href="#user-content-Planet">More details on Planets</a></p>
+<h4 id="technology-tree-1">
+<a id="user-content-technology-tree-1" class="anchor" href="#technology-tree-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technology Tree</h4>
+<p>[image]<br>
+This tree depicts all the technologies the players can acquire in the game, and help them to keep track of those that they already have.
+<a href="#user-content-GameConcepts_Technologies">More details on Technologies</a></p>
+<h4 id="action-cards-2">
+<a id="user-content-action-cards-2" class="anchor" href="#action-cards-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Action Cards</h4>
+<p>[image]<br>
+These cards are acquired by players throughout the game, and can be used to provide various effects.<br>
+<a href="#user-content-GameConcepts_ActionCards">More details on Action Cards</a></p>
+<h4 id="political-cards-1">
+<a id="user-content-political-cards-1" class="anchor" href="#political-cards-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Political Cards</h4>
+<p>[image]<br>
+These cards represent the agendas that the players will vote on at the Twilight Council located on Mecatol Rex.<br>
+<a href="#user-content-GameConcepts_PoliticalCards">More details on Political Cards</a></p>
+<h4 id="objective-cards-1">
+<a id="user-content-objective-cards-1" class="anchor" href="#objective-cards-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objective Cards</h4>
+<p>[image of Preliminary, Public Stage1, Public Stage2, Secret and Special objectives]<br>
+In order to win a game of Twilight Imperium, players need to accumulate victory points. This is mostly done by qualifying for the requirements of the Objective Cards.<br>
+<a href="#user-content-GameConcepts_ObjectiveCards">More details on Objective Cards</a></p>
+<h4 id="artifact-tokens">
+<a id="user-content-artifact-tokens" class="anchor" href="#artifact-tokens" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Artifact Tokens</h4>
+<p>[image]<br>
+These tokens are placed either on planets or in space, and give benefits to their controller.<br>
+<a href="#user-content-Artifact">More details on Artifacts</a></p>
+<h4 id="trade-agreement-cards">
+<a id="user-content-trade-agreement-cards" class="anchor" href="#trade-agreement-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Agreement cards</h4>
+<p>[image]<br>
+Each race has some of these cards, and uses them to trade with other races.<br>
+<a href="#user-content-GameConcepts_Trade">More details on Trade</a></p>
+<h4 id="strategy-cards-and-the-high-alert-token-">
+<a id="user-content-strategy-cards-and-the-high-alert-token-" class="anchor" href="#strategy-cards-and-the-high-alert-token-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategy Cards (and the High Alert token) <a name="user-content-StrategyCards"></a>
+</h4>
+<p>[image]<br>
+These cards represent powerful short-term strategies the players can choose from each round, during the <a href="#user-content-StrategyPhase">Strategy Phase</a>. The Warfare (number 6) Strategy Card comes with the High Alert token. They are played through <a href="#user-content-StrategicAction">Strategic Actions</a>.</p>
+<h4 id="bonus-counters-1">
+<a id="user-content-bonus-counters-1" class="anchor" href="#bonus-counters-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bonus Counters</h4>
+<p>[image]<br>
+These counters are placed on unpicked <a href="#user-content-StrategyCards">Strategy Cards</a> to make them more attractive.</p>
+<h4 id="command-counters-1">
+<a id="user-content-command-counters-1" class="anchor" href="#command-counters-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Counters</h4>
+<p>[image]<br>
+These counters represent the domestic mandates and logisitics of the races. They are used by players for various actions, such as moving units on the board through <a href="#user-content-TacticalAction">Tactical Actions</a>.</p>
+<h4 id="control-markers-also-called-flags">
+<a id="user-content-control-markers-also-called-flags" class="anchor" href="#control-markers-also-called-flags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control Markers (also called "Flags")</h4>
+<p>[image]<br>
+These markers are used to represent the races in various places</p>
+<h4 id="trade-goods-1">
+<a id="user-content-trade-goods-1" class="anchor" href="#trade-goods-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trade Goods</h4>
+<p>[image]<br>
+These tokens represent wealth. They are used as currency, and can be exchanged between players.<br>
+<a href="#user-content-GameConcepts_TradeGoods">More details on Trade Goods</a>.</p>
+<h4 id="the-victory-point-track">
+<a id="user-content-the-victory-point-track" class="anchor" href="#the-victory-point-track" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Victory Point Track</h4>
+<p>[image]
+During the setup of the game, each player places a flag on the Victory Point Track, to track the number of his Victory Points throughout the game.</p>
+<h4 id="the-speaker-token-and-the-rotation-cycler">
+<a id="user-content-the-speaker-token-and-the-rotation-cycler" class="anchor" href="#the-speaker-token-and-the-rotation-cycler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Speaker Token and the Rotation Cycler</h4>
+<p>[image]
+The holder of the Speaker Token (called the Speaker) chooses first his <a href="#user-content-StrategyCards">Strategy Cards</a> during the Strategy Phase, and break ties during the <a href="#user-content-GameConcepts_TwilightCouncil">Twilight Council</a>.<br>
+The Rotation Cycler determine the order</p>
+<h4 id="the-rotation-cycler">
+<a id="user-content-the-rotation-cycler" class="anchor" href="#the-rotation-cycler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Rotation Cycler</h4>
 <hr>
 
 
