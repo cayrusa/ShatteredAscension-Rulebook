@@ -2403,6 +2403,7 @@ Then follow this procedure: -->
 	Note that the player that chose *must* place a bid on her first turn (but she can bid 0), and that no player may place a bid she could not afford to pay later. Also, as an exception to the [Fleet Supply](#FleetSupply) rule, players *are* allowed to take control via this process of a fleet that would put them in violation of their Fleet Supply (they still have to destroy ships to comply with Flet Supply afterwards).
 
 	Repeat this process until all the fleets and planets (except the capital planet) of the surrendering player have been attributed to other players.
+
 8. **Elimination:**  
 	Finally, the surrendering player is *eliminated* (follow the [elimination procedure](#Elimination)), with the exception that the Trade Agreements she had with other players stay open until the capital planet is lost (or until her trade partners perform [Hostile Acts](#HostileAct_def) against the capital planet).
 
@@ -2454,8 +2455,6 @@ The maximum number of Victory Points any non-winning player can have is 2 Victor
 
 ## General Definitions<a name="GeneralDefinitions"></a> 
 
-<!-- > Change from base SA: Added the definition of *hostile action* for compatibility with base SA, but *hostile act* is a simpler definition because there is actually no need to tie the concept of actions in it.
- --> 
 - [Activated](#Activated) <a name="Activated_def"></a>  
 	- [Activated System](#Activated_def)  
 	A System is considered **activated by a player** when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to **activated** and **unactivated** Systems without specifying any player, in which case the player is the one using the effect.   
@@ -2463,6 +2462,7 @@ The maximum number of Victory Points any non-winning player can have is 2 Victor
 	A planet is **activated by a player** when it is in a System activated by that player.  
 	- [Activated Unit](#Activated_def)  
 	A unit is **activated** when it is in a System activated by its owner.
+
 - [Adjacent/Adjoining](#adjacentadjoining_def) <a name="adjacentadjoining_def"></a>  
 	See [here](#AdjoiningAdjacent).
 - [Agenda](#Agenda_def) <a name="Agenda_def"></a>  

@@ -177,7 +177,7 @@ html h6 {
   color: #b58900;
 }
 
-/* My Changes (Start)*/
+/********* My Changes (Start) *********/
 .markdown-body .headerlink {
   /*So that the link icons that appear besides title are white instead of dark*/
   color: #fff;
@@ -223,6 +223,7 @@ h6{
 }
 
 
+/*To have indented sections*/
 h4,
 h5{
   margin-left: 25px;
@@ -232,14 +233,16 @@ h6 {
   margin-left: 50px;
 }
 
+div {
+  margin-left: 25px;
+}
+
+
 .markdown-body h6 {
 /*  font-size: 1em;*/
   color: #b58900;
 }
 
-div {
-  margin-left: 25px;
-}
 
 /*Table background and borders (Start)*/
 
