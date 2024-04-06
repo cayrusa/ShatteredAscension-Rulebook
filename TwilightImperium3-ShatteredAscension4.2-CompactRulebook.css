@@ -32,7 +32,8 @@ html * {
 body {
   min-width: 32em;
   max-width: 52em;
-  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 p {
   font-weight: lighter;
@@ -190,6 +191,17 @@ blockquote>:first-child {
 
 blockquote>:last-child {
   margin-bottom: 0px;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+	color: #fff;
+	vertical-align: middle;
+	visibility: hidden;
 }
 
 /* My Changes (End)*/

@@ -1,4 +1,6 @@
-# Shattered Ascension Compact Rulebook  - v8_2017-03-26
+
+
+# Shattered Ascension Compact Rulebook  - v9_2017-04-04
 
 #### Notes
 ***Contradictions***  
@@ -8,15 +10,7 @@ If the text of a component (card, technology,...) would contradict with the rule
 A player subject to negative effects (for example discard *3* Trade Goods) must fulfil them as far as able (if she only has *2* Trade Goods, she must discard them).
 
 ## Overview
-<!---
-### Game Overview
--->
 In a game of Twilight Imperium, 2 to 8 players take the role of varied great races fighting for supremacy in the galaxy after the ruling Lazax Empire has fallen. The game is played over several Rounds, during which players strive to fulfil Objectives in order to score Victory Points. The first player to reach a predetermined number of Victory Points is declared the winner and the new Empress of the Galaxy.
-
-<!---	
-### Goal of the Game (Overview)
-A game of Shattered Ascension is a succession of Rounds. At the end of each Round, players can acquire Victory Points by claiming various Objectives. If a player ends a Round with at least as many Victory Points as the limit that was decided at the beginning of the game (usually 10), she is declared winner.
--->
 
 ## Setup
 *Note: players may sit now, but will likely have to change seat at some point.*
@@ -221,55 +215,40 @@ During this step, players regain control of any planet that is in their Home Sys
 > New in SA  
 
 Each player must place face down a Political Card from their hand in the Twilight Council, and mark it with one of their flags. If the Twilight Council concurs this round, the agendas to be voted on will be chosen among these cards.  
-After all players have placed their card, they are revealed and the game goes on.
+After all players have placed their card, they are revealed and the game goes on.  
 
 ***Additional rules:***
 
 * At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do it as many times as they want.
 * Players that already have a Political Card in the Twilight Council must either keep it in place (by simply turning it face down) or retake it into their hand and replacing it with another Political Card.
 * Instead of placing a card from their hand, players may place the first card of the Political Cards deck, without looking at it.
-
-<!--- * Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
-
-During this step, players will place or update their Political Card in the Twilight Council. If the Twilight Council concur this round, the agendas to be voted on will be chosen among these cards.
-
-At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do it as many times as they want.
-
-***Sequence of this step:***
-
-* Players that already have a Political Card in the Twilight Council may choose not to change it. When doing so, they simply flip the card face down instead of placing a new Political Card.  
-Else they must retake their card into their hand 
-* Then each player must place a face down Political Card from their hand into the Twilight Council, and place one of their flag on it.  
-Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
-* Finally, when all players have done so, reveal all Political Cards in the Twilight Council.
-
-* Players that already have a Political Card in the Twilight Council must retake it into their hand.
-* Players may, as many times as they want, discard two Political Cards from their hand to draw another Political Card.
-* Then each player must place a face down Political Card from their hand into the Twilight Council, and place one of their flag on it.  
-Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
-* Finally, when all players have done so, reveal all Political Cards in the Twilight Council. -->
+* After all cards have been revealed and if there are less than 5 players, reveal additional Political Cards from the deck so that there are 5 revealed cards in the Twilight Council area. Discard these cards at the end of the round if they were not voted on.
 
 <a name="StrategyCardPicking">
 #### Strategy Card Picking
 </a>
 Starting with the Speaker and proceeding in the order defined by the Rotation Cycler, each player must pick one of the available Strategy Cards (that was not already picked by another player). She will be able to use it during the upcoming Action Phase.
 
-<!-- LINK for Bonus Counter -->  
+[Bonus Counter image]  
 After that, place a **Bonus Counter** on each of the unpicked Strategy Cards. These Bonus Counters stacks from one Round to the next, and increase the value of the Strategy Cards are they are on: When a player picks a Strategy Card, she converts each present Bonus Counter into either a Command Counter or a Trade Goods that she adds to her race sheet.
 
 <a name="ActionPhase">
 ### Action Phase
 </a>
-During the Action Phase, players will take Turns in the [Initiative Order](#InitiativeOrder) (see below). At her Turn, a player must perform one Action, which can be either a [Strategic Action](#StrategicAction), a [Tactical Action](#TacticalAction), or [Passing](#Passing).  Once a player has taken an Action, her Turn ends and the Turn of the next player in the [Initiative Order](#InitiativeOrder) starts. Players that have not yet passed will keep taking turns, until all of them have Passed and the Action Phase ends.
 
-A player currently in the process of taking her turn (i.e. performing an Action) is called the **active player**.
+During the Action Phase, each player will take an Action, that can be either a [Strategic Action](#StrategicAction), a [Tactical Action](#TacticalAction), or [Passing](#Passing). The order in which players can take their Action is given by their [initiative](#Initiative), the player with the lowest initiative being the first to take an Action.  
+This sequence is repeated until all players have Passed, at which point the Action Phase ends and the Status Phase begins.
 
-<a name="InitiativeOrder">
-***Initiative Order:*** </a>  
-Each Strategy Card has an initiative number printed on it. The **initiative** of each player is the initiative number of her Strategy Card. The Initiative Order simply orders players from lowest to highest initiative.
+<a name="Initiative">
+Initiative
+</a>  
+The **initiative** of a player is the number printed on his Strategy Card.
 
-***"as an action":***  
-Some effects in the game allow players to do things "as an action". This means that using such effects uses up a Turn and is done instead of another Action.
+<a>Active Player</a>  
+A player currently taking an Action is called the **active player**.
+
+<a>"as an action"</a>  
+Some effects in the game allow players to do things "as an action". This means that using such effects is done instead of taking an Action during the Action Phase.
 
 <a name="Passing">
 #### Passing
@@ -343,17 +322,7 @@ For each friendly ship she wants to move, the active player has to plot a legal 
 ***b) Executing movements***  
 </a>
 
-> I didn't want to explain the whole thing about wormhole Space Mines and how you can cross two different Mines that are on the two ends of the same wormhole but you're only sustaining the mines once because you know it's actually the same border, except it's not a border because a wormhole links multiple systems together... So I just removed wormhole Space Mines. If someone has a suggestion to explain them clearly, concisely and in an intuitive manner, I'm all ear. Until then, no wormhole Space Mines.
-
-*  The active player moves all ships according to their trajectory, up until they either reach its end in the just activated System, or would cross a border containing at least one non-friendly Space Mine. These ships may [pick up cargo](#PickingUpCargo) from the traversed Systems (but not land or drop any cargo).  
-*  The active player [resolves all the Space Mines](#ResolvingSpaceMine) that stopped at least one ship, in the order of her choice. Note that only one Space Mine per border will effectively be resolved, as resolving a Space Mine removes all the other non-friendly Space Mines on the same border.
-*  Repeat the two previous bullet-points until all ships with a trajectory are either destroyed or reached the System just activated.
-
-<a name="ResolvingSpaceMine">
-***Resolving a Space Mine*** 
-</a>  
-Roll a die for each non-Fighter ship that is present at the Space Mine being resolved. For each results of 8+, the owner of the ships must assign a hit to one of these non-Fighter ships.  
-Then remove **all** (not just the one resolved) non-friendly Space Mines at the same border as the Space Mine just resolved.
+The active player moves all ships according to their trajectory, up until they either reach its end in the just activated System. These ships may [pick up cargo](#PickingUpCargo) from the traversed Systems (but not land or drop any cargo).  
 
 <a name="PickingUpCargo">
 ***Picking up cargo***
@@ -414,21 +383,13 @@ The active player must resolve the Domain Counters present on the planet (if the
 	* c-2) The planet **does not contain any enemy troop and PDS**:  
 	The ships assigned to this planet [bombard](#Bombardment_unitAbility) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
 
-
-<!---
-	* c-1) The planet **contains at least one enemy troop or PDS**:  
-	Resolve an [Invasion Combat](#InvasionCombats) on this planet.
-	* c-2) The planet **does not contain any enemy troop and PDS**:  
-	The ships assigned to this planet may [bombard](#) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
--->
-
 ***7) Production***  
 Note: All the resources that the active player decides to spend during this step may be added up and spent at once at the end of the step. The total amount of resources that must be spend is rounded up. 
 
 > Ditched the "at least one Cruiser -> at most 2 Space Mines". Let's be modular. Each unit with the Deploy Space Mines (*n*) ability may deploy up to *n* Space Mines.
 
 * **Deploy Space Mines**:  
-The active player may deploy a number of Space Mines in the just activated System up to the number of [Deploy Space Mines](#DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy two of them). Each Space Mine costs two resources and must be placed on one of the borders of the System (Wormholes are not borders)  
+The active player may deploy a number of [Space Mines](#SpaceMines) in the just activated System up to the number of [Deploy Space Mines](#DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy two of them). Each Space Mine costs two resources and must be placed on one of the borders of the System (Wormholes are not borders). Place a flag of the active player on each Space Mine built to indicate their ownership.  
 >There is a problem with the Arborec racial that gives them production capacity for their Ground Forces. As it currently stands, their *planets* get the production capacity, which just does not work well with the Space Dock-centric production model of this rulebook. I could define planets with production capacity, but that would be a lengthy rule (to clarify what happens when there is a Space Dock on the same planet, and what happens when this Space Dock cannot produce units for some reason) for a single use-case. So I think that it would be the job of the text of the racial ability to clarify these issues itself.  
 
 * **Produce units**:  
@@ -482,8 +443,6 @@ After the Strategy Phase and the Action Phase comes the Status Phase. During thi
 ***1) Claim Objectives***  
 
 Starting with the Speaker and following the Rotation Cycler, players may claim objectives to gain Victory points, eventually allowing them to win the game.
-
-<!--- In this step, players claim objectives, which gives them Victory Points, eventually allowing them to win the game. -->
 
 **Claiming an Objective**  
 In order to claim an objective, a player must satisfy the requirements written on it, and not have already claimed it in the past (whether other players have already claimed it or not does not matter). The player then places a flag on the objective, and advances her flag on the Victory Point Track by the number of Victory Points granted by the objective.
@@ -572,9 +531,11 @@ Instead of refreshing a planet at this step, players may either:
 
 ***6) Receive 1 Action Card, 1 Political Card and 2 Command Counters***
 
-Starting with the Speaker and following the Rotation Cycler, each player draws one [Action Card](#GameConcepts_ActionCards), one [Political Card](#GameConcepts_PoliticalCards), and receives two [Command Counters](#GameConcept_CommandCounter).
+Starting with the Speaker and following the Rotation Cycler, each player draws one [Action Card](#GameConcepts_ActionCards), one [Political Card](#GameConcepts_PoliticalCards), and receives two [Command Counters](#CommandCounters).
 
+<a name="StatusPhase_ReallocateCommandCountersStep">
 ***7) Reallocate Command Counters***
+</a>
 
 Starting with the Speaker and following the Rotation Cycler, each player may redistribute his Command Counters between the Command Pool, Fleet Supply and Strategy Allocation areas of her race sheet. 
 
@@ -610,10 +571,9 @@ The Space Battle sequence:
 	1.b) Other Pre-Combat effects
 
 	2) Combat Round
-	2.a) Announce Retreats
-	2.b) Perform Combat Rolls
-	2.c) Assign Hits
-	2.d) Execute Retreats
+	2.a) Perform Combat Rolls
+	2.b) Assign Hits
+	2.c) Execute Retreats
 
 	Repeat 2) until the Space Battle ends
 
@@ -637,23 +597,19 @@ First both sides use the [Anti-Fighter Barrage abilities](#AntiFighterBarrage_un
 After the Anti-Fighter Barrages, all other pre-combat effects are resolved. All pre-combat [combat rolls](#CombatRoll) granted by these effects are performed simultaneously, then the attacker assigns to her units the hits obtained by the defender, before the defender does the same with the attacker's hits (see [assigning a hit](#AssigningAHit)).  
 
 ### 2) Space Battle Combat Round  
-#### 2.a) Announce Retreats
-At this step, the defender may choose to announce a retreat. If she does not announce a retreat, then the attacker may announce a retreat. For now, these are just announcements, the actual retreats are executed at a later step of the Combat Round.
-
-#### 2.b) Perform Combat Rolls  
+#### 2.a) Perform Combat Rolls  
 Each ship in the System of the Space Battle performs as many [Combat Rolls](#CombatRoll) as its [Combat Dice](#CombatDice) characteristic. All dice are rolled simultaneously.
 
-#### 2.c) Assign Hits  
+#### 2.b) Assign Hits  
 First, the **attacker** must assign to her ships the hits obtained by the **defender**. Then the defender does the same with the attacker's hits.
 
-#### 2.d) Execute Retreats  
-If a player announced a retreat previously in the Combat Round, **and there are still ships from both the attacker and the defender in the System of the Space Battle** (else the retreat is cancelled), then she must now designate  a destination System for the retreat, called the **Retreat System**, satisfying the following:
+#### 2.c) Retreat
+Skip this step if either side has no remaining ships in the System.
 
-* The Retreat System does not contain enemy ships
-* There is no non-friendly Space Mines between the Retreat System and the System of the Space Battle.
-* If the System of the Space Battle is activated, then the retreating player must spend a Command Counter from [Strategy Allocation](#StrategyAllocation) in order to choose an unactivated System as the Retreat System.
+At this step, the attacker may announce a retreat (see below). Then the defender may choose to immediately conduct a retreat. If the defender does not retreat, the attacker may conduct the announced retreat.
+In order to conduct (or announce) a retreat, a player must choose an adjacent system that does not contain enemy ships. The retreat is conducted by moving the fleet to the destination system and activating it from reinforcements.
 
-If no possible Retreat System exists, the retreat is cancelled. Else, the retreating player must place one of her Command Counter from [reinforcements](#Reinforcements) in the Retreat System and move all of her ships from the System of the Space Battle to this System.
+Exception; If the retreating fleet is *activated*, and the destination system is *not*, the activation must instead be paid from Strategy Allocation.
 
 <a name="InvasionCombats">
 ## Invasion Combats
@@ -706,6 +662,8 @@ First, the **attacker** must assign to her troops the hits obtained by the **def
 
 The hexagons that make up the galaxy map are called Systems. There are three types of Systems: Home Systems, Special Systems and Regular Systems.  
 
+**Planetary Systems** are Systems that contain at least one planet.
+
 ### Control of a System
 A player **controls** a System if she has at least one ship in it and controls all of its planets.
 
@@ -745,7 +703,6 @@ Each race has one of these Systems, that contain the race's home worlds and cons
 * Ships inside a Nebula have a movement value of 1 that cannot be increased by any effect.
 * During Space Battles in a Nebula, the defending fleets receives +1 to all its combat rolls.
 
-
 #### Supernova
 [image]  
 
@@ -753,6 +710,8 @@ Each race has one of these Systems, that contain the race's home worlds and cons
 * Ships may not move through a Supernova.
 
 #### Gravity Rift
+> Different wording for the first Gravity Rift effect to make it clear that ships with 1 move starting adjacent to it can move through it in a single movement (not in straight line)  
+
 [image]  
 
 * Moving through a Gravity Rift costs 1 movement instead of 2, unless moving in a straight line.
@@ -839,6 +798,26 @@ These tokens are placed on the border between two Systems.
 * Ships may not move through Asteroid Belts
 * The Space Cannon ability may not fire through an Asteroid Belt.
 
+<a name="SpaceMines">
+#### Space Mines
+</a>
+[image]
+
+Space Mines are a type of border tokens. They are built by ships with the [Deploy Space Mines ability](#DeploySpaceMines_unitAbility) and belong to the player that built them.
+
+***Simple rule:***  
+*This rule should be enough to cover most cases.*
+
+After the ships of a player have moved through a border containing at least one non-friendly Space Mine token, she must roll one die for each non-Fighter ships that crossed the border. For each results of 8+, she must assign a hit to one of these non-Fighter ships.  
+Then remove **all** (not just the one resolved) non-friendly Space Mines at the same border as the Space Mine just resolved.
+
+***Advanced rule:***  
+*This rule is here to deal with the most complicated situations involving multiple Space Mines.*
+
+* Move each moving ship according to their trajectory, up until they either reach its end, or would cross a border containing at least one non-friendly Space Mine.
+* The owner of the ships then resolve (see the simple rule) all the Space Mines that stopped at least one ship, in the order of her choice.
+* Repeat the two previous bullet points until all ships are either destroyed or finished their movement.
+
 ### Wormholes
 [image]
 >TI3->SA: Wormholes make systems adjacent **for all purposes**.  
@@ -850,12 +829,12 @@ Two Systems containing wormholes of the same type are considered adjacent for al
 
 #### Wormhole tokens
 Wormhole Tokens have different Wormholes printed on each side of the token.
-At the end of an action in which at least one ship moved through such Wormhole, the token is flipped, changing the type of the Wormhole.
+At the end of an action in which at least one ship moved through such Wormhole from the System containing the Wormhole to another System (and only in this direction), the token is flipped, changing the type of the Wormhole.
 
 #### Definitions
 ***Stable Wormholes*** are Wormholes that are directly printed on a tile.
 
-***Unstable Wormholes*** are all the Wormholes that are *not* printed on a tile. (Wormholes from [Domain Counters](#DomainCounters), Wormhole Tokens...)
+***Unstable Wormholes*** are all the Wormholes that are *not* printed on a tile. (Wormhole Tokens, Wormholes from [Domain Counters](#DomainCounters)...)
 
 <a name="Artifact">
 ### Artifacts
@@ -922,6 +901,9 @@ If multiple Domain Counters are at the same location (planet or space), follow t
 * If multiple Domain Counters of the same colour are present, The player whose units triggered the resolution chooses in which order they are resolved.
 * If after resolving a Domain Counter at a given location, the units that triggered the Domain Counter resolution are no longer present (because they were destroyed during the resolution, for example), then the other Domain Counters at the same location are not resolved and stay where they were.
 
+#### Custodian of Mecatol Rex
+[image]
+These two Domain Counters have a different appearance and are sometimes used to protect the Mecatol Rex planet from early attacks. They behave exactly like their normal counterparts.
 
 <a name="OtherGameConceptsAndRules">
 ## Other Game Concepts and Rules
@@ -936,6 +918,109 @@ Throughout a game, players will need to spend *resources* and *influence* for ma
 * Exhausting a planet provides either as many resources as its resource value, or as many influence as its influence value, but not both. The player controlling the planet decides.  
 * It is not possible to use only a portion of the resources/influence of a planet when exhausting and save the rest for later. Planets always provides the full values when they are exhausted.
 * An exhausted planet may not be exhausted again until it is [refreshed](#RefreshedAndExhaustedStates) by another effect.
+
+<a name="CommandCounters">
+### Command Counters
+</a>
+[image of a Command Counter, with both sides]
+
+Each player has a number of Command Counters. They are used for various purposes, which this section will explain. During the game, Command Counters can exist either in a player's reinforcements, on one of three dedicated zones of his race sheet, or in systems of the galaxy.
+
+Whenever a player receives or gain a Command Counter, he must place it on his race sheets in one of the three following areas (she chooses which):
+
+* Command Pool
+* Fleet Supply
+* Strategy Allocation
+
+
+Command Counters may not be moved from one area to another, except during the  [Reallocate Command Counters step](#StatusPhase_ReallocateCommandCountersStep)  of the Status Phase.
+
+<a name="CommandPool">
+#### Command Pool
+</a>
+The Command Counters in the Command Pool are used to perform Tactical Actions. If a player does not have any Command Counter in her Command Pool, she may not perform Tactical Actions.
+
+<a name="FleetSupply">
+#### Fleet Supply
+</a> 
+> I changed the part about how to handle Fleet Supply excess. Instead of having both:  
+> * "A player may never move units, build units, or otherwise acquire units in any system so that the number of ships herein (again, excluding Fighters) exceed the number of Command Counters in his Fleet Supply area. "  
+> * AND  
+> * "If, for any reason, the number of ships in a system should exceed the number of Command Counters in a player's Fleet Supply, the owner of those ships must immediately remove enough ships from the system (by placing them back with his reinforcements) until the number of ships is again in compliance with the number of Command Counters in his Fleet Supply area. "  
+>  I said that you must destroy the ships that were added last and caused the Fleet Supply excess.
+
+Command Counters placed in Fleet Supply must be placed with the "fleet" side up.  
+The number of Command Counters in a player's Fleet Supply is her **Fleet Supply**: the maximum number of non-Fighter ships she may have in any System at any time.  
+
+If a player has more non-Fighter ships in a System than her Fleet Supply the ships that were added last and caused the violation must be immediately scuttled. For example, if a player has a Fleet Supply of 2, and moves a non-Fighter ship into a System where she already has two non-Fighter ship, she must destroy the ship she just moved (she may not destroy one of the ships that were already in the System).
+
+The Fleet Supply constraints is *not* checked while ships are moving, but is checked right after all ships have finished their movement.
+
+It is important to note that the **Fleet Supply** is a constraint on the number of non-Fighter ship of fleets, not on the number of fleets. For example, a player with 3 Fleet Supply may have as many fleets as she wants (up to one per System!), but none of these fleets may have more than 3 non-Fighter ships.
+
+<a name="StrategyAllocation">
+#### Strategy Allocation
+</a>  
+Command Counters in the Strategy Allocation are spent for using various effects. Most notably the Secondary Abilities of Strategy Cards require the spending of a Command Counter from Strategy Allocation in order to be used.
+
+### Action Cards
+> Cut the unnecessary (in my opinion) "You can't play two Action Cards of the same name at the same situation/unit".
+> Removed the "If a player at 7 cards is about to draw additional cards, he should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied.
+
+[image]  
+Throughout the game, players will come into possessions of Action Cards that they will add to their hand.  
+
+***Key Points:***  
+
+* **Timing:** Each Action Card has a specified timing at which it can be played, indicating by the "Play:" label.
+* **"As an Action":** Action Cards with the "As an action" timing are played instead of taking an action.
+* **Secret:** Players may not show their Action Cards to others.
+* **Hand limit:** A player may not have more than 7 Action Card in hand. If that is the case, she must discard Action Cards from her hand until she has 7.
+
+### Component Limitations
+There is no limit to the number of Command Counters, flags, Trade Goods and units players can have. You can use any reasonable object to replace them if you would run out.  
+Supplement cardboard tokens exist for Fighters and Ground Forces.
+
+Exception: Players are still limited to 3 War Suns each.
+
+### The Twilight Council and the Political Cards
+
+**Agenda**  
+Refers to the Political Cards that were placed in the Twilight Council zone during the Strategy Phase.
+
+The Twilight Council concurs as part of the Assembly (3) Strategy Card Primary Ability.  
+During this Primary Ability, the active player must choose a number of agendas to be voted on (see the Strategy Card), and select the order in which they will be resolved after being voted on.
+
+#### Voting
+
+1. Each player calculates how many votes she has, by summing the influence values of all her *unexhausted* planets and potentially adding bonus votes granted by other effects.
+If a player would have 0 votes, she gets 1 vote.
+2. Players debate, threaten, lure, bribe or convince each other. Remember that no promises are binding.
+3. Players take a piece of paper and a pen, and secretly write their votes. They must split their votes between the agendas and may not vote for two different outcomes of the same agenda, but they are not required to use all of their votes.  
+For example, in order to place 3 votes on the FOR outcome of an agenda, a player would write: "NameOfTheAgenda: For 3" on his sheet.  
+4. All vote sheets are collected and votes are tallied. Then the agendas are resolved according to the outcome that got the more votes.
+
+***Ties***  
+If multiple outcomes of the same agenda receive the same number of votes, the tie is broken by the [Speaker](#Speaker).  
+Exception: an agenda that does not receive any vote is discarded without effect.
+
+#### Political Cards keywords
+***"Elect"***  
+Political Cards with the "elect" keywords ask the player to elect someone or something (depending on the card). The subject getting the most votes will be elected.
+
+***"For or Against"***  
+Political Cards with the "For or Against" keyword have only two outcomes: *For* and *Against*. The outcome receiving the more votes will be resolved.
+
+***"Law"***  
+Political Cards with the "Law" keyword represent permanent changes and will stay active after they were voted on.  
+**Exception:** A "For or Against" Law of which the Against outcome is resolved does not stay active and is discarded.
+
+<a name="VoiceOfTheCouncil">
+#### Voice of the Council
+</a>
+[image]  
+After the agendas being voted on have been designated and their resolution order has been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council Special Objective to the agendas being voted on.  
+Voice of the Council is treated as a Law with the "elect player" keyword *for the duration of the vote* (it stops being considered as a Political Card after it). The player including it chooses where it is placed in the resolution order.
 
 ***  
 # Below this line are just scrap notes to write the rest of the rulebook
@@ -961,9 +1046,7 @@ EffectLocation: Scattered Effect case
 <a name="GameConcepts_TwilightCouncil">
 ### Twilight Council
 </a>
-<a name="VoiceOfTheCouncil">
-#### Voice of the Council
-</a>
+
 
 <a name="GameConcepts_ObjectiveCards">
 ### Objective Cards
@@ -979,13 +1062,6 @@ Can be spent as resource or influence to complement or completely replace a reso
 ### Player Orders
 </a>
 Cards, effects or other rules may refer to one of the following player orders when (Useful?)
-
-<a name="GameConcept_CommandCounter">
-### Command Counters
-</a>
-<a name="FleetSupply">Fleet Supply</a>  
-<a name="StrategyAllocation">Strategy Allocation</a>  
-When receiving a Command Counter, the player can place it either in Command Pool, Fleet Supply or Strategy Allocation.
 
 <a name="GameConcept_ResourceAndInfluence">
 ### Resource and Influence
@@ -1031,6 +1107,10 @@ This term is used to designate either a [Ground Force](#GroundForce), a [Shock T
 <a name="Installation">Installation</a>: 
 This term is used to designate either a [PDS](#PDS), a [Space Dock](#SpaceDock) or a [Facility](#Facility).
 
+<a name="Speaker">
+Speaker
+</a>
+The player holding the **Speaker Token** is referred to as the **Speaker**.
 
 
 <a name="FleetSupply">
@@ -1067,7 +1147,10 @@ See the description of the [Pre-Combat phase of Invasion Combats](#InvasionComba
 - <a name="SustainDamage_unitAbility">Sustain Damage (*n*)</a>  
 A unit with the Sustain Damage (*n*) ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* it sustains this way, a unit loses a [combat dice](#CombatDice). Sustained *hits* persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the [Status Phase](#StatusPhase).
 - <a name="AntiFighterBarrage_unitAbility">Anti-Fighter Barrage (*n*)</a>  
-During the pre-combat phase of the Space Battles in which this unit participates, it performs *n* [combat rolls](#CombatRoll). Hits from these [combat rolls](#CombatRoll) may only be assigned to [Fighters](#Fighter).
+During the pre-combat phase of the Space Battles in which this unit participates, it performs *n* [combat rolls](#CombatRoll). Hits from these [combat rolls](#CombatRoll) may only be assigned to [Fighters](#Fighter).  
+- <a name="InvasionDefence_unitAbility">Invasion Defence (*n*)</a>  
+If this unit is on a planet that is invaded, it performs *n* combat rolls against the attacking forces.
+
 
 <a name="SpaceDock">
 ### Space Dock  
@@ -1338,3 +1421,59 @@ These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on 
 [image]  
 *The planet is abundant with natural resources, but the local populace will defend it at all costs.*  
 Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.
+
+***
+<!--- 
+From the Political Card placement in the Strategy Phase.
+
+* Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
+
+During this step, players will place or update their Political Card in the Twilight Council. If the Twilight Council concur this round, the agendas to be voted on will be chosen among these cards.
+
+At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do it as many times as they want.
+
+***Sequence of this step:***
+
+* Players that already have a Political Card in the Twilight Council may choose not to change it. When doing so, they simply flip the card face down instead of placing a new Political Card.  
+Else they must retake their card into their hand 
+* Then each player must place a face down Political Card from their hand into the Twilight Council, and place one of their flag on it.  
+Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
+* Finally, when all players have done so, reveal all Political Cards in the Twilight Council.
+
+* Players that already have a Political Card in the Twilight Council must retake it into their hand.
+* Players may, as many times as they want, discard two Political Cards from their hand to draw another Political Card.
+* Then each player must place a face down Political Card from their hand into the Twilight Council, and place one of their flag on it.  
+Instead of a card from their hand, they can place the first card of the Political Card deck, without looking at it.
+* Finally, when all players have done so, reveal all Political Cards in the Twilight Council. -->
+
+<!---	
+### Goal of the Game (Overview)
+A game of Shattered Ascension is a succession of Rounds. At the end of each Round, players can acquire Victory Points by claiming various Objectives. If a player ends a Round with at least as many Victory Points as the limit that was decided at the beginning of the game (usually 10), she is declared winner.
+-->
+
+<!---
+From the Planetary Landing resolution step
+
+	* c-1) The planet **contains at least one enemy troop or PDS**:  
+	Resolve an [Invasion Combat](#InvasionCombats) on this planet.
+	* c-2) The planet **does not contain any enemy troop and PDS**:  
+	The ships assigned to this planet may [bombard](#) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
+-->
+
+
+<!--- 
+From the description of the Action Phase
+
+During the Action Phase, players will, in the order defined by their [initiative](#InitiativeOrder), take one Action each and repeat this sequence until all of them have Passed.
+
+During the Action Phase, players will take Actions in turn until all of them have Passed.
+The first player to take an Action is the one with the lowest initiative.
+
+During the Action Phase, players will take Actions in the [Initiative Order](#InitiativeOrder) (see below). At her turn, a player must perform one Action, which can be either a [Strategic Action](#StrategicAction), a [Tactical Action](#TacticalAction), or [Passing](#Passing).  Once a player has taken an Action, the next player in the [Initiative Order](#InitiativeOrder) must take an Action, and so on. After the last player in the [Initiative Order](#InitiativeOrder) has taken an Action, . Players that have not yet passed will keep taking Actions, until all of them have Passed and the Action Phase ends.
+
+A player currently in the process of taking her turn (i.e. performing an Action) is called the **active player**.
+
+<a name="InitiativeOrder">
+***Initiative Order:*** </a>  
+Each Strategy Card has an initiative number printed on it. The **initiative** of each player is the initiative number of her Strategy Card. The Initiative Order simply orders players from lowest to highest initiative (so the player with the lowest initiative is the first).
+-->
