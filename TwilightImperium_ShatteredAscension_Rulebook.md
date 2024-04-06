@@ -1342,7 +1342,7 @@ Whenever a player receives or gain a Command Counter, she must place it on her r
 * [Strategy Allocation](#StrategyAllocation)
 
 
-Command Counters may not be moved from one area to another, except during the  [Reallocate Command Counters and Fleet Supply Upkeep step](#ReallocateCommandCounters_StatusPhaseStep)  of the Status Phase.
+Command Counters may not be moved from one area to another, unless a specific effect allows it, for example the [Reallocate Command Counters and Fleet Supply Upkeep step](#ReallocateCommandCounters_StatusPhaseStep) of the Status Phase.
 
 <!-- ![CommandCounterZones](./Images/CommandCounterZones.jpg) -->
 
