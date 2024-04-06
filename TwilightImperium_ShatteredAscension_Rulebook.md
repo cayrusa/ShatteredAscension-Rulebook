@@ -1,4 +1,5 @@
-# Shattered Ascension Rulebook  - v39_2022-??-??
+# Shattered Ascension Rulebook
+### version 39, 2024-04-06
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
