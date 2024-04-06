@@ -208,6 +208,12 @@ blockquote>:last-child {
   background-color: #014f63;
 }
 
+h4,
+h5,
+h6 {
+  margin: 25px;
+}
+
 /* My Changes (End)*/
 
 /*

@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v11_2017-??-??
+# Shattered Ascension Compact Rulebook  - v11_2017-05-26
 
 #### Notes
 ***Contradictions***  
@@ -24,11 +24,13 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 	* [Special Systems](#user-content-SpecialSystems)
 	* [Regular Systems](#user-content-RegularSystems)
 	* [Void Systems](#user-content-VoidSystems)
+	* [Planetary Systems](#user-content-PlanetarySystems)
 * [Planets](#user-content-Planet)
 	* [Technology Specialties](#user-content-TechnologySpecialty)
 	* [Refresh Abilities](#user-content-RefreshAbility)
 	* [Facilities](#user-content-Facility)
 	* ["Turning Neutral"](#user-content-PlanetTurnsNeutral)
+	* [Trade Stations](#user-content-TradeStations)
 * [Other Board Elements](#user-content-OtherBoardElements)
 	* [Border Tokens](#user-content-BorderTokens)
 		* [Asteroid Belts](#user-content-AsteroidBelts)
@@ -50,6 +52,11 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 * [Trade Contracts and Trade Agreements](#user-content-TradeContractsAndTradeAgreements)
 * [Objective Cards](#user-content-ObjectiveCards)
 * [Components Limitations](#user-content-ComponentsLimitations)
+* [Units](#user-content-Units)
+	* [Unit Characteristics](#user-content-UnitCharacteristics)
+	* [Unit Categories Overview](#user-content-UnitCategoriesOverview)
+	* [Unit List](#user-content-UnitList)
+	* [Unit Abilities](#user-content-UnitAbilities)
 
 ## Setup <a name="Setup"></a>
 *Note: players may sit now, but will likely have to change seat at some point.*
@@ -209,30 +216,22 @@ Shattered Ascension is played over a consecutive number of Rounds. Each Round is
 ### Strategy Phase <a name="StrategyPhase"></a>
 The Strategy Phase is divided into three steps:  
 
-1. [Home System Planets Reclamation](#user-content-HomeSystemPlanetsReclamation)
-2. [Twilight Council Propositions](#user-content-TwilightCouncilPropositions)
-3. [Strategy Card Picking](#user-content-StrategyCardPicking)
+1. [Twilight Council Propositions](#user-content-TwilightCouncilPropositions)
+2. [Strategy Card Picking](#user-content-StrategyCardPicking)
 
-
-#### Home System Planets Reclamation <a name="HomeSystemPlanetsReclamation"></a>
+#### 1) Twilight Council Propositions <a name="TwilightCouncilPropositions"></a>
 > New in SA  
 
-During this step, players regain control of any planet that is in their Home System, does not contain any troop, and is not already under their control. These planet are acquired exhausted.
-
-#### Twilight Council Propositions <a name="TwilightCouncilPropositions"></a>
-> New in SA  
-
-Each player must place face down a Political Card from their hand in the Twilight Council, and mark it with one of their flags. If the Twilight Council concurs this round, the agendas to be voted on will be chosen among these cards.  
-After all players have placed their card, they are revealed and the game goes on.  
+Each player must place face down a Political Card from their hand in the Twilight Council, and mark it with one of their flags. Political Cards placed in the Twilight Council zone in this manner are called **Agendas**. If the Twilight Council concurs this round, the Agendas to be voted on will be chosen among these cards.  
+After all players have placed their Agenda, they are revealed and the game goes on.  
 
 ***Additional rules:***
 
 * At any time during this step, players may discard two Political Cards from their hand to draw another Political Card. They may do it as many times as they want.
-* Players that already have a Political Card in the Twilight Council must either keep it in place (by simply turning it face down) or retake it into their hand and replacing it with another Political Card.
 * Instead of placing a card from their hand, players may place the first card of the Political Cards deck, without looking at it.
-* After all cards have been revealed and if there are less than 5 players, reveal additional Political Cards from the deck so that there are 5 revealed cards in the Twilight Council area. Discard these cards at the end of the round if they were not voted on.
+* After all Agendas have been revealed and if there are less than 5 players, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area.
 
-#### Strategy Card Picking <a name="StrategyCardPicking"></a>
+#### 2) Strategy Card Picking <a name="StrategyCardPicking"></a>
 Starting with the Speaker and proceeding in the order defined by the Rotation Cycler, each player must pick one of the available Strategy Cards (that was not already picked by another player). She will be able to use it during the upcoming Action Phase.
 
 [Bonus Counter image]  
@@ -267,6 +266,7 @@ Some effects in the game allow players to do things "as an action". This means t
 #### Passing <a name="Passing"></a>
 A player performs this action when she does not want to perform any other action for the rest of this Action Phase. When it would be the turn of a player that passed, simply skip her. If all players have passed, the Action Phase ends and the [Status Phase](#user-content-StatusPhase) starts.  
 **Important:** A player may not pass before having used her Strategy Card through a Strategic Action.
+**Note:** A player that passed may still use the Secondary Abilities of Strategy Cards played after she passed.
 
 #### Strategic Action <a name="StrategicAction"></a>
 A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she reads and execute for herself the **Primary Ability** of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to execute the **Secondary Ability** of the card.  
@@ -314,24 +314,20 @@ The ship movement step can be broken down into 2 main parts:
 
 For each friendly ship she wants to move, the active player has to plot a legal trajectory for it. A legal trajectory for a ship is a chain of adjacent systems starting from the System containing the ship and ending in the System just activated, that satisfies the following conditions:
 
-* The starting System was **not activated** by the active player, or is the System that was just previously activated. (e.g. ships may not move out of an activated System, unless it is the System that has been activated during the step 1 of the same action)
-* No System of the trajectory contains enemy ships. (e.g. ships may not move through Systems containing enemy ships)
+* The starting System was **not activated** by the active player, or is the System that was just previously activated. (e.g. ships may not move out of an activated System, unless it is the System that has been activated during the step 1 of the same Tactical Action)
+* No System of the trajectory (except the System just activated) contains enemy ships. (e.g. ships may not move through Systems containing enemy ships)
 > SA: Unlike in TI3, enemy Fighters do block movement in SA.
 
 * The ship must have a sufficient *movement value* to follow the trajectory. By default, moving from a System to an adjacent System costs 1 movement. For example, a ship with a *movement value* of 1 can not move further away than 1 system.
 
-*note: a ship does not need to take the shortest trajectory towards its final destination*
+*Notes:*
+
+* A ship does not need to take the shortest trajectory towards its final destination
+* Trajectories that start and end in the just activated System without leaving it are allowed, and will result in a movement.
 
 ***b) Executing movements*** <a name="ExecutingMovements"></a>
 
-The active player moves all ships according to their trajectory, up until they either reach its end in the just activated System. These ships may [pick up cargo](#user-content-PickingUpCargo) from the traversed Systems (but not land or drop any cargo).  
-
-***Picking up cargo*** <a name="PickingUpCargo"></a>  
-When a ship with the [capacity ability](#user-content-Capacity_unitAbility) starts its movement, move through a System, or simply stays in the System just activated, it may pick up units from other friendly cargo sources in the System: other friendly ships with the [capacity ability](#user-content-Capacity_unitAbility) and friendly planets.  
-There are two main restrictions to this:  
-
-* The ship must be able to carry the units picked up (the precise number and types of units a ship can carry is described by its [capacity ability](#user-content-Capacity_unitAbility)  
-* No cargo may be picked up from activated Systems
+The active player moves all ships according to their trajectory, in the order of her choice.
 
 ***3) Space Cannons Fire*** <a name="SpaceCannonFire_TacticalActionStep"></a>
 > New: precise timing about who must take the decision to shoot first: non-active players from Speaker following Rotation Cycler, then active player.
@@ -356,7 +352,7 @@ In this Space Battle, the active player is the *attacker*, while the other playe
 
 ***5) Planetary Landings*** <a name="PlanetaryLandings_TacticalActionStep"></a>
 
-The Planetary Landings step is divided in two parts: the proper Planetary landings, and the Bombardment assignment.
+The Planetary Landings step is divided in two parts: the lanetary landings themselves, and the Bombardment assignment.
 
 * **Planetary landings**: The active player may land troops, PDSs and Leaders currently carried by his ships in the just activated System on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one troop.
 * **Bombardment assignment**: The active player may assign some of his ships in the just activated System with the *Bombardment* ability to the non-friendly planets of this System, in order to be able to bombard them during the 6) Planetary Landing resolution step. 
@@ -385,7 +381,8 @@ Note: All the resources that the active player decides to spend during this step
 > Ditched the "at least one Cruiser -> at most 2 Space Mines". Let's be modular. Each unit with the Deploy Space Mines (*n*) ability may deploy up to *n* Space Mines.
 
 * **Deploy Space Mines**:  
-The active player may deploy a number of [Space Mines](#user-content-SpaceMines) in the just activated System up to the number of [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy two of them). Each Space Mine costs two resources and must be placed on one of the borders of the System (Wormholes are not borders). Place a flag of the active player on each Space Mine built to indicate their ownership.  
+See the [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) ability.
+
 >There is a problem with the Arborec racial that gives them production capacity for their Ground Forces. As it currently stands, their *planets* get the production capacity, which just does not work well with the Space Dock-centric production model of this rulebook. I could define planets with production capacity, but that would be a lengthy rule (to clarify what happens when there is a Space Dock on the same planet, and what happens when this Space Dock cannot produce units for some reason) for a single use-case. So I think that it would be the job of the text of the racial ability to clarify these issues itself.  
 
 * **Produce units**:  
@@ -410,11 +407,12 @@ After units have been produced, they must be placed according to the following r
 * If the *producer* is on a planet, then all produced troops and PDSs must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#user-content-Capacity_unitAbility) to carry them.
 
 ***Blockade***   
-No ships may be produce in a System already containing enemy ships.
+No ships may be produced in a System already containing enemy ships.
 
 ### Status Phase <a name="StatusPhase"></a>
 > I excluded the "Pay upkeep for Fleet Supply > 8" step from the Status Phase sequence. It does not have enough effects in normal games to justify its word count and learning time. It could become part of a set of optional rules related to epic games with huge maps and high Victory Point goal.   
 > Made slight changes to the names of the step to better reflect their content  
+> Added a "Take back Agendas" step, where players have to take back their Agendas (the Political Cards they put in the Twilight Council zone during the Strategy Phase), if these agendas have not been voted on or discarded. Else, people would frequently just leave their Agenda in place face-up because they do not care, giving away precious informations to the opponents.   
 > Added a "Scuttling" step near the end of the sequence.
 After the Strategy Phase and the Action Phase comes the Status Phase. During this phase, players claim objectives granting them Victory Points, unlock Racial Improvements, and "clean up the table" for the next Round.
 
@@ -426,9 +424,10 @@ After the Strategy Phase and the Action Phase comes the Status Phase. During thi
 4. [Produce Trade Goods (2:1)](#user-content-ProduceTradeGoods_StatusPhaseStep)
 5. [Refresh Planets](#user-content-RefreshPlanets_StatusPhaseStep)
 6. [Receive 1 Action Card, 1 Political Card and 2 Command Counters](#user-content-ReceiveCardsAndCCs_StatusPhaseStep)
-7. [Reallocate Command Counters](#user-content-ReallocateCommandCounters_StatusPhaseStep)
-8. [Scuttling and Breaking Trade Agreements](#user-content-Scuttling_StatusPhaseStep)
-9. [Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks](#user-content-CleanUp_StatusPhaseStep)
+7. [Take back Agendas](#user-content-TakeBackAgendas)
+8. [Reallocate Command Counters](#user-content-ReallocateCommandCounters_StatusPhaseStep)
+9. [Scuttle units and break Trade Agreements](#user-content-Scuttling_StatusPhaseStep)
+10. [Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks](#user-content-CleanUp_StatusPhaseStep)
 
 ***1) Claim Objectives*** <a name="ClaimObjectives_StatusPhaseStep"></a>
 
@@ -460,7 +459,7 @@ When claiming a Secret Objective, a player must reveal it and show she indeed me
 There are three kinds of Special Objectives:
   
 * *The Artifact Objectives* award Victory Points to the players controlling some of the four [Artifacts](#user-content-Artifact).
-* *Sovereign and Imperial* award Victory Points to the players controlling respectively more than 8 and 12 planets.
+* *Sovereign and Imperial* award Victory Points to the players controlling more than 8 and 12 planets outside their [Home Systems](#user-content-HomeSystems) respectively.
 * *Voice of the Council* awards a Victory Point to the player that was elected [Voice of the Council](#user-content-VoiceOfTheCouncil) during the [Twilight Council](#user-content-GameConcepts_TwilightCouncil).
 
 Special Objectives differ from the other kinds of objective in that if a player that has claimed one of them stop meeting its requirements, her claim on the Special Objective is lost **instantly**: she must remove her flag from the objective card and loses the associated Victory Points **immediately**. This does not prevent her from claiming this objective again later in the game. 
@@ -512,16 +511,22 @@ Instead of refreshing a planet at this step, players may either:
 
 Starting with the Speaker and following the Rotation Cycler, each player draws one [Action Card](#user-content-GameConcepts_ActionCards), one [Political Card](#user-content-GameConcepts_PoliticalCards), and receives two [Command Counters](#user-content-CommandCounters).
 
-***7) Reallocate Command Counters*** <a name="ReallocateCommandCounters_StatusPhaseStep"></a>
+***7) Take back Agendas*** <a name="#user-content-TakeBackAgendas"></a>  
+
+Players take back into their hand the Political Cards they placed as agendas in the Twilight Council during the previous Strategy Phase that were not included for voting or discarded during the Round.  
+If there are less than 5 players, the agendas that were a
+
+
+***8) Reallocate Command Counters*** <a name="ReallocateCommandCounters_StatusPhaseStep"></a>
 
 Starting with the Speaker and following the Rotation Cycler, each player may redistribute his Command Counters between the Command Pool, Fleet Supply and Strategy Allocation areas of her race sheet. 
 
-***8) Scuttling and Breaking Trade Agreements*** <a name="Scuttling_StatusPhaseStep"></a>  
+***9) Scuttle units and break Trade Agreements*** <a name="Scuttling_StatusPhaseStep"></a>  
 > Change to SA: Trade Agreements could be broken at any time during the Status Phase. But it was annoying to see people breaking them to get 1 Trade Good and buy a racial improvement, so I decided to limit this possibility to this step of the Status Phase.
 
 Starting with the Speaker and following the Rotation Cycler, players may scuttle some of their units on the board by placing them in [reinforcements](#user-content-Reinforcements).
 
-***9) Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks*** <a name="CleanUp_StatusPhaseStep"></a>
+***10) Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks*** <a name="CleanUp_StatusPhaseStep"></a>
 
 * Command Counters on the board are removed and placed in [reinforcements](#user-content-Reinforcements).
 * Strategy Cards are returned to the common play area.
@@ -607,7 +612,7 @@ If before a Combat Round would begin, either the attacker or the defender does n
 ### 1) Pre-Combat <a name="PreCombat_InvasionCombatStep"></a>
 #### 1.a) Bombardment <a name="Bombardment_InvasionCombatStep"></a>  
 Ships with the [bombardment (*n*) ability](#user-content-Bombardment_unitAbility) that have been assigned to bombard this planet in the previous [Planetary Landing step](#user-content-PlanetaryLandings_TacticalActionStep) bombard it.  
-Each bombarding ship performs *n* combat rolls. Deduce from the number of hits obtained the number of [planetary shields](#user-content-PlanetaryShield_unitAbility) the units on the planet have. The result is the number of hits the owner of the planet must assign to his troops on the planet.  
+Each bombarding ship performs *n* combat rolls. Sum up the total number of hits generated across all ships. Deduce from this total the number of [planetary shields](#user-content-PlanetaryShield_unitAbility) the units on the planet have. The result is the number of hits the owner of the planet must assign to his troops on the planet.  
 
 **Bombarding to neutrality**: If the owner of a bombarded planet is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to [turn the planet neutral](#user-content-PlanetTurnsNeutral). All the installations on the planet are destroyed and all Leaders present on it must make a Fate Roll.  
 
@@ -632,14 +637,15 @@ A player **controls** a System if she has at least one ship in it and controls a
 
 ### Home Systems (Yellow Borders) <a name="HomeSystems"></a>
 > TI3->SA: Some special rules have been added to Home Systems.
+
 [image]  
-Each race has one of these Systems, that contain the race's home worlds and constitute their starting position in the game.
+Each race has one of these Systems, that contain the race's starting planets and constitute their starting position in the game. By extension, the Home System of a player is the Home System of her race.
 
 ***Special rules:*** 
 
-* During the first Round of a game, players may not activate the Home System of another race than the one they play.
-* A player that does not control all the planets of his race's Home System suffers a -2 Victory Points penalty. This penalty disappears as soon as she takes these planets back.
-* At the beginning of the Strategy Phase, players regain control of the planets in their race's Home System that do not contain any enemy troop. These planets are acquired exhausted.
+* During the first Round of a game, players may not activate the Home Systems of other players.
+* A player that does not control all the planets of her Home System suffers a -2 Victory Points penalty. This penalty disappears as soon as she takes these planets back.
+* At the beginning of the [Strategy Phase](#user-content-StrategyPhase), players regain control of the planets in their Home System that do not contain any enemy troop. These planets are acquired exhausted.
 * A player does not need to have been in control of the planets of his Home System since the beginning of the Round in order to build Space Docks on them.
 
 ### Special Systems (Red Borders) <a name="SpecialSystems"></a>
@@ -660,7 +666,7 @@ Each race has one of these Systems, that contain the race's home worlds and cons
 
 * Ships may not stop inside an Asteroid Field.
 * Ships may not move through an Asteroid Field.
-* The Space Cannon ability may not fire at an Asteroid Field.
+* The Space Cannon ability may not fire at ships in an Asteroid Field.
 
 #### Ion Storm <a name="IonStorm"></a>
 [image]  
@@ -698,7 +704,10 @@ If enemy ships are present in the System, the ship is destroyed instead.
 Systems that are neither Home Systems nor Special Systems are **Regular Systems**. Usually, the majority of the Systems of a galaxy are Regular Systems.  
 
 ### Void Systems <a name="VoidSystems"></a>
-**Void Systems** are Regular Systems that do not contain any planet nor [Wormholes](#user-content-Wormholes).
+**Void Systems** are *Regular Systems* that do not contain any planet nor [Wormholes](#user-content-Wormholes).
+
+### Planetary Systems <a name="PlanetarySystems"></a>
+**Planetary Systems** are Systems that contain at least one planet.
 
 ## Planets <a name="Planet"></a>
 
@@ -740,7 +749,7 @@ Once built, place the Facility card under the planet card, with the bottom edge 
 ### "Turning Neutral" <a name="PlanetTurnsNeutral"></a>
 When a planet **"turns neutral"** (because of a game effect), all units and Facilities on it are destroyed, and each Leader on it must make a [Fate Roll](#user-content-FateRoll). The current controller of the planet also loses control of it.
 
-### Trade Stations
+### Trade Stations <a name="TradeStations"></a>  
 > TI3->SA Trade Stations are acquired at the end of actions, instead of whenever a player is the only one having ships in the system.
 
 Trade Stations are a specific type of planets, with the following special rules:
@@ -767,18 +776,12 @@ These tokens are placed on the border between two Systems.
 
 Space Mines are a type of border tokens. They are built by ships with the [Deploy Space Mines ability](#user-content-DeploySpaceMines_unitAbility) and belong to the player that built them.
 
-***Simple rule:***  
-*This rule should be enough to cover most cases.*
+When a ship would cross a border containing at least one non-friendly Space Mine, its movement is momentarily interupted. After all the other ships have finished their movement (or got stopped by Space Mines), the owner of the ships must resolve (see below) all the Space Mines that stopped at least one ship, in the order of her choice.  
+After this step, the movements of the ships resume.
 
-After the ships of a player have moved through a border containing at least one non-friendly Space Mine token, she must roll one die for each non-Fighter ships that crossed the border. For each results of 8+, she must assign a hit to one of these non-Fighter ships.  
+**Resolving a Space Mine**  
+When resolving a Space Mine, roll a die for each non-Fighter ship that was stopped by the Space Mine. For each results of 8+, the owner of the ships must assign a hit to one of these non-Fighter ships.  
 Then remove **all** (not just the one resolved) non-friendly Space Mines at the same border as the Space Mine just resolved.
-
-***Advanced rule:***  
-*This rule is here to deal with the most complicated situations involving multiple Space Mines.*
-
-* Move each moving ship according to their trajectory, up until they either reach its end, or would cross a border containing at least one non-friendly Space Mine.
-* The owner of the ships then resolve (see the simple rule) all the Space Mines that stopped at least one ship, in the order of her choice.
-* Repeat the two previous bullet points until all ships are either destroyed or finished their movement.
 
 ### Wormholes <a name="Wormholes"></a>
 [image]
@@ -787,7 +790,7 @@ Then remove **all** (not just the one resolved) non-friendly Space Mines at the 
 
 Wormholes are spatial anomalies that connect distant areas of space.
 
-Two Systems containing wormholes of the same type are considered adjacent for all purposes.
+Two Systems containing wormholes of the same type are considered adjacent for all purposes. Important: the [Deep Space Cannon](#user-content-DeepSpaceCannon-unitAbility) ability may *not* fire through a Wormhole.
 
 #### Wormhole tokens
 Wormhole Tokens have different Wormholes printed on each side of the token.
@@ -921,7 +924,9 @@ Throughout the game, players will come into possessions of Action Cards that the
 * **"As an Action":** Action Cards with the "As an action" timing are played instead of taking an action.
 * **Secret:** Players may not show their Action Cards to others.
 * **Hand limit:** A player may not have more than 7 Action Cards in her hand. If she would exceed this limit by drawing Action Cards, she first draws all her Action Cards, and then discard Action Cards from her hand until she has 7.
-* **Home Systems** The text of some Action Cards mention that the card cannot be played, or has no effects, in Home Systems.
+* **Home Systems:** The text of some Action Cards mention that the card cannot be played, or has no effects, in Home Systems.
+* **Sabotage:** When an Action Card is revealed by a player, but before it starts being resolved, it can be *sabotaged* by some effects. *Sabotaged* Action Cards are discarded instead of being resolved and the game resumes as if they had not been played. In particular, playing an "as an Action" Action Card that gets *sabotaged* does not take an Action.
+* **Effect Location:** Each Action Card has a specified effect location, indicating in which System of the galaxy it is played. This information is used by [Agents](#user-content-Agent).
 
 ## Twilight Council and Political Cards <a name="TwilightCouncilAndPoliticalCards"></a>
 
@@ -1058,6 +1063,378 @@ Supplement cardboard tokens exist for Fighters and Ground Forces.
 
 Exception: Players are limited to 3 War Suns each.
 
+## Units <a name="Units"></a>  
+
+### Units Characteristics <a name="UnitCharacteristics"></a>
+
+* categories
+* movement value  
+* resource cost  
+* production capacity cost
+* combat dice
+* combat value
+* abilities
+* traits
+
+#### Categories  
+Some effects will refer to categories of units instead of specific unit types.
+
+#### Movement Value  
+This characteristic determines the maximum number of systems the unit can move in a single movement.  
+More details on units movement can be found in the [Ships Movement](#user-content-ShipsMovement_TacticalActionStep) step of the Tactical Action.
+
+#### Resource Cost and Production Capacity Cost  
+These characteristic determine the cost of producing the unit.  
+More details on how units are produced can be found in the [Production](#user-content-Production_TacticalActionStep) step of the Tactical Action.
+
+#### Combat Dice  
+This characteristic determines the number of [Combat Rolls](#user-content-CombatRoll) the unit performs during the combat rounds of Space Battles (if the unit is a Ship) or Invasion Combats (if it is a Troop).  
+
+**Important:** If, after all modifiers have been taken into account, a unit would have zero or less Combat Dice, it is considered as having one Combat Dice instead.  
+More details on [Space Battles](#user-content-SpaceBattles) and [Invasion Combats](#user-content-InvasionCombats) can be found in the relevant sections.
+
+#### Combat Value  
+When a unit performs a [Combat Roll](#user-content-CombatRoll), the result of the die is compared to its *Combat Value*. If the result is higher or equal to the Combat Value, a *hit* is generated.  
+More details on [Space Battles](#user-content-SpaceBattles) and [Invasion Combats](#user-content-InvasionCombats) can be found in the relevant sections.  
+
+#### Abilities  
+Abilities give units unique ways of interacting with the game, like producing units or being tougher to destroy. Abilities are described in the [Unit Abilities](#user-content-UnitAbilities) section.
+
+#### Traits
+Traits define how units operate and the specific contraints that apply to them.
+
+### Unit Categories Overview <a name="UnitCategoriesOverview"></a>  
+> Not sure this section is really necessary.
+
+#### Ship
+Ships can move by themselves in the galaxy and engage in [Space Battles](#user-content-SpaceBattles).  
+
+**Units in this category:**
+
+* [Flagship](#user-content-Flagship)
+* [War Sun](#user-content-WarSun)
+* [Dreadnought](#user-content-Dreadnought)
+* [Carrier](#user-content-Carrier)
+* [Cruiser](#user-content-Cruiser)
+* [Destroyer](#user-content-Destroyer)
+* [Fighter](#user-content-Fighter)
+
+#### Non-Fighter Ship
+A specific subset of Ships.  
+
+**Units in this category:**
+* All Ships but [Fighters](#user-content-Fighter)
+
+#### Troop
+The role of these units is to take control and defend planets, by engaging in [Invasion Combats](#user-content-InvasionCombats).  
+
+**Units in this category:**
+
+* [Armor](#user-content-Armor)
+* [Shock Troop](#user-content-ShockTroop)
+* [Ground Force](#user-content-GroundForce)
+
+#### Infantry
+A specific subset of Troops.  
+
+**Units in this category:**
+
+* [Shock Troop](#user-content-ShockTroop)
+* [Ground Force](#user-content-GroundForce)
+
+#### Installation <a name="Installation"></a>
+These units represent buildings that improve planets in various ways, like protecting them, producing units and improving their resource and influence value.  
+
+**Units in this category:**
+
+* [Space Dock](#user-content-SpaceDock)
+* [PDS](#user-content-PDS)
+* [Refinery](#user-content-Refinery)
+* [Colony](#user-content-Colony)
+
+#### Facility
+A specific subset of Installations.  
+
+**Units in this category:**
+
+* [Refinery](#user-content-Refinery)
+* [Colony](#user-content-Colony)
+
+### Units List <a name="UnitList"></a>  
+
+#### Flagship <a name="Flagship"></a>  
+* categories: **Ship, Non-Fighter Ship**
+* movement value: ***Race-dependant***  
+* resource cost: ***10***  
+* production capacity cost: ***3***
+* combat dice: ***Race-dependant***
+* combat value: ***Race-dependant***
+
+* abilities: 
+	* ***Race-dependant***
+* traits:
+	* **Limited to 1:** A player may only have one instance of her Flagship at any time.
+	* **Only produceable in Home System:** A player may only produce her Flagship in her Home System.
+
+#### War Sun <a name="WarSun"></a>  
+* categories: **Ship, Non-Fighter Ship**
+* movement value: ***1***
+* resource cost: ***12***
+* production capacity cost: ***3***
+* combat dice: ***3***
+* combat value: ***3***
+* abilities: 
+	* [Bombardment (***1***)](#user-content-Bombardment_unitAbility)
+	* [Capacity (***6***)](#user-content-Capacity_unitAbility)
+	* [Sustain Damage (***2***)](#user-content-SustainDamage_unitAbility)
+* traits:
+	* **Requires Technology:** This unit cannot be produced by a player that has not acquired the War Sun Technology.
+
+#### Dreadnought <a name="Dreadnought"></a>  
+* categories: **Ship, Non-Fighter Ship**
+* movement value: ***1***  
+* resource cost: ***5***  
+* production capacity cost: ***2***
+* combat dice: ***2***
+* combat value: ***5***
+* abilities: 
+	* [Bombardment (***1***)](#user-content-Bombardment_unitAbility)
+	* [Sustain Damage (***1***)](#user-content-SustainDamage_unitAbility)
+* traits:
+
+#### Carrier <a name="Carrier"></a>  
+* categories: **Ship, Non-Fighter Ship**
+* movement value: ***1***  
+* resource cost: ***3***  
+* production capacity cost: ***1***
+* combat dice: ***1***
+* combat value: ***9***
+* abilities: 
+	* [Capacity (***6***)](#user-content-Capacity_unitAbility)
+* traits:
+
+#### Cruiser <a name="Cruiser"></a>  
+* categories: **Ship, Non-Fighter Ship**
+* movement value: ***2***  
+* resource cost: ***2***  
+* production capacity cost: ***1***
+* combat dice: ***1***
+* combat value: ***7***
+* abilities: 
+	* [Deploy Space Mines (***2***)](#user-content-DeploySpaceMines_unitAbility)
+* traits:
+
+#### Destroyer <a name="Destroyer"></a>  
+* categories: **Ship, Non-Fighter Ship**
+* movement value: ***2***  
+* resource cost: ***1***  
+* production capacity cost: ***1***
+* combat dice: ***1***
+* combat value: ***9***
+* abilities: 
+	* [Anti-Fighter Barrage (***2***)](#user-content-AntiFighterBarrage_unitAbility)
+* traits:
+
+#### Fighter <a name="Fighter"></a>
+* categories: **Ship**
+* movement value: ***NA***  
+* resource cost: ***0.5***  
+* production capacity cost: ***1***
+* combat dice: ***1***
+* combat value: ***9***
+* abilities: 
+* traits:
+	* **Space Cargo:** This ship may be picked up and carried by ships with adequate capacity, but is released as soon as the ship carrying it ends its movement.
+	* **Requires Support:** The amount of free capacity able to carry units with this trait that a player has in a given System determines the maximum amount of units with this trait she can have in the System. Units in excess must be scuttled. This check is not performed during Space Battles.
+
+#### Armor <a name="Armor"></a>
+> Let's stop writing "(MU)" after Armor. What is the point of doing that?
+
+* categories: **Troop**
+* movement value: ***NA***  
+* resource cost: ***2***  
+* production capacity cost: ***2***
+* combat dice: ***2***
+* combat value: ***6***
+* abilities: 
+	* [Sustain Damage (***1***)](#user-content-SustainDamage_unitAbility)
+* traits:
+	* **Planet-based:** This unit is placed on planets and cannot move on its own.
+	* **Cargo:** This unit may be picked up, carried, and landed by ships with adequate capacity.
+	* **Bombardment Prone:** Bombardment hits must be assigned in priority to units with this trait.
+
+#### Shock Troop <a name="ShockTroop"></a>
+
+* categories: **Troop, Infantry**
+* movement value: ***NA***  
+* resource cost: ***2***  
+* production capacity cost: ***1***
+* combat dice: ***1***
+* combat value: ***5***
+* abilities: 
+	* [Capture Installations](#user-content-CaptureInstallations_unitAbility)
+	* [Commando](#user-content-Commando_unitAbility)
+* traits:
+	* **Planet-based:** This unit is placed on planets and cannot move on its own.
+	* **Cargo:** This unit may be picked up, carried, and landed by ships with adequate capacity.
+	* **Frontline Fighters:** When assigning hits during an Invasion Combat combat round, they must be assigned in priority to units with this trait.
+
+#### Ground Force <a name="GroundForce"></a>
+
+* categories: **Troop, Infantry**
+* movement value: ***NA***  
+* resource cost: ***0.5***  
+* production capacity cost: ***1***
+* combat dice: ***1***
+* combat value: ***8***
+* abilities: 
+	* [Shock Troop Upgrade](#user-content-ShockTroopUpgrade_unitAbility)
+* traits:
+	* **Planet-based:** This unit is placed on planets and cannot move on its own.
+	* **Cargo:** This unit may be picked up, carried, and landed by ships with adequate capacity.
+
+#### PDS (Planetary Defence System) <a name="PDS"></a>
+
+* categories: **Installation**
+* movement value: ***NA***  
+* resource cost: ***2***  
+* production capacity cost: ***1***
+* combat dice: ***NA***
+* combat value: ***6***
+* abilities: 
+	* [Space Cannon (***1***)](#user-content-SpaceCannon_unitAbility)
+	* [Invasion Defence (***1***)](#user-content-InvasionDefence_unitAbility)
+	* [Planetary Shield (***1***)](#user-content-PlanetaryShield_unitAbility)
+* traits:
+	* **Planet-based:** This unit is placed on planets and cannot move on its own.
+	* **Limited to 2 per planet:** a player cannot have more than 2 units of this type on the same planet.
+	* **Cargo:** This unit may be picked up, carried, and landed by ships with adequate capacity.
+
+#### Space Dock <a name="SpaceDock"></a>
+
+* categories: **Installation**
+* movement value: ***NA***  
+* resource cost: ***4***  
+* production capacity cost: ***NA***
+* combat dice: ***NA***
+* combat value: ***NA***
+* abilities: 
+	* [Produce Units (***n***)](#user-content-ProduceUnits_unitAbility), where ***n*** is the resource value of the planet the Space Dock is on plus 2.
+	* [Capacity (***3 Fighters***)](#user-content-Capacity_unitAbility)
+* traits:
+	* **Unproduceable:** This unit cannot be produced using the [Produce Units ability](#user-content-ProduceUnits_unitAbility).
+	* **Special building process:** This unit can be *built* during the [Production step](#user-content-Production_TacticalActionStep) of Tactical Actions. See the description of this step for more details.
+	* **Planet-based:** This unit is placed on planets and cannot move on its own.
+	* **Limited to 1 per planet:** A player cannot have more than 1 unit of this type on the same planet.
+	* **Exhaustion:** This unit can be *exhausted* by some effects. Flip the unit to indicate this state. When it is *exhausted*, it cannot use its Produce Units ability. Flip the unit back when it is *refreshed* (in most cases during the [Clean up step](#user-content-CleanUp_StatusPhaseStep) of the Status phase).
+
+#### Refinery <a name="Refinery"></a>
+> I made Refineries and Colonies into units, because it looked ugly to have the 3 main categories of things be: Units, Leaders and Facilities, while Facilities were their own thing. A plastic piece could be used for them to represent their new status
+
+* categories: **Installation, Facility**
+* movement value: ***NA***  
+* resource cost: ***0***  
+* production capacity cost: ***NA***
+* combat dice: ***NA***
+* combat value: ***NA***
+* abilities: 
+	* [Increase Resource Value (***1***)](#user-content-IncreaseResourceValue_unitAbility)
+* traits:
+	* **Unproduceable:** This unit cannot be produced using the [Produce Units ability](#user-content-ProduceUnits_unitAbility).
+	* **Special building process:** This unit can be *built* during the [Refresh Planets step](#user-content-RefreshPlanets_StatusPhaseStep) of the Status Phase. See the description of this step for more details.
+	* **Planet-based:** This unit is placed on planets and cannot move on its own.
+	* **Incompatible with Facility:** This unit may not be built on a planet containing a Facility
+
+#### Colony <a name="Colony"></a>
+> I made Refineries and Colonies into units, because it looked ugly to have the 3 main categories of things be: Units, Leaders and Facilities, while Facilities were their own thing. A plastic piece could be used for them to represent their new status
+
+* categories: **Installation, Facility**
+* movement value: ***NA***  
+* resource cost: ***0***  
+* production capacity cost: ***NA***
+* combat dice: ***NA***
+* combat value: ***NA***
+* abilities: 
+	* [Increase Influence Value (***1***)](#user-content-IncreaseInfluenceValue_unitAbility)
+* traits:
+	* **Unproduceable:** This unit cannot be produced using the [Produce Units ability](#user-content-ProduceUnits_unitAbility).
+	* **Special building process:** This unit can be *built* during the [Refresh Planets step](#user-content-RefreshPlanets_StatusPhaseStep) of the Status Phase. See the description of this step for more details.
+	* **Planet-based:** This unit is placed on planets and cannot move on its own.
+	* **Incompatible with Facility:** This unit may not be built on a planet containing a Facility
+
+### Unit Abilities <a name="UnitAbilities"></a>  
+
+This section details the different abilities units can have.
+
+#### Anti-Fighter Barrage (*n*) <a name="AntiFighterBarrage_unitAbility"></a>  
+Units with this ability perform *n* Combat Rolls during the [Anti-Fighter Barrage step](#user-content-AntiFighterBarrage_SpaceBattleStep) of the Space Battle sequence, that can only be assigned by the opponent to Fighters.
+
+#### Bombardment (*n*) <a name="Bombardment_unitAbility"></a>  
+[HM, could maybe be improved, see notes for rule rewrite]
+This ability allows ships that have it to bombard enemy planets. The bombardment process is described in details in the [Bombardment step](#user-content-Bombardment_InvasionCombatStep) of the Invasion Combat sequence.  
+Note that some circumstances allow bombardment to take place without an Invasion Combat also taking place.
+
+<!-- #### Bombardment Prone <a name="BombardmentProne_unitAbility"></a>  
+When a planet is bombarded, the defender must assign the bombardment hits to units with this ability first. In addition, these units may not use their Sustain Damage ability (if they have one) against these hits, and are thus instantly destroyed.
+ -->
+#### Capacity (*n*) <a name="Capacity_unitAbility"></a>  
+Units with this ability can carry up to *n* carry-able units (see below for the list). Carried units are refered to as the **cargo** of the unit carrying them.  
+When a unit with this ability is destroyed, the unit it carries are destroyed too.  
+There are variants of this ability, that limit the types of units that can be carried. For example, a unit with "Capacity (3 Fighters)" can only carry up to 3 Fighters.
+
+When a ship with this ability starts its movement, or enters a System, it may, if the System is **unactivated** or is the **destination System** of the movement, pick up carry-able units from:
+
+* Friendly planets in the System
+* The **cargo** of other friendly units in the System **that are not also moving**
+
+**Carry-able units:**  
+
+* [Ground Forces](#user-content-GroundForce)
+* [Shock Troops](#user-content-ShockTroop)
+* [Armors](#user-content-Armor)
+* [PDSs](#user-content-PDS)
+* [Fighters](#user-content-Fighter)
+
+#### Capture Installations <a name="CaptureInstallations_unitAbility"></a>  
+When a player takes control of a planet while having a unit with this ability on it, he may capture all [installations](#user-content-Installation) on it.
+
+#### Commando <a name="Commando_unitAbility"></a>  
+Before the start of an [Invasion Combat](#user-content-InvasionCombats), the attacker may assign some of her units with this ability to enemy [installations](#user-content-Installation) on the planet. Assigned units do not take part in the Invasion Combat, and are automatically destroyed if the attacker loses, but if he wins, then installations to which a unit was assigned are captured instead of being destroyed.
+
+#### Deploy Space Mines (*n*) <a name="DeploySpaceMines_unitAbility"></a>  
+During the [Production step](#user-content-Production_TacticalActionStep) of a Tactical Action, the active player may deploy a number of [Space Mines](#user-content-SpaceMines) in the just activated System up to the number of [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy 2). Each Space Mine costs 2 resources and must be placed on one of the borders of the System (Wormholes are not borders). Place a flag of the active player on each Space Mine built to indicate their ownership. 
+
+#### Invasion Defence (*n*) <a name="InvasionDefence_unitAbility"></a>  
+Units with this ability perform *n* Combat Rolls against attacking ground units during the [Pre-Combat](#user-content-PreCombat_InvasionCombatStep) step of an [Invasion Combat](#user-content-InvasionCombats) on their planet.
+
+#### Increase Resource Value (*n*) <a name="IncreaseResourceValue_unitAbility"></a>  
+The resource value of a planet containing a unit with this ability is increased by *n*.
+
+#### Increase Influence Value (*n*) <a name="IncreaseInfluenceValue_unitAbility"></a>  
+The influence value of a planet containing a unit with this ability is increased by *n*.
+
+#### Planetary Shield (*n*) <a name="PlanetaryShield_unitAbility"></a>  
+When a planet containing a unit (controlled by the controller of the planet) with this ability is bombarded, *n* bombardment hits are cancelled.
+
+#### Pre-Combat Shot (*n*)  
+Units with this ability perform *n* Combat Rolls during the [Other Pre-Combat effects step](#user-content-OtherPreCombatEffects_SpaceBattleStep) of the Space Battle sequence.
+
+#### Produce Units (*n*) <a name="ProduceUnits_unitAbility"></a> 
+See the [Production step](#user-content-Production_TacticalActionStep) of a Tactical Action.
+
+#### Shock Troop Upgrade <a name="ShockTroopUpgrade_unitAbility"></a>  
+After a player wins an Invasion Combat [Invasion Combat](#user-content-InvasionCombats) as the attacker and takes control of the planet, one of his units with this ability on the planet may be replaced with a [Shock Troop](#user-content-ShockTroop).
+
+#### Space Cannon (*n*) <a name="SpaceCannon-unitAbility"></a>  
+Units with this ability can shoot at ships in their system during the [Space Cannon Fire](#user-content-SpaceCannonFire_TacticalActionStep) step of Tactical Actions. Look at the description of this step for more details.
+
+<!-- #### Deep Space Cannon <a name="DeepSpaceCannon-unitAbility"></a>  
+This ability is an upgraded version of the [Space Cannon](#user-content-SpaceCannon-unitAbility) and is used in the same way. Whenever any wording refers to the Space Cannon ability, it also applies to the "Deep Space Cannon" ability.  
+The only difference between the two abilities is that Deep Space Cannon may also fire from an adjacent system (but not through a [Wormhole](#user-content-Wormholes). -->
+
+#### Sustain Damage (*n*) <a name="SustainDamage_unitAbility"></a>  
+A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* it sustains this way, a unit loses a [combat dice](#user-content-CombatDice). Sustained *hits* persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the [Status Phase](#user-content-StatusPhase).
+
 ***  
 # Below this line are just scrap notes to write the rest of the rulebook
 
@@ -1086,6 +1463,11 @@ Cards, effects or other rules may refer to one of the following player orders wh
 
 ### Leaders <a name="GameConcept_Leaders"></a>
 Fate Roll <a name="FateRoll"></a>
+* Admiral
+* Diplomat
+* General
+* Agent <a name="Agent"></a>  
+* Scientist
 
 
 ## Specific Definitions  
@@ -1115,11 +1497,10 @@ Reinforcements <a name="Reinforcements"></a>
   
 Active player  
 
-Troop</a <a name="Troop">>:  
+Troop <a name="Troop"></a>:  
 This term is used to designate either a [Ground Force](#user-content-GroundForce), a [Shock Troop](#user-content-ShockTroop) or an [Armor (MU)](#user-content-Armor).
 
-Installation</ <a name="Installation">a>: 
-This term is used to designate either a [PDS](#user-content-PDS), a [Space Dock](#user-content-SpaceDock) or a [Facility](#user-content-Facility).
+[Installation](#user-content-Installation).
 
 Speaker <a name="Speaker"></a>
 The player holding the **Speaker Token** is referred to as the **Speaker**.
@@ -1166,22 +1547,6 @@ During the pre-combat phase of the Space Battles in which this unit participates
 - Invasion Defence (*n*)<a name="InvasionDefence_unitAbility"></a>  
 If this unit is on a planet that is invaded, it performs *n* combat rolls against the attacking forces.
 
-
-### Space Dock <a name="SpaceDock"></a>
-* Exhausted/Refreshed states
-* No more than one per planet
-
-### PDS <a name="PDS"></a>
-* No more than two per planet (therefore you may not build or land PDSs so that you would go over this limit)
-
-### Fighter <a name="Fighter"></a>
-* Must be supported using Fighter Capacity.
-
-### Ground Force <a name="GroundForce"></a>
-
-### Shock Troop <a name="ShockTroop"></a>
-
-### Armor (MU) <a name="Armor"></a>
 
 ## Game Options / Variants
 ###Star by Star <a name="StarByStar"></a>
