@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v11_2017-05-26
+# Shattered Ascension Compact Rulebook  - v12_2017-05-28
 
 #### Notes
 ***Contradictions***  
@@ -57,6 +57,15 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 	* [Unit Categories Overview](#user-content-UnitCategoriesOverview)
 	* [Unit List](#user-content-UnitList)
 	* [Unit Abilities](#user-content-UnitAbilities)
+* [Leaders](#user-content-Leaders)
+	* [General Leader Rules](#user-content-GeneralLeaderRules)
+	* [Leader Abilities](#user-content-LeaderAbilities)
+		* [Admiral](#user-content-Admiral)
+		* [Diplomat](#user-content-Diplomat)
+		* [General](#user-content-General)
+		* [Agent](#user-content-Agent)
+		* [Scientist](#user-content-Scientist)
+
 
 ## Setup <a name="Setup"></a>
 *Note: players may sit now, but will likely have to change seat at some point.*
@@ -925,7 +934,7 @@ Throughout the game, players will come into possessions of Action Cards that the
 * **Secret:** Players may not show their Action Cards to others.
 * **Hand limit:** A player may not have more than 7 Action Cards in her hand. If she would exceed this limit by drawing Action Cards, she first draws all her Action Cards, and then discard Action Cards from her hand until she has 7.
 * **Home Systems:** The text of some Action Cards mention that the card cannot be played, or has no effects, in Home Systems.
-* **Sabotage:** When an Action Card is revealed by a player, but before it starts being resolved, it can be *sabotaged* by some effects. *Sabotaged* Action Cards are discarded instead of being resolved and the game resumes as if they had not been played. In particular, playing an "as an Action" Action Card that gets *sabotaged* does not take an Action.
+* **Sabotage:** <a name="Sabotage"></a> When an Action Card is revealed by a player, but before it starts being resolved, it can be *sabotaged* by some effects. *Sabotaged* Action Cards are discarded instead of being resolved and the game resumes as if they had not been played. In particular, playing an "as an Action" Action Card that gets *sabotaged* does not take an Action.
 * **Effect Location:** Each Action Card has a specified effect location, indicating in which System of the galaxy it is played. This information is used by [Agents](#user-content-Agent).
 
 ## Twilight Council and Political Cards <a name="TwilightCouncilAndPoliticalCards"></a>
@@ -1025,7 +1034,7 @@ There are multiple ways a Trade Agreement can be broken. The most common ones ar
 
 When a Trade Agreement is broken, the two players automatically collect a certain part of the Trade Goods present on their Trade Agreement (the other Trade Goods are discarded), then they flip the cards so that the Trade Agreement sides face the table and finally give the card back to their former trade partner.
 
-The part of Trade Goods that get collected depends on how the Trade Agreement was broken:  
+How many Trade Goods get collected depends on how the Trade Agreement was broken:  
 
 * If it was broken due to a [hostile action](#user-content-HostileAction), the player that performed the hostile action collects none of the Trade Goods on her Trade Agreements, while her trade partner collects all the Trade Goods on her Trade Agreement.
 * If it was broken for any other reason, both players collect half (round down) of the Trade Goods on their Trade Agreement.
@@ -1366,6 +1375,9 @@ A specific subset of Installations.
 
 This section details the different abilities units can have.
 
+**Important:**  
+When a unit receives a numbered ability it already has, the two numbers are summed up. For example, a unit with the **Planerary Shield (1) ability** receiving the **Planetary Shield (1) ability** now has the **Planetary Shield (2) ability**.
+
 #### Anti-Fighter Barrage (*n*) <a name="AntiFighterBarrage_unitAbility"></a>  
 Units with this ability perform *n* Combat Rolls during the [Anti-Fighter Barrage step](#user-content-AntiFighterBarrage_SpaceBattleStep) of the Space Battle sequence, that can only be assigned by the opponent to Fighters.
 
@@ -1396,7 +1408,7 @@ When a ship with this ability starts its movement, or enters a System, it may, i
 * [Fighters](#user-content-Fighter)
 
 #### Capture Installations <a name="CaptureInstallations_unitAbility"></a>  
-When a player takes control of a planet while having a unit with this ability on it, he may capture all [installations](#user-content-Installation) on it.
+When a player takes control of a planet while having a unit with this ability on it, she may capture all [installations](#user-content-Installation) on it.
 
 #### Commando <a name="Commando_unitAbility"></a>  
 Before the start of an [Invasion Combat](#user-content-InvasionCombats), the attacker may assign some of her units with this ability to enemy [installations](#user-content-Installation) on the planet. Assigned units do not take part in the Invasion Combat, and are automatically destroyed if the attacker loses, but if he wins, then installations to which a unit was assigned are captured instead of being destroyed.
@@ -1434,6 +1446,87 @@ The only difference between the two abilities is that Deep Space Cannon may also
 
 #### Sustain Damage (*n*) <a name="SustainDamage_unitAbility"></a>  
 A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* it sustains this way, a unit loses a [combat dice](#user-content-CombatDice). Sustained *hits* persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the [Status Phase](#user-content-StatusPhase).
+
+## Leaders <a name="Leaders"></a>  
+Each race starts the game with 3 *Leaders*, great personalities with powerful abilities. There are 5 types of Leaders, each with their own set of abilities.
+
+### General Leader Rules <a name="GeneralLeaderRules"></a>  
+This section explains the general rules that apply to all Leaders.
+
+#### Movement
+
+* Similarly to a Troop, a Leader is always on a planet or being carried by a ship. Any ship may carry one or more Leaders, using 0 capacity.
+* The owner of a Leader may freely move it within its System during her actions, unless the System contains enemy Ships, or she is currently resolving a Tactical Action step. This means that a Leader can be moved between the resolution of two consecutive Tactical Action steps.
+* Leaders may use any effect allowing the movement of friendly Troops, without counting towards the number of Troops moved.
+* A Leader may not land on a non-friendly planet without being accompanied by Troops.
+
+#### Fate
+
+When a Ship / planet containing a Leader is destroyed / lost (or changes owner), or when a Leader is part of the attacking forces in an Invasion Combat lost by the attacker, conduct a Fate Roll (roll a D10 and look at the following table) for the Leader at the end of the current action.
+
+##### Fate Roll Table:
+
+* **1: Killed**
+* **2-7: Captured**  
+Note: "Captured" requires enemy control of the planet or space where the Leader was situated. If these circumstances do not apply, treat this result as Escape Instead.
+* **8-10: Escape**
+
+**Killed:** <a name="FateRollKilled"></a>  
+When Killed, the Leader is removed from the game entirely.
+
+**Captured:** <a name="FateRollCaptured"></a>  
+When Captured, the Leader becomes a captive, and the captor places one of her flags on the captive to denote this. A captive is considered as a Leader with no abilities, and may only be moved by the captor (as if it was one of his own Leaders). A captive that would be Captured by its original owner Escapes instead.
+
+**Escape:** <a name="FateRollEscape"></a>  
+Upon Escape, the original owner of the Leader may place it back in play at any of his planets or ship. A captive that escapes stops being a captive and regain its abilities.
+
+#### Executions and Releases
+
+During the Status Phase, captives may be released or executed by their captor. The released captives Escape, while the executed captives are Killed. The captor must then exhaust or lose control of a planet for each captive he executed
+
+### Leader Abilities <a name="LeaderAbilities"></a>  
+
+#### Admiral <a name="Admiral"></a>
+> Wording uniformity change to the first two abilities  
+> Reversion to a (tweaked for concision) previous version of the retreat ability, to be clearer regarding the interaction with Naalu's racial ability, and make the wording more consistent style-wise with the other two abilities.
+
+* A Ship carrying (an) Admiral(s) receives +1 combat die.
+* A Dreadnought carrying (an) Admiral(s) receives +1 movement.
+* If participating in a Space Battle, an Admiral may prevent the opposing fleet from retreating, unless it also contains an Admiral.
+
+#### Diplomat <a name="Diplomat"></a>
+> I don't see how to write properly the ability to move (and let other ships move) through enemy fleets of the Diplomat. I'm considering giving this ability to all fleets regardless of Diplomat presence to compensate.  
+> I had to modify the wording of the second ability (the special retreat) to make it work cleanly. Unfortunately it made it longer, but I'm of the opinion that a wording that works is better thn a wording that is short.  
+> Aaaaand I also had to reword the third ability (the "please don't attack me" one) to make it work (and shorter), because it was using undefined terms like "invasion".
+
+<!-- * If the owner of the Diplomat and of both involved fleets comply, a fleet may move through an enemy fleet in the Diplomat's System (even if the Diplomat is currently moving through). -->
+<!-- * If the owners of the Diplomat and of both involved fleets comply, a defending fleet may reteat after enemy ships have moved into the System, and before the Space Battle step.  
+This does not break Trade Agreements. -->
+* <I can't find a way to word the ability of letting enemy ships through. See above>
+* After the Ships Movement step of a Tactical Action where Ships were moved into a system containing a Diplomat and an enemy fleet, the enemy fleet may, if the owners of both fleets and of the Diplomat comply, immediately retreat. If it does, the initial movement is not considered as a Hostile Action. 
+* After the Planetary Landings step of a Tactical Action, a Diplomat may cancel landings and bombardments against the planet it is on. The attacker may overturn this ability by spending 6 influence, in which case the Diplomat Escapes.  
+If this ability was used without being overturned, it may not be used to protect the planet again during this round or the next (even by another Diplomat).
+
+#### General <a name="General"></a>
+> Changed the wording to make them work with this rulebook. Clarified that the effects of multiple Generals in the same Invasion Combat do not stack.
+
+* Troops participating in an Invasion Combat alongside (a) friendly General(s) receive +1 to their Combat Rolls, and 2 missed Combat Rolls can be re-rolled each Combat Round (the same Combat Roll can be re-rolled twice).
+* Bombardment Combat Rolls against planets containing General(s) receive -4.
+
+#### Agent <a name="Agent"></a>
+> Reworded these abilities
+
+* An Agent on a planet prevents enemy units from using the [Invasion Defence ability](#user-content-InvasionDefence_unitAbility), and grants the [Capture Installations ability](#user-content-CaptureInstallations_unitAbility) to friendly Troops.
+* An Agent present in the Effect Location of an Action Card just played may [sabotage](#user-content-Sabotage) it. If the Action Card has a "Scattered Effect", the card is not *sabotaged* but its effects in the System are cancelled. An Agent may not use this ability a second time this round or the next.
+* When a Leader must make a fate roll as a result of a Space Battle or Invasion Combat involving an enemy Agent, these Leaders may be automatically [Captured](#user-content-FateRollCaptured) by the Agent's owner instead.
+
+#### Scientist <a name="Scientist"></a>
+> Artifacts have no technology specialty.
+> I had no idea why the Planetary Shield obtained from Scientist were to "never be ignored by other abilities", so I removed that part.
+
+* A Scientist may double the Technology cost discount granted by a single Artifact or technology specialty it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Artifact or technology specialty for the same Technology purchase.
+* The resource cost of building a Space Dock on a planet with (a) Scientist(s) is 2 resources (instead of 4).
+* PDSs on planets with friendly Scientists receive +1 to their Combat Rolls and the [Planetary Shield (1) ability](#user-content-PlanetaryShield_unitAbility).
 
 ***  
 # Below this line are just scrap notes to write the rest of the rulebook
