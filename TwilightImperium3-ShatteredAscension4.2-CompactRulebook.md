@@ -1,4 +1,4 @@
-# Shattered Ascension Rewritten Rulebook  - v20_2017-??-??
+# Shattered Ascension Rewritten Rulebook  - v20_2017-10-15
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
