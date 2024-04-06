@@ -9,9 +9,13 @@
 > This rulebook is a work in progress, and an attempt at providing Shattered Ascension players all the rules they need so that they do not have to read from 3 different rulebooks, the TI3 FAQ and the SA change-list. The design goals were to be as concise, consistent and precise as possible.  
 > During the writing, some changes were made to clear ambiguities and clean up rules, that will be debated and progressively included in the SA ruleset or removed from this rulebook. These changes are indicated in comments such as this one.
 
+
 > This rulebook contains
 
+
 > To get an url pointing to a specific part of this rulebook (to give to a friend for example), hover over a title and click on the link icon that will pop up on its left, then copy the new url of the webpage. This also works for internal links, simply click on them and copy the new url of the webpage.
+
+Hi there hello
 
 ### Notes
 ***Contradictions***  
@@ -1390,24 +1394,6 @@ It is important to note that the **Fleet Supply** is a constraint on the number 
 Command Counters in the Strategy Allocation are spent to use various effects. Most notably, the Secondary Abilities of Strategy Cards often require the spending of a Command Counter from Strategy Allocation in order to be executed.
 
 ## Action Cards<a name="ActionCards"></a>
-<!-- <details>
-	<summary>Change from base SA (click to expand)</summary>
-
-Removed the unnecessary "You can't play two Action Cards of the same name at the same situation/unit".    
-
-Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." SA rule. It sounded like a nice idea, but is it that useful? If we really need it on some ACs, I think we should instead tweak the wordings of these ACs to allow it rather than introducing a new general rule.
-</details> -->
-
-<!-- > Change from base SA: Removed the "If a player at 7 cards is about to draw additional cards, she should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied. I think this feels better and allows you to make better choices as to what to keep.   -->
-
-
-
-<!-- > Cut the unnecessary (in my opinion) "You can't play two Action Cards of the same name at the same situation/unit".  
-> Removed the "If a player at 7 cards is about to draw additional cards, he should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied.  
-> Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." because the same effect can be achieved by tweaking a few ACs wordings instead of adding an additional general rule. -->
-
-<!-- ![ActionCard](./Images/ActionCard.jpg) -->
-
 <!-- <i> -->
 <img src="./Images/ActionCard.jpg" height="250"/>
 <!-- </i> -->

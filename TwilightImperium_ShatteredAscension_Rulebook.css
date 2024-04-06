@@ -178,20 +178,30 @@ html h6 {
 }
 
 /* My Changes (Start)*/
+.markdown-body .headerlink {
+  /*So that the link icons that appear besides title are white instead of dark*/
+  color: #fff;
+}
+
 blockquote {
   border-left: 4px solid #b58900 !important;
   padding: 0 15px;
   color: #baa978;
 }
 
-blockquote>:first-child {
+blockquote * {
+  color: #b7ac8b;
+}
+
+/*blockquote>:first-child {
   margin-top: 0px;
   color: #b7ac8b;
 }
 
 blockquote>:last-child {
   margin-bottom: 0px;
-}
+  color: #b7ac8b;
+}*/
 
 .markdown-body h1 .octicon-link,
 .markdown-body h2 .octicon-link,
