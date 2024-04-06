@@ -2,18 +2,12 @@
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
+> Welcome to the Shattered Ascension rulebook. Here you will find all the rules of Shattered Ascension. This rulebook is standalone and does not require any vanilla Twilight Imperium 3 rulebook. You will find more information about Shattered Ascension on [our website](https://www.astralvault.net/games/SA/).
 
-<!-- > This rulebook is an attempt at rewriting the full Twilight Imperium 3 rulebook integrating the Shattered Ascension mod. The main goals were to be as concise as possible, and more precise, so as to clear out as many ambiguities as possible.
-> During this process, I made minor changes with regards to the official SA ruleset to fulfill these goals. These differences are indicated in comments such as this one throughout this rulebook. -->
-
-> This rulebook is a work in progress, and an attempt at providing Shattered Ascension players all the rules they need so that they do not have to read from 3 different rulebooks, the TI3 FAQ and the SA change-list. The design goals were to be as concise, consistent and precise as possible.  
-> During the writing, some changes were made to clear ambiguities and clean up rules, that will be debated and progressively included in the SA ruleset or removed from this rulebook. These changes are indicated in comments such as this one.
->
-
-> To get a url pointing to a specific part of this rulebook (to give to a friend for example), hover over a title and click on the link icon that will pop up on its left, then copy the new url of the webpage. This also works for internal links, simply click on them and copy the new url of the webpage.
+> To get a url pointing to a specific section of this rulebook (to give to a friend for example), hover over a title, click on the white link icon that will pop up on its left, and copy the new url of the webpage. This also works for internal links, simply click on them and copy the new url of the webpage.
 
 
-### Notes
+### Ground Rules
 ***Contradictions***  
 If a wording would contradict with another (for example saying you can do something that another wording prevents), then either it explicitly refers to the other wording it is contradicting with, in which case it takes precedence, or it does not, in which case the default precedence order is:  
 Action Cards > Political Cards > Racial Upgrade > Racial Abilities > Technologies > Rules from this rulebook
