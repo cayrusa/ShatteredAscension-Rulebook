@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v6_2017-03-14
+# Shattered Ascension Compact Rulebook  - v7_2017-03-16
 
 #### Notes
 ***Contradictions***  
@@ -371,28 +371,35 @@ In this Space Battle, the active player is the *attacker*, while the other playe
 The Planetary Landings step is divided in two parts: the proper Planetary landings, and the Bombardment assignment.
 
 * **Planetary landings**: The active player may land troops, PDSs and Leaders currently carried by his ships in the just activated System on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one troop.
-* **Bombardment assignment**: The active player may assign some of his ships in the just activated System with the *Bombardment* ability to the non-friendly planets of this System, in order to bombard them during the 6) Planetary Landing resolution step. 
+* **Bombardment assignment**: The active player may assign some of his ships in the just activated System with the *Bombardment* ability to the non-friendly planets of this System, in order to be able to bombard them during the 6) Planetary Landing resolution step. 
 
 <a name="PlanetaryLandingsResolution_TacticalActionStep">
 ***6) Planetary Landings resolution***
 </a>
 > Formerly known as the "Invasion Combat" step.
 
-Until all planets in the just activated System have been resolved, the active player chooses an unresolved planet and resolves it according to the following:
+Until all planets that had units or Leaders landed on them or ships assigned to bombard them in the just activated System have been resolved, the active player chooses an unresolved planet and resolves it according to the following:
 (In what follows, "landed" troops, PDSs and Leaders refer to the troops, PDSs and Leaders that were landed on the planet being resolved)
 
 > Could be cool to have "friendly", "neutral" and "hostile" in colour, but I did not find how to do it yet.  
 
 * a) The planet is **friendly**:    
- Place the landed troops, PDSs and Leaders on the planet.
+ Place the landed troops, PDSs and Leaders on the planet. No bombardment occur.
 * b) The planet is **neutral**:  
-The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#GameConcepts_DomainCounters). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
+The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#GameConcepts_DomainCounters). No bombardment occur (unless included in an Invasion Combat triggered by a Domain Counter). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
 * c) The planet is **controlled by an opponent**:  
+	* c-1) The planet **contains at least one enemy troop or PDS**:  
+	If you landed at least one troop, resolve an [Invasion Combat](#InvasionCombats) on this planet, else the ships assigned to this planet [bombard](#Bombardment_unitAbility) it without an Invasion Combat taking place.
+	* c-2) The planet **does not contain any enemy troop and PDS**:  
+	The ships assigned to this planet [bombard](#Bombardment_unitAbility) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
+
+
+<!---
 	* c-1) The planet **contains at least one enemy troop or PDS**:  
 	Resolve an [Invasion Combat](#InvasionCombats) on this planet.
 	* c-2) The planet **does not contain any enemy troop and PDS**:  
 	The ships assigned to this planet may [bombard](#) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
-
+-->
 
 ***7) Production***  
 Note: All the resources that the active player decides to spend during this step may be added up and spent at once at the end of the step. The total amount of resources that must be spend is rounded up. 
@@ -790,7 +797,7 @@ Trade Stations are a specific type of planets, with the following special rules:
 
 * No [Domain Counter](#GameConcepts_DomainCounters) may exist on a Trade Station.
 * Troops, Installations and Leaders may not exist on Trade Stations, and no Invasion Combat or bombardment may be conducted against them.
-* A player takes control of a Trade Station when she is the only one having ships in its System at the end of an action. She retains control of it even if she stops having ships in the System, until another player takes control of it.  
+* A player takes control of a Trade Station  if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it.  
 * A player cannot lose control of a Trade Station for any reason if she has ships in its system.
 
 ## Other Board Elements
@@ -838,7 +845,7 @@ Artifacts may exist on planets or in space, are placed on the galaxy when it is 
 * ***Artifact on a Planet***  
 Whoever controls the planet controls the Artifact.
 * ***Artifact in Space***  
-A player takes control of an Artifact in space when she is the only one having ships in its System at the end of an action. She retains control of it even if she stops having ships in the System, until another player takes control of it. 
+A player takes control of an Artifact in space if, at the end of an action, she has ships in its System. She retains control of it even if she stops having ships in the System, until another player takes control of it. 
 
 When a player takes control of a facedown Artifacts, she flips it. The Artifact will stay in this state for the rest of the game.
 
