@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v4_2017-02-04
+# Shattered Ascension Compact Rulebook  - v5_2017-??-??
 
 #### Note on Contradictions
 If the text of a component (card, technology,...) would contradict with the rules presented in this rulebook, the component takes precedence. 
@@ -95,7 +95,7 @@ A game of Shattered Ascension is a succession of Rounds. At the end of each Roun
 *Note: players may sit now, but will likely have to change seat at some point.*
 
 [**1) Building the Galaxy**](#Setup_BuildingTheGalaxy)  
-[**2) TableSetup**](#Setup_TableSetup)  
+[**2) Table Setup**](#Setup_TableSetup)  
 [**3) Victory Point Goal**](#Setup_VictoryPointGoal)  
 [**4) Game Options**](#Setup_GameOptions)  
 [**5) Secret Objectives**](#Setup_SecretObjectives)  
@@ -219,9 +219,8 @@ The player holding the Speaker Token may now set the orientation of the Rotation
 <a name="Setup_DeckBuiding">
 **11) Deck Building**
 </a>
-> Experience shows that Shattered Ascension Stage II is not reached anyway, so no need to complicate things with another objective deck.
  
-* Build the objective deck by shuffling all the Stage I Objective cards.
+* Build the objective deck by shuffling all the Stage I Public Objective cards.
 * Shuffle the Action Cards and Political Cards decks
 
 <a name="Setup_RevealingObjectives">
@@ -231,8 +230,9 @@ The player holding the Speaker Token may now set the orientation of the Rotation
 Reveal:
 
 * All Special Objectives (if playing a duel, exclude Sovereign and Magisterial)
-* 3 random Public Stage I Objectives
+* 3 random Stage I Public Objectives
 * 1 random Preliminary Objective (not if playing a duel)
+* 3 random Stage II Public Objectives
 
 <a name="Setup_FinalisingSetup">
 **13) Finalising Setup**
@@ -242,18 +242,18 @@ Reveal:
 * Each player draws 2 Political Cards
 * Reveal hidden races
 * Each player chooses a set of plastic miniatures and take his race's Command Counters. He places them near his race sheet. They will form his "Reinforcements".
-> * I think that "Flag Token" is a better name than "Control Marker". It's more visual. And we say "flag" when we talk anyway.
+> * I think that "Flag" is a better name than "Control Marker". It's more visual. And we say "flag" when we talk anyway.
 > * Let's forget about the dual name "Trade Contract"-"Trade Agreement", and just call these cards "Trade Agreements", that may be either "active" or "inactive".
 > * "Race-Specific Technology" -> "Racial Improvement", to show that they are really not like normal technologies.
 > * "Promissory Notes" do not exist in SA.
 
 * Each player takes the assets of his race:
-	* Flag Tokens
+	* Flags
 	* Flagship card
 	* Trade Agreement cards
 	* Racial Improvement cards
-* Each player places a Flag Token on the zero of the Victory Point Track.
-* Each player places Flag Tokens on the technology tree, besides his starting technologies (indicated on his race sheet).
+* Each player places a Flag on the zero of the Victory Point Track.
+* Each player places Flags on the technology tree, besides his starting technologies (indicated on his race sheet).
 
 > "Installations" = PDSs and SpaceDocks
 
@@ -439,7 +439,7 @@ When a Space Cannon (*n*) unit fires, it performs *n* combat rolls. Hits must be
 ***4) Space Battles***
 
 At this time, if there are ships controlled by two different players in the just activated System, a Space Battle must be resolved.  
-In this Space Battle, the active player is the *attacker*, while the other player is the defender*. For complete rules about how to resolve a Space Battle, see the [Space Battles section](#SpaceBattles).
+In this Space Battle, the active player is the *attacker*, while the other player is the *defender*. For complete rules about how to resolve a Space Battle, see the [Space Battles section](#SpaceBattles).
 
 <a name="PlanetaryLandings_TacticalActionStep">
 ***5) Planetary Landings***
@@ -635,11 +635,71 @@ Starting with the Speaker and following the Rotation Cycler, players may scuttle
 **The end of the Status Phase marks the end of the Round. If no player has won the game yet, a new Round begins.**
 
 <a name="SpaceBattles">
-### Space Battles
-</a>
+## Space Battles
+</a>  
+> From TI3 to SA: Forget the terms "Withdrawals" and "Tactical Retreats". They have been unified under a single and simple system called "Retreat".  
+> From SA to this rulebook: Checking when Space Battles are over is now done *before* any Combat Round would start.
+> From SA to this rulebook: Adjustments to the retreat system (defender gets the chance to announce a retreat before the attacker, retreat destination is chosen when the retreat is *executed*.).
+> From SA to this rulebook: Changed the names of the "Roll Combat Dice" and "Remove Casualties" to respectively "Perform Combat Rolls" and "Assign Hits" for increased rule consistency. (No actual gameplay impact)
+
+This section details how to resolve Space Battles. Space Battles are ships versus ships engagements.
+
+A Space Battle consists of a *Pre-Combat* phase, followed by a succession of *Combat Rounds* that continues as long as both players have ships in the System the Space Battle takes place in.
+
+The Space Battle sequence:
+
+	1) Pre-Combat
+	1.a) Anti-Fighter Barrage
+	1.b) Other Pre-Combat effects
+
+	2) Combat Round
+	2.a) Announce Retreats
+	2.b) Perform Combat Rolls
+	2.c) Assign Hits
+	2.d) Execute Retreats
+
+	Repeat 2) until the Space Battle ends
+
+Here are a few definitions that will be used in the following:  
+
+<a name="CombatRoll">**Combat Roll**</a>: The act of rolling a die and checking if its result is greater or equal to a unit's combat value. If it is, it generates a *hit*.
+
+<a name="AssigningAHit">
+**Assigning a hit**</a>:  
+When her opponent generates a *hit* during a Space Battle or Invasion Combat, a player must assign it to one of her units involved in the SpaceBattle/InvasionCombat (she chooses which unit). Each unit may only be assigned at most one *hit*, and doing so destroys the unit. 
+
+**End of a Space Battle**:  
+If before a Combat Round would begin, either the attacker or the defender does not have ships in the System of the Space Battle, the Space Battle ends. If one player still has ships in the System at this point, he is declared the **winner** of the Space Battle.
+
+### 1) Pre-Combat  
+During this phase, all pre-combat effects are resolved.  
+#### 1.a) Anti-Fighter Barrages
+First both sides use the [Anti-Fighter Barrage abilities](#AntiFighterBarrage_unitAbility) of their involved units. The [combat rolls](#CombatRoll) are performed simultaneously, then the attacker must assign to her Fighters the hits obtained by the defender, before the defender does the same with the attacker's hits (see [assigning a hit](#AssigningAHit)).  
+
+#### 1.b) Other Pre-Combat effects
+After the Anti-Fighter Barrages, all other pre-combat effects are resolved. All pre-combat [combat rolls](#CombatRoll) granted by these effects are performed simultaneously, then the attacker assigns to her units the hits obtained by the defender, before the defender does the same with the attacker's hits (see [assigning a hit](#AssigningAHit)).  
+
+### 2) Space Battle Combat Round  
+#### 2.a) Announce Retreats
+At this step, the defender may choose to announce a retreat. If she does not announce a retreat, then the attacker may announce a retreat. For now, these are just announcements, the actual retreats are executed at a later step of the Combat Round.
+
+#### 2.b) Perform Combat Rolls  
+Each ship involved in the System of the Space Battle performs as many [Combat Rolls](#CombatRoll) as its [Combat Dice](#CombatDice) characteristic. All dice are rolled simultaneously.
+
+#### 2.c) Assign Hits  
+First, the **attacker** must assign to her ships the hits obtained by the **defender**. Then the defender does the same with the attacker's hits.
+
+#### 2.d) Execute Retreats  
+If a player announced a retreat previously in the Combat Round, **and there are still ships from both the attacker and the defender in the System of the Space Battle** (else the retreat is cancelled), then she must now designate  a destination System for the retreat, called the **Retreat System**, satisfying the following:
+
+* The Retreat System does not contain enemy ships
+* There is no non-friendly Space Mines between the Retreat System and the System of the Space Battle.
+* If the System of the Space Battle is activated, then the retreating player must spend a Command Counter from [Strategy Allocation](#StrategyAllocation) in order to choose an unactivated System as the Retreat System.
+
+If no possible Retreat System exists, the retreat is cancelled. Else, the retreating player must place one of her Command Counter from [reinforcements](#Reinforcements) in the Retreat System and move all of her ships from the System of the Space Battle to this System.
 
 <a name="InvasionCombats">
-### Invasion Combats
+## Invasion Combats
 </a>
 
 <a name="OtherGameConceptsAndRules">
@@ -723,20 +783,25 @@ Cards, effects or other rules may refer to one of the following player orders wh
 <a name="GameConcept_CommandCounter">
 ### Command Counters
 </a>
-Fleet Supply
+<a name="FleetSupply">Fleet Supply</a>  
+<a name="StrategyAllocation">Strategy Allocation</a>  
 When receiving a Command Counter, the player can place it either in Command Pool, Fleet Supply or Strategy Allocation.
 
 <a name="GameConcept_Facilities">
 ### Facilities
 </a>
 
-## Specific Definitions
+## Specific Definitions  
+[Combat Roll](#CombatRoll)  
+<a>Activated System</a>:  
+Technically, "an Activated System" is an incomplete statement and should rather be "a System Activated by [a given player]", but since this would make wordings too long, they simply use "Activated System" when the player they refer to can be inferred from the context.  
+A System is said to be "Activated" by a specific player if it contains a Command Counter of that player.  
+<a>Activating a System</a>:  
+The main way for a player to activate a System is 
+
 Hostile Action   
 Invasion (not needed if we change Dackxive Animators so that it doesn't use this term)  
-Combat Roll / Combat Die  
-<a name="Reinforcements">
-Reinforcements
-</a>
+<a name="Reinforcements">Reinforcements</a>
 > ToDo: Define "Neighbours" as Your players on your left and on your right are considered your "neighbors" regardless of Home System location. 
 
 Technology Specialties  
@@ -746,7 +811,7 @@ Spending (resource or influence)
 Active player  
 Friendly  
 Hostile  
-Activated System
+
 <a name="FleetSupply">
 Fleet Supply
 </a>
@@ -764,6 +829,12 @@ Units characteristics
 - movement value  
 - res cost  
 - prod cap cost
+- combat dice
+- combat value
+
+<a name="CombatDice">
+Combat Dice:</a> A unit characteristic. The number of combat rolls it performs during the combat rounds of Space Battles (if the unit is a ship) or Invasion Combats (if it is a troop).  
+Note that if after all modifiers have been taken into account, a unit would have zero or less Combat Dice, it is considered as having one Combat Dice instead.
 
 units abilities  
 - <a name="Capacity_unitAbility">Capacity, and Fighter Capacity of a System</a>  
@@ -771,14 +842,22 @@ units abilities
 - <a name="ProduceUnits_unitAbility">Produce Units (*n*)</a>  
 - <a name="PlanetaryShield_unitAbility">Planetary Shield</a>     
 - <a name="Bombardment_unitAbility">Bombardment (*n*)</a>  
-- <a name="SustainDamage_unitAbility">Sustain Damage (*n*)</a>
+
+- <a name="SustainDamage_unitAbility">Sustain Damage (*n*)</a>  
+A unit with the Sustain Damage (*n*) ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* it sustains this way, a unit loses a [combat dice](#CombatDice). Sustained *hits* persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the [Status Phase](#StatusPhase).
+
+- <a name="AntiFighterBarrage_unitAbility">Anti-Fighter Barrage (*n*)</a>  
+During the pre-combat phase of the Space Battles in which this unit participates, it performs *n* [combat rolls](#CombatRoll). Hits from these [combat rolls](#CombatRoll) may only be assigned to [Fighters](#Fighter).
 
 ### Space Dock
 * Exhausted/Refreshed states
 * No more than one per planet
 ### PDS
 * No more than two per planet (therefore you may not build or land PDSs so that you would go over this limit)
-### Fighter  
+
+<a name="Fighter">
+### Fighter
+</a>
 * Must be supported using Fighter Capacity.
 
 ## Game Options / Variants
