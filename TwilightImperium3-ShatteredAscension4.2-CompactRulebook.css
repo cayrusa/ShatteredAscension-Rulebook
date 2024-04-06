@@ -204,6 +204,10 @@ blockquote>:last-child {
 	visibility: hidden;
 }
 
+.markdown-body pre {
+  background-color: #014f63;
+}
+
 /* My Changes (End)*/
 
 /*
