@@ -1,4 +1,4 @@
-# Shattered Ascension Rulebook  - v31_2018-12-16
+# Shattered Ascension Rulebook  - v32_2019-01-10
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
@@ -54,8 +54,6 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 * [Other Board Elements](#user-content-OtherBoardElements)
 	* [Wormholes](#user-content-Wormholes) 
 	* [Border Tokens](#user-content-BorderTokens)
-		* [Asteroid Belts](#user-content-AsteroidBelts)
-		* [Space Mines](#user-content-SpaceMines)
 	* [Artifacts](#user-content-Artifact)
 	* [Worldgates](#user-content-Worldgate)
 	* [Domain Counters](#user-content-DomainCounters)
@@ -296,7 +294,7 @@ After all players have placed their Agenda, they are revealed and the game goes 
 <div>
 
 <!-- Starting with the Speaker and proceeding in the order defined by the Rotation Cycler -->
-In [rotation order](#user-content-RotationOrder), each player must pick one of the available Strategy Cards (that was not already picked by another player). they will be able to use them during the upcoming Action Phase.
+In [rotation order](#user-content-RotationOrder), each player must pick one of the available Strategy Cards (that was not already picked by another player). They will be able to use them during the upcoming Action Phase. All the 9 Strategy Cards are available on [our website](http://www.astralvault.net/games/SA/index.php/downloads/).
 
 After that, place a Bonus Counter on each of the unpicked Strategy Cards. These Bonus Counters stack from one Round to the next, and increase the value of the Strategy Cards they are on: when a player picks a Strategy Card, she converts each Bonus Counter on it into either a Command Counter or a Trade Goods that she adds to her race sheet.
 </div>
@@ -573,7 +571,7 @@ No ships may be produced in a System already containing enemy ships.
 After units have been produced, they must be placed according to the following rules. The *producer* refers to the unit that produced them:  
 
 * Ships are placed in the space of the System containing the *producer*
-* If the *producer* is on a planet, then all produced units with the *Planet-based* trait (ground units and PDSs) must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#user-content-Capacity_unitAbility) to carry them.
+* If the *producer* is on a planet (or *is* a planet in some cases), then all produced units with the *Planet-based* trait (ground units and PDSs) must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#user-content-Capacity_unitAbility) to carry them.
 </div>
 </div>
 
@@ -768,11 +766,6 @@ Starting with the Speaker and following the Rotation Cycler, players may scuttle
 
 <!-- > Change from base SA: Checking for whether Space Battles are over is done *before* any Combat Round would start, instead of after each Combat Round. This way no Combat Round is started if one side was entirely destroyed during the Pre-Combat part.   -->
 <!-- > Change from base SA: Renamed the "Roll Combat Dice" and "Remove Casualties" steps to respectively "Perform Combat Rolls" and "Assign Hits" to increase the consistency of the rules. -->
-<details>
-	<summary>Change from base SA (click to expand)</summary>
-
-Renamed the "Roll Combat Dice" step to "Perform Combat Rolls" to increase the consistency of the rules.
-</details>
 
 This section details how to resolve Space Battles. Space Battles are ships versus ships engagements that occur when a player moves ships into a system containing enemy ships. The player that moved ships is the **attacker**, while the other player is the **defender**.
 
@@ -784,9 +777,9 @@ A Space Battle consists of a *Pre-Combat* phase, followed by a succession of *Co
 	1. [Anti-Fighter Barrage](#user-content-AntiFighterBarrage_SpaceBattleStep)
 	2. [Other Pre-Combat Effects](#user-content-OtherPreCombatEffects_SpaceBattleStep)
 2. [Space Battle Combat Round](#user-content-SpaceBattleCombatRound_SpaceBattleStep) (repeat until the Space Battle ends)
-	1. [Perform Combat Rolls](#user-content-PerformCombatRolls_SpaceBattleStep)
+	1. [Conduct Combat Rolls](#user-content-ConductCombatRolls_SpaceBattleStep)
 	2. [Assign Hits](#user-content-AssignHits_SpaceBattleStep)
-	3. [Retreat](#user-content-Retreat_SpaceBattleStep)  
+	3. [Conduct Retreat](#user-content-ConductRetreat_SpaceBattleStep)  
 
 Here are a few definitions that will be used in the following:  
 
@@ -815,7 +808,7 @@ After the Anti-Fighter Barrages, all other pre-combat effects are resolved. All 
 </div>
 
 ### 2) Space Battle Combat Round<a name="SpaceBattleCombatRound_SpaceBattleStep"></a>
-#### 2.a) Perform Combat Rolls<a name="PerformCombatRolls_SpaceBattleStep"></a>
+#### 2.a) Conduct Combat Rolls<a name="ConductCombatRolls_SpaceBattleStep"></a>
 <div>
 
 Each ship in the System of the Space Battle performs as many [combat rolls](#user-content-CombatRoll) as its [combat dice](#user-content-CombatDice) characteristic. All dice are rolled simultaneously.
@@ -827,7 +820,7 @@ Each ship in the System of the Space Battle performs as many [combat rolls](#use
 First, the **attacker** must assign to her ships the hits scored by the **defender**. Then the defender does the same with the hits scored by the attacker.
 </div>
 
-#### 2.c) Retreat<a name="Retreat_SpaceBattleStep"></a>
+#### 2.c) Conduct Retreat<a name="ConductRetreat_SpaceBattleStep"></a>
 <div>
 Skip this step if either side has no remaining ships in the System.
 
@@ -961,7 +954,7 @@ Each player will start the game in the Home System of her race, containing her s
 
 * Ships may not end their movement in an Asteroid Field.
 * Ships may not enter and leave an Asteroid Field in the same movement.
-* The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire at ships in an Asteroid Field.
+* The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire at units in an Asteroid Field.
 
 
 #### Ion Storm<a name="IonStorm"></a>
@@ -971,7 +964,7 @@ Each player will start the game in the Home System of her race, containing her s
 </div>
 
 * Ships may not enter and leave an Ion Storm in the same movement.
-* The [Space Cannon](#user-contnt-SpaceCannon_unitAbility) ability may not fire at ships in an Ion Storm.
+* The [Space Cannon](#user-contnt-SpaceCannon_unitAbility) ability may not fire at units in an Ion Storm.
 * [Fighters](#user-content-Fighter) in an Ion Storm cannot perform [Combat Rolls](#user-content-CombatRoll).
 
 #### Nebula<a name="Nebula"></a>
@@ -1152,12 +1145,14 @@ A Wormhole is said to be a **Stable Wormhole** if it was present in the galaxy a
 </div>
 
 ### Border Tokens<a name="BorderTokens"></a>
-Border Tokens are placed on the border between two Systems:
+Border Tokens are placed on the tile edges between two Systems:
 
 * [Asteroid Belts](#user-content-AsteroidBelts)
+* [Ion Spheres](#user-content-IonSpheres)
+* [Standing Grav-Waves](#user-content-StandingGravWaves)
+* [Collapsed Space-Times](#user-content-CollapsedSpaceTimes)
 * [Space Mines](#user-content-SpaceMines)
 
-***Note:*** *Wormholes are* ***not*** *borders.*
 #### Asteroid Belts<a name="AsteroidBelts"></a>
 <div>
 
@@ -1165,21 +1160,47 @@ Border Tokens are placed on the border between two Systems:
 </div>
 
 * Ships may not move through Asteroid Belts
-* The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire through an Asteroid Belt.
+* The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire through Asteroid Belts.
+
+#### Ion Spheres<a name="IonSpheres"></a>
+<div>
+
+![IonSphere](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Special_IonSphere.jpg)
+</div>
+
+* Units may only move through an Ion Sphere as the last part of their movement. Players with the Maneuvering Jets technology may ignore this restriction.
+* The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire through Ion Spheres.
+
+#### Standing Grav-Waves<a name="StandingGravWaves"></a>
+<div>
+
+![StandingGravWave](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Special_StandingGravWave.jpg)
+</div>
+
+* Units may only move through Standing Grav-Wave in the direction indicated by the token.
+
+#### Collapsed Space-Times<a name="CollapsedSpaceTimes"></a>
+<div>
+
+![CollapsedSpaceTime](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Special_CollapsedSpaceTime.jpg)
+</div>
+
+* Units may never move through Collapsed Space-Times.
+* The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire through Collapsed Space-Times.
 
 #### Space Mines<a name="SpaceMines"></a>
 <div>
 
 ![SpaceMine](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/SpaceMine.jpg)
 
-Space Mines are a type of border tokens. They are built by ships with the [Deploy Space Mines ability](#user-content-DeploySpaceMines_unitAbility) and belong to the player that built them.
+Space Mines are built by ships with the [Deploy Space Mines ability](#user-content-DeploySpaceMines_unitAbility) and belong to the player that built them.
 
-When a ship would cross a border containing at least one non-friendly Space Mine, its movement is momentarily interrupted. After all the other ships have finished their movement (or got stopped by Space Mines), the owner of the ships must resolve (see below) all the Space Mines that stopped at least one ship, in the order of her choice.  
+When a ship would cross at least one non-friendly Space Mine, its movement is momentarily interrupted. After all the other ships have finished their movement (or got stopped by Space Mines), the owner of the ships must resolve (see below) all the Space Mines that stopped at least one ship, in the order of her choice.  
 After this step, the movements of the ships resume.
 
 **Resolving a Space Mine**  
 When resolving a Space Mine, roll a die for each non-Fighter ship that was stopped by the Space Mine. For each results of 8+, the owner of the ships must assign a hit to one of these non-Fighter ships.  
-Then remove **all** (not just the one resolved) non-friendly Space Mines at the same border as the Space Mine just resolved.
+Then remove **all** (not just the one resolved) non-friendly Space Mines at the same position as the Space Mine just resolved, without resolving them.
 </div>
 
 ### Artifacts<a name="Artifact"></a>
@@ -1348,7 +1369,7 @@ The number of Command Counters in a player's Fleet Supply is her **Fleet Supply*
 
 - A player may not move or acquire units if that would cause her to violate her Fleet Supply. A player may not plot ship trajectories if the corresponding movements could cause her to violate her Fleet Supply (This can typically happen with [Gravity Rift](#user-content-GravityRift)).
 
-- ***Exception:*** *A player* **may** *[retreat](#user-content-Retreat_SpaceBattleStep) ships even if that would cause her to violate her Fleet Supply.*
+- ***Exception:*** *A player* **may** *[retreat](#user-content-ConductRetreat_SpaceBattleStep) ships even if that would cause her to violate her Fleet Supply.*
 
 - If a player violates her Fleet Supply in a System, she must destroy enough of her non-Fighter ships in that System to comply with her Fleet Supply again. This can for example happen after a retreat or if she removes Command Counters from her Fleet Supply.
 
@@ -1596,7 +1617,7 @@ While normally forbidden, some effects allow players to *self-trade* some of the
 
 ## Components Limitations<a name="ComponentsLimitations"></a>
 
-<details>
+<!-- <details>
 	<summary>Change from base SA (click to expand)</summary>
 
 Removed all Command Counters and unit limits (except War Suns and Space Docks) because this should not matter. What is the best unit to build at the time should be the concern, not whether you comply with the arbitrary limit put on it. I can only advise you to free your mind from these limitations, and use plastic units from unused colours when you need more. The base SA limits can be found below.
@@ -1615,6 +1636,12 @@ Base SA components limits:
 - No limit on Ground Forces
 - 10 PDSs
 - 5 Space Docks
+</details> -->
+
+<details>
+	<summary>Change from base SA (click to expand)</summary>
+
+Removed the limit of 24 Command Counters, because it's unclear how this limitation works. Do you count the Command Counters you have placed on the board? If you're already at 24, someone with the Diplomacy Strategy Card can't force you to place one because "you've reached the limit"?
 </details>
 
 All components, except those listed below, are unlimited. Players can use any reasonable objects to replace them if they would run out.  
@@ -1622,10 +1649,18 @@ Supplement cardboard tokens exist for Fighters and Ground Forces.
 
 **Limited components:**
 
-* [Flagship](#user-content-Flagship): 1
-* [War Suns](#user-content-WarSun): 3
 * [Space Docks](#user-content-SpaceDock): 5
 * [PDSs](#user-content-PDS): 10
+* [Flagship](#user-content-Flagship): 1
+* [War Suns](#user-content-WarSun): 3
+* [Dreadnoughts](#user-content-Dreadnought): 7
+* [Carriers](#user-content-Carrier): 8
+* [Cruisers](#user-content-Cruiser): 12
+* [Destroyers](#user-content-Destroyer): 16
+* No limit on [Fighters](#user-content-Fighter)
+* [Armors (a.k.a. Mechanised Units)](#user-content-Armor): 8
+* No limit on [Shock Troops](#user-content-ShockTroop)
+* No limit on [Ground Forces](#user-content-GroundForce)
 
 If a player goes over one of these limits, she must immediately scuttle the units in excess. 
 
@@ -2164,7 +2199,7 @@ This ability is the combination of the [Space Cannon (n)](#user-content-SpaceCan
 #### Deploy Space Mines (*n*)<a name="DeploySpaceMines_unitAbility"></a>  
 <div>
 
-During the [Production step](#user-content-Production_TacticalActionStep) of a Tactical Action, the active player may deploy a number of [Space Mines](#user-content-SpaceMines) in the just activated System up to the number of [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy 2). Each Space Mine costs 2 resources and must be placed on one of the borders of the System (Wormholes are not borders). Place a flag of the active player on each Space Mine built to indicate their ownership. 
+During the [Production step](#user-content-Production_TacticalActionStep) of a Tactical Action, the active player may deploy a number of [Space Mines](#user-content-SpaceMines) in the just activated System up to the number of [Deploy Space Mines](#user-content-DeploySpaceMines_unitAbility) abilities her units in the System have  (in most cases, Space Mines will be deployed by Cruisers, each of them being able to deploy 2). Each Space Mine costs 2 resources and must be placed on one of the edges of the System. Place a flag of the active player on each Space Mine built to indicate their ownership. 
 </div>
 
 #### Invasion Defence (*n*)<a name="InvasionDefence_unitAbility"></a>  
@@ -2420,15 +2455,15 @@ Third ability wording:
 
 ## Surrender and Elimination<a name="EliminationAndSurrender"></a>
 
-Sometimes a player does not want to ([surrender](#user-content-Surrender)) or cannot ([elimination](#user-content-Elimination)) continue playing. This section explains how to deal with these situations. Additionally, the [general surrender](#user-content-GeneralSurrender) procedure provides a way to amicably settle a game without playing it out to the end.
+Sometimes a player does not want to ([surrender](#user-content-Surrender)) or cannot ([elimination](#user-content-Elimination)) continue playing. This section explains how to deal with these situations. Additionally, the [armistice](#user-content-Armistice) procedure provides a way to amicably settle a game without playing it out to the end.
 
 ### Surrender<a name="Surrender"></a>
 
 <details>
 	<summary>Change from base SA (click to expand)</summary>
 
-- The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
-- Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)
+- **(sanctioned by PsiComa)**: The surrender procedure is to be followed at the end of the Status Phase, instead of right after the refresh planet step of the Status Phase. This makes the game flow cleaner: first do the normal Status Phase, then do the surrender.  
+- **(sanctioned by PsiComa)**: Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)
 - **(sanctioned by PsiComa)**: Ties during the identification of the capital planet are broken in favour of the planet with the highest resource value worth of ground units and PDS, and in case there is still a tie, by choosing one at random.
 - **(sanctioned by PsiComa)**: The capital planets and the units on it are **not** considered as neutral for the rest of the game. They just belong to a race without player.
 - **(sanctioned by PsiComa)**: When adding to the garrison of the capital planet, add ground units until you either added 3 or there are at least 5 **ground units** on the planet. (base SA says "at least 5 Ground Forces")
@@ -2437,7 +2472,7 @@ Sometimes a player does not want to ([surrender](#user-content-Surrender)) or ca
 </details>
 
 
-When passing during the Action Phase, players who wish to stop playing may *surrender* to leave the game. Follow this procedure at the end of the round (this procedure does not require the presence of the surrendered player):
+When passing during the Action Phase, a player who wish to stop playing may surrender to leave the game. After this happens, the surrendering player may not act in the game anymore and her next Status Phase is skipped. Follow this procedure at the end of the round:
 <!-- If at the *end of a round*, a player wishes to stop playing for some reason, she can *surrender*.
 Then follow this procedure: -->
 
@@ -2450,17 +2485,18 @@ Then follow this procedure: -->
 	3. Else, the planet with the highest combined resource and influence is the capital planet.
 3. **Garrison the Capital Planet:**  
 	The surrendering player receives Ground Forces on the capital planet until either 3 Ground Forces were added or there are at least 5 ground units.
-4. **Remove all Space Docks, except those in the system of the capital planet**
-5. **Remove all Leaders, except the captives**  
+4. **Remove all Space Docks, except the one on the capital planet (if any)**
+5. **Remove the Flagship (if it is on the board)**
+6. **Remove all Leaders, except the captives**  
 	In the rest of the game, if one of these captives would escape, it is removed from the game instead.
-6. **Bidding on the fleets and planets of the surrendering player:**   
+7. **Bidding on the fleets and planets of the surrendering player:**   
 	Starting with the Speaker and following the Rotation Cycler (ignoring the surrendering player), each player will choose a fleet or planet *(except the capital planet)* of the surrendering player that will be bid upon.
 
 	After a fleet or planet has been chosen, starting with the player that chose and following the Rotation Cycler (again, ignoring the surrendering player), each player may either place a bid of influence or withdraw from this bidding. Repeat this until only one player has not withdrawn: this player wins this bidding. The winner of a bidding must spend as many influence as her bid, and takes control of the fleet or planet (including the units on it, but exhausted) that was bid upon.  
 	Note that the player that chose *must* place a bid on her first turn (but she can bid 0), and that no player may place a bid she could not afford to pay later. Also, as an exception to the [Fleet Supply](#user-content-FleetSupply) rule, players *are* allowed to take control via this process of a fleet that would put them in violation of their Fleet Supply (they still have to destroy ships to comply with Flet Supply afterwards).
 
 	Repeat this process until all the fleets and planets (except the capital planet) of the surrendering player have been attributed to other players.
-7. **Elimination:**  
+8. **Elimination:**  
 	Finally, the surrendering player is *eliminated* (follow the [elimination procedure](#user-content-Elimination)), with the exception that the Trade Agreements she had with other players stay open until the capital planet is lost (or until her trade partners perform [Hostile Acts](#user-content-HostileAct) against the capital planet).
 
 ***Note:*** *The capital planet and its units (until they are taken over or destroyed) are to be considered by the remaining players as belonging to an opponent that has the same technologies, racial abilities and racial upgrades the surrendering player had. They systematically use any effects they have to, but none that are optional, except the [Space Cannon](#user-content-SpaceCannon_unitAbility) ability which they use whenever they can.*
@@ -2488,13 +2524,11 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 
 ***Note:*** *The Home System of an eliminated player is still considered as the Home System of an opponent by the remaining players. This means in particular that objectives requiring to control planets in an opponent's Home System can be claimed with the Home System of an eliminated player.*
 
-### General Surrender (Experimental) <a name="GeneralSurrender"></a>
+### Armistice (Experimental) <a name="Armistice"></a>
 
 *It may happen that a player is almost guaranteed to win, and that other players do not see a way to stop her, but the game would still technically require to be played out. When this happens, the following rule can be used to cut the game short. It simulates an amicable settlement of the end game.*
 
-<!--In case all remaining players agree, a general surrender may be initiated to end the game determining a winner of the game. The winner is awarded enough VP to reach the victory contidition. The winner can then award VP to any remaining player up to a total amount of VP equal to the number of players. The remaining players may cede VPs to each other. The maximum amount of VPs any non-winning player can have is 2VPs less than the winner. Should all remaining active players agree on the final result, the game ends.-->
-
-At any point during the game, if all players agree, you can follow these steps to end the game immediately. All players must agree on all decisions made during this procedure for the general surrender to be valid.
+At any point during the game, if all players agree, you can follow these steps to end the game immediately. All players must agree on all decisions made during this procedure for the armistice to be valid.
 
 1. Choose a player to be the winner of the game. She is awarded enough Victory Points to reach the Victory Point goal.
 2. The winner can award Victory Points to any remaining players, up to a total amount of awarded Victory Points equal to the number of players.
@@ -2806,6 +2840,13 @@ For the general rules regarding Domain Counters, see the [Domain Counter section
 
 ## Annex 2: Variants and Optional Rules<a name="VariantsAndOptionalRules"></a>
 
+**Content:**
+* [Covert Objectives (complete version, beta)](#user-content-CovertObjectivesComplete)
+* [Covert Objectives (light version, beta)](#user-content-CovertObjectivesLight)
+* [Path of Fate (Race Specific Objectives)](#user-content-PathOfFate)  
+* [Simultaneous Tactical Action System](#user-content-SimultaneousTacticalActionSystem)  
+* [Ascendancy](#user-content-Ascendancy)  
+* [Star by Star](#user-content-StarByStar)  
 
 ### Covert Objectives (complete version, beta)<a name="CovertObjectivesComplete"></a>
 ***Description***  
@@ -2813,7 +2854,7 @@ The Covert Objective Mod is an in-development mod that adds a new type of object
 
 The main idea of this mod was to reduce the amount of dealing that was happening when an agressive public objective was drawn (like: "I'll let a Ground Force on this planet for you to claim this objective against me if you do ..."), as well as reducing the intuitive turtling reaction that would follow the revelation of objectives like "Destroy an enemy Space Dock". So with this mod, aggressive objectives should hopefully be claimed in an actual aggressive fashion and encourage a more dynamic and proactive behaviour.
 
-***Setup*** (All the assets are available on the [Shattered Ascension website](http://www.astralvault.net/games/SA/))
+***Setup*** (All the assets are available on the [Shattered Ascension website](http://www.astralvault.net/games/SA/index.php/downloads/))
 * Replace the standard Stage I Public Objective Deck with the alternative version provided by this variant.
 * Replace the standard Bureaucracy Strategy Card with the alternative version provided by this variant.
 * Shuffle the Covert Objectives deck.
@@ -2828,6 +2869,7 @@ The main idea of this mod was to reduce the amount of dealing that was happening
 	* If the objective is voted *For*, put it into play
 	* If the objective is voted *Against*, put it at the bottom of the deck
 	* If no votes are cast on the objective, place it at the top of the deck
+* When a Covert Objective is discarded, keep it face down and shuffle it back into the deck
 
 ***Generalities***
 * If an objective refers to a system that is not in play, [recycle](#user-content-Recycle) it.
@@ -2846,8 +2888,7 @@ This is an attempt at providing a lighter implementation of the complete Covert 
 * Players may not have more than 2 Covert Objectives in hand. If they have more they must discard down to 2.
 * In the Claim Objectives step of the Status Phase, players may claim a Covert Objective if they do not also claim a Secret (or racial) Objective.
 * When executing the Secondary Ability of the Bureaucracy Strategy Card, players may draw a Covert Objective instead of gaining the Trade Good.
-
-
+* When a Covert Objective is discarded, keep it face down and shuffle it back into the deck
 
 ### Path of Fate (Race Specific Objectives)<a name="PathOfFate"></a>
 Each player is dealt her three Race-Specific Objective cards. Only one of these can be scored during each game (during the Objectives step of the Status Phase), but cannot be scored simultaneously with a Secret Objective.
