@@ -1,4 +1,4 @@
-# Shattered Ascension Compact Rulebook  - v5_2017-??-??
+# Shattered Ascension Compact Rulebook  - v5_2017-02-10
 
 #### Note on Contradictions
 If the text of a component (card, technology,...) would contradict with the rules presented in this rulebook, the component takes precedence. 
@@ -89,7 +89,7 @@ The Rotation Cycler determine the order
 
 ## Goal of the Game (Overview)
 
-A game of Shattered Ascension is a succession of Rounds. At the end of each Round, players can acquire Victory Points by claiming various Objectives. If a player ends a Round with at least as many Victory Points as the limit that was decided at the beginning of the game (usually 10), he is declared winner.
+A game of Shattered Ascension is a succession of Rounds. At the end of each Round, players can acquire Victory Points by claiming various Objectives. If a player ends a Round with at least as many Victory Points as the limit that was decided at the beginning of the game (usually 10), she is declared winner.
 
 ## Setup
 *Note: players may sit now, but will likely have to change seat at some point.*
@@ -241,7 +241,7 @@ Reveal:
 * Each player discards a Secret Objective (the discard pile of Secret Objectives cards is NOT public)
 * Each player draws 2 Political Cards
 * Reveal hidden races
-* Each player chooses a set of plastic miniatures and take his race's Command Counters. He places them near his race sheet. They will form his "Reinforcements".
+* Each player chooses a set of plastic miniatures and take his race's Command Counters. She places them near his race sheet. They will form his "Reinforcements".
 > * I think that "Flag" is a better name than "Control Marker". It's more visual. And we say "flag" when we talk anyway.
 > * Let's forget about the dual name "Trade Contract"-"Trade Agreement", and just call these cards "Trade Agreements", that may be either "active" or "inactive".
 > * "Race-Specific Technology" -> "Racial Improvement", to show that they are really not like normal technologies.
@@ -447,7 +447,7 @@ In this Space Battle, the active player is the *attacker*, while the other playe
 
 The Planetary Landings step is divided in two parts: the proper Planetary landings, and the Bombardment assignment.
 
-* **Planetary landings**: The active player may land ground units, PDSs and Leaders currently carried by his ships in the just activated System on the planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one ground unit.
+* **Planetary landings**: The active player may land troops, PDSs and Leaders currently carried by his ships in the just activated System on planets in the same System. PDSs and Leaders landing on non-friendly planets must be accompanied by at least one troop.
 * **Bombardment assignment**: The active player may assign some of his ships in the just activated System with the *Bombardment* ability to the non-friendly planets of this System, in order to bombard them during the 6) Planetary Landing resolution step. 
 
 <a name="PlanetaryLandingsResolution_TacticalActionStep">
@@ -455,20 +455,20 @@ The Planetary Landings step is divided in two parts: the proper Planetary landin
 </a>
 > Formerly known as the "Invasion Combat" step.
 
-Until all planets in the just activated System have been resolved, the active player chooses an unresolved planet and resolve it according to the following:
-(In what follows, "landed" ground units, PDSs and Leaders refer to the ground units, PDSs and Leaders that were landed on the planet being resolved)
+Until all planets in the just activated System have been resolved, the active player chooses an unresolved planet and resolves it according to the following:
+(In what follows, "landed" troops, PDSs and Leaders refer to the troops, PDSs and Leaders that were landed on the planet being resolved)
 
 > Could be cool to have "friendly", "neutral" and "hostile" in colour, but I did not find how to do it yet.  
 
 * a) The planet is **friendly**:    
- Place the landed ground units, PDSs and Leaders on the planet.
+ Place the landed troops, PDSs and Leaders on the planet.
 * b) The planet is **neutral**:  
-The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#GameConcepts_DomainCounters). If there are still landed ground units after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
+The active player must resolve the Domain Counters present on the planet (if there is any), in the order defined in the [Domain Counters section](#GameConcepts_DomainCounters). If there are still landed troops after resolving the Domain Counters, place all landed units and Leaders on the planet and the active player takes control of it, exhausted; else, destroy all landed PDSs and make a Fate Roll for each landed Leader.
 * c) The planet is **controlled by an opponent**:  
-	* c-1) The planet **contains at least one enemy ground unit or PDS**:  
+	* c-1) The planet **contains at least one enemy troop or PDS**:  
 	Resolve an [Invasion Combat](#InvasionCombats) on this planet.
-	* c-2) The planet **does not contain any enemy ground unit and PDS**:  
-	The ships assigned to this planet may [bombard](#) it. Then place all landed ground units, PDSs and Leaders on the planet and the active player takes control of it.  
+	* c-2) The planet **does not contain any enemy troop and PDS**:  
+	The ships assigned to this planet may [bombard](#) it. Then place all landed troop, PDSs and Leaders on the planet and the active player takes control of it, exhausted.  
 
 
 ***7) Production***  
@@ -669,7 +669,7 @@ Here are a few definitions that will be used in the following:
 When her opponent generates a *hit* during a Space Battle or Invasion Combat, a player must assign it to one of her units involved in the SpaceBattle/InvasionCombat (she chooses which unit). Each unit may only be assigned at most one *hit*, and doing so destroys the unit. 
 
 **End of a Space Battle**:  
-If before a Combat Round would begin, either the attacker or the defender does not have ships in the System of the Space Battle, the Space Battle ends. If one player still has ships in the System at this point, he is declared the **winner** of the Space Battle.
+If before a Combat Round would begin, either the attacker or the defender does not have ships in the System of the Space Battle, the Space Battle ends. If one player still has ships in the System at this point, she is declared the **winner** of the Space Battle.
 
 ### 1) Pre-Combat  
 During this phase, all pre-combat effects are resolved.  
@@ -684,7 +684,7 @@ After the Anti-Fighter Barrages, all other pre-combat effects are resolved. All 
 At this step, the defender may choose to announce a retreat. If she does not announce a retreat, then the attacker may announce a retreat. For now, these are just announcements, the actual retreats are executed at a later step of the Combat Round.
 
 #### 2.b) Perform Combat Rolls  
-Each ship involved in the System of the Space Battle performs as many [Combat Rolls](#CombatRoll) as its [Combat Dice](#CombatDice) characteristic. All dice are rolled simultaneously.
+Each ship in the System of the Space Battle performs as many [Combat Rolls](#CombatRoll) as its [Combat Dice](#CombatDice) characteristic. All dice are rolled simultaneously.
 
 #### 2.c) Assign Hits  
 First, the **attacker** must assign to her ships the hits obtained by the **defender**. Then the defender does the same with the attacker's hits.
@@ -700,20 +700,54 @@ If no possible Retreat System exists, the retreat is cancelled. Else, the retrea
 
 <a name="InvasionCombats">
 ## Invasion Combats
-</a>
+</a>  
+This section details how to resolve Invasion Combats. Invasion Combats are fights on planets, that occur when, during the Planetary Landing step of a Tactical Action, the active player lands troops on an enemy planet that contains troops and/or PDSs. The player that landed troops is the *attacker*, the other player is the *defender*.
+
+Like Space Battles, Invasion Combats consist of a *Pre-Combat* phase, followed by a succession of *Combat Rounds* that continues as long as both players have troops on the planet the Invasion Combat takes place on.
+
+**End of an Invasion Combat**:  
+If before a Combat Round would begin, either the attacker or the defender does not have troops on the planet the Invasion Combat is taking place, the Invasion Combat ends.  
+
+* If the attacker still has troops on the planet at this point, she wins the Invasion Combat. The defender's [installations](#Installation) on the planet are destroyed, and each of her [Leaders](#Leader) on it must make a [Fate Roll](#FateRoll), then the attacker takes control of the planet, exhausted. Finally, the attacker may replace one of his [Ground Forces](#GroundForce) on the planet with a [Shock Troop](#ShockTroop).
+* Else (if the attacker no longer has troops on the planet, regardless of whether the defender has any), the defender wins the Invasion Combat. The attacker's [PDSs](#PDS) on the planet are destroyed, and each of her [Leaders](#Leader) on it must make a [Fate Roll](#FateRoll).
+
+The Invasion Combat sequence:
+
+	1) Pre-Combat
+	1.a) Bombardment
+	1.b) PDS fire
+
+	2) Combat Round
+	2.b) Perform Combat Rolls
+	2.c) Assign Hits
+
+	Repeat 2) until the Space Battle ends
+
+
+### 1) Pre-Combat  
+<a name="InvasionCombatBombardment">
+#### 1.a) Bombardment  
+</a>  
+Ships with the [bombardment (*n*) ability](#Bombardment_unitAbility) that have been assigned to bombard this planet in the previous [Planetary Landing step](#PlanetaryLandings_TacticalActionStep) bombard it.  
+Each bombarding ship performs *n* combat rolls. Deduce from the number of hits obtained the number of [planetary shields](#PlanetaryShield_unitAbility) the units on the planet have. The result is the number of hits the owner of the planet must assign to his troops on the planet.  
+
+**Bombarding to neutrality**: If the owner of a bombarded planet is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to [turn the planet neutral](#PlanetTurnsNeutral). All the installations on the planet are destroyed and all Leaders present on it must make a Fate Roll.  
+
+#### 1.b) PDS fire  
+The PDS *of the defender* present on the planet may each perform one combat roll. The attacker must assign the hits to his troops on the planet.
+
+### 2) Invasion Combat Combat Round  
+#### 2.a) Perform Combat Rolls  
+Each troop on the planet performs as many [Combat Rolls](#CombatRoll) as its [Combat Dice](#CombatDice) characteristic. All dice are rolled simultaneously.
+
+#### 2.b) Assign Hits  
+First, the **attacker** must assign to her troops the hits obtained by the **defender**. Then the defender does the same with the attacker's hits.
+
+
 
 <a name="OtherGameConceptsAndRules">
 ## Other Game Concepts and Rules
 </a>
-
-<a name="Bombardment">
-### Bombardment
-</a>
-
-During the [Planetary Landings Resolution step](#PlanetaryLandingsResolution_TacticalActionStep) of the Tactical Action, Ships with the [bombardment (*n*) ability](#Bombardment_unitAbility) that have been assigned to a planet in the  previous [Planetary Landing step](#PlanetaryLandings_TacticalActionStep) bombard it.  
-Each bombarding ship performs *n* combat rolls. Deduce from the number of hits obtained the number of [planetary shields](#PlanetaryShield_unitAbility) the units on the planet have. The result is the number of hits the owner of the planet must assign to his troops on the planet.  
-
-**Bombarding to neutrality**: If the owner of a bombarded planet is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to turn the planet neutral. All the Facilities on the planet are destroyed and all Leaders present on it must make a Fate Roll.  
 
 ***  
 # Below this line are just scrap notes to write the rest of the rulebook
@@ -735,6 +769,11 @@ Abilities: Space Cannon (n)
 <a name="GameConcepts_Planets">
 ### Planets
 </a>
+<a name="PlanetTurnsNeutral">
+**Turning neutral**</a>: When a planet "turns neutral", all [installations](#Installation) on it are destroyed, and each Leader on it must make a [Fate Roll](#FateRoll). The previous owner of the planet also loses control of it.
+
+Place a flag on planets without units, to indicate their ownership.
+
 <a name="RefreshAbilities">
 Refresh Abilities
 </a>
@@ -791,6 +830,12 @@ When receiving a Command Counter, the player can place it either in Command Pool
 ### Facilities
 </a>
 
+<a name="GameConcept_Leaders">
+### Leaders
+</a>
+<a name="FateRoll">Fate Roll</a>
+
+
 ## Specific Definitions  
 [Combat Roll](#CombatRoll)  
 <a>Activated System</a>:  
@@ -798,7 +843,7 @@ Technically, "an Activated System" is an incomplete statement and should rather 
 A System is said to be "Activated" by a specific player if it contains a Command Counter of that player.  
 <a>Activating a System</a>:  
 The main way for a player to activate a System is 
-
+Allegiances: Friendly, Neutral, Hostile  
 Hostile Action   
 Invasion (not needed if we change Dackxive Animators so that it doesn't use this term)  
 <a name="Reinforcements">Reinforcements</a>
@@ -809,8 +854,14 @@ Technology Discounts
 
 Spending (resource or influence)  
 Active player  
-Friendly  
-Hostile  
+
+<a name="Troop">Troop</a>:  
+This term is used to designate either a [Ground Force](#GroundForce), a [Shock Troop](#ShockTroop) or an [Armor (MU)](#Armor).
+
+<a name="Installation">Installation</a>: 
+This term is used to designate either a [PDS](#PDS), a [Space Dock](#SpaceDock) or a [Facility](#GameConcept_Facilities).
+
+
 
 <a name="FleetSupply">
 Fleet Supply
@@ -842,23 +893,39 @@ units abilities
 - <a name="ProduceUnits_unitAbility">Produce Units (*n*)</a>  
 - <a name="PlanetaryShield_unitAbility">Planetary Shield</a>     
 - <a name="Bombardment_unitAbility">Bombardment (*n*)</a>  
-
+See the description of the [Pre-Combat phase of Invasion Combats](#InvasionCombatBombardment).  
 - <a name="SustainDamage_unitAbility">Sustain Damage (*n*)</a>  
 A unit with the Sustain Damage (*n*) ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* it sustains this way, a unit loses a [combat dice](#CombatDice). Sustained *hits* persist after Space Battles and Invasion Combats, and are usually repaired during step 9) of the [Status Phase](#StatusPhase).
-
 - <a name="AntiFighterBarrage_unitAbility">Anti-Fighter Barrage (*n*)</a>  
 During the pre-combat phase of the Space Battles in which this unit participates, it performs *n* [combat rolls](#CombatRoll). Hits from these [combat rolls](#CombatRoll) may only be assigned to [Fighters](#Fighter).
 
-### Space Dock
+<a name="SpaceDock">
+### Space Dock  
+</a>
 * Exhausted/Refreshed states
 * No more than one per planet
-### PDS
+
+<a name="PDS">
+### PDS  
+</a>
 * No more than two per planet (therefore you may not build or land PDSs so that you would go over this limit)
 
 <a name="Fighter">
 ### Fighter
 </a>
 * Must be supported using Fighter Capacity.
+
+<a name="GroundForce">
+### Ground Force
+</a>
+
+<a name="ShockTroop">
+### Shock Troop
+</a>
+
+<a name="Armor">
+### Armor (MU)
+</a>
 
 ## Game Options / Variants
 <a name="StarByStar">
