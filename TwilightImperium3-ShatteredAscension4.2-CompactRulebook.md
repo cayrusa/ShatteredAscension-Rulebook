@@ -1,4 +1,4 @@
-# Shattered Ascension Rulebook  - v28_2018-11-25
+# Shattered Ascension Rulebook  - v29_2018-12-11
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
@@ -1245,38 +1245,48 @@ Even though the *Distant Suns* Domain Counters are mostly intended to be placed 
 
 Refer to the [Effects of Domain Counters](#user-content-DomainCountersEffects) annex to find the effects of all the Domain Counters.
 
-#### Resolving Domain Counters on planets
+#### Domain Counters on planets
 <div>
 
-After a player has landed units on a planet (and after all units have been landed), reveal all the Domain Counters on the planet, then resolve them. Finally, resolved Domain Counters are removed from the board.
+Domain Counters on planets are resolved after a player lands units on them (and after all units have been landed).
 </div>
 
-#### Taking Control of a Planet with Domain Counters
+#### Domain Counters in space
 <div>
 
-If a player takes control of a planet **without landing units on it**, then all Domain Counters on it are removed from the board *without being resolved*.
-</div>
-
-#### Resolving Domain Counters in space
-<div>
-
-After units have ended their movement in the space of a System (and after all units have finished their movement),  reveal all the Domain Counters in the space of the System, then resolve them. Finally, resolved Domain Counter are removed from the board.
-Domain Counters in space are also resolved if a player gets units in the space of the system through other means than movement.
+Domain Counters in space are resolved when ships end their movement in the same system (and after all ships have finished their movement). Domain Counters in space are also resolved if a player gets ships in the system through other means than movement.
 
 <!-- After the units of a player have ended their movement in a System (and after all units currently moving have finished their movement), reveal all the Domain Counters in the space of the System, then resolve them. Finally, resolved Domain Counter are removed from the board. -->
 </div>
 
 <!-- Domain Counters in space are revealed and resolved after units have ended their movement in the system (and after all units currently moving have ended their movement). Resolved Domain Counters are then removed from the board. -->
 
-#### Resolving Multiple Domain Counters at the same location
+#### Taking Control of a Planet with Domain Counters
 <div>
+
+If a player takes control of a planet **without landing units on it**, then all Domain Counters on it are removed from the board **without being resolved**.
+</div>
+
+#### Resolving Domain Counters
+<div>
+
+To resolve the Domain Counters at a location (planet or space), follow these steps:
+- Resolve first the **red** Domain Counters (in the order of your choice). 
+- Then resolve, as the attacker, the potential Invasion Combat and/or Space Battle (in the order of your choice) against neutral units spawned by these Domain Counters.
+- Finally, resolve the **green** Domain Counters (in the order of your choice).
+- If during any step above, the units that triggered the Domain Counter resolution are no longer present (for example if they were all destroyed), then the other Domain Counters at the same location are not resolved and stay where they were.
+- Remove from the board the resolved Domain Counters.
+</div>
+
+<!-- <div>
 
 If multiple Domain Counters are at the same location (planet or space), follow these rules to determine the order in which they are resolved:  
 
 * The **red** Domain Counters must be resolved before the **green** ones.
 * If multiple Domain Counters of the same colour are present, The player whose units triggered the resolution chooses in which order they are resolved.
+* If multiple red Domain Counters instruct the player to fight neutral units ([Space Pirates](#user-content-SpacePirates), [Fighter Ambush](#user-content-FighterAmbush), [Hostile Locals](#user-content-HostileLocals) and [Automated Defence](#user-content-AutomatedDefence)), all the neutral units on the same planet/in space are fought in a single Invasion Combat/Space Battle. Neutral units with the highest combat value are assigned hits first (break ties at random).
 * If after resolving a Domain Counter at a given location, the units that triggered the Domain Counter resolution are no longer present (because they were destroyed during the resolution, for example), then the other Domain Counters at the same location are not resolved and stay where they were.
-</div>
+</div> -->
 
 #### Custodians of Mecatol Rex<a name="Custodians"></a>
 <div>
@@ -1295,6 +1305,7 @@ Throughout a game, players will need to spend *resources* and *influence* for ma
 * Exhausting a planet provides either as many resources as its resource value, or as many influence as its influence value, but not both. The player controlling the planet decides when exhausting it.  
 * It is not possible to use only a portion of the resources/influence of a planet when exhausting and save the rest for later. Planets always provides the full values when they are exhausted.
 * An exhausted planet may not be exhausted again until it is [refreshed](#user-content-RefreshedAndExhaustedStates) by another effect.
+* Players may not exhaust their planets outside of paying a cost or being allowed to by another effect.
 
 ## Command Counters<a name="CommandCounters"></a>
 
@@ -1442,7 +1453,7 @@ Political Cards with the "Law" keyword represent permanent changes and will stay
 <!-- ![VoiceOfTheCouncil](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoiceOfTheCouncil.jpg) -->
 
 After the agendas being voted on and their resolution order have been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council [Special Objective](#user-content-SpecialObjectives) to the agendas being voted on. The decision is made starting with the active player and following the rotation cycler.  
-Voice of the Council is treated as a Political Card with the "elect player" keyword *for the duration of the vote* (it stops being treated as a Political Card after being resolved). The player including it chooses where it is placed in the resolution order.  
+Voice of the Council is treated as a Political Card with the "elect player" keyword *for the duration of the vote* (it stops being treated as a Political Card after being resolved). It will always be resolved after the other agendas have been resolved.
 The player elected as voice of the council now qualifies for the corresponding objective, until another voice of the council election is called.
 
 ***Note:*** *As for all the Special Objectives (green), Voice of the Council is not claimed instantly after a player qualifies for it.*
@@ -2471,7 +2482,7 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 3. If she was the Speaker, the next player in the Rotation Cycler order becomes the Speaker.
 4. If she had a Strategy Card, she immediately returns it, even if it was not played yet.
 5. She is ignored by all effects
-6. The game now has one less players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers).
+6. The game now has one fewer players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#user-content-RuleAdjustmentsBasedOnTheNumberOfPlayers).
 
 <!-- ***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.* -->
 
@@ -2785,12 +2796,12 @@ For the general rules regarding Domain Counters, see the [Domain Counter section
 |![DS_Settlers](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_Settlers.jpg)  | <b> [Settlers](#user-content-Settlers) <a name="Settlers"></a> </b> <br> *Pioneers from one of the Great Races have already settled on the planet.*  <br> <br> Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both her landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).|
 |![FF_GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_GravityRift.jpg)  | <b> [Gravity Rift](#user-content-GravityRiftCounter) <a name="GravityRiftCounter"></a> </b> <br> *Your ships head into the midst of an uncharted gravity rift!*  <br> <br> Leave this counter in the system and treat it as a [Gravity Rift](#user-content-GravityRift) while the counter is present. <br> Remove the counter at the end of the first action in which a ship has been trapped by this Gravity Rift.|
 |![DS_WormholeDiscovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_WormholeDiscovery.jpg)  | <b> [Wormhole Discovery](#user-content-WormholeDiscovery) <a name="WormholeDiscovery"></a> </b> <br> *investigating an anomaly in the sector reveals unexpected wormhole activity.*  <br> <br> Leave this counter in the system. Treat the system as having a wormhole of the indicated type while the counter is present. <br> Remove this counter at the end of the first action in which at least one ship moved out of this system through this wormhole.|
-|![FF_SpacePirates](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SpacePirates.jpg)  | <b> [Space Pirates](#user-content-SpacePirates) <a name="SpacePirates"></a> </b> <br> *Ruthless vagabond roam the galaxy to prey on the wealthy and the weak.*  <br> <br> Choose either: <br>- Pay 2 Trade Goods and remove this counter.<br>- Conduct, as the attacker, a Space Battle against a neutral Dreadnought. If you win, receive two Trade Goods, else this counter stays in place.|
-|![DS_FighterAmbush](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_FighterAmbush.jpg)  | <b> [Fighter Ambush](#user-content-FighterAmbush) <a name="FighterAmbush"></a> </b> <br> *Sensors detect a myriad of small, unidentified ships approaching at high velocity.*  <br> <br> If you have ships in the system, conduct, as the attacker, a Space Battle against the indicated number of neutral Fighters. If you do not win, or if you do not take control of the planet this counter is on (if it is on a planet), it stays in place.|
+|![FF_SpacePirates](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SpacePirates.jpg)  | <b> [Space Pirates](#user-content-SpacePirates) <a name="SpacePirates"></a> </b> <br> *Ruthless vagabond roam the galaxy to prey on the wealthy and the weak.*  <br> <br> Choose either: <br>- Pay 2 Trade Goods and remove this counter.<br>- Spawn a neutral Dreadnought. Destroying it grants 2 Trade Goods, otherwise remove it and place this counter back at the end of the current action.|
+|![DS_FighterAmbush](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_FighterAmbush.jpg)  | <b> [Fighter Ambush](#user-content-FighterAmbush) <a name="FighterAmbush"></a> </b> <br> *Sensors detect a myriad of small, unidentified ships approaching at high velocity.*  <br> <br> Spawn the indicated number of neutral Fighters in the system. If neutral Fighters remain in the system at the end of the current action, remove them and place this counter back (unless it was on a planet that is no longer neutral).|
 |![FF_SuddenCollision](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SuddenCollision.jpg)  | <b> [Sudden Collision](#user-content-SuddenCollision) <a name="SuddenCollision"></a> </b> <br> *In the dead of space, unidentified objects slam into the hull and cargo area of your ships.*  <br> <br> Inflict a hit on one of your ships in the system *or* lose one unit carried by one of them. If you have the Antimass Deflectors technology, ignore this effect.|
 |![DS_BioHazard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_BioHazard.jpg)  | <b> [Bio-Hazard](#user-content-BioHazard) <a name="BioHazard"></a> </b> <br> *While attempting to terraform the planet, millions perish due to influence highly aggravating toxins.*  <br> <br> Inflict one hit on the landing army. If no ground units remain to claim the planet, leave this counter in place.|
-|![DS_HostileLocals](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HostileLocals.jpg)  | <b> [Hostile Locals](#user-content-HostileLocals) <a name="HostileLocals"></a> </b> <br> *All forms of Diplomacy with the local civilization have failed.*  <br> <br> Conduct, as the attacker, an Invasion Combat against the indicated number of neutral Ground Forces. If you do not take control of the planet, this counter stays in place.|
-|![DS_AutomatedDefence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_AutomatedDefence.jpg)  | <b> [Automated Defence](#user-content-AutomatedDefence) <a name="AutomatedDefence"></a> </b> <br> *Powerful laser beams soar through the atmosphere of the planet and cut into the hull of your ships.*  <br> <br> Two neutral PDSs will defend the planet. They immediately fire once each at your fleet in the system (if you have one).<br>These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on the planet, else leave this counter on the planet.|
+|![DS_HostileLocals](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HostileLocals.jpg)  | <b> [Hostile Locals](#user-content-HostileLocals) <a name="HostileLocals"></a> </b> <br> *All forms of Diplomacy with the local civilization have failed.*  <br> <br> Spawn the indicated number of neutral Ground Forces on this planet. If you do not control this planet at the end of the current action, remove these Ground Forces and place this counter back.|
+|![DS_AutomatedDefence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_AutomatedDefence.jpg)  | <b> [Automated Defence](#user-content-AutomatedDefence) <a name="AutomatedDefence"></a> </b> <br> *Powerful laser beams soar through the atmosphere of the planet and cut into the hull of your ships.*  <br> <br> Two neutral PDSs will defend the planet. They immediately fire once each at your fleet in the system (if you have one).<br>These PDSs cannot be captured. At the end of the current action, receive a PDS on this planet if you control it, otherwise remove these PDSs and place this counter back.|
 |![DS_HostilesAndNaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HostilesAndNaturalWealth.jpg)  | <b> [Hostiles and Natural Wealth](#user-content-HostilesAndNaturalWealth) <a name="HostilesAndNaturalWealth"></a> </b> <br> *The planet is abundant with natural resources, but the local populace will defend it at all costs.*  <br> <br> Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.|
 
 ## Annex 2: Variants and Optional Rules<a name="VariantsAndOptionalRules"></a>
