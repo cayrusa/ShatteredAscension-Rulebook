@@ -1,4 +1,4 @@
-# Shattered Ascension Rewritten Rulebook  - v18_2017-??-??
+# Shattered Ascension Rewritten Rulebook  - v18_2017-08-05
 ***By Cyrusa***
 
 
@@ -68,11 +68,6 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 * [Leaders](#user-content-Leaders)
 	* [General Leader Rules](#user-content-GeneralLeaderRules)
 	* [Leader Abilities](#user-content-LeaderAbilities)
-		* [Admiral](#user-content-Admiral)
-		* [Diplomat](#user-content-Diplomat)
-		* [General](#user-content-General)
-		* [Agent](#user-content-Agent)
-		* [Scientist](#user-content-Scientist)
 * [Elimination And Surrender](#user-content-EliminationAndSurrender)
 * [Miscellaneous Rules](#user-content-MiscellaneousRules)
 * [Definitions](#user-content-Definitions)
@@ -220,21 +215,21 @@ Choose either:
 Find an area of the table that is convenient for all players to reach. Designate this 
 space the *common play area*, and populate it with the following:
 
-* Shuffled Action Cards deck
-* Shuffled Political Cards deck
+* Shuffled [Action Cards](#user-content-ActionCards) deck
+* Shuffled [Political Cards](#user-content-PoliticalCards) deck
 * Ground Force and Fighter tokens
-* Trade Goods tokens
-* Planet Cards deck
+* [Trade Goods](#user-content-TradeGoods) tokens
+* [Planet Cards](#user-content-PlanetCards) deck
 * The Strategy Cards from number 1 to 8. Add in the 9th if there are 4, 7 or 8 players.
-* Shuffled deck of Stage I Public Objectives
-* Shuffle deck of Stage II Public Objectives
-* Shuffled deck of Preliminary Objectives
-* Shuffled deck of Secret Objectives
-* The Special Objective Cards
+* Shuffled deck of [Stage I Public Objectives](#user-content-ObjectiveCards)
+* Shuffle deck of [Stage II Public Objectives](#user-content-ObjectiveCards)
+* Shuffled deck of [Preliminary Objectives](#user-content-ObjectiveCards)
+* Shuffled deck of [Secret Objectives](#user-content-ObjectiveCards)
+* The [Special Objective](#user-content-ObjectiveCards) Cards
 * The Victory Point track
-* The [Technology Tree](#http://www.astralvault.net/games/SA/TTS/Misc/CascadingTechTreeDark_SA.jpg)
+* The [Technology Tree](http://www.astralvault.net/games/SA/TTS/Misc/CascadingTechTreeDark_SA.jpg)
 
-Inside this common play area, designate a space that will be used as the *Twilight Council*.  
+Inside this common play area, designate a space that will be used as the [Twilight Council](#user-content-TwilightCouncilAndPoliticalCards).  
 
 ### 3) Victory Point Goal <a name="Setup_VictoryPointGoal"></a>
 
@@ -256,7 +251,7 @@ Decide on the game options to include:
 
 If this game is not a 2-player game, deal two Secret Objective cards to each player. They will have to discard one of them later.
 
-### 6) Race Picking <a name="Setup_RacePicking"></a>
+<!-- ### 6) Race Picking <a name="Setup_RacePicking"></a>
 > The race picking and Home System bidding now use the order given by the die roll, instead of starting with the highest roller and going clockwise.
 
 1. Have each player roll a die. Remember the results, as they will be used in the following setup steps as well.
@@ -264,18 +259,37 @@ If this game is not a 2-player game, deal two Secret Objective cards to each pla
 3.  All players without a race are **secretly** dealt a random race from the pool. They may either keep them, or reshuffle them into the pool (without revealing them).
 4.  Conduct the above step a second time.
 5.  All player without a race are **publicly** dealt a random race from the pool, that they must play for this game.
+ -->
+### 6) Race Picking <a name="Setup_RacePicking"></a>
+
+1. Have each player roll a die. The highest-rolling player (break ties by additional rolls) is the **first player**.
+2.  Starting with the **first player** and going **clockwise**, each player may either choose any available race to play or pass. The remaining races form the pool of random races.
+3.  All players without a race are **secretly** dealt a random race from the pool. They may either keep it, or reshuffle it into the pool (without revealing it).
+4.  Conduct the above step a second time.
+5.  All player without a race are **publicly** dealt a random race from the pool, that they must play for this game.
 
 ### 7) Home System Location Bidding OR Galaxy Building <a name="Setup_HSLocationBiddingORGalaxyBuilding"></a>
 
 *Note: The Trade Goods that are bid at this step are taken from the reserve, not from the players.*
 
-#### Pre-Set Map
+<!-- #### Pre-Set Map
 <div>
 
 If you chose a **pre-set map**, then players will now bid on the Home System location they wish to start on.  
 
 The highest rolling player places a flag (or another item if her race is not public) along with a bid of Trade Goods (0 is allowed) on any Home System Location.
 Then in **decreasing rolling order** (looping), each player not currently holding a bid on a Home System either places a bid on a new Home System or overbid another player. This continues until all players hold a bid on a Home System location.  
+
+All players then receive as many Trade Goods as the difference between the highest bid and their own bid.
+</div> -->
+
+#### Pre-Set Map
+<div>
+
+If you chose a **pre-set map**, then players will now bid on the Home System location they wish to start on.  
+
+The **first player** places a flag (or another item if her race is not public) along with a bid of Trade Goods (0 is allowed) on any Home System Location.
+Then, going **clockwise** (and looping), each player not currently holding a bid on a Home System either places a bid on a new Home System or overbid another player. This continues until all players hold a bid on a Home System location.  
 
 All players then receive as many Trade Goods as the difference between the highest bid and their own bid.
 </div>
@@ -287,11 +301,17 @@ If you chose to build the map using the [Star by Star procedure](#user-content-S
 ***Players may now change seat in order to be aligned with their Home System location.***
 </div>
 
+<!-- ### 8) Speaker Token Bidding <a name="Setup_SpeakerTokenBidding"></a>
+
+*Note: The Trade Goods that are bid at this step are taken from the reserve, not from the players.*
+
+The lowest rolling player places a bid of Trade Goods (0 is allowed) on the Speaker Token. Then in **increasing rolling order** (looping), each player may either withdraw from the bidding or overbid. The winner gains the Speaker Token. The other players receive as many Trade Goods as the winning bid. -->
+
 ### 8) Speaker Token Bidding <a name="Setup_SpeakerTokenBidding"></a>
 
 *Note: The Trade Goods that are bid at this step are taken from the reserve, not from the players.*
 
-The lowest rolling player places a bid of Trade Goods (0 is allowed) on the Speaker Token. Then in **increasing rolling order** (looping), each player may either withdraw from the bidding or overbid. The winner gains the Speaker Token. The other players receive as many Trade Goods as the winning bid.
+The player on the right of the **first player** places a bid of Trade Goods (0 is allowed) on the Speaker Token. Then, going **counter-clockwise** (and looping), each player may either withdraw from the bidding or overbid. The winner gains the Speaker Token. The other players receive as many Trade Goods as the winning bid.
 
 ### 9) Starting Trade Goods Normalization <a name="Setup_StartingTradeGoodsNormalisation"></a>
 
@@ -348,7 +368,7 @@ Shattered Ascension is played over a consecutive number of Rounds. Each Round is
 #### 1) Twilight Council Propositions <a name="TwilightCouncilPropositions"></a>
 <div>
 
-Each player must place face down a Political Card from her hand in the Twilight Council, and mark it with one of her flags. Political Cards placed in the Twilight Council zone in this manner are called **Agendas**. If the Assembly Strategy Card is played this round, the Agendas to be voted on will be chosen among these cards.  
+Each player must place face down a [Political Card](#user-content-PoliticalCards) from her hand in the Twilight Council, and mark it with one of her flags. Political Cards placed in the Twilight Council zone in this manner are called **Agendas**. If the Assembly Strategy Card is played this round, the Agendas to be voted on will be chosen among these cards.  
 After all players have placed their Agenda, they are revealed and the game goes on.  
 
 **Additional rules:**
@@ -668,8 +688,11 @@ After the Strategy Phase and the Action Phase comes the Status Phase. During thi
 10. [Remove Command Counters from the board, return Strategy Cards, repair units, refresh Space Docks](#user-content-CleanUp_StatusPhaseStep)
 
 #### 1) Claim Objectives <a name="ClaimObjectives_StatusPhaseStep"></a>
+<div>
 
-Starting with the Speaker and following the Rotation Cycler, players may claim objectives to gain Victory points, eventually allowing them to win the game.
+Starting with the Speaker and following the Rotation Cycler, players may claim objectives to gain Victory Points. After this is done, the game ends if one or more players possess enough Victory Points.
+
+<!-- Simultaneously, players may claim objectives to gain Victory points, and win the game if they collected enough. -->
 
 **Claiming an Objective**  
 In order to claim an objective, a player must satisfy the requirements written on it, and not have already claimed it in the past (whether other players have already claimed it or not does not matter). The player then places one of her flags on the objective, and advances her flag on the Victory Point Track by the number of Victory Points indicated on the objective.
@@ -683,8 +706,9 @@ During a Claim Objectives step, a player:
 	* The [Preliminary Objective](#user-content-PreliminaryObjectives) (if it is still claimable)
 * Must claim:
 	* All [Special Objectives](#user-content-SpecialObjectives) she qualifies for
+</div>
 
-##### Types of objectives
+##### Types of objectives <a name="ObjectiveCards"></a>
 <div>
 
 ![ObjectivesBack](./Images/ObjectivesBacks.jpg)
@@ -972,17 +996,16 @@ Each player will start the game in the Home System of her race, containing her s
 * [Supernova](#user-content-Supernova)
 * [Gravity Rifts](#user-content-GravityRift)
 
-***Note:*** *"Moving through" a System means moving inside and outside of it in the same movement.*
-
 #### Asteroid Field <a name="AsteroidField"></a>
 <div>
 
 ![AsteroidField](./Images/AsteroidField.jpg)
 </div>
 
-* Ships may not stop inside an Asteroid Field.
-* Ships may not move through an Asteroid Field.
+* Ships may not end their movement in an Asteroid Field.
+* Ships may not enter and leave an Asteroid Field in the same move.
 * The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire at ships in an Asteroid Field.
+
 
 #### Ion Storm <a name="IonStorm"></a>
 <div>
@@ -990,9 +1013,9 @@ Each player will start the game in the Home System of her race, containing her s
 ![IonStorm](./Images/IonStorm.jpg)
 </div>
 
-* Ships may not move through an Ion Storm
+* Ships may not enter and leave an Ion Storm in the same move.
 * The [Space Cannon](#user-contnt-SpaceCannon_unitAbility) ability may not fire at ships in an Ion Storm.
-* [Fighters](#user-content-Fighter) in an Ion Storm cannot perform Combat Rolls.
+* [Fighters](#user-content-Fighter) in an Ion Storm cannot perform [Combat Rolls](#user-content-CombatRoll).
 
 #### Nebula <a name="Nebula"></a>
 <div>
@@ -1000,9 +1023,9 @@ Each player will start the game in the Home System of her race, containing her s
 ![Nebula](./Images/Nebula.jpg)
 </div>
 
-* Ships may not move through a Nebula.
+* Ships may not enter and leave a Nebula in the same move.
 * Ships inside a Nebula have a movement value of 1 that cannot be increased by any effect.
-* During Space Battles in a Nebula, the defending ships receive +1 to all their combat rolls.
+* During Space Battles in a Nebula, the defending ships receive +1 to all their [Combat Rolls](#user-content-CombatRoll).
 
 #### Supernova <a name="Supernova"></a>
 <div>
@@ -1010,20 +1033,18 @@ Each player will start the game in the Home System of her race, containing her s
 ![Supernova](./Images/Supernova.jpg)
 </div>
 
-* Ships may not stop inside a Supernova.
-* Ships may not move through a Supernova.
+* Ships may not end their movement in a Supernova.
+* Ships may not enter and leave a Supernova in the same move.
 
 #### Gravity Rift <a name="GravityRift"></a>
-> Change from base SA: Modified the wording of the first Gravity Rift effect so that:  
-> 1 It costs less movement to go through, instead of saying ships moving through gain movement. Effects that give movement to ships because they are moving in some ways are bad because they create causality issues: the ship can move (has enough movement) only if it moves (to get the bonus movement).  
-> 2 It works when using wormholes inside the Gravity Rift.
+> Change from base SA: Modified the wording of the first Gravity Rift effect to say it costs less movement to go through, instead of saying ships moving through it gain movement. Effects that give movement to ships while they are moving are bad because they create causality issues: the ship can move (has enough movement) only if it is already moving (to get the bonus movement), which it can only do if it has enough movement...
 
 <div>
 
 ![GravityRift](./Images/GravityRift.jpg)
 </div>
 
-* Moving through a Gravity Rift costs 1 movement instead of 2, unless leaving through the border directly opposite to the one entered.
+* Moving through a Gravity Rift costs 1 movement instead of 2, unless leaving through the border at the opposite side of the one entered.
 * Roll one die for each ship moving through a Gravity Rift. On a roll of 1,2 or 3, the ship ends its move in it, and the System becomes activated (from reinforcement).  
 If enemy ships are present in the System, the ship is destroyed instead.
 * Ships in a Gravity Rift do not block enemy movement through the System.
@@ -1036,7 +1057,7 @@ Usually, the majority of the Systems of a galaxy are Regular Systems.
 
 ![RegularSystem](./Images/RegularSystem.jpg)
 
-A **Planetary Systems** is any System that contains at least one planet.
+A **Planetary System** is any System that contains at least one planet.
 
 ### Void Systems <a name="VoidSystems"></a>
 
@@ -1119,7 +1140,7 @@ Trade Stations are a specific type of planets, with the following special rules:
 
 ### Wormholes <a name="Wormholes"></a>
 > TI3->SA: Wormholes make systems adjacent **for all purposes**.  
-> TI3->SA: Wormhole Tokens flip when used.
+> TI3->SA: Wormhole Tokens flip when used to leave a System.
 
 ![Wormhole](./Images/Wormhole.jpg)
 
@@ -1225,7 +1246,7 @@ The controller of an Artifact reduces her cost to purchase Technologies of the s
 
 Worldgates are placed on some planets of the galaxy when it is created and may not be moved or destroyed by players.
 
-When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#user-content-PlanetaryLandings_TacticalActionStep), move any number of her Troops, PDSs and Leaders from other planets in *unactivated Systems* that also contain Worldgates to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
+When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#user-content-PlanetaryLandings_TacticalActionStep), move any number of her Troops, PDSs and Leaders from other planets that also contain Worldgates, in *unactivated Systems*, to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
 
 ### Domain Counters <a name="DomainCounters"></a>
 
@@ -1347,7 +1368,7 @@ Throughout the game, players will come into possessions of Action Cards that the
 
 ## Twilight Council and Political Cards <a name="TwilightCouncilAndPoliticalCards"></a>
 
-**Agenda** refers to the Political Cards that were placed in the Twilight Council zone during the [Strategy Phase](#user-content-StrategyPhase).
+**Agendas** <a name="Agenda"></a> refer to the Political Cards that were placed in the Twilight Council zone during the [Strategy Phase](#user-content-StrategyPhase).
 
 The Twilight Council concurs as part of the Assembly (3) Strategy Card Primary Ability.  
 During this Primary Ability, the active player must choose a number of agendas to be voted on (see the Strategy Card), and select the order in which they will be resolved after being voted on.
@@ -1365,7 +1386,7 @@ For example, in order to place 3 votes on the FOR outcome of an agenda, a player
 If multiple outcomes of the same agenda receive the same number of votes, the tie is broken by the [Speaker](#user-content-Speaker).  
 ***Exception:*** *an agenda that does not receive any vote is discarded without effect.*
 
-### Political Cards keywords
+### Political Cards keywords <a name="PoliticalCards"></a>
 
 ![PoliticalCard](./Images/PoliticalCard.jpg)
 
@@ -1419,7 +1440,7 @@ This cost is reduced by 1 if the player controls the [Artefact](#user-content-Ar
 Some effects allow players to "use the effects of" some Technologies. This means that even though they may not have a particular Technology, they are allowed to benefit from its effects. However, they are not considered as having this Technology (for example for the purpose of Objectives, or prerequisites), and even if they do have this Technology, they cannot benefit from its effects twice.
 
 ## Racial Advancements <a name="RacialAdvancements"></a>
-> Change from base SA: Renamed "Racial Technologies" into "Racial Advancements". Racial Technology was a bit confusing since they do not behave like "Technologies" at all, and do not count as such for any effect.
+> Change from base SA: Renamed "Racial Technologies" into "Racial Advancements". The term "Racial Technology" was a bit confusing since "Racial Technologies" actually do not behave like "Technologies" at all, and do not count as such for any effect.
 
 ![RacialAdvancement](./Images/RacialAdvancement.jpg)
 
@@ -1632,7 +1653,8 @@ A specific subset of Installations.
 #### Flagship <a name="Flagship"></a>  
 <div>
 
-![Flagship](./Images/units/Flagship.jpg)
+![Flagship](./Images/units/Flagship.jpg)  
+***Note:*** *Each race has a Flagship card specifying the particularities of its Flagship.*
 </div>
 
 * categories: **Ship, Non-Fighter Ship**
@@ -1957,7 +1979,7 @@ During the [Production step](#user-content-Production_TacticalActionStep) of a T
 Units with this ability perform *n* Combat Rolls against attacking ground units during the [Pre-Combat](#user-content-PreCombat_InvasionCombatStep) step of an [Invasion Combat](#user-content-InvasionCombats) on their planet.
 </div>
 
-#### Increase Resource Value (*n*) <a name="IncreaseResourceValue_unitAbility"></a>  
+<!-- #### Increase Resource Value (*n*) <a name="IncreaseResourceValue_unitAbility"></a>  
 <div>
 
 The resource value of a planet containing a unit with this ability is increased by *n*.
@@ -1967,7 +1989,7 @@ The resource value of a planet containing a unit with this ability is increased 
 <div>
 
 The influence value of a planet containing a unit with this ability is increased by *n*.
-</div>
+</div> -->
 
 #### Planetary Shield (*n*) <a name="PlanetaryShield_unitAbility"></a>  
 <div>
@@ -2224,8 +2246,11 @@ By extension, a planet is "activated by [a player]" when it is in a System conta
 **Activated Unit**  
 Also by extension, a unit is "activated" when it is in a System containing a Command Counter of its owner.
 
+### Agenda
+[Link](#user-content-Agenda).
+
 ### Allegiances
-[Link](#user-content-Allegiances)
+[Link](#user-content-Allegiances).
 
 ### Army <a name="Army"></a>
 All the Troops a given player has on the same planet form an **army**.
