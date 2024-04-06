@@ -1,4 +1,4 @@
-# Shattered Ascension Rewritten Rulebook  - v20_2017-10-15
+# Shattered Ascension Rewritten Rulebook  - v21_2017-02-12
 ***By Cyrusa***  
 ***Email for feedback: cyrusa (dot) ti3 (at) laposte (dot) net***
 
@@ -80,7 +80,8 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 
 ## Components <a name="Components"></a>  
 
-![ComponentsPicture](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ComponentsPicture/ComponentsPicture.jpg) 
+![ComponentsPicture](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/ComponentsPicture/ComponentsPicture.jpg) 
 
 
 ## Setup <a name="Setup"></a>
@@ -117,7 +118,7 @@ space the *common play area*, and populate it with the following:
 
 * Shuffled [Action Cards](#user-content-ActionCards) deck
 * Shuffled [Political Cards](#user-content-PoliticalCards) deck
-* Ground Force and Fighter tokens
+* [Ground Force](#user-content-GroundForce) and [Fighter](#user-content-Fighter) tokens
 * [Trade Goods](#user-content-TradeGoods) tokens
 * [Planet Cards](#user-content-PlanetCards) deck
 * The Strategy Cards from number 1 to 8. Add in the 9th if there are 4, 7 or 8 players.
@@ -233,7 +234,7 @@ Reveal:
 
 ### 12) Finalising Setup <a name="Setup_FinalisingSetup"></a>
 
-* Each player discards a Secret Objective and shuffles it back into the deck.
+* Each player reshuffles one of her Secret Objective back into the deck.
 * Each player draws 2 Political Cards
 * Reveal hidden races
 * Each player chooses a set of plastic miniatures and takes her race's Command Counters. She places them near her race sheet to form her "reinforcements".
@@ -316,7 +317,7 @@ Some effects in the game are used "as an action". This means that using such eff
 #### Strategic Action <a name="StrategicAction"></a>
 <div>
 
-A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she uses the **Primary Ability** of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to execute the **Secondary Ability** of the card.  
+A Strategic Action corresponds to playing a Strategy Card. When a player performs a Strategic Action, she executes* the **Primary Ability** of her Strategy Card, then other players, following the order defined by the Rotation Cycler (starting with either the left or right neighbour of the active player, depending on the orientation of the Rotation Cycler), may choose to execute the **Secondary Ability** of the card.  
 After that the used Strategy Card is flipped on its *inactive* side, and may not be used again this Round. 
 
 **Important: When performing a Strategic Action, the active player ***may not*** execute the Secondary Ability of the Strategy Card she is playing.**
@@ -620,7 +621,8 @@ During a Claim Objectives step, a player:
 ##### Types of objectives <a name="ObjectiveCards"></a>
 <div>
 
-![ObjectivesBack](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ObjectivesBacks.jpg)
+![ObjectivesBack](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/ObjectivesBacks.jpg)
 
 **Stage I Public Objectives (Yellow)**  
 The standard type of objective.
@@ -633,7 +635,8 @@ jectives are harder Objectives that grant more Victory Points than Stage I ones.
 At the end of a Round in which a Preliminary Objective has been claimed by at least one player, it becomes unclaimable by all other players for the rest of the game.
 
 **Secret Objectives (Red)** <a name="SecretObjectives"></a>  
-When claiming a Secret Objective, a player must reveal it and show she indeed meets its requirements. If she does not meet them, the Secret Objective is discarded. If she does, it is placed with the other objective cards as a reminder.
+When claiming a Secret Objective, a player must reveal it and show she indeed meets its requirements. If she does not meet them, the Secret Objective is discarded. If she does, it is placed with the other objective cards as a reminder.  
+In addition, players may reveal their Secret Objective at any time to discard it.
 
 **Special Objectives (Green)**<a name="SpecialObjectives"></a>  
 There are three kinds of Special Objectives:
@@ -731,9 +734,9 @@ Starting with the Speaker and following the Rotation Cycler, players may scuttle
 
 ## Space Battle <a name="SpaceBattle"></a>  
 
-> Change from base SA: Checking for whether Space Battles are over is done *before* any Combat Round would start, instead of after each Combat Round. This way no Combat Round is started if one side was entirely destroyed during the Pre-Combat part.  
-> Change from base SA: Renamed the "Roll Combat Dice" and "Remove Casualties" steps to respectively "Perform Combat Rolls" and "Assign Hits" to increase the consistency of the rules.
-> 
+<!-- > Change from base SA: Checking for whether Space Battles are over is done *before* any Combat Round would start, instead of after each Combat Round. This way no Combat Round is started if one side was entirely destroyed during the Pre-Combat part.   -->
+<!-- > Change from base SA: Renamed the "Roll Combat Dice" and "Remove Casualties" steps to respectively "Perform Combat Rolls" and "Assign Hits" to increase the consistency of the rules. -->
+> Change from base SA: Renamed the "Roll Combat Dice" step to "Perform Combat Rolls" to increase the consistency of the rules.
 
 This section details how to resolve Space Battles. Space Battles are ships versus ships engagements that occur when a player moves ships into a system containing enemy ships. The player that moved ships is the **attacker**, while the other player is the **defender**.
 
@@ -828,7 +831,7 @@ Ships with the [bombardment (*n*)](#user-content-Bombardment_unitAbility) abilit
 Each bombarding ship performs *n* combat rolls. Sum up the total number of hits scored across all ships. <!-- Deduce from this total the number of [planetary shields](#user-content-PlanetaryShield_unitAbility) the units on the planet have. --> The result is the number of hits the defender must assign to her troops on the planet.  
 
 **Bombarding to neutrality**:  
-If the defender is unable to assign all the bombardment hits the planet received (because she did not have enough troops), then the bombarding player may choose to [turn the planet neutral](#user-content-PlanetTurnsNeutral).
+If the defender is unable to assign all the bombardment hits the planet received (because she did not have enough troops), the planet [turns neutral](#user-content-PlanetTurnsNeutral). The bombarding player may choose to omit this effect.
 </div>
 
 #### 1.b) Invasion Defence <a name="InvasionDefence_InvasionCombatStep"></a>
@@ -888,7 +891,8 @@ A player **controls** a System if she has at least one [ship](#user-content-Ship
 
 ### Home Systems (Yellow Borders) <a name="HomeSystems"></a>
 
-![HomeSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/HS.jpg)
+![HomeSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/HS.jpg)
 
 Each player will start the game in the Home System of her race, containing her starting units and planets. By extension, the "Home System of a player" is the Home System of her race.
 
@@ -912,52 +916,64 @@ Each player will start the game in the Home System of her race, containing her s
 #### Asteroid Field <a name="AsteroidField"></a>
 <div>
 
-![AsteroidField](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/AsteroidField.jpg)
+![AsteroidField](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/AsteroidField.jpg)
 </div>
 
 * Ships may not end their movement in an Asteroid Field.
-* Ships may not enter and leave an Asteroid Field in the same move.
+* Ships may not enter and leave an Asteroid Field in the same movement.
 * The [Space Cannon](#user-content-SpaceCannon_unitAbility) ability may not fire at ships in an Asteroid Field.
 
 
 #### Ion Storm <a name="IonStorm"></a>
 <div>
 
-![IonStorm](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/IonStorm.jpg)
+![IonStorm](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/IonStorm.jpg)
 </div>
 
-* Ships may not enter and leave an Ion Storm in the same move.
+* Ships may not enter and leave an Ion Storm in the same movement.
 * The [Space Cannon](#user-contnt-SpaceCannon_unitAbility) ability may not fire at ships in an Ion Storm.
 * [Fighters](#user-content-Fighter) in an Ion Storm cannot perform [Combat Rolls](#user-content-CombatRoll).
 
 #### Nebula <a name="Nebula"></a>
 <div>
 
-![Nebula](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Nebula.jpg)
+![Nebula](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Nebula.jpg)
 </div>
 
-* Ships may not enter and leave a Nebula in the same move.
+* Ships may not enter and leave a Nebula in the same movement.
 * Ships inside a Nebula have a movement value of 1 that cannot be increased by any effect.
-* During Space Battles in a Nebula, the defending ships receive +1 to all their [Combat Rolls](#user-content-CombatRoll).
+<!-- * During Space Battles in a Nebula, the defending ships receive +1 to all their [Combat Rolls](#user-content-CombatRoll). -->
+* During Space Battles in a Nebula, the defender receives +1 to all her [Combat Rolls](#user-content-CombatRoll).
 
 #### Supernova <a name="Supernova"></a>
 <div>
 
-![Supernova](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Supernova.jpg)
+![Supernova](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Supernova.jpg)
 </div>
 
 * Ships may not end their movement in a Supernova.
-* Ships may not enter and leave a Supernova in the same move.
+* Ships may not enter and leave a Supernova in the same movement.
 
 #### Gravity Rift <a name="GravityRift"></a>
-> Change from base SA: Modified the wording of the first Gravity Rift effect to say it costs less movement to go through, instead of saying ships moving through it gain movement. Effects that give movement to ships while they are moving are bad because they create causality issues: the ship can move (has enough movement) only if it is already moving (to get the bonus movement), which it can only do if it has enough movement...
+<!-- > Change from base SA: Modified the wording of the first Gravity Rift effect to say it costs less movement to go through, instead of saying ships moving through it gain movement. Effects that give movement to ships while they are moving are bad because they create causality issues: the ship can move (has enough movement) only if it is already moving (to get the bonus movement), which it can only do if it has enough movement... -->
+
+> Change from base SA: Changed the wordings so they work and solve most rule questions without altering the base meaning.  
+> * "gain +1 movement" -> "does not cost a movement point". Reason: Since only ships that can reach the destination system can move, having effects that give bonus movement to ships that are already moving is backward since they only work if the ship is already moving, i.e. if its movement value was high enough to reach its destination. The correct way to word it is to say that the trajectory costs less movement points to follow than it normally would.
+> * "[facilitated movement] when moving through this system in a non-straight line" -> "[facilitated movement] unless entering and leaving through opposite edges of the tile". Reason: When you think about it, nothing in the rules says anything about the trajectories of ship inside a system. The correct way to word it without introducing definitions is to rely on the physical aspects of the components (the "edges" of the "tile"). Also, this wording makes it clear than the bonus facilitation also applies when using a wormhole present inside the Gravity Rift.
 
 <div>
 
-![GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GravityRift.jpg)
+![GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/GravityRift.jpg)
 </div>
 
-* Moving through a Gravity Rift costs 1 movement instead of 2, unless leaving through the border at the opposite side of the one entered.
+* Moving out of a Gravity Rift right after entering it does not cost a movement point, unless entering and leaving through opposite edges of the tile.  
+<!-- * Moving out of a Gravity Rift right after entering it does not cost a movement point, unless the entry and exit borders are opposite to each other. -->
+<!-- * Moving through a Gravity Rift costs 1 movement instead of 2, unless leaving through the border at the opposite side of the one entered. -->
 * Roll one die for each ship moving through a Gravity Rift. On a roll of 1,2 or 3, the ship ends its move in it, and the System becomes activated (from reinforcement).  
 If enemy ships are present in the System, the ship is destroyed instead.
 * Ships in a Gravity Rift do not block enemy movement through the System.
@@ -968,19 +984,22 @@ Usually, the majority of the Systems of a galaxy are Regular Systems.
 
 ### Planetary Systems <a name="PlanetarySystems"></a>
 
-![RegularSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RegularSystem.jpg)
+![RegularSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/RegularSystem.jpg)
 
 A **Planetary System** is any System that contains at least one planet.
 
 ### Void Systems <a name="VoidSystems"></a>
 
-![VoidSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoidSystem.jpg)
+![VoidSystem](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/VoidSystem.jpg)
 
 A **Void System** is any [Regular Systems](#user-content-RegularSystems) that does not contain any planet or [Wormhole](#user-content-Wormholes).
 
 ## Planets <a name="Planet"></a>
 
-![Planets](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Planets.jpg)
+![Planets](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Planets.jpg)
 
 Each planet has a resource value (the number on a green background) and an influence value (the number on a red background). Planets may also feature a number of [Technology Specialties](#user-content-TechnologySpecialty) (red/green/blue/yellow technology symbols), and a [Refresh Ability](#user-content-RefreshAbility) (symbol depending on the actual refresh ability). 
 
@@ -989,7 +1008,8 @@ Each planet has a resource value (the number on a green background) and an influ
 #### Planet Card <a name="PlanetCards"></a>
 <div>
 
-![PlanetCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/PlanetCard.jpg)
+![PlanetCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/PlanetCard.jpg)
 
 Each planet has an associated planet card. When a player takes control of a planet, she takes the corresponding planet card. She release the card when losing control of the planet.
 </div>
@@ -1016,21 +1036,24 @@ A planet is "empty" if it contains no [units](#user-content-Units) or [Leaders](
 
 ### Technology Specialties <a name="TechnologySpecialty"></a>
 
-![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TechnologySpecialties.jpg)
+![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/TechnologySpecialties.jpg)
 
 Technology Specialties represent a certain local knowledge or a natural resource important to a specific research field.  
 Each Technology Specialty on a **refreshed** planet reduces by 1 (down to a minimum of 0) the cost of purchasing a [Technology](#user-content-Technologies) of the same colour (usually via the Secondary Ability of the Technology Strategy Card), for the controller of the planet.
 
 ### Refresh Abilities <a name="RefreshAbility"></a>
 
-![RefreshAbilities](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RefreshAbilities.jpg)
+![RefreshAbilities](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/RefreshAbilities.jpg)
 
 A Refresh Ability is indicated by a symbol on the right of a planet's influence value, and is detailed on the associated planet card.  
 Refresh Abilities can be used during the [Refresh Planets step of the Status Phase](#user-content-RefreshPlanets_StatusPhaseStep), by *not* refreshing the planet.
 
 ### Facilities <a name="Facility"></a>
 
-![Facilities](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Facilities.jpg)
+![Facilities](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Facilities.jpg)
 
 Facilities can be built on planets to increase their resource or influence value.  
 There are two types of Facilities: Refineries and Colonies. A Refinery increases the resource value of the planet it is on by 1, while a Colony does the same for the influence value.  
@@ -1048,7 +1071,8 @@ When a planet **"turns neutral"** (because of a game effect), all units and Faci
 
 ### Trade Stations <a name="TradeStations"></a>  
 
-![TradeStation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeStation.jpg)
+![TradeStation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/TradeStation.jpg)
 
 Trade Stations are a specific type of planets, with the following special rules:
 
@@ -1063,7 +1087,8 @@ Trade Stations are a specific type of planets, with the following special rules:
 > TI3->SA: Wormholes make systems adjacent **for all purposes**.  
 > TI3->SA: Wormhole Tokens flip when used to leave a System.
 
-![Wormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Wormhole.jpg)
+![Wormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Wormhole.jpg)
 
 Wormholes are spatial anomalies that connect distant areas of space.
 
@@ -1072,7 +1097,8 @@ Two Systems containing Wormholes of the same type are considered [adjacent](#use
 #### Flippable Wormhole tokens
 <div>
 
-![FlippableWormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FlippableWormhole_Redux_DupForServer.jpg)
+![FlippableWormhole](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FlippableWormhole_Redux_DupForServer.jpg)
 
 Flippable Wormhole Tokens have a different Wormhole type printed on each side.
 At the end of an action in which at least one ship moved through such Wormhole from the System containing the Wormhole to another System (and only in this direction), the token is flipped, changing the type of the Wormhole.
@@ -1103,7 +1129,8 @@ Border Tokens are placed on the border between two Systems:
 #### Asteroid Belts <a name="AsteroidBelts"></a>
 <div>
 
-![AsteroidBelt](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/AsteroidBelt.jpg)
+![AsteroidBelt](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/AsteroidBelt.jpg)
 </div>
 
 * Ships may not move through Asteroid Belts
@@ -1112,7 +1139,8 @@ Border Tokens are placed on the border between two Systems:
 #### Space Mines <a name="SpaceMines"></a>
 <div>
 
-![SpaceMine](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/SpaceMine.jpg)
+![SpaceMine](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/SpaceMine.jpg)
 
 Space Mines are a type of border tokens. They are built by ships with the [Deploy Space Mines ability](#user-content-DeploySpaceMines_unitAbility) and belong to the player that built them.
 
@@ -1126,7 +1154,8 @@ Then remove **all** (not just the one resolved) non-friendly Space Mines at the 
 
 ### Artifacts <a name="Artifact"></a>
 
-![Artefacts](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Artefacts.jpg)
+![Artefacts](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Artefacts.jpg)
 
 There are eight Artifact tokens. Four of them harbor technology colors and are actual Artifacts, while the other four have [Trade Goods](#user-content-TradeGoods) symbols and are called **Dummy Artifacts**. 
 
@@ -1167,7 +1196,8 @@ Artifacts each have a [Technology Specialty](#user-content-TechnologySpecialty) 
 
 ### Worldgates <a name="Worldgate"></a>
 
-![WorldGate](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/WorldGate.jpg)
+![WorldGate](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/WorldGate.jpg)
 
 Worldgates are placed on some planets of the galaxy when it is created and may not be moved or destroyed by players.
 
@@ -1177,7 +1207,8 @@ When a player performs a Tactical Action in a System containing planets with Wor
 
 Domain Counters are counters placed on planets or in space to represent the dangers and rewards of space exploration and colonization.
 
-![DomainCounters](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DomainCounters.jpg)
+![DomainCounters](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DomainCounters.jpg)
 
 There are two types of Domain Counters, the *Distant Suns* ones have the image of a planet on their back, while the *Final Frontier* ones have an image of empty space on their back.
 
@@ -1188,16 +1219,22 @@ Refer to the [Effects of Domain Counters](#user-content-DomainCountersEffects) a
 #### Resolving Domain Counters on planets
 <div>
 
-Domain Counters on planets are revealed and resolved immediately after a player lands units on the planet (after all units have been landed). Resolved Domain Counters are then removed from the board. 
+After a player has landed units on a planet (and after all units have been landed), reveal all the Domain Counters on the planet, then resolve them. Finally, resolved Domain Counters are removed from the board.
+</div>
 
-If a player takes control of a planet without landing units on it, then all Domain Counters on it are removed from the board *without being resolved*.
+#### Taking Control of a Planet with Domain Counters
+<div>
+
+If a player takes control of a planet **without landing units on it**, then all Domain Counters on it are removed from the board *without being resolved*.
 </div>
 
 #### Resolving Domain Counters in space
 <div>
 
-Domain Counters in space are revealed and resolved after units have ended their movement in the system (and after all units currently moving have ended their movement).
+After the units of a player have ended their movement in a System (and after all units currently moving have finished their movement), reveal all the Domain Counters in the space of the System, then resolve them. Finally, resolved Domain Counter are removed from the board.
 </div>
+
+<!-- Domain Counters in space are revealed and resolved after units have ended their movement in the system (and after all units currently moving have ended their movement). Resolved Domain Counters are then removed from the board. -->
 
 #### Resolving Multiple Domain Counters at the same location
 <div>
@@ -1212,7 +1249,8 @@ If multiple Domain Counters are at the same location (planet or space), follow t
 #### Custodians of Mecatol Rex <a name="Custodians"></a>
 <div>
 
-![Custodians](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Custodians.jpg)
+![Custodians](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Custodians.jpg)
 
 These two Domain Counters have a different appearance and are sometimes used on some galaxies to protect the Mecatol Rex planet from early attacks. They behave exactly like their normal counterparts.
 </div>
@@ -1229,7 +1267,8 @@ Throughout a game, players will need to spend *resources* and *influence* for ma
 
 ## Command Counters <a name="CommandCounters"></a>
 
-![CommandCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounter.jpg)
+![CommandCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/CommandCounter.jpg)
 
 Each player has a number of Command Counters. They are used for various purposes, which this section will explain. During the game, Command Counters can exist either in a player's reinforcements, on one of the three dedicated zones of her race sheet, or in systems of the galaxy.
 
@@ -1242,7 +1281,8 @@ Whenever a player receives or gain a Command Counter, she must place it on her r
 
 Command Counters may not be moved from one area to another, except during the  [Reallocate Command Counters step](#user-content-ReallocateCommandCounters_StatusPhaseStep)  of the Status Phase.
 
-![CommandCounterZones](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/CommandCounterZones.jpg)
+![CommandCounterZones](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/CommandCounterZones.jpg)
 
 ### Command Pool <a name="CommandPool"></a>
 The Command Counters in the Command Pool are used to perform [Tactical Actions](#user-content-TacticalAction). If a player does not have any Command Counter in her Command Pool, she may not perform Tactical Actions.
@@ -1277,7 +1317,8 @@ Command Counters in the Strategy Allocation are spent to use various effects. Mo
 > Removed the "If a player at 7 cards is about to draw additional cards, he should draw and discard one Action Card at a time. ". Just draw your cards and then discard until the limit is satisfied.  
 > Removed the "Action Card effects that are normally restricted from being used in Home Systems can still be used if granted permission by the system's original owner." because the same effect can be achieved by tweaking a few ACs wordings instead of adding an additional general rule. -->
 
-![ActionCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ActionCard.jpg)
+![ActionCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/ActionCard.jpg)
 
 Throughout the game, players will come into possessions of Action Cards that they will add to their hand.  
 
@@ -1290,6 +1331,8 @@ Throughout the game, players will come into possessions of Action Cards that the
 <!-- * **Home Systems:** The text of some Action Cards mention that the card cannot be played, or has no effects, in Home Systems. -->
 * **Sabotage:** <a name="Sabotage"></a> When an Action Card is revealed by a player, but before it starts being resolved, it can be *sabotaged* by some effects. *Sabotaged* Action Cards are discarded instead of being resolved and the game resumes as if they had not been played. In particular, playing an "as an Action" Action Card that gets *sabotaged* does not take an action.
 * **Effect Location:** Each Action Card has a specified effect location, indicating in which System of the galaxy it is played. This information is used by [Agents](#user-content-Agent).
+* **Discard Pile:** The discard pile of Action Cards is public. Any player may look at it at any time.
+* **Private Information:** Players may not show the Action Cards from their hand to others unless when playing them.
 
 ## Twilight Council and Political Cards <a name="TwilightCouncilAndPoliticalCards"></a>
 
@@ -1313,7 +1356,8 @@ If multiple outcomes of the same agenda receive the same number of votes, the ti
 
 ### Political Cards keywords <a name="PoliticalCards"></a>
 
-![PoliticalCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/PoliticalCard.jpg)
+![PoliticalCard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/PoliticalCard.jpg)
 
 Political Cards feature some keywords to indicate how players can vote on them and how they are resolved:
 
@@ -1327,9 +1371,16 @@ Political Cards with the "For or Against" keyword have only two outcomes: *For* 
 Political Cards with the "Law" keyword represent permanent changes and will stay active after they were voted on.  
 ***Exception:*** *A "For or Against" "Law" of which the Against outcome is resolved does not stay active and is discarded.*
 
+### Other Rules for Political Cards
+
+* **Hand Limit:** A player may not have more than **7** Political Cards in hand. If she would exceed this limit by drawing Political Cards, she first draws all her Political Cards, and then discard Political Cards from her hand until she has **7**.
+* **Discard Pile:** The discard pile of Political Cards is public. Any player may look at it at any time.
+* **Private Information:** Players may not show the Political Cards from their hand to others.
+
 ### Voice of the Council <a name="VoiceOfTheCouncil"></a>
 
-![VoiceOfTheCouncil](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/VoiceOfTheCouncil.jpg)
+![VoiceOfTheCouncil](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/VoiceOfTheCouncil.jpg)
 
 After the agendas being voted on and their resolution order have been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council [Special Objective](#user-content-SpecialObjectives) to the agendas being voted on.  
 Voice of the Council is treated as a "Law" with the "elect player" keyword *for the duration of the vote* (it stops being considered as a Political Card after being resolved). The player including it chooses where it is placed in the resolution order.  
@@ -1337,14 +1388,11 @@ The player elected as voice of the council now qualifies for the corresponding o
 
 ***Note:*** *As for all the Special Objectives (green), Voice of the Council is not claimed instantly after a player qualifies for it.*
 
-### Hand Limit of Political Cards
-
-A player may not have more than 7 Political Cards in hand. If she would exceed this limit by drawing Political Cards, she first draws all her Political Cards, and then discard Political Cards from her hand until she has 7.
-
 ## Technologies <a name="Technologies"></a>  
 > Change from base SA: Changed the name of the yellow technology domain from "General" to "Economic". This is just cosmetic.
 
-![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TechnologySpecialties.jpg)
+![TechnologySpecialties](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/TechnologySpecialties.jpg)
 
 Technologies represent scientific advances the players can acquire (research) throughout the game to strengthen the potential of their race. Technologies are presented in a [Technology Tree](http://www.astralvault.net/games/SA/TTS/Misc/CascadingTechTreeDark_SA.jpg) and can be of one of these four colors, corresponding to four technological domains:
 * Blue: Propulsion technologies
@@ -1370,13 +1418,15 @@ Some effects allow players to "use the effects of" some Technologies. This means
 ## Racial Upgrades <a name="RacialUpgrades"></a>
 <!-- > Change from base SA: Renamed "Racial Technologies" into "Racial Upgrades". The term "Racial Technology" was a bit confusing since "Racial Technologies" actually do not behave like "Technologies" at all, and do not count as such for any effect. -->
 
-![RacialUpgrade](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/RacialUpgrade.jpg)
+![RacialUpgrade](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/RacialUpgrade.jpg)
 
 Racial Upgrades are race-specific bonuses and abilities that can be unlocked during the game at the [Unlock Racial Upgrades](#user-content-UnlockRacialUpgrades_StatusPhaseStep) step of the Status Phase.  
 
 ## Trade Goods <a name="TradeGoods"></a>
 
-![TradeGood](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeGood.jpg)
+![TradeGood](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/TradeGood.jpg)
 
 When a player receives Trade Goods, she places them into the Trade Good Area of her race sheet. Whenever she spends resources or influence, she can decide to spend some of her Trade Goods as substitutes for one resource or influence each. For example if she wants to spend five resources, she can exhaust Planets for three resources and spend two Trade Goods.  
 Spent Trade Goods are returned to the common play area.  
@@ -1394,11 +1444,30 @@ In addition, this terminology felt more natural to me as the cards themselves ha
 * [Difference Between Trade Contract And Trade Agreement](#user-content-DifferenceBetweenTradeContractAndTradeAgreement)
 * [Receiving Trade Goods From Trade Agreements](#user-content-ReceivingTradeGoodsFromTradeAgreements)
 * [Breaking Trade Agreements](#user-content-BreakingTradeAgreements)
+* [Self-Trading](#user-content-SelfTrading)
 * [Trading Example](#user-content-TradingExample)
+
+<!-- ### Trade Agreements <a name="TradeContracts"></a>
+
+![TradeContract](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/TradeContract.jpg)
+
+Each race has two Trade Agreement cards, each having an *active* side displaying "Trade Agreement" and a numerical value, and an *inactive* side displaying "Trade Contract". At the beginning of the game, players place these cards with their *inactive* side up in their playing area.
+
+### Opening Trade Agreements <a name="OpeningTradeAgreements"></a>
+Some effects (most notably the Primary Ability of the Trade Strategy Card (5)) allow players to open Trade Agreements. When two players want to open a Trade Agreement with each other, they exchange one of their inactive Trade Agreement cards and flip them on their active side.  
+**Restriction**: two players may not have more than one Trade Agreement with each other at the same time.
+
+### Receiving Trade Goods from Trade Agreements <a name="ReceivingTradeGoodsFromTradeAgreements"></a>
+Various effects (most notably the Primary Ability of the Trade Strategy Card (5)) *place Trade Goods on active Trade Agreements*. When this happens, place as many Trade Goods from reinforcements on active Trade Agreements as the numerical values of these agreements.
+Various effects (most notably the Primary and Secondary Ability of the Trade Strategy Card (5)) allow players to *collect* the Trade Goods present on their Trade Agreements and place them in their Trade Goods Area. -->
+
+
 
 ### Trade Contracts <a name="TradeContracts"></a>
 
-![TradeContract](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/TradeContract.jpg)
+![TradeContract](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/TradeContract.jpg)
 
 Each race has two Trade Contracts, with numerical values printed on one of the sides (the Trade Agreement side). At the beginning of the game, players place these cards face down in their playing area (with the Trade Agreement side facing the table). 
 
@@ -1427,6 +1496,10 @@ How many Trade Goods get collected depends on how the Trade Agreement was broken
 * If it was broken due to a [Hostile Act](#user-content-HostileAct), the player that performed the Hostile Act collects none of the Trade Goods on her Trade Agreements, while her trade partner collects all the Trade Goods on her Trade Agreement.
 * If it was broken for any other reason, both players collect half (round down) of the Trade Goods on their Trade Agreement.
 
+### Self-Trading <a name="SelfTrading"></a>
+
+While normally forbidden, some effects allow players to *self-trade* some of their Trade Contracts. When *self-trading* a Trade Contract, simply flip it to show the Trade Agreement side and treat it as a Trade Agreement opened with yourself.
+
 ### Trading Example <a name="TradingExample"></a>
 
 * Let us assume Letnev and Sol have opened a Trade Agreement. Letnev gave Sol one of her Trade Contract (value: 1), while Sol returned the favor (value: 2). So at this stage, Letnev has in its playing zone one of Sol's Trade Contracts with the Trade Agreement side face-up (showing the value of 2), while Sol has one of Letnev's Trade Contracts (showing the value of 1). Saying the same thing in a different way: Letnev has one of Sol's Trade Contract as Trade Agreement, and Sol has one of Letnev's Trade Contract as Trade Agreement.  
@@ -1448,6 +1521,7 @@ Supplement cardboard tokens exist for Fighters and Ground Forces.
 
 **Limited components:**
 
+* [Flagship](#user-content-Flagship): 1
 * [War Suns](#user-content-WarSun): 3
 * [Space Docks](#user-content-SpaceDock): 5
 
@@ -1630,7 +1704,8 @@ A specific subset of Installations.
 #### Flagship <a name="Flagship"></a>  
 <div>
 
-![Flagship](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Flagship.jpg)  
+![Flagship](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Flagship.jpg)  
 ***Note:*** *Each race has a Flagship card specifying the particularities of its Flagship.*
 </div>
 
@@ -1644,13 +1719,13 @@ A specific subset of Installations.
 * abilities: 
 	* ***Race-dependant***
 * traits:
-	* **Limited to 1:** A player may only have one instance of her Flagship at any time.
 	* **Only produceable in Home System:** A player may only produce her Flagship in her Home System.
 
 #### War Sun <a name="WarSun"></a>  
 <div>
 
-![Warsun](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Warsun.jpg)
+![Warsun](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Warsun.jpg)
 </div>
 
 * categories: **ship, Non-Fighter ship**
@@ -1669,7 +1744,8 @@ A specific subset of Installations.
 #### Dreadnought <a name="Dreadnought"></a>  
 <div>
 
-![Dreadnought](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Dreadnought.jpg)
+![Dreadnought](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Dreadnought.jpg)
 </div>
 
 * categories: **ship, Non-Fighter ship**
@@ -1686,7 +1762,8 @@ A specific subset of Installations.
 #### Carrier <a name="Carrier"></a>  
 <div>
 
-![Carrier](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Carrier.jpg)
+![Carrier](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Carrier.jpg)
 </div>
 
 * categories: **ship, Non-Fighter ship**
@@ -1702,7 +1779,8 @@ A specific subset of Installations.
 #### Cruiser <a name="Cruiser"></a>  
 <div>
 
-![Cruiser](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Cruiser.jpg)
+![Cruiser](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Cruiser.jpg)
 </div>
 
 * categories: **ship, Non-Fighter ship**
@@ -1718,7 +1796,8 @@ A specific subset of Installations.
 #### Destroyer <a name="Destroyer"></a>  
 <div>
 
-![Destroyer](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Destroyer.jpg)
+![Destroyer](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Destroyer.jpg)
 </div>
 
 * categories: **ship, Non-Fighter ship**
@@ -1736,14 +1815,17 @@ A specific subset of Installations.
 
 | | |
 |-|-|
-|![Fighter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Fighter.jpg)  | ![FighterToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FighterToken_withMargin.jpg)|
+|![Fighter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Fighter.jpg)  | ![FighterToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FighterToken_withMargin.jpg)|
 
 </div>
 
 
 <!-- <div>
 
-![Fighter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Fighter.jpg)
+![Fighter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Fighter.jpg)
 </div> -->
 
 * categories: **ship**
@@ -1765,7 +1847,8 @@ A specific subset of Installations.
 
 <div>
 
-![Armor](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/Armor.jpg)
+![Armor](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/Armor.jpg)
 </div>
 
 * categories: **troop**
@@ -1786,7 +1869,9 @@ A specific subset of Installations.
 
 | | |
 |-|-|
-|![ShockTroop](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/ShockTroop_FjuriModel.jpg)  | ![ShockTroopToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ShockTroopToken_withMargin.jpg)|
+|![ShockTroop](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/ShockTroop_FjuriModel.jpg)  | ![ShockTroopToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/ShockTroopToken_withMargin.jpg)|
 
 </div>
 
@@ -1795,7 +1880,9 @@ A specific subset of Installations.
 
 | | |
 |-|-|
-|![ShockTroop](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/ShockTroop_FjuriModel.jpg)  | ![ShockTroopToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/ShockTroops.jpg)|
+|![ShockTroop](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/ShockTroop_FjuriModel.jpg)  | ![ShockTroopToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/ShockTroops.jpg)|
 
 </div> -->
 
@@ -1818,7 +1905,9 @@ A specific subset of Installations.
 
 | | |
 |-|-|
-|![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/GroundForce.jpg)  | ![GroundForceToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GroundForceToken_withMargin.jpg)|
+|![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/GroundForce.jpg)  | ![GroundForceToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/GroundForceToken_withMargin.jpg)|
 
 </div>
 
@@ -1828,14 +1917,17 @@ A specific subset of Installations.
 
 |<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> | |
 |-|-|
-|![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/GroundForce.jpg)  | ![GroundForceToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/GroundForceToken.jpg)|
+|![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/GroundForce.jpg)  | ![GroundForceToken](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/GroundForceToken.jpg)|
 
 </div> -->
 
 
 <!-- <div>
 
-![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/GroundForce.jpg)
+![GroundForce](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/GroundForce.jpg)
 </div> -->
 
 * categories: **troop, infantry**
@@ -1853,7 +1945,8 @@ A specific subset of Installations.
 #### PDS (Planetary Defence System) <a name="PDS"></a>
 <div>
 
-![PDS](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/PDS.jpg)
+![PDS](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/PDS.jpg)
 </div>
 
 * categories: **installation**
@@ -1874,7 +1967,8 @@ A specific subset of Installations.
 #### Space Dock <a name="SpaceDock"></a>
 <div>
 
-![SpaceDock](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/units/SpaceDock.jpg)
+![SpaceDock](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/units/SpaceDock.jpg)
 </div>
 
 * categories: **installation**
@@ -1983,7 +2077,15 @@ When a player takes control of a planet while having a unit with this ability on
 #### Commando <a name="Commando_unitAbility"></a>  
 <div>
 
-Before the start of an [Invasion Combat](#user-content-InvasionCombats), the attacker may assign some of her units with this ability to enemy [installations](#user-content-Installation) on the planet. Assigned units do not take part in the Invasion Combat, and are automatically destroyed if the attacker loses, but if she wins, then installations to which a unit was assigned are captured instead of being destroyed.
+Before the first combat round of an [Invasion Combat](#user-content-InvasionCombats), the attacker may assign some of her units with this ability as *Commando*. These units do not participate in combat rounds, and are destroyed by the defender if the attacker loses the Invasion Combat. If she wins, each *Commando* unit can capture an enemy [installation](#user-content-Installation) on the planet.
+
+<!-- Before the start of an [Invasion Combat](#user-content-InvasionCombats), the attacker may assign some of her units with this ability to enemy [installations](#user-content-Installation) on the planet. Assigned units do not take part in the Invasion Combat, and are automatically destroyed if the attacker loses, but if she wins, then installations to which a unit was assigned are captured instead of being destroyed. -->
+</div>
+
+#### Deep Space Cannon (*n*) <a name="DeepSpaceCannon_unitAbility"></a>  
+<div>
+
+This ability is the combination of the [Space Cannon (n)](#user-content-SpaceCannon_unitAbility) ability with the bonus that it has range to adjacent systems (but cannot fire through wormholes).
 </div>
 
 #### Deploy Space Mines (*n*) <a name="DeploySpaceMines_unitAbility"></a>  
@@ -2050,7 +2152,8 @@ The only difference between the two abilities is that Deep Space Cannon may also
 A unit with this ability may be assigned more than one hit during Space Battles and Invasion Combats. It may be assigned a total of *n* hits without being destroyed, and is destroyed if one more *hit* is assigned to it. For each *hit* sustained this way, a unit loses a [combat dice](#user-content-CombatDice) and rolls one less die when bombarding (up to a minimum of one die) until it is repaired, which usually happens during the [Status Phase](#user-content-StatusPhase).
 **Hit Counters** (see next picture) can be used to represent the damages sustained.
 
-![HitCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/HitCounterDupForServer2.jpg)
+![HitCounter](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/HitCounterDupForServer2.jpg)
 
 </div>
 
@@ -2089,13 +2192,13 @@ Note: "Captured" requires enemy control of the planet or space where the Leader 
 <div>
 
 **Killed:** <a name="FateRollKilled"></a>  
-When Killed, the Leader is removed from the game entirely.
+When *Killed*, the Leader is removed from the game entirely.
 
 **Captured:** <a name="FateRollCaptured"></a>  
-When Captured, the Leader becomes a captive, and the captor places one of her flags on the captive to denote this. A captive is considered as a Leader with no abilities, and may only be moved by the captor (as if it was one of her own Leaders). A captive that would be Captured by its original owner Escapes instead.
+When *Captured*, the Leader becomes a captive, and the captor places one of her flags on the captive to denote this. A captive is considered as a Leader with no abilities, and may only be moved by the captor (as if it was one of her own Leaders). A captive that would be *Captured* by its original owner *Escapes* instead.
 
 **Escape:** <a name="FateRollEscape"></a>  
-Upon Escape, the original owner of the Leader may place it back in play at any of her planets or ship. A captive that escapes stops being a captive and regain its abilities.
+Upon *Escape*, the original owner of the Leader may place it back in play at any of her planets or ship. A captive that *Escapes* stops being a captive and regain its abilities.
 </div>
 </div>
 
@@ -2117,11 +2220,13 @@ During the Status Phase, captives may be released or executed by their captor. T
 
 <div>
 
-![Admiral](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Admiral.jpg)
+![Admiral](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Admiral.jpg)
 </div>
 
 * A ship carrying (an) Admiral(s) receives +1 combat die.
 * A Dreadnought carrying (an) Admiral(s) receives +1 movement.
+* Retreating a fleet containing an Admiral is always paid from reinforcements.
 <!-- * If participating in a Space Battle, an Admiral may prevent the opposing fleet from retreating, unless it also contains an Admiral. -->
 
 #### Diplomat <a name="Diplomat"></a>
@@ -2139,7 +2244,8 @@ During the Status Phase, captives may be released or executed by their captor. T
 
 <div>
 
-![Diplomat](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Diplomat.jpg)
+![Diplomat](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Diplomat.jpg)
 </div>
 
 <!-- > I don't see how to write properly the ability to move (and let other ships move) through enemy fleets of the Diplomat. I'm considering giving this ability to all fleets regardless of Diplomat presence to compensate.   -->
@@ -2164,7 +2270,8 @@ If this ability was used without being overturned, the defender may not use it a
 
 <div>
 
-![General](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/General.jpg)
+![General](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/General.jpg)
 </div>
 
 * Troops participating in an Invasion Combat alongside (a) friendly General(s) receive +1 to their Combat Rolls, and 2 of their Combat Rolls can be re-rolled each Combat Round (the same Combat Roll can be re-rolled twice).
@@ -2188,7 +2295,8 @@ If this ability was used without being overturned, the defender may not use it a
 
 <div>
 
-![Agent](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Agent.jpg)
+![Agent](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Agent.jpg)
 </div>
 
 * An Agent on a planet prevents enemy units from using the [Invasion Defence ability](#user-content-InvasionDefence_unitAbility), and grants the [Capture Installations ability](#user-content-CaptureInstallations_unitAbility) to friendly troops.
@@ -2215,7 +2323,8 @@ If this ability was used without being overturned, the defender may not use it a
 
 <div>
 
-![Scientist](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/Scientist.jpg)
+![Scientist](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/Scientist.jpg)
 </div>
 
 <!-- * A Scientist may double the Technology cost discount granted by a single Artifact or technology specialty it is present with (a Scientist is present with an Artifact in space when on a ship in the same system). Multiple Scientists cannot use this ability on the same Artifact or technology specialty for the same Technology purchase. -->
@@ -2233,7 +2342,11 @@ Sometimes a player does not want to ([surrender](#user-content-Surrender)) or ca
 
 > Change from base SA: Removed "after having spent available resources on building units" condition for surrendering, as this is 1) vague and 2) unreasonable (so if the player cannot spend her resources because, for example, she has no Space Docks, then she can't surrender???)
 
-> Change from base SA: When adding to the garrison of the capital planet, instead of "Add up to three, but not beyond five total Ground Forces", just add Ground Forces until there are at least 5. I did not see the point in the complication.   
+> Change from base SA **(sanctioned by PsiComa)**: Ties during the identification of the capital planet are broken in favour of the planet with the highest resource value worth of ground units and PDS, and in case there is still a tie, by choosing one at random.
+
+> Change from base SA **(sanctioned by PsiComa)**: The capital planets and the units on it are **not** considered as neutral for the rest of the game. They just belong to a race without player.
+
+> Change from base SA **(sanctioned by PsiComa)**: When adding to the garrison of the capital planet, add ground units until you either added 3 or there are at least 5 **ground units** on the planet. (base SA says "at least 5 Ground Forces")
 
 > Change from base SA: Clarified the orders in which the fleets/planets to be bid upon were chosen, as well as the order in which the bids were placed. Also precised the actual mechanic of the bidding.  
 
@@ -2245,11 +2358,12 @@ Then follow this procedure:
 1. **Victory Point penalty:**
 	The surrendering player loses 2 Victory Points. This penalty does *not* stack with the one from the non-control of all the planets in the Home System.
 2. **Identify the Capital Planet:**   
+	*At each of these substeps, ties are broken in favour of the planet with the highest resource value worth of ground units and PDS on it, and in case there is still a tie, by choosing one at random*  
 	1. If she controls at least one planet with a Space Dock in her Home System, the one with the highest combined resource and influence is the capital planet.
 	2. Else, if she controls at least one planet with a Space Dock, the one with the highest combined resource and influence is the capital planet.
 	3. Else, the planet with the highest combined resource and influence is the capital planet.
 3. **Garrison the Capital Planet:**  
-	Add Ground Forces on the capital planet until there are at least 5.
+	The surrendering player receives Ground Forces on the capital planet until either 3 Ground Forces were added or there are at least 5 ground units.
 4. **Remove all Space Docks, except those in the system of the capital planet**
 5. **Remove all Leaders, except the captives**  
 	In the rest of the game, if one of these captives would escape, it is removed from the game instead.
@@ -2288,6 +2402,8 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 
 * When a player controls a planet without having any units on it, she should place a flag on it so that other players do not mistake the planet as being neutral.
 
+* Players may reveal their Secret Objective at any time to discard it.
+
 ## General Definitions <a name="GeneralDefinitions"></a> 
 
 > Change from base SA: Added the definition of *hostile action* for compatibility with base SA, but *hostile act* is a simpler definition because there is actually no need to tie the concept of actions in it.
@@ -2313,6 +2429,8 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 	*This implies that wormholes are* **not** *borders.*
 * [Combat Roll](#user-content-CombatRoll_def) <a name="CombatRoll_def"></a>  
 	See [here](#user-content-CombatRoll).
+* [Controlling a System](#user-content-ControllingASystem_def) <a name="ControllingASystem_def"></a>  
+	See [here](#user-content-ControlOfASystem).
 * [Capture](#user-content-Capture_def) <a name="Capture_def"></a>  
 	Some effects allow a player to **capture** enemy units or Facilities. When this happens, replace them with your own. Captured Space Dock are immediately exhausted.
 * [Empty Planet](#user-content-EmptyPlanet_def) <a name="EmptyPlanet_def"></a>  
@@ -2429,19 +2547,24 @@ The player holding the **Speaker Token** is referred to as the **Speaker**. -->
 
 ## Rule Adjustments Based On The Number Of Players <a name="RuleAdjustmentsBasedOnTheNumberOfPlayers"></a>
 
-### 4, 7 and 8 players
+### 8, 7 and 4 players
 * The 9th Strategy Card, Prospect, is used.
 
-### 3 and 4 players
-* Each player picks two Strategy Cards instead of one during the Strategy Phase. The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
-* Each player may open one Trade Agreement with herself.
+### 4 and 3 players
+* Each player picks ***two*** Strategy Cards instead of one during the Strategy Phase. The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
 
-### 2, 3 and 4 players
+### 4 players
+* Each player may self-trade ***one*** Trade Agreement.
+
+### 3 players
+* Each player may self-trade ***both*** of her Trade Agreements.
+
+### 4, 3 and 2 players
 * During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Action, they are discarded during the Status Phase.
 
 ### 2 players
 #### Strategy and Status Phase
-* Each player picks three Strategy Cards instead of one during the Strategy Phase. The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
+* Each player picks ***three*** Strategy Cards instead of one during the Strategy Phase. The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
 
 #### Assembly
 * When the Assembly (3) Strategy Card is played, after agendas have been chosen for voting, players may secretly spend Trade Goods to gain the same number of votes. players should write the amount of Trade Goods spent alongside their votes, then immediately spend them after votes are revealed.
@@ -2464,7 +2587,7 @@ A player not having placed votes on an agenda may not receive bonus votes from t
 </div>
 
 #### Trade
-* Player may open both of their Trade Agreements with themselves.
+* Players may self-trade both of their Trade Agreements.
 * The Trade Strategy Card does not have an option b)
 
 #### Objectives
@@ -2475,47 +2598,77 @@ A player not having placed votes on an agenda may not receive bonus votes from t
 * When drawing an Action Card with the "2pX" symbol, it must be [recycled](#user-content-Recycle) immediately.
 <div>
 
-![2PX](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/2PX.jpg)
+![2PX](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/2PX.jpg)
 </div>
 
 #### Race-specific changes
-* **Mentak** gains 1 Trade Good whenever using her ability to steal Trade Goods.
-* When **Xxcha** plays the Diplomacy Strategy Card, she may spend 1 Command Counter from Strategy Allocation and 2 Trade Goods to execute the Primary Ability a second time.
-* **Hacan** only needs to give 1 Trade Goods to her opponent when using its Commerce Nexus Racial Upgrade.
+* **Mentak** gains 1 Trade Good whenever using their ability to steal Trade Goods.
+* When **Xxcha** plays the Diplomacy Strategy Card, they may spend 1 Command Counter from Strategy Allocation and 2 Trade Goods to execute the Primary Ability a second time.
+* **Hacan** only needs to give 1 Trade Goods to their opponent when using its Commerce Nexus Racial Upgrade.
 
 ## Annex 1: Effects of Domain Counters <a name="DomainCountersEffects"></a>
-> I improved most of these wordings from their base SA version to add precision and fix problems occurring in very specific situations.
+> I improved most of these wordings from their base SA version to add precision and fix problems occurring in very specific situations.  
+
+> Change from base SA (sanctioned by PsiComa): Updated the wording of the Alien Artifact Domain Counter to allow players taking control of it afterwards to choose the tech they want the effects of, as opposed to being forced to get what the first holder chose.
 
 For the general rules regarding Domain Counters, see the [Domain Counter section](#user-content-DomainCounters).
 
 ***Note:*** *All units created by Domain Counters are treated as regular units for all intents and purposes.* <!-- Such units can be bombarded, 'converted' or 'captured' just like normal plastic units. -->
 
+<!--Old Alien Artifact wording |![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter where it was and choose a technology. <br> For the remainder of the game, whoever controls the Alien Artifact may use the effects of the chosen technology. <br> The control of this counter follows the same rules as the control of Artifacts.| -->
+
 | <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> | |
 |-|-|
-|![DS_PeacefulAnnexation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_PeacefulAnnexation.jpg)  | <b> [Peaceful Annexation](#user-content-PeacefulAnnexation) <a name="PeacefulAnnexation"></a> </b> <br> *The local civilization accepts the annexation into your galactic empire.* <br> <br> Discard this counter.|
-|![FF_VoidSpace](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_VoidSpace.jpg)  | <b> [Void Space](#user-content-VoidSpace) <a name="VoidSpace"></a> </b> <br> *Your ships travel deep into space, silently passing thousands of dead and empty planets. No unusual event occur.* <br> <br> Discard this counter.|
-|![DS_HiddenFactory](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HiddenFactory.jpg)  | <b> [Hidden Factory](#user-content-HiddenFactory) <a name="HiddenFactory"></a> </b> <br> *Your exploratory units have unearthed an ancient, abandoned starship factory.* <br> <br> You may produce ships for up to two production capacity in the system. One of the resources spent comes for free.|
-|![DS_NativeIntelligence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NativeIntelligence.jpg)  | <b> [Native Intelligence](#user-content-NativeIntelligence) <a name="NativeIntelligence"></a> </b> <br> *The local civilizations offers their allegiance and share their research about distant starts.* <br> <br> Secretly look at any face down Domain Counter on the board.|
-|![FF_AbandonnedFreighters](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AbandonnedFreighters.jpg)  | <b> [Abandoned Freighters](#user-content-AbandonedFreighters) <a name="AbandonedFreighters"></a> </b> <br> *An abandoned fleet of freighters drift in dead space, with cargo intact. The whereabouts of the crew remains a mystery.* <br> <br> Immediately receive 2 Trade Goods.|
-|![FF_UnchartedHabitats](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_UnchartedHabitats.jpg)  | <b> [Uncharted Habitats](#user-content-UnchartedHabitats) <a name="UnchartedHabitats"></a> </b> <br> *Amidst the dark between the stars you discover an advanced, self sustaining society previously not earlier registered in galactic records.*  <br> <br> Leave this counter in the system, and treat it as a Trade Station of 0 resource and 1 influence (no refresh ability). Take a Colony card to represent this habitat.|
-|![FF_ShipGraveyard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_ShipGraveyard.jpg)  | <b> [Ship Graveyard](#user-content-ShipGraveyard) <a name="ShipGraveyard"></a> </b> <br> *Remnants of a once great battle rests solemnly in space. Some of the ships may be repaired or looted for fuel and supplies.*  <br> <br> Either add one Command Counter to your Fleet Supply *or* produce one ship in the system costing no more than 2 production capacity, for half its resource cost (round down).|
-|![FF_Discovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_Discovery.jpg)  | <b> [Discovery](#user-content-Discovery) <a name="Discovery"></a> </b> <br> *The venture through uncharted space has provided you with advantageous discoveries.*  <br> <br> Gain one Action Card or one Command Counter.|
-|![DS_NaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NaturalWealth.jpg)  | <b> [Natural Wealth](#user-content-NaturalWealthCounter) <a name="NaturalWealthCounter"></a> </b> <br> *The planet is rich on ore, gas, vegetation and other natural resources that can be extracted relatively easily.*  <br> <br> Place the indicated number of Trade Goods on the planet, that will work as Natural Wealth: players may take one of them when they gain control of the planet, when they activate the system while controlling the planet, and during the Refresh Planet step of the Status Phase if they control the planet. <br> Natural Wealth Trade Goods from multiple sources are merged into a single stack.|
-|![DS_IndustrialSociety](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_IndustrialSociety.jpg)  | <b> [Industrial Society](#user-content-IndustrialSociety) <a name="IndustrialSociety"></a> </b> <br> *An industrious and friendly populace welcomes your empire. With your help, they will soon be able to construct ships for interstellar travel.*  <br> <br> Receive a free (exhausted) Space Dock on this planet. <br> If you are the Saar, gain 2 Trade Goods instead.|
-|![DS_TechnologicalLegacy](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_TechnologicalLegacy.jpg)  | <b> [Technological Legacy](#user-content-TechnologicalLegacy) <a name="TechnologicalLegacy"></a> </b> <br> *The populace of this planet harbours relics and remnants of ancient Lazax technology.*  <br> <br> Receive one technology for which you have the needed pre-requisites, chosen by the player on your left.|
-|![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> Leave this counter where it was and choose a technology. <br> For the remainder of the game, whoever controls the Alien Artifact may use the effects of the chosen technology. <br> The control of this counter follows the same rules as the control of Artifacts.|
-|![DS_NeutronRadiation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_NeutronRadiation.jpg)  | <b> [Neutron Radiation](#user-content-NeutronRadiation) <a name="NeutronRadiation"></a> </b> <br> *The entire landing force is exposed to an intense pulsation of ionizing radiation. No survivors are reported.*  <br> <br> Remove all but 2 of your landing ground units. In the next Status Phase, the owner of the planet must either forfeit refreshing this planet, or lose all ground units on it.|
-|![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Treat this counter as a Leader. Instead of making Fate Rolls, it is captured and switches side (if the capture is impossible, remove the counter from play). The controlling player gains +3 votes. <br> Capturing the Lazax Survivors does not count towards objectives.|
-|![DS_Settlers](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_Settlers.jpg)  | <b> [Settlers](#user-content-Settlers) <a name="Settlers"></a> </b> <br> *Pioneers from one of the Great Races have already settled on the planet.*  <br> <br> Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both her landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).|
-|![FF_GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_GravityRift.jpg)  | <b> [Gravity Rift](#user-content-GravityRiftCounter) <a name="GravityRiftCounter"></a> </b> <br> *Your ships head into the midst of an uncharted gravity rift!*  <br> <br> Leave this counter in the system and treat it as a [Gravity Rift](#user-content-GravityRift) while the counter is present. <br> Remove the counter at the end of the first action in which a ship has been trapped by this Gravity Rift.|
-|![DS_WormholeDiscovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_WormholeDiscovery.jpg)  | <b> [Wormhole Discovery](#user-content-WormholeDiscovery) <a name="WormholeDiscovery"></a> </b> <br> *investigating an anomaly in the sector reveals unexpected wormhole activity.*  <br> <br> Leave this counter in the system. Treat the system as having a wormhole of the indicated type while the counter is present. <br> Remove this counter at the end of the first action in which at least one ship moved out of this system through this wormhole.|
-|![FF_SpacePirates](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SpacePirates.jpg)  | <b> [Space Pirates](#user-content-SpacePirates) <a name="SpacePirates"></a> </b> <br> *Ruthless vagabond roam the galaxy to prey on the wealthy and the weak.*  <br> <br> Choose either: <br>- Pay 2 Trade Goods and remove this counter.<br>- Conduct, as the attacker, a Space Battle against a neutral Dreadnought. If you win, receive two Trade Goods, else this counter stays in place.|
-|![DS_FighterAmbush](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_FighterAmbush.jpg)  | <b> [Fighter Ambush](#user-content-FighterAmbush) <a name="FighterAmbush"></a> </b> <br> *Sensors detect a myriad of small, unidentified ships approaching at high velocity.*  <br> <br> If you have ships in the system, conduct, as the attacker, a Space Battle against the indicated number of neutral Fighters. If you do not win, or if you do not take control of the planet this counter is on (if it is on a planet), it stays in place.|
-|![FF_SuddenCollision](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/FF_SuddenCollision.jpg)  | <b> [Sudden Collision](#user-content-SuddenCollision) <a name="SuddenCollision"></a> </b> <br> *In the dead of space, unidentified objects slam into the hull and cargo area of your ships.*  <br> <br> Inflict a hit on one of your ships in the system *or* lose one unit carried by one of them. If you have the Antimass Deflectors technology, ignore this effect.|
-|![DS_BioHazard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_BioHazard.jpg)  | <b> [Bio-Hazard](#user-content-BioHazard) <a name="BioHazard"></a> </b> <br> *While attempting to terraform the planet, millions perish due to influence highly aggravating toxins.*  <br> <br> Inflict one hit on the landing army. If no ground units remain to claim the planet, leave this counter in place.|
-|![DS_HostileLocals](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HostileLocals.jpg)  | <b> [Hostile Locals](#user-content-HostileLocals) <a name="HostileLocals"></a> </b> <br> *All forms of Diplomacy with the local civilization have failed.*  <br> <br> Conduct, as the attacker, an Invasion Combat against the indicated number of neutral Ground Forces. If you do not take control of the planet, this counter stays in place.|
-|![DS_AutomatedDefence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_AutomatedDefence.jpg)  | <b> [Automated Defence](#user-content-AutomatedDefence) <a name="AutomatedDefence"></a> </b> <br> *Powerful laser beams soar through the atmosphere of the planet and cut into the hull of your ships.*  <br> <br> Two neutral PDSs will defend the planet. They immediately fire once each at your fleet in the system (if you have one).<br>These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on the planet, else leave this counter on the planet.|
-|![DS_HostilesAndNaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images/DS_HostilesAndNaturalWealth.jpg)  | <b> [Hostiles and Natural Wealth](#user-content-HostilesAndNaturalWealth) <a name="HostilesAndNaturalWealth"></a> </b> <br> *The planet is abundant with natural resources, but the local populace will defend it at all costs.*  <br> <br> Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.|
+|![DS_PeacefulAnnexation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_PeacefulAnnexation.jpg)  | <b> [Peaceful Annexation](#user-content-PeacefulAnnexation) <a name="PeacefulAnnexation"></a> </b> <br> *The local civilization accepts the annexation into your galactic empire.* <br> <br> Discard this counter.|
+|![FF_VoidSpace](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_VoidSpace.jpg)  | <b> [Void Space](#user-content-VoidSpace) <a name="VoidSpace"></a> </b> <br> *Your ships travel deep into space, silently passing thousands of dead and empty planets. No unusual event occur.* <br> <br> Discard this counter.|
+|![DS_HiddenFactory](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_HiddenFactory.jpg)  | <b> [Hidden Factory](#user-content-HiddenFactory) <a name="HiddenFactory"></a> </b> <br> *Your exploratory units have unearthed an ancient, abandoned starship factory.* <br> <br> You may produce ships for up to two production capacity in the system. One of the resources spent comes for free.|
+|![DS_NativeIntelligence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_NativeIntelligence.jpg)  | <b> [Native Intelligence](#user-content-NativeIntelligence) <a name="NativeIntelligence"></a> </b> <br> *The local civilizations offers their allegiance and share their research about distant starts.* <br> <br> Secretly look at any face down Domain Counter on the board.|
+|![FF_AbandonnedFreighters](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_AbandonnedFreighters.jpg)  | <b> [Abandoned Freighters](#user-content-AbandonedFreighters) <a name="AbandonedFreighters"></a> </b> <br> *An abandoned fleet of freighters drift in dead space, with cargo intact. The whereabouts of the crew remains a mystery.* <br> <br> Immediately receive 2 Trade Goods.|
+|![FF_UnchartedHabitats](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_UnchartedHabitats.jpg)  | <b> [Uncharted Habitats](#user-content-UnchartedHabitats) <a name="UnchartedHabitats"></a> </b> <br> *Amidst the dark between the stars you discover an advanced, self sustaining society previously not earlier registered in galactic records.*  <br> <br> Leave this counter in the system, and treat it as a Trade Station of 0 resource and 1 influence (no refresh ability). Take a Colony card to represent this habitat.|
+|![FF_ShipGraveyard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_ShipGraveyard.jpg)  | <b> [Ship Graveyard](#user-content-ShipGraveyard) <a name="ShipGraveyard"></a> </b> <br> *Remnants of a once great battle rests solemnly in space. Some of the ships may be repaired or looted for fuel and supplies.*  <br> <br> Either add one Command Counter to your Fleet Supply *or* produce one ship in the system costing no more than 2 production capacity, for half its resource cost (round down).|
+|![FF_Discovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_Discovery.jpg)  | <b> [Discovery](#user-content-Discovery) <a name="Discovery"></a> </b> <br> *The venture through uncharted space has provided you with advantageous discoveries.*  <br> <br> Gain one Action Card or one Command Counter.|
+|![DS_NaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_NaturalWealth.jpg)  | <b> [Natural Wealth](#user-content-NaturalWealthCounter) <a name="NaturalWealthCounter"></a> </b> <br> *The planet is rich on ore, gas, vegetation and other natural resources that can be extracted relatively easily.*  <br> <br> Place the indicated number of Trade Goods on the planet, that will work as Natural Wealth: players may take one of them when they gain control of the planet, when they activate the system while controlling the planet, and during the Refresh Planet step of the Status Phase if they control the planet. <br> Natural Wealth Trade Goods from multiple sources are merged into a single stack.|
+|![DS_IndustrialSociety](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_IndustrialSociety.jpg)  | <b> [Industrial Society](#user-content-IndustrialSociety) <a name="IndustrialSociety"></a> </b> <br> *An industrious and friendly populace welcomes your empire. With your help, they will soon be able to construct ships for interstellar travel.*  <br> <br> Receive a free (exhausted) Space Dock on this planet. <br> If you are the Saar, gain 2 Trade Goods instead.|
+|![DS_TechnologicalLegacy](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_TechnologicalLegacy.jpg)  | <b> [Technological Legacy](#user-content-TechnologicalLegacy) <a name="TechnologicalLegacy"></a> </b> <br> *The populace of this planet harbours relics and remnants of ancient Lazax technology.*  <br> <br> Receive one technology for which you have the needed pre-requisites, chosen by the player on your left.|
+|![FF_AlienArtifact](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_AlienArtifact.jpg)  | <b> [Alien Artifact](#user-content-AlienArtifact) <a name="AlienArtifact"></a> </b> <br> *Strange, alien technology are identified in the system. After careful research, it reveals marvellous technological secrets your scientists cannot fully reproduce.*  <br> <br> This counter stays in place. When a player takes control of it, she may choose a Technology. As long as she controls this counter, she may use the effects of the chosen technology.<br> The control of this counter follows the same rules as the control of Artifacts.|
+|![DS_NeutronRadiation](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_NeutronRadiation.jpg)  | <b> [Neutron Radiation](#user-content-NeutronRadiation) <a name="NeutronRadiation"></a> </b> <br> *The entire landing force is exposed to an intense pulsation of ionizing radiation. No survivors are reported.*  <br> <br> Remove all but 2 of your landing ground units. In the next Status Phase, the owner of the planet must either forfeit refreshing this planet, or lose all ground units on it.|
+|![DS_LazaxSurvivors](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_LazaxSurvivors.jpg)  | <b> [Lazax Survivors](#user-content-LazaxSurvivors) <a name="LazaxSurvivors"></a> </b> <br> *The signs of intelligent life you detected turned out to be the very descendants of the great Lazax themselves.*  <br> <br> Treat this counter as a Leader. Instead of making Fate Rolls, it is captured and switches side (if the capture is impossible, remove the counter from play). The controlling player gains +3 votes. <br> Capturing the Lazax Survivors does not count towards objectives.|
+|![DS_Settlers](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_Settlers.jpg)  | <b> [Settlers](#user-content-Settlers) <a name="Settlers"></a> </b> <br> *Pioneers from one of the Great Races have already settled on the planet.*  <br> <br> Roll a die to determine a random opponent, who places two Ground Forces on the planet and claim it. The active player may cancel both her landing and bombardment against this planet (units/Leaders unable to go back to where they came from are destroyed/make Fate Rolls).|
+|![FF_GravityRift](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_GravityRift.jpg)  | <b> [Gravity Rift](#user-content-GravityRiftCounter) <a name="GravityRiftCounter"></a> </b> <br> *Your ships head into the midst of an uncharted gravity rift!*  <br> <br> Leave this counter in the system and treat it as a [Gravity Rift](#user-content-GravityRift) while the counter is present. <br> Remove the counter at the end of the first action in which a ship has been trapped by this Gravity Rift.|
+|![DS_WormholeDiscovery](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_WormholeDiscovery.jpg)  | <b> [Wormhole Discovery](#user-content-WormholeDiscovery) <a name="WormholeDiscovery"></a> </b> <br> *investigating an anomaly in the sector reveals unexpected wormhole activity.*  <br> <br> Leave this counter in the system. Treat the system as having a wormhole of the indicated type while the counter is present. <br> Remove this counter at the end of the first action in which at least one ship moved out of this system through this wormhole.|
+|![FF_SpacePirates](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_SpacePirates.jpg)  | <b> [Space Pirates](#user-content-SpacePirates) <a name="SpacePirates"></a> </b> <br> *Ruthless vagabond roam the galaxy to prey on the wealthy and the weak.*  <br> <br> Choose either: <br>- Pay 2 Trade Goods and remove this counter.<br>- Conduct, as the attacker, a Space Battle against a neutral Dreadnought. If you win, receive two Trade Goods, else this counter stays in place.|
+|![DS_FighterAmbush](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_FighterAmbush.jpg)  | <b> [Fighter Ambush](#user-content-FighterAmbush) <a name="FighterAmbush"></a> </b> <br> *Sensors detect a myriad of small, unidentified ships approaching at high velocity.*  <br> <br> If you have ships in the system, conduct, as the attacker, a Space Battle against the indicated number of neutral Fighters. If you do not win, or if you do not take control of the planet this counter is on (if it is on a planet), it stays in place.|
+|![FF_SuddenCollision](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/FF_SuddenCollision.jpg)  | <b> [Sudden Collision](#user-content-SuddenCollision) <a name="SuddenCollision"></a> </b> <br> *In the dead of space, unidentified objects slam into the hull and cargo area of your ships.*  <br> <br> Inflict a hit on one of your ships in the system *or* lose one unit carried by one of them. If you have the Antimass Deflectors technology, ignore this effect.|
+|![DS_BioHazard](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_BioHazard.jpg)  | <b> [Bio-Hazard](#user-content-BioHazard) <a name="BioHazard"></a> </b> <br> *While attempting to terraform the planet, millions perish due to influence highly aggravating toxins.*  <br> <br> Inflict one hit on the landing army. If no ground units remain to claim the planet, leave this counter in place.|
+|![DS_HostileLocals](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_HostileLocals.jpg)  | <b> [Hostile Locals](#user-content-HostileLocals) <a name="HostileLocals"></a> </b> <br> *All forms of Diplomacy with the local civilization have failed.*  <br> <br> Conduct, as the attacker, an Invasion Combat against the indicated number of neutral Ground Forces. If you do not take control of the planet, this counter stays in place.|
+|![DS_AutomatedDefence](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_AutomatedDefence.jpg)  | <b> [Automated Defence](#user-content-AutomatedDefence) <a name="AutomatedDefence"></a> </b> <br> *Powerful laser beams soar through the atmosphere of the planet and cut into the hull of your ships.*  <br> <br> Two neutral PDSs will defend the planet. They immediately fire once each at your fleet in the system (if you have one).<br>These PDSs cannot be captured. If you win the Invasion Combat, receive a PDS on the planet, else leave this counter on the planet.|
+|![DS_HostilesAndNaturalWealth](http://www.astralvault.net/games/SA/cyrusa/cyrusaRulebook/Images
+/DS_HostilesAndNaturalWealth.jpg)  | <b> [Hostiles and Natural Wealth](#user-content-HostilesAndNaturalWealth) <a name="HostilesAndNaturalWealth"></a> </b> <br> *The planet is abundant with natural resources, but the local populace will defend it at all costs.*  <br> <br> Roll one die and divide the result by two (round down). Replace this counter with both a Hostile Locals and a Natural Wealth Domain Counter of this value.|
 
 ## Annex 2: Variants and Optional Rules <a name="VariantsAndOptionalRules"></a>
 
