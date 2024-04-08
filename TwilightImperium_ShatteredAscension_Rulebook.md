@@ -155,7 +155,10 @@ Decide on the game options to include:
 **Recommended:** None.
 
 ### 5) Secret Objectives<a name="Setup_SecretObjectives"></a>
-Deal two Secret Objective cards to each player. They will have to discard one of them later.
+Deal two Secret Objective cards to each player. They will have to discard one of them later.  
+
+**Special:** If a player draws two copies of the same Secret Objective, they may show them to the table to draw a third Secret Objective (they will still only get to keep one Secret Objective like the other players).
+
 
 <!-- ### 6) Race Picking<a name="Setup_RacePicking"></a>
 > The race picking and Home System bidding now use the order given by the die roll, instead of starting with the highest roller and going clockwise.
@@ -243,7 +246,7 @@ Reveal:
 
 ### 13) Finalising Setup<a name="Setup_FinalisingSetup"></a>
 
-* Each player reshuffles one of her Secret Objective back into the deck.
+* Each player keeps one of their Secret Objectives and reshuffles the other back into the deck.
 * Each player draws 2 Political Cards
 * Reveal hidden races
 * Each player chooses a set of plastic miniatures and takes her race's Command Counters. She places them near her race sheet to form her "reinforcements".
