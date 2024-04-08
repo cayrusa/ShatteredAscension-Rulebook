@@ -2023,6 +2023,7 @@ Renamed "Armor (MU)" into simply "Armor". The "(MU)" marks that they used to be 
 	* **Planet-based:** This unit is placed on planets and cannot move on its own.
 	* **Limited to 2 per planet:** a player cannot have more than 2 units of this type on the same planet.
 	* **Cargo:** This unit may be picked up, carried, and landed by ships with adequate capacity.
+	* **Setup:** This unit cannot use its abilities while being carried, or during the action in which it was landed.
 
 #### Space Dock<a name="SpaceDock"></a>
 <div>
