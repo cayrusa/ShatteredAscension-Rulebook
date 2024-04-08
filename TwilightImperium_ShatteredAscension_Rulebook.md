@@ -1,5 +1,5 @@
 # Shattered Ascension Rulebook
-### version 39, 2024-04-06
+### version 40, 2024-04-08
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
