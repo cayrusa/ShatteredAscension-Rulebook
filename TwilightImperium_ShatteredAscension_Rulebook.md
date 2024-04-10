@@ -792,7 +792,10 @@ When her opponent *scores* a *hit* during a Space Battle or Invasion Combat, a p
 *Hits* *scored* by the opponent that were not ignored or cancelled are said to be *inflicted* by the opponent, even if they cannot be assigned (for example if more *hits* than the number of units present were *scored*).
 
 **End of a Space Battle**:  
-If before a Combat Round would begin, either the attacker or the defender does not have ships in the System of the Space Battle, the Space Battle ends. If one player still has ships in the System at this point, she is declared the **winner** of the Space Battle.
+If before a Combat Round would begin, either the attacker or the defender does not have ships in the System of the Space Battle, the Space Battle ends. If one player still has ships in the System at this point, she is declared the **winner** of the Space Battle.  
+
+**Unresolvable Space Battles:**  
+If at the end of a Combat Round, a Space Battle is in a state that cannot be resolved by running more Combat Rounds, such as only Fighters in an [Ion Storm](#IonStorm), then the defending units are destroyed (and considered as destroyed by the attacker).
 
 ### 1) Pre-Combat<a name="PreCombat_SpaceBattleStep"></a>
 During this phase, all pre-combat effects are resolved. 
