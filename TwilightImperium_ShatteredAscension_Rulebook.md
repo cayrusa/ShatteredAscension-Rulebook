@@ -549,28 +549,26 @@ See the [Deploy Space Mines](#DeploySpaceMines_unitAbility) ability.
 </div>
 </div>
 
-###### B) Produce units  
+###### B) Produce Units
 <div>
 <div>
 
-The active player may produce units at each of her units with the [Produce Units (*n*)](#ProduceUnits_unitAbility) ability in the active System, with a **production capacity** of *n*. In most cases, units will be produced by [Space Docks](#SpaceDock).  
+Each unit\* of the active player in the active System with the [Produce Units (*n*)](#ProduceUnits_unitAbility) ability may produce units, with a **production capacity** of *n*. These producing units are referred to as *producers* in what follows. In most cases, they will be [Space Docks](#SpaceDock).  
+\**Or sometimes planets themselves in specific circumstances.*
 
 **Producing units**  
-When producing units, any combination of units may be produced provided the following three limitations are respected and they can be placed in the System (see [placing produced units](#PlacingProducedUnits)):
-  
-* **Production Capacity:** Each unit has a production capacity cost, the total production capacity cost of the produced units may not exceed the production capacity of the unit producing them.
-* **Resource Cost:** Each unit has a resource cost. The player producing units must spend the required amount of resources. If multiple units produce units at the same time, the resource costs can be summed up and paid at the same time. 
+A producer may produce any combination of units provided the following three limitations are respected and they can be placed in the System (see [placing produced units](#PlacingProducedUnits)):
+
+* **Production Capacity:** Each unit has a production capacity cost, the total production capacity cost of the produced units may not exceed the production capacity of the producer. Multiple producers on the same planet can pool their production capacity. Multiple producers in space in the same System can pool their production capacity.
+* **Resource Cost:** Each unit has a resource cost. The player producing units must spend the required amount of resources.
 * **Blockade:**   
 No ships may be produced in a System already containing enemy ships.
 
-<!-- * **Fleet Supply**: Be careful that if you violate your [Fleet Supply](#FleetSupply) in the System, you will have to scuttle some ships.
-* **Fighter Capacity**: The System must have a sufficient [Fighter Capacity](#Capacity_unitAbility) to support the produced Fighters. -->
-
 **Placing produced units** <a name="PlacingProducedUnits"></a>  
-After units have been produced, they must be placed according to the following rules. The *producer* refers to the unit that produced them:  
+After units have been produced, they must be placed according to the following rules. Units that cannot be placed cannot be produced:
 
-* Ships are placed in the space of the System containing the *producer*
-* If the *producer* is on a planet (or *is* a planet in some cases), then all produced units with the *Planet-based* trait (ground units and PDSs) must be placed on the planet. Else, they may be distributed in the System among friendly planets and friendly units with sufficient [capacity](#Capacity_unitAbility) to carry them.
+* Ships are placed in the space of the System containing the producer
+* For units with the *Planet-based* trait (typically [ground units](#Troop) and [PDSs](#PDS)), if the producer is on a planet (or *is* the planet in some cases), then they must be placed on that planet. Otherwise if the producer is in space, they may be distributed in the System among friendly planets and units with sufficient [capacity](#Capacity_unitAbility) to carry them.
 
 **Space Docks**  
 [Space Docks](#SpaceDock) cannot be produced using the [Produce Units (*n*)](#ProduceUnits_unitAbility) ability. They have their own specific construction process (see step C just after).
