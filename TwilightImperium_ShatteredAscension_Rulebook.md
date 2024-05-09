@@ -1,5 +1,5 @@
 # Shattered Ascension Rulebook
-### version 41, 2024-04-10
+### version 42, 2024-05-09
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
@@ -568,7 +568,9 @@ No ships may be produced in a System already containing enemy ships.
 After units have been produced, they must be placed according to the following rules. Units that cannot be placed cannot be produced:
 
 * Ships are placed in the space of the System containing the producer
-* For units with the *Planet-based* trait (typically [ground units](#Troop) and [PDSs](#PDS)), if the producer is on a planet (or *is* the planet in some cases), then they must be placed on that planet. Otherwise if the producer is in space, they may be distributed in the System among friendly planets and units with sufficient [capacity](#Capacity_unitAbility) to carry them.
+* For units with the *Planet-based* trait (typically [ground units](#Troop) and [PDSs](#PDS)):
+	* If the producer is on a planet (or *is* the planet in some cases), then they must be placed on that planet.
+	* Otherwise if the producer is in space, they may be distributed in the System among friendly planets and units with sufficient [capacity](#Capacity_unitAbility) to carry them (including other units produced at the same time).
 
 **Space Docks**  
 [Space Docks](#SpaceDock) cannot be produced using the [Produce Units (*n*)](#ProduceUnits_unitAbility) ability. They have their own specific construction process (see step C just after).
@@ -795,7 +797,7 @@ When her opponent *scores* a *hit* during a Space Battle or Invasion Combat, a p
 If before a Combat Round would begin, either the attacker or the defender does not have ships in the System of the Space Battle, the Space Battle ends. If one player still has ships in the System at this point, she is declared the **winner** of the Space Battle.  
 
 **Unresolvable Space Battles:**  
-If at the end of a Combat Round, a Space Battle is in a state that cannot be resolved by running more Combat Rounds, such as only Fighters in an [Ion Storm](#IonStorm), then the defending units are destroyed (and considered as destroyed by the attacker).
+If a Space Battle goes on forever (for example a Fighter-only battle in an [Ion Storm](#IonStorm) where neither side retreat, play Action Cards...), then the defending units are destroyed (and considered as destroyed by the attacker).
 
 ### 1) Pre-Combat<a name="PreCombat_SpaceBattleStep"></a>
 During this phase, all pre-combat effects are resolved. 
@@ -2629,6 +2631,7 @@ The player holding the **Speaker Token** is referred to as the **Speaker**. -->
 * Players pick ***TWO*** Strategy Cards instead of one during the Strategy Phase (they still pick one card at a time). The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
 * Players may self-trade ***BOTH*** of their Trade Agreements.
 * During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Phase, they are discarded during the Status Phase.
+* When drawing an Action Card or Political Card with the "3pX" or "23pX" symbol, it must be [recycled](#Recycle) immediately.
 
 ### 2 players
 #### Strategy and Status Phase
@@ -2673,7 +2676,7 @@ A player not having placed votes on an agenda may not receive bonus votes from t
 * The Voice of the Council Special Objective only gives +3 votes instead of +5.
 
 #### Action Cards and Political Cards
-* When drawing an Action Card or Political Card with the "2pX" symbol, it must be [recycled](#Recycle) immediately.
+* When drawing an Action Card or Political Card with the "2pX" or "23px" symbol, it must be [recycled](#Recycle) immediately.
 <div>
 
 <div>
