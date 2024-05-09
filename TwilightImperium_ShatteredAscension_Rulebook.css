@@ -212,7 +212,8 @@ blockquote * {
 }
 
 
-.markdown-body li ol{
+.markdown-body li ol,
+.markdown-body ul ul {
   margin-top: 10px;
 }
 
@@ -369,6 +370,10 @@ details * {
 summary {
  color: #b7ac8b;
  padding-bottom: 10px;
+}
+
+.markdown-body ul {
+  padding-left: 1.5em;
 }
 
 /* My Changes (End)*/
