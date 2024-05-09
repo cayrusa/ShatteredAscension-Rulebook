@@ -29,6 +29,7 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 * [Round](#Round)
 	* [Strategy Phase](#StrategyPhase)
 	* [Action Phase](#ActionPhase)
+		* [Production](#Production_TacticalActionStep)
 	* [Status Phase](#StatusPhase)
 		* [Types of Objectives](#ObjectiveCards)
 		* [Winning the Game](#WinningTheGame_StatusPhase)
