@@ -1,5 +1,5 @@
 # Shattered Ascension Rulebook
-### version 42, 2024-05-09
+### version 43, 2025-04-14
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
@@ -923,11 +923,13 @@ The hexagonal tiles that make up the galaxy map are called Systems.
 [Wormholes](#Wormholes).
 
 #### Distance Between Systems<a name="DistanceBetweenSystems"></a>
-<div>
+<!-- <div> -->
 
-A System that is adjacent to another is **1 space away** from this System.  
-When computing the distance between two Systems, consider the shortest chain of adjacent Systems going from one System to the other.
-</div>
+- A System that is adjacent to another is **1 space away** from this System.  
+- When computing the distance between two Systems, consider the shortest chain of adjacent Systems going from one System to the other.  
+- If no distance can be computed between two Systems, then that distance is **infinite**. Two infinite distances are considered equal.  
+*For example, Objectives that are about distances typically exclude unstable wormholes, so if it is the only link between two Systems, then no distance can be computed between them for this Objective.*
+<!-- </div> -->
 
 #### Control of a System<a name="ControlOfASystem"></a>
 <div>
@@ -1256,7 +1258,7 @@ Artifacts reduce the cost of researching [Technologies](#Technologies) of their 
 
 Worldgates are placed on some planets of the galaxy when it is created and may not be moved or destroyed by players.
 
-When a player performs a Tactical Action in a System containing planets with Worldgates, she may, during the [Planetary Landing step](#PlanetaryLandings_TacticalActionStep), move any number of her ground units, PDSs and Leaders from other planets that also contain Worldgates, in *unactivated Systems*, to these planets. Treat units and Leaders moved this way as if they had been normally landed on the planets.
+During the Planetary Landing step of her Tactical Actions, a player may move in some of her ground units, PDS and Leaders **from unactivated planets** with worldgates anywhere to planets with worldgates in the active system. The total number of ground units/PDS moved is **limited by her Fleet Supply** (Leaders do not count towards the limit). Treat units and Leaders moved this way as if they had been normally landed on the planets.
 
 ### Domain Counters<a name="DomainCounters"></a>
 
@@ -1458,6 +1460,7 @@ Political Cards with the "Law" keyword represent permanent changes and will stay
 <!-- ![VoiceOfTheCouncil](./Images/VoiceOfTheCouncil.jpg) -->
 
 After the agendas being voted on and their resolution order have been chosen, any player may spend 1 Command Counter from Strategy Allocation to include the Voice of the Council [Special Objective](#SpecialObjectives) to the agendas being voted on. If no player choose to do so, the game continues.  
+**Exception:** Voice of the Council may not be included for voting during the *first round* of the game.  
 Voice of the Council is treated as a Political Card with the "elect player" keyword *for the duration of the vote* (it stops being treated as a Political Card after being resolved). It will always be resolved after the other agendas have been resolved.
 The player elected as voice of the council now qualifies for the corresponding objective, until another player is elected voice of the council in a later election.
 
@@ -1486,6 +1489,13 @@ Technologies are mostly acquired through the Technology Strategy Card (7). When 
 **Prerequisites**  
 Some Technologies have other Technologies as prerequisites. This is indicated on the Technology Tree by lines: when two Technologies are connected by a line, the topmost Technology is a prerequisite of the other one. A player cannot acquire a Technology that has prerequisites without having acquired at least one of its prerequisites.  
 ***Exception:*** *When a '+' symbol in a red circle is present, both prerequisites are required.*  
+
+**"Skipping a Prerequisite"**  
+Some effects allow to *"skip a prerequisite"* when acquiring a Technology. It means the player can consider as acquired a Technology she has the prerequisites for in order to compute the prerequisites of the Technology she is acquiring.  
+*For example, if the Technologies are A->B->C->D, and the player owns Technology A, she may acquire Technology C if an effect allows her to skip 1 prerequisite (in this case B). If an effect allows her to skip 2 prerequisites, she may acquire Technology D (by skipping B and C).*
+
+**"Ignoring prerequisites"**  
+When an effect lets a player acquire a Technology while *"ignoring prerequisites"*, she does not need to consider any prerequisites and can directly acquire the Technology.
 
 **Purchases and Discounts**  
 Some effects allow players to "purchase" Technology for a given resource price. This simply means the player may pay the required amount of resources to acquire a Technology.  
@@ -2268,7 +2278,8 @@ When <i>Captured</i>, the Leader becomes a captive, and the captor places one of
 <br><br>
 
 <b>Escape:</b> <a name="FateRollEscape"></a><br>
-Upon <i>Escape</i>, the original owner of the Leader may place it back in play at any of her planets or ship. A captive that <i>Escapes</i> stops being a captive and regain its abilities.
+<!-- Upon <i>Escape</i>, the original owner of the Leader may place it back in play at any of her planets or ship. A captive that <i>Escapes</i> stops being a captive and regain its abilities. -->
+Upon <i>Escape</i>, the Leader is put on the race sheet of its original owner, who must place it back in play at any friendly planet or ship during the Status Phase. A captive that <i>Escapes</i> stops being a captive and regains its abilities.
 
 </div></div>
 
@@ -2290,7 +2301,9 @@ Upon *Escape*, the original owner of the Leader may place it back in play at any
 #### Executions and Releases
 <div>
 
-During the Status Phase, captives may be released or executed by their captor. The released captives Escape, while the executed captives are Killed. The captor must then exhaust or lose control of a planet for each captive she executed
+During the Status Phase, captives may be released or executed by their captor.  
+A captive that is released is placed back in play at any friendly planet or ship by her original owner.  
+A captive that is executed is Killed, the captor must then exhaust or lose control of a planet.
 </div>
 
 ### Leader Abilities<a name="LeaderAbilities"></a>  
@@ -2418,8 +2431,9 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 2. Trade Agreements opened with her are broken and may never be re-opened.
 3. If she was the Speaker, the next player in the Rotation Cycler order becomes the Speaker.
 4. If she had a Strategy Card, she immediately returns it, even if it was not played yet.
-5. She is ignored by all effects
-6. The game now has one fewer players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#RuleAdjustmentsBasedOnTheNumberOfPlayers).
+5. If she was the elected player of an active Law, discard that Law.
+6. She is ignored by all effects
+7. The game now has one fewer players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#RuleAdjustmentsBasedOnTheNumberOfPlayers).
 
 <!-- ***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.* -->
 
@@ -2449,7 +2463,7 @@ The maximum number of Victory Points any non-winning player can have is 2 Victor
 ## General Definitions<a name="GeneralDefinitions"></a> 
 
 - [Activate a System](#Activate_def) <a name="Activate_def"></a>  
-The act of placing a Command Counter in a System. The most occurence is the [first step of Tactical Actions](#1-system-activation), but other effects can also require it.
+The act of placing a Command Counter in a System. The most common occurence is the [first step of Tactical Actions](#1-system-activation), but other effects can also require it.
 - [Activated](#Activated_def) <a name="Activated_def"></a>  
 	- [Activated System](#Activated_def)  
 	A System is considered **activated by a player** when it contains a Command Counter from that player, preventing her units in it from acting again until the Command Counter is removed. However, most effects simply refer to **activated** and **unactivated** Systems without specifying any player, in which case the player is the one using the effect.   
@@ -2620,7 +2634,7 @@ The player holding the **Speaker Token** is referred to as the **Speaker**. -->
 * The 9th Strategy Card, Prospect, is used.
 
 ### 5 players
-* At the end of the Strategy Phase, randomly select an unpicked Strategy Card and remove the newly placed Bonus Counter from the card. In the Action Phase, as soon as its initiative value is reached, execute the card as if played by no player: Primary Ability has no effect, but Secondary Abilities and Special follow as normal. For the purpose of effects interacting with unpicked Strategy Cards, it is considered picked.
+* At the end of the Strategy Phase, randomly select an unpicked Strategy Card and remove the newly placed Bonus Counter from the card. In the Action Phase, as soon as its initiative value is reached, execute the card as if played by no player: Primary Ability has no effect, but Secondary Abilities and Special follow as normal (the Secondary Ability starts with the Speaker and follows the Rotation Cycler). For the purpose of effects interacting with unpicked Strategy Cards, it is considered picked.
 
 ### 4 players
 * The 9th Strategy Card, Prospect, is used.
@@ -2788,7 +2802,6 @@ This is an attempt at providing a lighter implementation of the complete Covert 
 * At the end of each Status Phase, each player draws a Covert Objective (without showing it).
 * Players may not have more than 2 Covert Objectives in hand. If they have more they must discard down to 2.
 * In the Claim Objectives step of the Status Phase, players may claim a Covert Objective if they do not also claim a Secret (or racial) Objective.
-* When executing the Secondary Ability of the Bureaucracy Strategy Card, players may draw a Covert Objective instead of gaining the Trade Good.
 * When a Covert Objective is discarded, keep it face down and shuffle it back into the deck
 
 ### Path of Fate (Race Specific Objectives)<a name="PathOfFate"></a>
