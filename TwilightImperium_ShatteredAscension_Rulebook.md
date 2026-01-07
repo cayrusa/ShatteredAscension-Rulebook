@@ -1,5 +1,5 @@
 # Shattered Ascension Rulebook
-### version 43, 2025-04-14
+### version 44, 2026-01-07
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
@@ -2347,7 +2347,7 @@ A captive that is executed is Killed, the captor must then exhaust or lose contr
 <div><img src="./Images/Agent.jpg"></div>
 <!-- ![Agent](./Images/Agent.jpg) -->
 
-* **Infiltration:** An army invading with an Agent cannot be shot at by PDSs, and captures PDSs and Space Docks when winning (they still count as 'destroyed' for objectives).
+* **Infiltration:** An army invading with an Agent cannot be shot at by [Invasion Defence](#InvasionDefence_unitAbility), and captures PDSs and Space Docks when winning (they still count as 'destroyed' for objectives).
 * **Sabotage:** An Agent at the effect location of an [Action Card](#ActionCards) just played may [cancel](#Sabotage) it. "Scattered effects" are only cancelled in the Agent's system. Cooldown: this round and the next.
 * **Capture:** An Agent in Space Battle or Invasion Combat may [capture](#FateRollCaptured) enemy Leaders who would make [fate rolls](#FateRoll). 
 
