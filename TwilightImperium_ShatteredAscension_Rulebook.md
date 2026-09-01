@@ -1,5 +1,5 @@
 # Shattered Ascension Rulebook
-### version 44, 2026-01-07
+### version 45, 2026-09-01
 ***By Cyrusa***  
 ***Email for feedback: cyrusa+ti3 (at) crans.org***
 
@@ -79,7 +79,7 @@ In a game of Twilight Imperium, 2 to 8 players take the role of varied great rac
 * [Surrender And Elimination](#EliminationAndSurrender)
 * [Miscellaneous Rules](#MiscellaneousRules)
 * [General Definitions](#GeneralDefinitions)
-* [Rule Adjustments Based On The Number Of Players](#RuleAdjustmentsBasedOnTheNumberOfPlayers)
+* [Rule Modifications Based On Player Count](#RuleModificationsBasedOnPlayerCount)
 * [Annex 1: Domain Counters Effects](#DomainCountersEffects)
 * [Annex 2: Variants and Optional Rules](#VariantsAndOptionalRules)
 
@@ -2433,7 +2433,7 @@ If at the *end of an action* or *during the Status Phase*, a player does not con
 4. If she had a Strategy Card, she immediately returns it, even if it was not played yet.
 5. If she was the elected player of an active Law, discard that Law.
 6. She is ignored by all effects
-7. The game now has one fewer players, so some rules adjustments based on the number of players may come into play. See the [section dedicated to these rules](#RuleAdjustmentsBasedOnTheNumberOfPlayers).
+7. The game now has one fewer players, so some rules modifications based on the number of players may come into play. See the [section dedicated to these rules](#RuleModificationsBasedOnPlayerCount).
 
 <!-- ***Note:*** *Even though eliminated players are no longer playing, objectives can still be scored against them, for example objectives requiring to control the planets in the Home System of an opponent.* -->
 
@@ -2625,86 +2625,84 @@ A procedure occurring in **Rotation Order** will start with the [Speaker](#Speak
 ### Speaker<a name="Speaker"></a>
 The player holding the **Speaker Token** is referred to as the **Speaker**. -->
 
-## Rule Adjustments Based On The Number Of Players<a name="RuleAdjustmentsBasedOnTheNumberOfPlayers"></a>
+## Rule Modifications Based On Player Count<a name="RuleModificationsBasedOnPlayerCount"></a>
 
-### 8 players
-* The 9th Strategy Card, Prospect, is used.
+### 8 Players
+* Include Prospect, the 9th Strategy Card.
 
-### 7 players
-* The 9th Strategy Card, Prospect, is used.
+### 7 Players
+* Include Prospect, the 9th Strategy Card.
 
-### 5 players
-* At the end of the Strategy Phase, randomly select an unpicked Strategy Card and remove the newly placed Bonus Counter from the card. In the Action Phase, as soon as its initiative value is reached, execute the card as if played by no player: Primary Ability has no effect, but Secondary Abilities and Special follow as normal (the Secondary Ability starts with the Speaker and follows the Rotation Cycler). For the purpose of effects interacting with unpicked Strategy Cards, it is considered picked.
+### 5 Players
+* Before picking Strategy Cards, place a Hit Counter on a random one. When a player picks the Strategy Card with the counter, the counter moves to an unpicked Strategy Card of their choice. After all players have picked Strategy Cards, the card with the counter is auto-picked and the counter is removed:
+	- it is considered picked, does not receive a bonus counter, and any bonus counters already on it are removed
+	- in the Action Phase, when its initiative value is reached, it is auto-played. Its Primary Ability is ignored (see exceptions below) and its Secondary Ability starts from the Speaker.  
+		Exceptions:  
+			- 5 Trade: Trade Agreements may be opened without requiring approval.  
+			- 8 Bureaucracy: Reveal an Objective Card of the current stage.  
 
-### 4 players
-* The 9th Strategy Card, Prospect, is used.
-* Players pick ***TWO*** Strategy Cards instead of one during the Strategy Phase (they still pick one card at a time). The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
-* Players may self-trade ***ONE*** of their Trade Agreements.
-* During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Phase, they are discarded during the Status Phase.
+### 4 Players
+* Include Prospect, the 9th Strategy Card.
+* Do a second round of picking Strategy Cards, so each player has 2\*.
+* At the end of the Agenda step, add the top Political Card of the deck to the council as an agenda\*\*.
+* Players may self-trade 1 of their Trade Agreements.
 
-### 3 players
-* Players pick ***TWO*** Strategy Cards instead of one during the Strategy Phase (they still pick one card at a time). The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
-* Players may self-trade ***BOTH*** of their Trade Agreements.
-* During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Phase, they are discarded during the Status Phase.
-* When drawing an Action Card or Political Card with the "3pX" or "23pX" symbol, it must be [recycled](#Recycle) immediately.
-
-### 2 players
-#### Strategy and Status Phase
-* Players pick ***THREE*** Strategy Cards instead of one during the Strategy Phase (they still pick one card at a time). The *initiative* of a player with multiple Strategy Cards is the lowest number among all of her Strategy Cards.
-* During the Strategy Phase, after all Agendas have been revealed, reveal additional Political Cards from the deck so that there are 5 revealed Agendas in the Twilight Council area. If some of these agendas are not voted on during the Action Phase, they are discarded during the Status Phase.
-* Players gain one fewer Command Counter during the Status Phase.
-
-#### Trade
-* Players may self-trade ***BOTH*** of their Trade Agreements.
-* The option b) of the Trade Strategy Card may not be used.
-
-#### Assembly
-* The option a) of the Assembly Strategy Card (3) can be used to select your own agenda if you also select your opponent's agenda.
-* The option b) of the Assembly Strategy Card (3) also grants +3 votes to the active player.
-* When the Assembly (3) Strategy Card is played, after agendas have been chosen for voting:
-	1. Each player rolls three dice and gains as many votes as the lowest of his results.  
-	2. Each player may secretly spend Trade Goods to gain the same number of votes. Players should write the amount of Trade Goods spent alongside their votes, then immediately spend them after votes are revealed.
-
-
-<!-- * After votes are revealed, a die should be rolled for each agenda that received at least one vote, modifying the votes as follow:
-	* 10: +5 votes for the outcome the Speaker voted for
-	* 9: +3
-	* 8: +2
-	* 7: +1
-	* 6: Nothing
-	* 5: Nothing
-	* 4: +1 vote for the outcome the other player voted for
-	* 3: +2
-	* 2: +3
-	* 1: +5 -->
-
-<!-- <div>
 <div>
-A player not having placed votes on an agenda may not receive bonus votes from the die on this agenda.
+* Initiative is given by the lowest value among the Strategy Cards.
 </div>
-</div> -->
-
-#### Objectives
-* Players are *not* dealt Secret Objectives during the setup.
-* The Sovereign and Imperial Special Objectives are *not* in play.
-* No Preliminary Objective is revealed during the setup.
-* The Voice of the Council Special Objective only gives +3 votes instead of +5.
-
-#### Action Cards and Political Cards
-* When drawing an Action Card or Political Card with the "2pX" or "23px" symbol, it must be [recycled](#Recycle) immediately.
 <div>
+** Discard it in the Status Phase unless they were voted on.
+</div>
+
+### 3 Players
+* Do a second round of picking Strategy Cards, so each player has 2*.
+* At the end of the Agenda step, add the top 2 Political Cards of the deck to the council as agendas**.
+* Players may self-trade 2 of their Trade Agreements.
+* [Recycle](#Recycle) Action Cards and Political Cards with the "3pX" or "23pX" symbol when they are drawn.
 
 <div>
-
+<div>
 <img src="./Images/2PX.jpg" height="300"/>
-
 </div>
-
 <!-- ![2PX](./Images/2PX.jpg) -->
 </div>
 
-#### Race-specific changes
-* Every other time **Mentak** uses their racial ability to steal Trade Goods, they gain a Trade Good.
+<div>
+* Initiative is given by the lowest value among the Strategy Cards.
+</div>
+<div>
+** Discard them in the Status Phase unless they were voted on.
+</div>
+
+### 2 Players
+* Do two more rounds of picking Strategy Cards, so each player has 3*.
+* At the end of the Agenda step, add the top 3 Political Cards of the deck to the council as agendas**.
+* Players may self-trade 2 of their Trade Agreements.
+* [Recycle](#Recycle) Action Cards and Political Cards with the "2pX" or "23pX" symbol when they are drawn.
+* Players gain one fewer Command Counter in the Status Phase.
+* Option b) of the Trade Strategy Card may not be used.
+* Secret Objectives, Preliminary Objectives, and the Sovereign and Imperial Special Objectives are not used.
+
+<div>
+<div>
+<img src="./Images/2PX.jpg" height="300"/>
+</div>
+<!-- ![2PX](./Images/2PX.jpg) -->
+</div>
+
+<div>
+* Initiative is given by the lowest value among the Strategy Cards.
+</div>
+<div>
+** Discard them in the Status Phase unless they were voted on.
+</div>
+
+
+#### Assembly with 2 Players
+* Option a) of the Assembly Strategy Card may choose your own agenda if you also choose your opponent’s agenda. Option b) grants +3 votes to the active player.
+* Before votes are cast, each player rolls three dice and gains as many votes as their lowest result.
+* Players may cast more votes than they have, but have to spend a Trade Good for each extra vote when revealing them.
+* [Voice of the Council](#VoiceOfTheCouncil) only grants +3 votes instead of +5.
 
 ## Annex 1: Effects of Domain Counters<a name="DomainCountersEffects"></a>
 
